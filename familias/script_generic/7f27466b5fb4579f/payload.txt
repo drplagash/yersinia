@@ -1,0 +1,15 @@
+# sha256: 7f27466b5fb4579f253140aae05f132590abe5be336f3e1969d0c622b7f53719
+# family: script_generic
+# kind: script
+# size_bytes: 199
+# first_seen: 2026-09-01 22:59:36.318147 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /application.yml HTTP/1.1
+Host: 190.179.130.96:2083
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14.4; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept-Encoding: gzip
+

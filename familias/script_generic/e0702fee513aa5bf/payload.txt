@@ -1,0 +1,15 @@
+# sha256: e0702fee513aa5bf99f4eab6ab34e878f2cfd2cd6e1e6f8182d024bfd50a26d2
+# family: script_generic
+# kind: script
+# size_bytes: 215
+# first_seen: 2026-09-01 23:28:50.887278 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /wp-config.php HTTP/1.1
+Host: 190.179.130.96:2087
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept-Encoding: gzip
+

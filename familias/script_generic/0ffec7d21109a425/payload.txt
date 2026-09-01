@@ -1,0 +1,15 @@
+# sha256: 0ffec7d21109a4251cf19c20f52a5ba9482268197d6d12f64d378bb54f6e4401
+# family: script_generic
+# kind: script
+# size_bytes: 189
+# first_seen: 2026-09-01 23:23:23.633589 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /.env.development HTTP/1.1
+Host: 190.179.130.96:2087
+User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+Connection: close
+Accept-Encoding: gzip
+

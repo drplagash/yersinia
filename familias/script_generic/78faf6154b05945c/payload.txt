@@ -1,0 +1,15 @@
+# sha256: 78faf6154b05945c2bfc56d28cf99bdfc7cb39266bbb3fa83811e0ed8ea36bbd
+# family: script_generic
+# kind: script
+# size_bytes: 237
+# first_seen: 2026-09-01 23:25:55.943599 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /.env.docker HTTP/1.1
+Host: 190.179.130.96:2083
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0
+Connection: close
+Accept-Encoding: gzip
+

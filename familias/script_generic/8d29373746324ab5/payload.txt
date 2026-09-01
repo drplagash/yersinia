@@ -1,0 +1,10 @@
+# sha256: 8d29373746324ab5ae85ace326978514a7d6b7e1f9acb6c367419606ed49b2a9
+# family: script_generic
+# kind: script
+# size_bytes: 23
+# first_seen: 2026-09-01 22:43:54.486595 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+SSH-2.0-libssh_0.12.0

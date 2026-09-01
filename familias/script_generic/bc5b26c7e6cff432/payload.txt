@@ -1,0 +1,16 @@
+# sha256: bc5b26c7e6cff432eebf6def010c9fb8deec80ee70877f2f229f6b47a15e8b59
+# family: script_generic
+# kind: script
+# size_bytes: 175
+# first_seen: 2026-09-01 22:45:17.490397 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /vtigercrm/phpversions.php HTTP/1.1
+Host: 190.179.130.96:2563
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

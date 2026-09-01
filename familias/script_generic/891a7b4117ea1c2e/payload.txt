@@ -1,0 +1,15 @@
+# sha256: 891a7b4117ea1c2e7a354cbd2152431404777e7d8b4bcc19c69e82357cab759c
+# family: script_generic
+# kind: script
+# size_bytes: 181
+# first_seen: 2026-09-01 23:02:58.843035 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /dump.sql HTTP/1.1
+Host: 190.179.130.96:2087
+User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+Connection: close
+Accept-Encoding: gzip
+

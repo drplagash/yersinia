@@ -1,0 +1,16 @@
+# sha256: 110fee7287109fcf5c1b6fafa14fc15f2e7e16145c965c401f9efb79a32aa637
+# family: script_generic
+# kind: script
+# size_bytes: 159
+# first_seen: 2026-09-01 23:11:00.096079 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /restapps/ HTTP/1.1
+Host: 190.179.130.96:5938
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

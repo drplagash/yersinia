@@ -1,0 +1,10 @@
+# sha256: 459dc8a7b832357c6366e1073ae644a536e9717bf8ba2f2ef4390032ea4e370b
+# family: script_generic
+# kind: script
+# size_bytes: 13
+# first_seen: 2026-09-01 22:42:49.245125 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+NXSH-5.6.7\n

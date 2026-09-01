@@ -1,0 +1,12 @@
+# sha256: b14cbdcb8a684bd5c4d5bec31e634d39ed0adc265473ccb8d9cec83b4ad2cc54
+# family: script_generic
+# kind: script
+# size_bytes: 79
+# first_seen: 2026-09-01 22:57:20.754162 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+CONNECT checkip.amazonaws.com:443 HTTP/1.1
+Host: checkip.amazonaws.com:443
+

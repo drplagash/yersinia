@@ -1,0 +1,15 @@
+# sha256: 78056f68fa8f14796c360a2fd6b6a08c4f00471bd30c9b74ff51678f390e632d
+# family: script_generic
+# kind: script
+# size_bytes: 245
+# first_seen: 2026-09-01 22:59:33.513906 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /config/database.php HTTP/1.1
+Host: 190.179.130.96:2083
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0
+Connection: close
+Accept-Encoding: gzip
+

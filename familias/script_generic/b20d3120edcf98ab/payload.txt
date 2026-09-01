@@ -1,0 +1,19 @@
+# sha256: b20d3120edcf98ab1ca31a8a87ca191f7cdc8b87e0e603000e53b416b42c8a1e
+# family: script_generic
+# kind: script
+# size_bytes: 279
+# first_seen: 2026-09-01 22:50:50.909434 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.130.96:2096
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
+Accept: */*
+Accept-Language: en;q=0.7,en-US;q=0.3
+Cache-Control: no-cache
+Connection: keep-alive
+Pragma: no-cache
+Accept-Encoding: gzip
+

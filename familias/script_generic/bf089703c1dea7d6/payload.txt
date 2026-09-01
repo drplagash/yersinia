@@ -1,0 +1,16 @@
+# sha256: bf089703c1dea7d6168b2968a348524e6dcbff456b2f387b63a3eda57c01a0f5
+# family: script_generic
+# kind: script
+# size_bytes: 180
+# first_seen: 2026-09-01 22:52:43.538716 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /admin/assets/js/views/login.js HTTP/1.1
+Host: 190.179.130.96:4618
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

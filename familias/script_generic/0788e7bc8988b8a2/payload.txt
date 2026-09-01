@@ -1,0 +1,13 @@
+# sha256: 0788e7bc8988b8a24b71ce3f83a024e2ed009855e22e950de25de1baffe78b70
+# family: script_generic
+# kind: script
+# size_bytes: 104
+# first_seen: 2026-09-01 22:52:12.133985 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /v1.24/containers/json?all=1 HTTP/1.1
+Host: 190.179.130.96:2375
+User-Agent: Go-http-client/1.1
+

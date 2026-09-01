@@ -1,0 +1,15 @@
+# sha256: 827a4d203d2c6e0da911b906de3cb788c60886e8aca32800be67f4d3bcbd17a3
+# family: script_generic
+# kind: script
+# size_bytes: 130
+# first_seen: 2026-09-01 23:30:02.071068 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /v1/submissions HTTP/1.1
+Host: 190.179.130.96:6066
+User-Agent: Mozilla/5.0 zgrab/0.x
+Accept: */*
+Accept-Encoding: gzip
+

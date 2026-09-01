@@ -1,0 +1,15 @@
+# sha256: 398facb30a02dbcb7fe1555be3a2d8563a39d780bff5fbd897fca95adf54a91f
+# family: script_generic
+# kind: script
+# size_bytes: 228
+# first_seen: 2026-09-01 23:24:59.972021 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /.aws/config HTTP/1.1
+Host: 190.179.130.96:2083
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept-Encoding: gzip
+

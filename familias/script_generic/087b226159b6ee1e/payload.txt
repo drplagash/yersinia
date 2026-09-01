@@ -1,0 +1,14 @@
+# sha256: 087b226159b6ee1eceb1c0b97fbc34be2de84ce9ea1d689edf45c1e521efe794
+# family: script_generic
+# kind: script
+# size_bytes: 83
+# first_seen: 2026-09-01 23:12:50.545371 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.130.96:5050
+User-Agent: curl/7.64.1
+Accept: */*
+

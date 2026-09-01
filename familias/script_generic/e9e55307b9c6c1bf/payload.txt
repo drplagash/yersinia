@@ -1,0 +1,10 @@
+# sha256: e9e55307b9c6c1bf5bae2abdb628281d89d5ba57d8805fa8a09ee0bdc672ee5f
+# family: script_generic
+# kind: script
+# size_bytes: 12
+# first_seen: 2026-09-01 22:32:08.087776 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+SSH-2.0-Go

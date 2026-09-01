@@ -1,0 +1,16 @@
+# sha256: bf32cef6d9dc95f5afe49bd1c71ccc39ab2baeaf41ca14c21a1fc906f39c6dc4
+# family: script_generic
+# kind: script
+# size_bytes: 166
+# first_seen: 2026-09-01 23:04:51.858087 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /assets/graph.php HTTP/1.1
+Host: 190.179.130.96:1100
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

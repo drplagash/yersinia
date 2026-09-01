@@ -1,0 +1,13 @@
+# sha256: 154b9349a71ed2e5f578e2b678343fdbc1efb07461c36ff029e3da3683c1e854
+# family: script_generic
+# kind: script
+# size_bytes: 107
+# first_seen: 2026-09-01 23:23:45.340620 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+CONNECT check.easyproxy.xyz:443 HTTP/1.1
+Host: check.easyproxy.xyz:443
+User-Agent: Go-http-client/1.1
+

@@ -1,0 +1,16 @@
+# sha256: 3ab40572a0863c15f320773235b62e96e72421639d4b53600c5a1beab980d9ec
+# family: script_generic
+# kind: script
+# size_bytes: 171
+# first_seen: 2026-09-01 23:02:59.498897 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /admin/i18n/readme.txt HTTP/1.1
+Host: 190.179.130.96:4336
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

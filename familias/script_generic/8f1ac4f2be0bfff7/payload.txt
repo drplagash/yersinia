@@ -1,0 +1,10 @@
+# sha256: 8f1ac4f2be0bfff7a27fd5f8728b28785629fc7af7e35c8e884bca1f78a3ca66
+# family: script_generic
+# kind: script
+# size_bytes: 8
+# first_seen: 2026-09-01 22:54:52.417469 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+djiuav

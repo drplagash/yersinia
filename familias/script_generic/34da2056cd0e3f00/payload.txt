@@ -1,0 +1,15 @@
+# sha256: 34da2056cd0e3f00ad87d02448b1c8cb5994b60204692fdeed2dedebb4ef3db8
+# family: script_generic
+# kind: script
+# size_bytes: 234
+# first_seen: 2026-09-01 23:24:43.233810 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /config/config.php HTTP/1.1
+Host: 190.179.130.96:2083
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15
+Connection: close
+Accept-Encoding: gzip
+

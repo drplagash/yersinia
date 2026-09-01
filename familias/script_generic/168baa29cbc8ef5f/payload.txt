@@ -1,0 +1,16 @@
+# sha256: 168baa29cbc8ef5f7f1d54d833f52365f1450c3a3e1088fde4715baee846be0c
+# family: script_generic
+# kind: script
+# size_bytes: 172
+# first_seen: 2026-09-01 23:28:34.673839 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /digium_phones/ajax.php HTTP/1.1
+Host: 190.179.130.96:4565
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

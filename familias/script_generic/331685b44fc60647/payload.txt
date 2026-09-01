@@ -1,0 +1,16 @@
+# sha256: 331685b44fc606475d7d6a82264f9d90f5ba06ccfa7ee8f6f86166fdbaa458a8
+# family: script_generic
+# kind: script
+# size_bytes: 169
+# first_seen: 2026-09-01 23:08:21.918490 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /vtigercrm/graph.php HTTP/1.1
+Host: 190.179.130.96:1388
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

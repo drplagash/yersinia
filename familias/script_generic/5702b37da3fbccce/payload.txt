@@ -1,0 +1,15 @@
+# sha256: 5702b37da3fbccceece3abf96365623ac83c5a4422e20e718efa1d6ec83ccd10
+# family: script_generic
+# kind: script
+# size_bytes: 195
+# first_seen: 2026-09-01 23:11:33.678600 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.130.96:1521
+User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip
+

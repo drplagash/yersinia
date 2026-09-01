@@ -1,0 +1,15 @@
+# sha256: 076f697708bfbf7361e3cdbc9238ecbabf160c8ff869b73d2e2cc03f6b4ffa45
+# family: script_generic
+# kind: script
+# size_bytes: 212
+# first_seen: 2026-09-01 22:59:29.013161 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.130.96:6081
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15
+Accept: */*
+Accept-Encoding: gzip
+

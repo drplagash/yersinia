@@ -1,0 +1,16 @@
+# sha256: 5afe54f58c1c01ab97c476948692365b1ecda7d233d2747448176fc1774d4045
+# family: script_generic
+# kind: script
+# size_bytes: 176
+# first_seen: 2026-09-01 22:33:32.159030 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /recordings/phpversions.php HTTP/1.1
+Host: 190.179.130.96:4565
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

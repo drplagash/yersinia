@@ -1,0 +1,16 @@
+# sha256: 37f8162a6025a9fda360654e672027630e4a887f7b2ddb5b312bfa69fd893960
+# family: script_generic
+# kind: script
+# size_bytes: 147
+# first_seen: 2026-09-01 22:44:33.441579 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+POST /wsman HTTP/1.1
+Host: 190.179.130.96:1270
+Connection: close
+Content-Type: application/soap+xml;charset=UTF-8
+Content-Length: 8
+
+abcdefgh

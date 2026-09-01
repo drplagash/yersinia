@@ -1,0 +1,27 @@
+# sha256: b2d780ecc8d1a40dfd113768901a593deeb32205ebd82f1a9bbd4387e7bc7ece
+# family: downloader
+# kind: script
+# size_bytes: 663
+# first_seen: 2026-09-01 23:12:08.400980 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /favicon.ico HTTP/1.1
+Host: 190.179.130.96
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="142", "Not-A.Brand";v="8", "Chromium";v="142"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Linux"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-GPC: 1
+Accept-Language: en-US,en;q=0.5
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+Referer: http://190.179.130.96:4437/
+

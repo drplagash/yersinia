@@ -1,0 +1,15 @@
+# sha256: c51ef1907638cd53bd1a8f9be888ec3e8d5aa96b465b9d288ccff50e7b615ee6
+# family: script_generic
+# kind: script
+# size_bytes: 234
+# first_seen: 2026-09-01 22:47:32.079981 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /.env.bak HTTP/1.1
+Host: 190.179.130.96:2087
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0
+Connection: close
+Accept-Encoding: gzip
+

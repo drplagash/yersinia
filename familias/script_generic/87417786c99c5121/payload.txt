@@ -1,0 +1,10 @@
+# sha256: 87417786c99c5121c813c1b6901bff5665d0907734b3bcb03f0547646c88f815
+# family: script_generic
+# kind: script
+# size_bytes: 41
+# first_seen: 2026-09-01 22:49:10.906280 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8

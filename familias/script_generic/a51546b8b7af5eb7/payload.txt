@@ -1,0 +1,10 @@
+# sha256: a51546b8b7af5eb76f1100cafd9301adc217a9e1144c5d0812a98ada366b617c
+# family: script_generic
+# kind: script
+# size_bytes: 22
+# first_seen: 2026-09-01 23:09:34.480679 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+SSH-2.0-russh_0.51.1

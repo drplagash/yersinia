@@ -1,0 +1,12 @@
+# sha256: 0a9691cb9731684b84b3e0a59a21c4474907d2f733fa7420e8bbf3d25ce6979f
+# family: script_generic
+# kind: script
+# size_bytes: 55
+# first_seen: 2026-09-01 23:12:20.314430 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+OPTIONS rtsp://190.179.130.96:1554 RTSP/1.0
+CSeq:1
+

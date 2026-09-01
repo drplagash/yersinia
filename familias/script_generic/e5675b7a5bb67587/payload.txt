@@ -1,0 +1,15 @@
+# sha256: e5675b7a5bb67587d45bb069e641c5215b739d9588cda6a442b65fb4efcd6763
+# family: script_generic
+# kind: script
+# size_bytes: 190
+# first_seen: 2026-09-01 23:22:21.561510 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /wp-config.php.bak HTTP/1.1
+Host: 190.179.130.96:2083
+User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+Connection: close
+Accept-Encoding: gzip
+

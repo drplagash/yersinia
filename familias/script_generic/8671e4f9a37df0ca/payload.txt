@@ -1,0 +1,13 @@
+# sha256: 8671e4f9a37df0cae8676fb08a95ffbf304fdb5f96e4ccf3c446473e55ddf710
+# family: script_generic
+# kind: script
+# size_bytes: 94
+# first_seen: 2026-09-01 23:25:15.012653 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /_ping HTTP/1.1
+Host: 190.179.130.96:2375
+User-Agent: Docker-Client/20.10.21 (linux)
+

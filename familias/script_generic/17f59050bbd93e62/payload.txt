@@ -1,0 +1,15 @@
+# sha256: 17f59050bbd93e6249177b3effbabd8b48dccbc52e523778dc4f7aed7c1b6e82
+# family: script_generic
+# kind: script
+# size_bytes: 222
+# first_seen: 2026-09-01 23:26:23.920032 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /backup.sql HTTP/1.1
+Host: 190.179.130.96:2087
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept-Encoding: gzip
+

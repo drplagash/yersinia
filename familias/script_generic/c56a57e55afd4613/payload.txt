@@ -1,0 +1,10 @@
+# sha256: c56a57e55afd4613d47a42572f7ac19a468b60f0ca267f8ad02da98fcd417b62
+# family: script_generic
+# kind: script
+# size_bytes: 13
+# first_seen: 2026-09-01 22:53:44.413634 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+1��yahoo.id��

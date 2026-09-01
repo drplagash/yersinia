@@ -1,0 +1,17 @@
+# sha256: a6dc606d7828c329354ba43fbaae89b1e9bcd3ed5801c5d8f65bba63eab96c5b
+# family: script_generic
+# kind: script
+# size_bytes: 430
+# first_seen: 2026-09-01 22:52:46.324737 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+POST /wsman HTTP/1.1
+Host: 190.179.130.96
+Content-Type: application/soap+xml; charset=UTF-8
+Accept: application/soap+xml, application/xml, text/xml;q=0.9, */*;q=0.1
+Content-Length: 219
+Connection: close
+
+<?xml version="1.0"?><s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsmid="http://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity.xsd"><s:Header/><s:Body><wsmid:Identify/></s:Body></s:Envelope>

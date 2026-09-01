@@ -1,0 +1,16 @@
+# sha256: 6e2a674ca495fe16da3b29a4aeb20e65c03b9b59eba56bdecf6bfc9abf94b580
+# family: script_generic
+# kind: script
+# size_bytes: 188
+# first_seen: 2026-09-01 22:32:39.610654 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET http://api.ipify.org/ HTTP/1.1
+Host: api.ipify.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+Accept: */*
+Connection: close
+Accept-Encoding: gzip
+

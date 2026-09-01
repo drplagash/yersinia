@@ -1,0 +1,10 @@
+# sha256: 956ac1db5bf96472d39020732e2dbd67e6ab86550e1e0c1e69e677acbbee2728
+# family: script_generic
+# kind: script
+# size_bytes: 26
+# first_seen: 2026-09-01 23:09:08.880372 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+gemini://190.179.130.96/

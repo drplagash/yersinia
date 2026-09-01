@@ -1,0 +1,11 @@
+# sha256: 9829c4d0e326d057509419cefec2a9de49b51989c974c52e9890f1acdd1b4948
+# family: script_generic
+# kind: script
+# size_bytes: 23
+# first_seen: 2026-09-01 22:47:24.273867 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+fox a 1 -1 fox hello
+{
