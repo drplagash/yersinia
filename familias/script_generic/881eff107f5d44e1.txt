@@ -4,6 +4,7 @@
 # size_bytes: 963
 # first_seen: 2026-09-01 15:26:12.739684 UTC
 # times_seen: 1
+# yara_matches: none
 # ------------------------------------------------------------
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
