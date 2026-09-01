@@ -1,0 +1,527 @@
+# sha256: ac2b360fce91fa2e6b38ee8b958453c97a0d45185e5585ea78fbc41b4add2a72
+# family: script_generic
+# kind: script
+# size_bytes: 17610
+# first_seen: 2026-09-01 15:26:12 UTC
+# times_seen: 1
+# ------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login-pbx</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/pbxadmin/html/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/pbxadmin/html/font-awesome/css/font-awesome.min.css">
+
+<link href="/pbxadmin/html/style.css" rel="stylesheet" >
+<link rel="stylesheet" href="/pbxadmin/html/css/responsive.css">
+<link rel="stylesheet" href="/pbxadmin/html/autocomplete/jquery-ui.css">
+<link rel="stylesheet" href="/pbxadmin/html/alert/jquery-confirm.min.css">
+</head>
+<body>
+<div class="login-new">
+
+<div class="login-image-slide">
+	<div class="banner">
+		<div class="item active">
+			<img src="/pbxadmin/html/images/sanipbx-login.png" alt="Sanippbx">
+				
+		</div>
+	</div>
+</div>
+
+
+
+<div class="login-form-main">
+
+	<div class="logoarea" style="margin-top:26px;">
+		<img src="/pbxadmin/html/images/Company_Logo.png" alt="sansoftware" class="logo-Img">
+	</div>
+	
+	<div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 9999;">
+		<div id="liveToast" class="toast align-items-center border-0" role="alert" aria-live="assertive" aria-atomic="true">
+		<div class="d-flex">
+			<div class="toast-body">
+			</div>
+			<button type="button" class="btn-close me-2 m-auto btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+		</div>
+		</div>
+	</div>
+	<!-- onsubmit="return checkform(this);" -->
+	<form action="/pbxadmin/login/processlogin" id="loginFrm" method="post"  class="login_form"  autocomplete="off">
+	
+
+	  <div class="mb-3">
+		<label class="form-label">User Name</label>
+		<input type="text" name="userLogin" id="username" class="form-control form-control-sm""
+		  placeholder="Enter Your user Name" value="" autocomplete="off" required maxlength="30" onkeyup="isSpclChar();">
+		  <div class="invalid-feedback">Enter valid user name</div>
+	  </div>
+
+	  <div class="mb-3">
+		<label class="form-label">Password </label>
+		<input type="password" id="userPassword" name="userPassword" class="form-control form-control-sm" value="" placeholder=" Enter Your Password" autocomplete="off"
+		required  pattern="(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$">
+		<!-- pattern="(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" -->
+		<div class="invalid-feedback">Minimum eight characters, at least one letter, one number and one special character</div>
+	  </div>
+	  
+	 <div class="row">
+		<!-- <div class="mb-3 col-md-6">
+			<div class="form-check form-check-inline">
+				<input type="checkbox" class="form-check-input" id="remember" name="remember" value="1"  >
+				<label class="remember-me form-check-label" for="remember">Remember me </label>		
+			</div>
+		</div> -->
+			  </div>
+		<input type="hidden" id="csrf_token" name="csrf_token" value="">
+	 </label>
+			
+	  <div class="row">
+		<div class="col-md-12 col-xs-12">
+		  <div class="mb-3 d-grid lgbtn">
+		  <input type="button" type="button" name="search" value="Login"class="btn btn-primary btn-sm shadow" onClick="dataSubmit();"/>
+		  </div>
+		</div>
+
+	  </div>
+
+	</form>
+
+  </div>
+
+</div>  
+
+
+<!-- register-->
+		<div id="register" class="modal fade" role="dialog">
+			<div class="modal-dialog modal-md  modal-dialog-scrollable">
+			
+										<!-- Modal content-->
+					<div class="modal-content">
+					  <div class="modal-header">
+						<h4 class="modal-title">Register Software</h4>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					  </div>
+						<div class="modal-body">
+							<form id="dataFrmReg" autocomplete="off">
+							<div class="mb-1">
+								<label for="client_name" class="col-form-label">Company Name <span>*</span></label>
+								<input type="text" class="form-control" id="client_name" name="client_name" tabindex="1"  value="MARG Live Server" required >
+							</div>
+						
+							<div class="mb-1">
+								<label for="installation_date" class="col-form-label">Installation Date <span>*</span></label>
+								<input type="text" class="form-control datepickerLogin" name="installation_date" id="installation_date" tabindex="2" value="24/02/2021" required >
+						 	</div>
+							<div class="mb-1">
+								<label for="license_upto" class="col-form-label">License Upto <span>*</span></label>
+								<input type="text" class="form-control datepickerLogin"  name="license_upto" id="license_upto" tabindex="3" value="19/07/2026" required >
+						 	</div> 
+						
+							<div class="mb-1">
+								<label for="no_of_licenses" class="col-form-label">Extensions Limit <span>*</span></label>
+								<input type="text" class="form-control" name="no_of_licenses" id="no_of_licenses" tabindex="4" value="320" required >
+						  	</div> 
+						
+							<div class="mb-1">
+								<label for="c_call" class="col-form-label">Concurrent Call <span>*</span></label>
+								<input type="text" class="form-control" name="c_call" id="c_call" tabindex="4" value="300" required >
+						  	</div>
+
+							<div class="mb-1">
+								<label for="s_mode" class="col-form-label">Software Mode <span>*</span></label>
+								<select name="s_mode" id="s_mode" class="form-control" tabindex="6" required>
+												<option value="a"  selected>Full</option>
+				<option value="c" >Rental</option>
+				<option value="e" >Demo</option>
+									</select>
+							</div>
+
+							<div class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input yellow-background" name="web_phone" id="web_phone" checked>
+									<label class="form-check-label" for="web_phone">Web Phone</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input yellow-background" name="blaster" id="blaster"  >
+								<label class="form-check-label" for="blaster">Blaster</label>
+							</div>
+
+							<div class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input  yellow-background" name="bot_ivr" id="bot_ivr" >
+								<label class="form-check-label" for="bot_ivr" ">Bot IVR</label>
+							</div>
+
+							<div class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input yellow-background" name="conference" id="conference" >
+								<label class="form-check-label" for="conference"> Conference</label>
+							</div>
+
+							<div class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input yellow-background" name="mobile_app" id="mobile_app" >
+								<label class="form-check-label" for="mobile_app"> Mobile APP</label>
+							</div>
+
+							<div class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input yellow-background" name="multi_client" id="multi_client" >
+								<label class="form-check-label" for="multi_client"> Multi Client</label>
+							</div>
+
+							<div class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input yellow-background" name="encrypt" id="encrypt" >
+								<label class="form-check-label" for="encrypt"> Encrypt</label>
+							</div>
+
+							<div class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input yellow-background" name="auto_barge" id="auto_barge" >
+								<label class="form-check-label" for="auto_barge"> Auto barge</label>
+							</div>
+
+							<div class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input yellow-background" name="is_billing" id="is_billing" >
+								<label class="form-check-label" for="is_billing"> Billing</label>
+							</div>
+								
+							<div class="mb-1">
+								<label for="hardware_key" class="col-form-label">Hardware Key <span>*</span></label>
+								<input type="text" class="form-control" id="hardware_key" name="hardware_key" tabindex="5"  value="ac:1f:6b:d5:2a:b4" required readonly="" >
+							</div>
+
+							<div class="mb-1">
+								<label for="software_key" class="col-form-label">Software Key <span>*</span></label>
+								<input type="text" class="form-control" name="software_key" id="software_key" tabindex="3" required>
+							</div>
+							
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary btn-sm shadow float-end" onClick="Reg_soft()">Register</button>
+								
+								<button type="button" class="btn btn-default btn-sm shadow float-end" data-dismiss="modal">Close</button>	
+							</div>
+						</form>	
+						</div>
+					</div> 
+								</div>		  		
+		</div>
+		<!-- updrootPass-->
+
+		<div id="updpass" class="modal fade" role="dialog">
+			<div class="modal-dialog modal-md">
+			
+					<!-- Modal content-->
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Update Root Password</h4>
+					  </div>
+						<div class="modal-body">
+							<form id="dataFrmPass" class="formInline"  autocomplete="off">
+							<div id="alertBx">
+								<button aria-hidden="true" data-dismiss="alert" class="close" type="button" onClick="$(this).parent().removeClass();">×</button>
+								<h4><i class="fa fa-info"></i>
+								<i class="fa fa-warning"></i>
+								<i class="fa fa-ban"></i>
+								<i class="fa fa-check"></i>
+								<span id="alertMsg"></span>
+								<div class="clearfix"></div>
+								</h4>
+							</div>
+							<span id="alertMsg"></span>
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-group col-md-8">
+							<label>Root Password <span>*</span></label>
+							<input type="text" class="form-control input-sm" id="root_pass" name="root_pass" tabindex="1"  value="MARG Live Server" required >
+						  </div>
+						<div class="clearfix"></div>
+						
+						
+							<div class="modal-footer">
+							<button type="button" class="btn btn-default  pull-right btn-sm" data-dismiss="modal" style="margin-left:10px;">Close</button>
+							<button type="button" class="btn btn-primary btn-sm pull-right" onClick="updrootpass()">Update</button>	
+							</div>
+						</form>	
+						</div>
+					</div> 
+			</div>		  		
+		</div>
+		<!-- Updrootpass-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="/pbxadmin/html/js/crpto.js"></script>
+</div><!--content-->
+</div><!--contentWarp-->
+<div class="clearfix"></div>
+</div>
+</div>
+
+<div id="SetClient" class="modal fade" role="document">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content-->
+    <div class="modal-content">
+    		<div class="modal-header">
+			<h4 class="modal-title">Select Client</h4>
+			
+			<div class="float-end">
+				
+				<button type="button" class="btn btn-close btn-sm" data-bs-dismiss="modal" aria-label="Close"></button>
+			
+			</div>
+
+		</div>
+		<div class="modal-body"> 
+			<form class="addActive" id="clientFrm">
+				<div class="mb-3 col-md-12">
+					<label class="form-label">Client <span>*</span></label>
+					<select id="cid" name="cid" class="form-select form-select-sm" required>
+											</select>
+				</div>
+			</form>
+		</div>
+		<div class="modal-footer">
+			<div class="h-100 justify-content-center align-items-center" style="width:30%; margin:auto;">
+			<button type="button" class="btn btn-primary btn-sm btn-width shadow" onClick="setClient();">Set</button></div>
+		</div>
+	</div>
+    
+  </div>
+</div>
+
+<div id="audioPlayer" class="modal fade" role="document">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content-->
+    <div class="modal-content"> <span class="stpRecordingBtn" onclick="stopRecordinglink()" style="text-align: right;color: #fff;font-size: 24px;display: block;position: relative;bottom: -30px;z-index: 5;"><i class="fa fa-times-circle"></i></span>
+      <div class="modal-body" id="audiodiv"> </div>
+    </div>
+  </div>
+</div>
+
+<iframe id="down_iframe" style="display:none;"></iframe>
+
+<span class="baseurl">/pbxadmin/</span>
+
+<div class="loaderAjax">
+	<div class="spinner-border text-primary loaderSpiner" role="status">
+		<span class="visually-hidden">Loading...</span>
+	</div>
+
+</div>
+<div id="dtBox"></div>
+<script src="/pbxadmin/html/js/jquery.min.js"></script>
+<script src="/pbxadmin/html/autocomplete/jquery-ui.js"></script>
+<script src="/pbxadmin/html/js/bootstrap.bundle.min.js"></script> 
+<script src="/pbxadmin/html/selectBox/bootstrap-select.min.js"></script> 
+<script src="/pbxadmin/html/datepicker/datepicker.js"></script>
+<script src="/pbxadmin/html/alert/jquery-confirm.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+    //$('[data-toggle="tooltip"]').tooltip();
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+});
+</script>
+<script src="/pbxadmin/html/js/custom.js"></script>
+<!-- <script src="/pbxadmin/html/nprogress/nprogress.js"></script> -->
+<script>
+// NProgress.start();
+// $(window).on('load',function(){
+// 	NProgress.done();
+// });
+</script>
+<script>
+$(document).ready(function(e) {
+	//console.log('anuj',$("body").hasClass("sidemenu"))
+	if($(".sidemenu").length > 0){
+		var pagename = '/pbxadmin/login';
+		$('.sidemenu a').each(function(index, element) {
+			var pagelink = $(this).attr('href');
+			
+			if(pagename == pagelink){
+				$(this).parent().addClass('activePage');
+				$(this).parent().parent().parent().addClass('active');
+			}
+		});
+		$('.sidemenu ul').animate({
+			scrollTop: $('a[href="'+pagename+'"]').offset().top-400
+		}, 0);
+	}
+	
+ 
+});
+</script>
+
+<script src="/pbxadmin/html/alert/jquery-confirm.min.js"></script>
+<script>
+function alertPop(msg){
+	$.alert({
+		title:'Alert',
+		content: msg,
+		theme: 'material'
+	});
+}
+function confirmPop(msg){
+	$.confirm({
+		title: 'Confirm',
+		content: msg,    
+		confirmButton: 'Yes',
+		cancelButton: 'NO',
+		theme: 'material'
+	});
+}
+function dialogPop(title,msg){
+	$.dialog({
+        title: title,
+        content: msg,        
+		columnClass: 'col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1',
+    });
+}
+</script>
+<script>
+
+$('#dataFrm input').each(function()
+{
+	
+    if($(this).val()!="" && $(this).attr('type') !='button') {
+          $(this).addClass('yellow-background');
+    }
+});
+
+$('select').each(function()
+{
+    if($(this).val()!="" ) {
+          $(this).addClass('yellow-background');
+    }
+});
+
+</script> 
+<script type="text/javascript" src="/pbxadmin/html/canvas/canvasjs.min.js"></script>
+
+<script src="/pbxadmin/html/js/jquery.validate.min.js"></script>
+<script src="/pbxadmin/html/alert/jquery-confirm.min.js"></script>
+
+
+<script>
+	function dataSubmit(){
+		
+		const CRYPT_KEY = '97bcc16d4e9edf063b035115d1807498';
+		const CRYPT_IV = '2246151c848291ff587ade2ef75dd7a0';
+		//var form = $('#loginFrm');
+		//if (form[0].checkValidity() === true) {
+			
+			let password = $("#userPassword").val();
+			let user = $("#username").val();
+			let remember = $("#remember").is(":checked")?1:0;
+			let passwordstr = encrypt(password,CRYPT_KEY,CRYPT_IV);
+			let captcha = $("#captcha").val();
+			//$("#userPassword").val(passwordstr);
+			//$('#loginFrm').submit();
+			loginUser(user,passwordstr,remember,captcha);
+		//}
+		//form.addClass('was-validated');
+	}
+
+
+$(document).ready(function(e) {
+    var userLogin = $('input[name="userLogin"]');
+
+	if(userLogin.val()==''){
+		userLogin.focus();
+	}
+
+
+			$("#updpass").modal('hide'); 
+		$("#register").modal('hide');
+	
+});
+
+// $('#register').on('shown.bs.modal', function() {
+//   $('.datepicker').datetimepicker({
+//     format:'d-m-Y',
+//     timepicker:false
+//   });
+// });
+
+function Reg_soft(){
+		var page = baseURL();
+		var form = $('#dataFrmReg');
+		if (form[0].checkValidity() === true) {
+			$.ajax({
+				type: "POST",
+				data: {
+				'addData': $("#dataFrmReg").serializeArray(),
+				'reg':1
+			},
+				dataType: "json",
+				url: page+'/RegisterOnline',
+				beforeSend: function () {
+				$(".loaderAjax").show();
+			},
+				success: function(result){
+					$(".loaderAjax").fadeOut("slow");
+					if(result.statusCode==200){
+						$("#register").modal('hide');
+						location.reload();
+					}else if(result.statusCode==402){
+						editRec();
+					}else{
+						setToast('bg-danger',result.error);
+					}	 
+				}
+			});
+		}
+		form.addClass('was-validated');	
+	}
+	
+	
+function updrootpass(){
+		var page = baseURL();
+		var rootPass = document.getElementById('root_pass').value;
+		$.ajax({
+			type: "POST",
+			data:{'rootPass':rootPass},
+			dataType: "json",
+			url: page+'/updateRootPass',
+			success: function(result){
+				if(result.statusCode==200){
+					
+					location.reload();
+				}else if(result.statusCode==402){
+					editRec();
+				}else{
+					$('#alertBx').removeClass();
+                	$('#alertBx').addClass('error');
+					$('#alertBx').find('#alertMsg').html(result.error);
+				}	 
+			}
+		});
+	}
+
+// Captcha Script
+
+function refershCaptcha(){
+	var page = baseURL();
+	$.ajax({
+			type: "GET",
+			url: page+'/refreshCaptcha',
+			success: function(result){
+				$('#cimage').html(result);
+				//$('#captcha').val('');
+			}
+		});
+}
+
+</script>
+
+
+
+</body>
+</html>
