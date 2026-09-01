@@ -4,7 +4,7 @@
 
 Real attacker commands and classified payloads, captured live from a controlled honeypot environment ([Oráculo SOC](https://github.com/drplagash)). Plain text, no synthetic data — every file here is something an attacker actually typed or served against a real (emulated) service.
 
-The companion credential dictionaries (usernames/passwords/combos) live in [pandemia](https://github.com/drplagash/pandemia). Real malware binaries recovered from these samples live in a separate repo, cross-referenced here by SHA256 once available.
+The companion credential dictionaries (usernames/passwords/combos) live in [pandemia](https://github.com/drplagash/pandemia). Real malware binaries recovered from these samples live in a separate private repo (`lazareto`), cross-referenced here by SHA256.
 
 Updated automatically, every 12 hours.
 
@@ -28,7 +28,7 @@ familias/
 
 `session.txt` only shows up when the payload was captured *live*, mid-session, off a real attacker's keyboard (Cowrie/ADBHoney `file_download` events) — in that case it's the actual command sequence that led to it, redacted to the /24. Payloads recovered instead through automated follow-up investigation of attacker infrastructure (not something anyone typed) don't get a fabricated session — no file, rather than a fake one.
 
-Right now the only classification with real samples is `script_generic` — benign login/default pages picked up while investigating attacker infrastructure, none of them tied to a live session. No actual malware has been captured yet; as soon as it is, it gets its own classification folder here (`downloader/`, `backdoor/`, `cryptominer/`, `c2_client/`, etc.) and the corresponding binary goes into the malware repo, cross-referenced by SHA256.
+The `script_generic` family holds benign login/default pages picked up while investigating attacker infrastructure. `downloader` holds real dropper one-liners typed by attackers during live sessions. A first pair of real ELF binaries (ARM) has also been recovered from the honeypot and is pending manual verification before publication in `lazareto`; once confirmed, more classification folders (`backdoor/`, `cryptominer/`, `c2_client/`, etc.) will appear here as real samples get captured, each cross-referenced to its binary by SHA256.
 
 ## Source
 
