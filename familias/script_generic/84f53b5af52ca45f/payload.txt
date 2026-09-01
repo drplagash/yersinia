@@ -1,0 +1,10 @@
+# sha256: 84f53b5af52ca45f2fc4aaf4d3ba6f9c66028802efae564f05fa657fa0654643
+# family: script_generic
+# kind: script
+# size_bytes: 27
+# first_seen: 2026-07-13 11:55:52.266382 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /proc/; cat self/cmdline

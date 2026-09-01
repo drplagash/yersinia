@@ -1,0 +1,12 @@
+# sha256: b248d68f6dd22203f5d337d71be1772618508400573a70d256a0b05bd6e229c2
+# family: script_generic
+# kind: script
+# size_bytes: 43
+# first_seen: 2026-07-29 03:09:33.791580 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+uname -a
+hostname
+uname -m&&pkill upnpsetup

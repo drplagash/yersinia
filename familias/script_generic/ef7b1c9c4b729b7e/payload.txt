@@ -1,0 +1,10 @@
+# sha256: ef7b1c9c4b729b7e095c20c9575fd6b72c51461556219a5d8298fcd94a26e973
+# family: script_generic
+# kind: script
+# size_bytes: 39
+# first_seen: 2026-05-17 14:14:40.458103 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo 'dGVzdA==' | base64 -d 2>/dev/null

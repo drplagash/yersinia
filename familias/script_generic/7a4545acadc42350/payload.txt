@@ -1,0 +1,11 @@
+# sha256: 7a4545acadc42350c26d41d1830ae2bcee4853e70f90179c44582bdfa7d9e1a6
+# family: script_generic
+# kind: script
+# size_bytes: 196
+# first_seen: 2026-05-08 17:56:33.714405 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo "bash --help; ls /proc/1/; cat /proc/1/mounts; cat /proc/cpuinfo; echo __1778262993529623369" | sh
+bash --help; ls /proc/1/; cat /proc/1/mounts; cat /proc/cpuinfo; echo __1778262993529623369

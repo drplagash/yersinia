@@ -1,0 +1,15 @@
+# sha256: 7332682f6c9bb9bd74d2dceb77c604dd67b55e14994ab1077425d50b85b8d8ad
+# family: script_generic
+# kind: script
+# size_bytes: 54
+# first_seen: 2026-08-30 12:26:00.468000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+lghkel
+zpz}ld
+zalee
+za
+&k`g&k|zpkfq)ES[M
+g & k | zpkfq

@@ -1,0 +1,10 @@
+# sha256: 4e6e5513b55673888a516a59272728bcadffee69500f9da0228f64cba28832de
+# family: script_generic
+# kind: script
+# size_bytes: 16
+# first_seen: 2026-08-22 20:38:46.435000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+pm list packages

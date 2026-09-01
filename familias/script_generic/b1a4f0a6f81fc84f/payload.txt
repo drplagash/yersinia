@@ -1,0 +1,11 @@
+# sha256: b1a4f0a6f81fc84f2b267c2c374ea52fa2a6ae6fe18666274d2f4d3a040ae954
+# family: script_generic
+# kind: script
+# size_bytes: 81
+# first_seen: 2026-05-09 06:13:05.417957 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cat /etc/os-release 2>/dev/null | grep -i 'ID=ubuntu'
+lsb_release -is 2>/dev/null

@@ -1,0 +1,13 @@
+# sha256: fe96d65cd6204ef39e9c69f59c3989f5ddc9e77e2790f21cdc6923d3380a28f5
+# family: script_generic
+# kind: script
+# size_bytes: 26
+# first_seen: 2026-04-14 22:14:47.625011 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+whoami
+sudo su
+whoami
+exit

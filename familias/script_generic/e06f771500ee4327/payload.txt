@@ -1,0 +1,56 @@
+# sha256: e06f771500ee4327a62ff000fae830856b46e1a69e5919d076f71f6e5fb59af1
+# family: script_generic
+# kind: script
+# size_bytes: 350
+# first_seen: 2026-05-29 17:54:54.939374 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+root
+xc3511
+root
+888888
+echo TSTS
+root
+xmhdipc
+echo TSTS
+root
+default
+echo TSTS
+root
+juantech
+echo TSTS
+root
+123456
+echo TSTS
+root
+54321
+echo TSTS
+admin
+admin
+echo TSTS
+admin
+echo TSTS
+echo TSTS
+root
+pass
+echo TSTS
+root
+1234
+echo TSTS
+root
+password
+echo TSTS
+root
+12345
+echo TSTS
+root
+12345678
+echo TSTS
+root
+dreambox
+echo TSTS
+root
+realtek
+echo TSTS

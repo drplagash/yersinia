@@ -1,0 +1,18 @@
+# sha256: bf9f79f304771fc0dd0a20a66e368d831ee876ac9afd990d4eb272ac28580ce9
+# family: script_generic
+# kind: script
+# size_bytes: 116
+# first_seen: 2026-05-24 22:27:12.503950 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+start
+enable
+config terminal
+system
+linuxshell
+shell
+sh
+echo -e '\x6C\x7A\x76\x75\x79'
+printf '\x6C\x7A\x76\x75\x79'

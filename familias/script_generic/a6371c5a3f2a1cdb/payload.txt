@@ -1,0 +1,12 @@
+# sha256: a6371c5a3f2a1cdb1c8d28d315d35f903bc96a949f68f61046f37a1d0684c8c0
+# family: script_generic
+# kind: script
+# size_bytes: 17
+# first_seen: 2026-07-30 07:23:36.064172 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+su
+shell
+uname -a

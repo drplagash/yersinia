@@ -1,0 +1,14 @@
+# sha256: b2b5048a4e88fe01849041382f5972a1f2313ab4f75fb4d1b51ad9b20619f698
+# family: script_generic
+# kind: script
+# size_bytes: 59
+# first_seen: 2026-07-17 21:11:00.886697 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox BTZLU

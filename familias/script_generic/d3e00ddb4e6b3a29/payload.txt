@@ -1,0 +1,10 @@
+# sha256: d3e00ddb4e6b3a294c3b504d89a8373d496671d6a7bfa73f8e4506fdf26b984c
+# family: script_generic
+# kind: script
+# size_bytes: 8
+# first_seen: 2026-07-13 09:48:45.540508 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo tes

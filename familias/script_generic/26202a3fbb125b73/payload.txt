@@ -1,0 +1,10 @@
+# sha256: 26202a3fbb125b73b5650509f3c46da4fb8ffecd44b154cd0d1876a9c9c68f8c
+# family: script_generic
+# kind: script
+# size_bytes: 14
+# first_seen: 2026-05-24 01:11:05.777145 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+cat /etc/issue

@@ -1,0 +1,10 @@
+# sha256: b1522ade983275f12dc963b0ee8d2044d88d9ede06f0d8a0e637d4d0f9a51663
+# family: script_generic
+# kind: script
+# size_bytes: 196
+# first_seen: 2026-05-31 18:57:08.745553 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+if [ -r /proc/cpuinfo ] && [ -r /proc/meminfo ] && grep -q "model name" /proc/cpuinfo 2>/dev/null && grep -q "MemTotal" /proc/meminfo 2>/dev/null; then;   echo "valid"; else;   echo "honeypot"; fi

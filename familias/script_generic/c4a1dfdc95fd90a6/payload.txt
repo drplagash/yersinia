@@ -1,0 +1,11 @@
+# sha256: c4a1dfdc95fd90a68ec69a300da87d5167ab9c75aac3c5e5f7a00ea9ed846fba
+# family: script_generic
+# kind: script
+# size_bytes: 34
+# first_seen: 2026-05-03 09:55:14.815534 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Accept: */*
+Connection: keep-alive

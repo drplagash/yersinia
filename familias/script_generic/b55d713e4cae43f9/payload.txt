@@ -1,0 +1,10 @@
+# sha256: b55d713e4cae43f97a3878b7172949eb67fefc427462b0a8d115737038348dd0
+# family: script_generic
+# kind: script
+# size_bytes: 9
+# first_seen: 2026-08-23 18:58:28.768000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo xsec

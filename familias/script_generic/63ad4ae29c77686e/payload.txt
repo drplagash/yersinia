@@ -1,0 +1,10 @@
+# sha256: 63ad4ae29c77686ec7bcbab7cdee9d987fa695ffc84e6ac87a05c35e613ed3c9
+# family: script_generic
+# kind: script
+# size_bytes: 35
+# first_seen: 2026-08-26 11:25:53.095000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo 1 > /dev/null && cat /bin/echo

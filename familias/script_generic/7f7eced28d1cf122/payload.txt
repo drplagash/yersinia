@@ -1,0 +1,10 @@
+# sha256: 7f7eced28d1cf12201a64b5a2069330fb9045ac3a60c8a03090e9937947edb02
+# family: script_generic
+# kind: script
+# size_bytes: 18
+# first_seen: 2026-06-02 20:58:24.487481 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo login_success

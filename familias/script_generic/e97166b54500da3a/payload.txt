@@ -1,0 +1,10 @@
+# sha256: e97166b54500da3a32eae48afe8df0970b19abfde3e4f3a50206cd8509feb161
+# family: script_generic
+# kind: script
+# size_bytes: 6
+# first_seen: 2026-08-23 14:55:05.296000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+enable

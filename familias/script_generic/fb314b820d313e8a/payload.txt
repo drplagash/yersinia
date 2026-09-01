@@ -1,0 +1,21 @@
+# sha256: fb314b820d313e8acbb4eaff5c383d55ba844bba21f84e7af25a4333615ba973
+# family: script_generic
+# kind: script
+# size_bytes: 173
+# first_seen: 2026-05-06 02:19:49.665785 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+start
+enable
+config terminal
+system
+linuxshell
+shell
+sh
+echo -e '\x72\x69\x6E\x61\x68'
+passwd
+cd /tmp || cd /var || cd /dev || cd /etc
+cat /bin/ls|more
+cat /bin/ls|head -n 1

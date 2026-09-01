@@ -1,0 +1,11 @@
+# sha256: c213a35b3477455a5a40ca1b55c56824dd75930eca15678e1d89fd69eb5da8c3
+# family: script_generic
+# kind: script
+# size_bytes: 33
+# first_seen: 2026-08-23 01:16:11.641000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo SHELL_TEST
+/bin/busybox TEST

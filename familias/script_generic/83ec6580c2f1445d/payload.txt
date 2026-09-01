@@ -1,0 +1,13 @@
+# sha256: 83ec6580c2f1445d5afd6f09b6e84d8dd235642ae2663bd547b65bec485f4a8c
+# family: script_generic
+# kind: script
+# size_bytes: 100
+# first_seen: 2026-08-31 23:42:07.822000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
