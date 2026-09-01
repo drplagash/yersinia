@@ -376,3 +376,25 @@ busybox uname -s -v -n -m 2 > /dev/null
 head -1 /proc/version | cut -d -f1
 [ -f /etc/os-release ]
 
+=== session d970e68b63c6 | src_ip 59.103.100.XYZ | 2026-09-01T15:27:28.723339Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x43\x58\x58\x49\x53\x4c'
+
+=== session 8946f3d2530e | src_ip 59.103.100.XYZ | 2026-09-01T15:28:06.815903Z ===
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x43\x58\x58\x49\x53\x4c'
+

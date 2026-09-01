@@ -2,7 +2,7 @@
 # family: script_generic
 # kind: script
 # size_bytes: 1658
-# first_seen: 2026-09-01 15:26:13 UTC
+# first_seen: 2026-09-01 15:26:13.178102 UTC
 # times_seen: 1
 # ------------------------------------------------------------
 
