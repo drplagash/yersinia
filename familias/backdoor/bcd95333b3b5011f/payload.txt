@@ -1,10 +1,11 @@
 # sha256: bcd95333b3b5011f86294bc52f375b29efad869c4acdfd6f88cf6a51fc0a2571
-# family: script_generic
+# family: backdoor
 # kind: script
 # size_bytes: 1031
 # first_seen: 2026-05-21 23:46:38.323040 UTC
 # times_seen: 1
 # yara_matches: none
+# subtype: ssh_key_hijack - intento de persistencia via SSH (borra/reemplaza authorized_keys), NO malware binario instalado y confirmado
 # ------------------------------------------------------------
 
 cd ~; chattr -ia .ssh; lockr -ia .ssh
