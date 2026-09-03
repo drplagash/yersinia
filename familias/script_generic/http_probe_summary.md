@@ -1,13 +1,13 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (1713 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (1715 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 1713
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-03 13:56:34.588381
+- Total de muestras: 1715
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-03 13:57:28.632459
 
 ## Rutas mas solicitadas
 
-- `/` (572)
+- `/` (574)
 - `/_asterisk/phpversions.php` (30)
 - `/recordings/phpversions.php` (30)
 - `/admin/i18n/readme.txt` (30)
@@ -44,7 +44,7 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)` (84)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gec` (80)
 - `curl/7.64.1` (73)
-- `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (68)
+- `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (70)
 - `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (52)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like ` (37)
 - `Mozilla/5.0 zgrab/0.x` (34)
