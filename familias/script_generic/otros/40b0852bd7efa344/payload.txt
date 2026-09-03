@@ -1,0 +1,15 @@
+# sha256: 40b0852bd7efa3444ac6d9650e9a3efed2925de49e74a155fd8b9cf779326d35
+# family: script_generic
+# kind: script
+# size_bytes: 85
+# first_seen: 2026-08-29 04:26:27.860000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+sh
+shell
+enable
+system
+ping; sh
+/bin/busybox cat /proc/self/exe || cat /proc/self/exe

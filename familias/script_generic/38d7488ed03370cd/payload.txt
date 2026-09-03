@@ -1,0 +1,12 @@
+# sha256: 38d7488ed03370cd3df67486a4a3c485b3a1646290557012fdb144ebac0b9489
+# family: script_generic
+# kind: script
+# size_bytes: 59
+# first_seen: 2026-09-01 23:27:26.636227 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+CONNECT 91.92.42.200:80 HTTP/1.0
+Host: 91.92.42.200:80
+

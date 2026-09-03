@@ -1,0 +1,16 @@
+# sha256: 41f89b8bf9f18dadc5b9931d66e6d0a0abfb047d115914fae9d5c4f896577b59
+# family: script_generic
+# kind: script
+# size_bytes: 156
+# first_seen: 2026-09-01 22:46:54.523398 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /assets HTTP/1.1
+Host: 190.179.130.96:4618
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

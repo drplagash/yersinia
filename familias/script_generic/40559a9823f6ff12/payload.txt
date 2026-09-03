@@ -1,0 +1,10 @@
+# sha256: 40559a9823f6ff127a54ddb86bf69d14725a2ef446d8656052080c36407f2354
+# family: script_generic
+# kind: script
+# size_bytes: 202
+# first_seen: 2026-07-30 00:52:29.599118 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+uname -m; nproc; cat /proc/meminfo | grep MemTotal; id -u; getprop ro.product.model; echo "---CONTAINER---"; cat /proc/1/cgroup 2>/dev/null | grep -qE 'docker|lxc' && echo YES || echo NO; echo "SHELL_OK

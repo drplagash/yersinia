@@ -1,0 +1,10 @@
+# sha256: 0eea9ca9f3fbc41811e1d8d4a98ab49152ebe7478aa3d0e2b868ec2a6a5f340b
+# family: script_generic
+# kind: script
+# size_bytes: 15
+# first_seen: 2026-08-24 21:16:46.117000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+echo SHELL_TEST

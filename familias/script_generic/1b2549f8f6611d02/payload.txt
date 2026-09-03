@@ -1,0 +1,10 @@
+# sha256: 1b2549f8f6611d0232f777ed927636176ef8f24a93ed80831e62994899514f84
+# family: script_generic
+# kind: script
+# size_bytes: 12
+# first_seen: 2026-09-02 21:20:28.499869 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+HELLOKETTLE

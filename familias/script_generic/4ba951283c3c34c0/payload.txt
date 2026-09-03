@@ -1,0 +1,16 @@
+# sha256: 4ba951283c3c34c0e2f96e33c21d949b6066ed98f5496fde94f1b17b9a3cb03c
+# family: script_generic
+# kind: script
+# size_bytes: 177
+# first_seen: 2026-09-01 22:34:56.200358 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /admin/modules/core/ajax.php HTTP/1.1
+Host: 190.179.130.96:2563
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

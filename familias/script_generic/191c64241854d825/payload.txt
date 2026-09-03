@@ -1,0 +1,15 @@
+# sha256: 191c64241854d825bdb08a1824e76749f3b8c0f2c7c256d604f7cf8739aa35e5
+# family: script_generic
+# kind: script
+# size_bytes: 191
+# first_seen: 2026-09-01 23:27:32.245748 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /config.php HTTP/1.1
+Host: 190.179.130.96:2083
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept-Encoding: gzip
+

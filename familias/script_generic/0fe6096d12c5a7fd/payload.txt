@@ -1,0 +1,14 @@
+# sha256: 0fe6096d12c5a7fd740adae363b84e66880a7933143463c0f914fa08f5121420
+# family: script_generic
+# kind: script
+# size_bytes: 134
+# first_seen: 2026-09-02 21:22:42.681001 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /solr/admin/cores?action=STATUS&wt=json HTTP/1.1
+Host: 190.179.130.96:1434
+User-Agent: Go-http-client/1.1
+Connection: close
+

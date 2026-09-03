@@ -1,0 +1,15 @@
+# sha256: 39d05ecb87f62fcc2bc76f8bda753c96f459ab30c0b4aa8c72363e014a87d8ce
+# family: script_generic
+# kind: script
+# size_bytes: 232
+# first_seen: 2026-09-01 23:28:42.469313 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /.git/refs/heads/main HTTP/1.1
+Host: 190.179.130.96:2083
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept-Encoding: gzip
+
