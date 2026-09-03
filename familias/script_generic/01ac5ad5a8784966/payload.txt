@@ -1,14 +1,14 @@
-# sha256: 982dc44f4df30fa8adb7bcab30ae65319814ed14978125a68daf3cc0326bbc86
+# sha256: 01ac5ad5a878496636221eddc8e78b1f6f9b077c42a66e1cce3e825c645daad4
 # family: script_generic
 # kind: script
 # size_bytes: 223
-# first_seen: 2026-09-02 22:56:48.565426 UTC
+# first_seen: 2026-09-03 07:26:24.329484 UTC
 # times_seen: 1
 # yara_matches: none
 # ------------------------------------------------------------
 
 GET / HTTP/1.1
-Host: 190.179.189.200:5089
+Host: 190.179.189.200:5456
 User-Agent: Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity
 Accept-Encoding: gzip
 
