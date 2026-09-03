@@ -1,0 +1,10 @@
+# sha256: d7cf99dd7541d7bd514fc0d9a1b2d531c22a3e6e18e29567d32d99245885a663
+# family: script_generic
+# kind: script
+# size_bytes: 14
+# first_seen: 2026-09-03 22:32:34.730248 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+JDWP-Handshake
