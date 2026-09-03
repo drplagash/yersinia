@@ -1,0 +1,15 @@
+# sha256: 578d499ceff75b267d87a302d3ce2b2ab20c9980a5f606b86d0e89adeebedbe5
+# family: script_generic
+# kind: script
+# size_bytes: 236
+# first_seen: 2026-09-01 22:39:09.531515 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /terraform.tfstate.backup HTTP/1.1
+Host: 190.179.130.96:2087
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept-Encoding: gzip
+

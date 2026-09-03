@@ -1,0 +1,13 @@
+# sha256: 5cd903c6fe6614429a12899f98dac4b2670c2f0383adddb2304aa384956cb848
+# family: script_generic
+# kind: script
+# size_bytes: 83
+# first_seen: 2026-09-01 22:48:09.196895 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+CONNECT api.i.pn:443 HTTP/1.1
+Host: api.i.pn:443
+Proxy-Connection: keep-alive
+

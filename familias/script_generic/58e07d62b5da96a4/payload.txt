@@ -1,0 +1,12 @@
+# sha256: 58e07d62b5da96a4ba58f0820bd9fd8b7d6a31cd49f9d1a5557dc9d474209a53
+# family: script_generic
+# kind: script
+# size_bytes: 77
+# first_seen: 2026-09-02 21:27:34.173854 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+OPTIONS icap://190.179.189.200:1344/ ICAP/1.0
+Host: 190.179.189.200:1344
+

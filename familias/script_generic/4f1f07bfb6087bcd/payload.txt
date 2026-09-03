@@ -1,0 +1,15 @@
+# sha256: 4f1f07bfb6087bcd98d9937ba02231eb17247a7c6a1b6cef39705ce55c2053d1
+# family: script_generic
+# kind: script
+# size_bytes: 152
+# first_seen: 2026-09-02 21:15:34.055082 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.130.96:1434
+User-Agent: Mozilla/5.0 (compatible; Odin; https://docs.getodin.com/)
+Accept: */*
+Accept-Encoding: gzip
+

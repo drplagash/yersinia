@@ -1,0 +1,15 @@
+# sha256: 545d2e6e457103ff8c7103ee502c7c47792a66f0a3963867a3e3a7f0d21cef19
+# family: script_generic
+# kind: script
+# size_bytes: 200
+# first_seen: 2026-09-01 23:25:11.138187 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /actuator/logfile HTTP/1.1
+Host: 190.179.130.96:2087
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14.4; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept-Encoding: gzip
+
