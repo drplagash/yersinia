@@ -1,13 +1,13 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (1179 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (1216 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 1179
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-01 23:25:57.041200
+- Total de muestras: 1216
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-01 23:29:03.926695
 
 ## Rutas mas solicitadas
 
-- `/` (190)
+- `/` (203)
 - `/_asterisk/phpversions.php` (30)
 - `/recordings/phpversions.php` (30)
 - `/admin/i18n/readme.txt` (30)
@@ -25,38 +25,38 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `/assets/graph.php` (30)
 - `/a2billing/admin/Public/index.php` (30)
 - `/admin/config.php` (30)
+- `/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession` (30)
 - `/recordings/index.php` (30)
+- `/a2billing/admin/Public/phpversions.php` (30)
 - `/phpversions.php` (30)
 - `/_asterisk/graph.php` (30)
 - `/r0r.php` (30)
 - `/vtigercrm/phpversions.php` (30)
 - `/graph.php` (30)
-- `/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession` (29)
+- `/assets` (29)
 - `/vtigercrm/index.php` (28)
-- `/a2billing/admin/Public/phpversions.php` (28)
+- `/digium_phones/ajax.php` (28)
 - `/admin/views/graph.php` (28)
-- `/recordings/graph.php` (26)
-- `/assets` (25)
 
 ## User-Agents mas comunes
 
-- `python-requests/2.27.1` (877)
-- `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (32)
-- `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)` (30)
+- `python-requests/2.27.1` (890)
+- `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)` (35)
+- `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (33)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like ` (18)
-- `curl/7.64.1` (17)
-- `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (17)
-- `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0` (13)
-- `Mozilla/5.0 zgrab/0.x` (12)
-- `Mozilla/5.0 (Macintosh; Intel Mac OS X 14.4; rv:125.0) Gecko/20100101 Firefox/12` (9)
+- `curl/7.64.1` (18)
+- `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (18)
+- `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0` (15)
+- `Mozilla/5.0 zgrab/0.x` (13)
+- `Mozilla/5.0 (Macintosh; Intel Mac OS X 14.4; rv:125.0) Gecko/20100101 Firefox/12` (10)
+- `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0` (9)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gec` (9)
 - `Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.` (8)
-- `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0` (8)
+- `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/12` (7)
 - `Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)` (6)
+- `Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chr` (6)
 - `Go-http-client/1.1` (5)
+- `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/13` (5)
 - `Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) ` (5)
 - `Mozilla/5.0 (Linux; Android 14; SM-F9560 Build/UP1A.231005.007; wv) AppleWebKit/` (5)
 - `Mozilla/5.0 (Linux; Android 9; AFTWMST22 Build/PS7233; wv) AppleWebKit/537.36 (K` (4)
-- `Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHT` (4)
-- `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/12` (4)
-- `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/13` (4)
