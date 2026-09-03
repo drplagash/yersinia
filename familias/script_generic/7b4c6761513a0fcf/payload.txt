@@ -1,0 +1,10 @@
+# sha256: 7b4c6761513a0fcf96b78c00354df66ed630af0cd1ae8ea7ef3e6c178490539f
+# family: script_generic
+# kind: script
+# size_bytes: 28
+# first_seen: 2026-09-02 22:26:36.499204 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+MGLNDD_190.179.189.200_4911

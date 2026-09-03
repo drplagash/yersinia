@@ -1,0 +1,17 @@
+# sha256: 2194a6428927a017de9d4a94de43390ffd8c72ced03d808ae15d9748d7ea8432
+# family: script_generic
+# kind: script
+# size_bytes: 191
+# first_seen: 2026-09-02 21:32:47.564918 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.189.200:4455
+User-Agent: Go-http-client/1.1
+Connection: Upgrade
+Sec-WebSocket-Key: MdAtMW3F784hINVhyfaang==
+Sec-WebSocket-Version: 13
+Upgrade: websocket
+

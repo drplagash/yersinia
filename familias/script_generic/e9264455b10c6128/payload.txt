@@ -1,0 +1,18 @@
+# sha256: e9264455b10c6128453355318ee7c4bf787886e4664eea876b88d49d76a4368f
+# family: script_generic
+# kind: script
+# size_bytes: 223
+# first_seen: 2026-09-02 21:27:40.947549 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+POST /wsman HTTP/1.1
+Host: 190.179.189.200:5985
+User-Agent: Python WinRM client
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Content-Type: application/soap+xml;charset=UTF-8
+Content-Length: 0
+

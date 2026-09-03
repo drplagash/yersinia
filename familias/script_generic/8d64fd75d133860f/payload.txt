@@ -1,0 +1,20 @@
+# sha256: 8d64fd75d133860f805ca48c45d9959b11e4a766569af607c1a5e8ffc8fc8a75
+# family: script_generic
+# kind: script
+# size_bytes: 229
+# first_seen: 2026-09-02 21:34:50.641404 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+OPTIONS sip:nm SIP/2.0
+Via: SIP/2.0/TCP nm;branch=foo;rport
+From: <sip:nm@nm>;tag=root
+To: <sip:nm2@nm2>
+Call-ID: 50000
+CSeq: 42 OPTIONS
+Max-Forwards: 70
+Content-Length: 0
+Contact: <sip:nm@nm>
+Accept: application/sdp
+

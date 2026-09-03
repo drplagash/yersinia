@@ -1,0 +1,10 @@
+# sha256: dedee95a5c3354a76fa11ee26963cbe70f4149c9680bfa9c05c4befa372ced97
+# family: script_generic
+# kind: script
+# size_bytes: 6
+# first_seen: 2026-09-02 21:29:11.457964 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+PING

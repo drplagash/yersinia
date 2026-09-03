@@ -1,0 +1,10 @@
+# sha256: 84c6534ee254dde0af32266cdff575dda0faa213924afcd666f10d1602badb8e
+# family: script_generic
+# kind: script
+# size_bytes: 32
+# first_seen: 2026-09-02 22:56:28.363466 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+SSH-2.0-ZGrab ZGrab SSH Survey

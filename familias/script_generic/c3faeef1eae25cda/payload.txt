@@ -1,0 +1,15 @@
+# sha256: c3faeef1eae25cdad7c1df56c37fbf90092527ce147c434f2055293f7bafa4d7
+# family: script_generic
+# kind: script
+# size_bytes: 121
+# first_seen: 2026-09-02 21:16:27.099124 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+POST /api/v0/id HTTP/1.1
+Host: 190.179.130.96:5001
+User-Agent: kubo-probe/1.0
+Content-Length: 0
+Connection: close
+

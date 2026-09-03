@@ -1,0 +1,15 @@
+# sha256: dc082fbf8c50c4204419e48fc3c211db33c01b42aee5370d657cd5d1f94ed5b1
+# family: script_generic
+# kind: script
+# size_bytes: 132
+# first_seen: 2026-09-02 21:16:36.875941 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET http://httpbin.org/get HTTP/1.1
+Host: httpbin.org
+User-Agent: Go-http-client/1.1
+Accept-Encoding: gzip
+Connection: close
+

@@ -1,0 +1,15 @@
+# sha256: 713e219ccdcbbbc849c27b0cf3ca3be8f4719750a1b87af6231cdce5f3c7ea00
+# family: script_generic
+# kind: script
+# size_bytes: 163
+# first_seen: 2026-09-02 21:21:57.550416 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.189.200
+User-Agent: Mozilla/5.0 (compatible; FlowIQ/1.0; +https://flowiq-labs.com/scanning-info)
+Accept: */*
+Connection: close
+

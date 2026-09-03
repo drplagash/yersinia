@@ -1,0 +1,13 @@
+# sha256: 78baf413af0d8a3fc0379f4716653fe368c2ca68927d26be019b0e3dae383d94
+# family: script_generic
+# kind: script
+# size_bytes: 91
+# first_seen: 2026-09-02 21:15:54.643551 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+CONNECT httpbin.org:443 HTTP/1.1
+Host: httpbin.org:443
+User-Agent: Go-http-client/1.1
+
