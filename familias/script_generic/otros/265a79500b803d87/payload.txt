@@ -1,0 +1,23 @@
+# sha256: 265a79500b803d87f3edc6893deac72878ca9955feca06d70c46092b7de4f160
+# family: script_generic
+# kind: script
+# size_bytes: 468
+# first_seen: 2026-09-03 12:56:53.105379 UTC
+# times_seen: 1
+# yara_matches: Big_Numbers1
+# ------------------------------------------------------------
+
+REGISTER sip:190.179.189.200 SIP/2.0
+To: <sip:1000@190.179.189.200>
+From: <sip:1000@190.179.189.200>;tag=dbd3d9849
+Via: SIP/2.0/TCP 199.195.249.249:64587;branch=z9hG4bK-d87543-393510643-1--d87543;rport
+Call-ID: f365e39af7704b9e816073a262fec31a
+CSeq: 1 REGISTER
+Contact: <sip:1000@199.195.249.249:64587>
+Expires: 3600
+Max-Forwards: 70
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO
+User-Agent: bc-uc
+Content-Length: 0
+
+
