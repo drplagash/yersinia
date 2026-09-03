@@ -1,47 +1,47 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (451 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (488 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 451
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-01 22:45:52.715283
+- Total de muestras: 488
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-01 22:47:13.066917
 
 ## Rutas mas solicitadas
 
-- `/` (48)
-- `/phpversions.php` (23)
+- `/` (53)
+- `/phpversions.php` (24)
+- `/_asterisk/phpversions.php` (23)
+- `/recordings/misc/phpversions.php` (23)
 - `/recordings/misc/graph.php` (22)
-- `/_asterisk/phpversions.php` (21)
-- `/recordings/misc/phpversions.php` (20)
 - `/vtigercrm/phpversions.php` (20)
+- `/graph.php` (19)
+- `/vtigercrm/graph.php` (17)
+- `/assets/graph.php` (17)
 - `/assets/phpversions.php` (17)
-- `/vtigercrm/graph.php` (16)
-- `/assets/graph.php` (16)
 - `/recordings/index.php` (16)
-- `/_asterisk/graph.php` (14)
-- `/graph.php` (14)
+- `/_asterisk/graph.php` (15)
+- `/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession` (14)
+- `/a2billing/admin/Public/graph.php` (13)
 - `/admin/views/phpversions.php` (13)
-- `/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession` (13)
 - `/admin/i18n/readme.txt` (12)
-- `/a2billing/admin/Public/graph.php` (12)
 - `/admin/modules/core/graph.php` (12)
+- `/admin/views/graph.php` (12)
+- `/admin/modules/core/ajax.php` (11)
+- `/r0r.php` (11)
 - `/admin/assets/js/views/login.js` (11)
-- `/admin/views/graph.php` (11)
-- `/admin/modules/core/ajax.php` (10)
-- `/r0r.php` (10)
+- `/a2billing/admin/Public/index.php` (10)
+- `/vtigercrm/index.php` (10)
+- `/admin/config.php` (10)
+- `/a2billing/admin/Public/phpversions.php` (10)
 - `/recordings/phpversions.php` (9)
-- `/vtigercrm/index.php` (9)
-- `/admin/config.php` (9)
-- `/a2billing/admin/Public/phpversions.php` (9)
-- `/a2billing/admin/Public/index.php` (8)
-- `/recordings/theme/main.css` (8)
-- `/restapps/` (7)
-- `/digium_phones/ajax.php` (6)
-- `/assets` (5)
+- `/restapps/` (9)
+- `/recordings/theme/main.css` (9)
+- `/digium_phones/ajax.php` (7)
+- `/recordings/graph.php` (6)
 
 ## User-Agents mas comunes
 
-- `python-requests/2.27.1` (377)
-- `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (13)
+- `python-requests/2.27.1` (408)
+- `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (17)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)` (7)
 - `Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.` (5)
 - `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (3)
@@ -50,6 +50,7 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0` (2)
 - `curl/7.64.1` (2)
 - `Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/5` (2)
+- `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.` (2)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 14.4; rv:125.0) Gecko/20100101 Firefox/12` (2)
 - `Mozilla/5.0 zgrab/0.x` (2)
 - `Go-http-client/1.1` (1)
@@ -59,4 +60,3 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0` (1)
 - `Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0` (1)
 - `Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) ` (1)
-- `Docker-Client/20.10.21 (linux)` (1)
