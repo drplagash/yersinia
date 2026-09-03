@@ -1,0 +1,13 @@
+# sha256: 19945291b73f7ae9860303215889b9d4173d4145560eb8661146d39801a0c38e
+# family: script_generic
+# kind: script
+# size_bytes: 51
+# first_seen: 2026-09-03 07:57:22.542599 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+OPTIONS / RTSP/1.0
+CSeq: 1
+User-Agent: libmpv
+
