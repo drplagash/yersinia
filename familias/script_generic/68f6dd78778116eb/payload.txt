@@ -1,0 +1,14 @@
+# sha256: 68f6dd78778116eb904dd1f5097cd862f42ba392d320f6db61a347cac8e6843d
+# family: script_generic
+# kind: script
+# size_bytes: 86
+# first_seen: 2026-09-03 06:41:36.461472 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.189.200:6060
+User-Agent: CGrab/v8.12.0
+Accept: */*
+
