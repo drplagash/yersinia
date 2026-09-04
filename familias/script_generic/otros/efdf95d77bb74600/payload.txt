@@ -1,0 +1,12 @@
+# sha256: efdf95d77bb746009fa47f47471cc59af9b50363c3d476f1fc1398d4f4bee210
+# family: script_generic
+# kind: script
+# size_bytes: 798
+# first_seen: 2026-09-04 03:13:00.343196 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+<html><head><title>103.122.85.253 - /</title></head><body><H1>103.122.85.253 - /</H1><hr>
+
+<pre> 6/12/2020  3:45 PM        &lt;dir&gt; <A HREF="/custerr/">custerr</A><br>12/25/2020  4:55 PM          665 <A HREF="/FOXUSER.DBF">FOXUSER.DBF</A><br> 8/29/2026  5:24 PM          704 <A HREF="/FOXUSER.FPT">FOXUSER.FPT</A><br>11/26/2024  8:56 PM        &lt;dir&gt; <A HREF="/history/">history</A><br> 6/12/2020  3:45 PM        &lt;dir&gt; <A HREF="/logs/">logs</A><br>  9/4/2026  8:25 AM        &lt;dir&gt; <A HREF="/perp2017home/">perp2017home</A><br> 8/13/2023 11:48 AM        &lt;dir&gt; <A HREF="/perp2017test/">perp2017test</A><br> 6/12/2020  3:45 PM        &lt;dir&gt; <A HREF="/temp/">temp</A><br> 6/12/2020  3:45 PM        &lt;dir&gt; <A HREF="/wwwroot/">wwwroot</A><br></pre><hr></body></html>
