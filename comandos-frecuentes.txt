@@ -49,9 +49,9 @@ chmod +x ok
 chmod 777 ok
 rm -rf ok
 rm -rf ok.1
+/bin/./uname -s -v -n -r -m
 za
 zalee
-/bin/./uname -s -v -n -r -m
 echo SHELL_TEST
 uname -s -m
 ./upnpsetup
