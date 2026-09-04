@@ -1,0 +1,18 @@
+# sha256: 2d1bedd565c4cd3ba9cf1f53515de238a099c4afda6ce5f4f5e115e4beedc4c2
+# family: script_generic
+# kind: script
+# size_bytes: 336
+# first_seen: 2026-09-04 05:18:02.793342 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.189.200:5933
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+Accept-Encoding: identity
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Connection: keep-alive
+Accept-Language: en-us,en;q=0.5
+Cache-Control: no-cache
+
