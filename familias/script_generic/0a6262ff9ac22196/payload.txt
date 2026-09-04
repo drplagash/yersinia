@@ -1,0 +1,14 @@
+# sha256: 0a6262ff9ac2219668cd1bbbd821ba9998ca98d3bb42f8f3d025bf229cbfa3e0
+# family: script_generic
+# kind: script
+# size_bytes: 97
+# first_seen: 2026-09-04 21:33:07.291152 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.189.200:5984
+User-Agent: Go-http-client/1.1
+Connection: close
+
