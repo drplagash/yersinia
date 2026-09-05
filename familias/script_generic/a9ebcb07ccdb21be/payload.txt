@@ -1,0 +1,16 @@
+# sha256: a9ebcb07ccdb21be93aa52c324628cffd39fdadf737f3ca4f720ec1fdeb5e70b
+# family: script_generic
+# kind: script
+# size_bytes: 178
+# first_seen: 2026-09-05 01:32:52.241742 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+Host: 190.179.189.200:3235
+User-Agent: Mozilla/5.0 (compatible; Infrawatch/1.0; +https://infrawat.ch/)
+Accept: */*
+Connection: close
+Accept-Encoding: gzip
+
