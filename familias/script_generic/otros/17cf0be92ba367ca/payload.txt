@@ -1,0 +1,15 @@
+# sha256: 17cf0be92ba367ca0e10bd225e86c4858364a6a5d0b22962b17eb8b80690df63
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-05 23:47:58.259268 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: fpbx
+Events: off
+
+
