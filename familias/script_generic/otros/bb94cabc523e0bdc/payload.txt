@@ -1,0 +1,15 @@
+# sha256: bb94cabc523e0bdc60fc3e851fd04ace72393546291a947de94088fa7c13b46e
+# family: script_generic
+# kind: script
+# size_bytes: 108
+# first_seen: 2026-09-05 19:48:30.050828 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+MSG 77 U 89
+MIM E-Version: 1.0
+ Content-Type: te xt/x-msmsgscontr ol
+TypingUser:  jujurius@msn.com 
+
+
