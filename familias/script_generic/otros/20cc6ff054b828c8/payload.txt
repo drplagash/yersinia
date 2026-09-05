@@ -1,0 +1,23 @@
+# sha256: 20cc6ff054b828c871aa6666fbcf8a817c062a8fe053c4f54b36071ef6ed56c4
+# family: script_generic
+# kind: script
+# size_bytes: 478
+# first_seen: 2026-09-05 20:33:56.803326 UTC
+# times_seen: 1
+# yara_matches: Big_Numbers1
+# ------------------------------------------------------------
+
+REGISTER sip:190.179.189.200 SIP/2.0
+To: <sip:1000@190.179.189.200>
+From: <sip:1000@190.179.189.200>;tag=b47b4a432
+Via: SIP/2.0/TCP 199.195.249.249:50927;branch=z9hG4bK-d87543-203442391-1--d87543;rport
+Call-ID: 0e5208b6151840f5802cc54cef5dd0df
+CSeq: 1 REGISTER
+Contact: <sip:1000@199.195.249.249:50927>
+Expires: 3600
+Max-Forwards: 70
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO
+User-Agent: Grandstream2000
+Content-Length: 0
+
+
