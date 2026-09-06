@@ -1,0 +1,15 @@
+# sha256: 8ceb2da08ecd997c07e2d4c4ee07a4eced36c894436d71d6acdb5e74275a748a
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 09:20:20.000894 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: Kulacom
+Events: off
+
+

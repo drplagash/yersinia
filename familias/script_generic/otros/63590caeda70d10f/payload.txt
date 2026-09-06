@@ -1,0 +1,15 @@
+# sha256: 63590caeda70d10faf3c5dcb7d8e54f127a1a6cab2a8847b3835c255b9ddda8b
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 09:18:48.801729 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: quescom
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: beb889dc9eb0a0f5408300476e0357516ea33ddf06b43fb6136624c30e45efcd
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:19:08.202247 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: crftpw
+Events: off
+
+

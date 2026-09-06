@@ -1,0 +1,15 @@
+# sha256: 938bf42bdad2af85bec573c96426491dc4fe8265a4f2f72820b8a0ec17431070
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 09:19:54.352289 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: antek
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: a2b0261f01c679c9de50b0bc2aaf2d67a6aac6c0a4fb31e7d8b3c5cc0f6a658c
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:19:51.604148 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: aethra
+Events: off
+
+

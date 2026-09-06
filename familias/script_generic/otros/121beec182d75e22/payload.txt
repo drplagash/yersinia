@@ -1,0 +1,15 @@
+# sha256: 121beec182d75e227822372884e02bfe79c0f74aa8c02e22e5fb90ad0c620a78
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 09:21:03.099564 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: adslnadam
+Events: off
+
+

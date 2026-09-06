@@ -1,0 +1,15 @@
+# sha256: 4d15d1075f722c31bcff48f05c73c2e4e5870bfed6579c95d922718e68f9bd6d
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 09:18:21.340473 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: tmadmin
+Events: off
+
+

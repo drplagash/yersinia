@@ -1,0 +1,15 @@
+# sha256: a6eb5a5647807fdfd5228c01fb38a8e834b1b97de45c6522499f9d75d8ed857f
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:18:31.648793 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: tcs-ag
+Events: off
+
+

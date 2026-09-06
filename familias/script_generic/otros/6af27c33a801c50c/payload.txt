@@ -1,0 +1,15 @@
+# sha256: 6af27c33a801c50ca8598eefbc6b4f5819ef4fc75a1a1bb6a1614917d48d8468
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:21:04.221364 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: motorola
+Events: off
+
+

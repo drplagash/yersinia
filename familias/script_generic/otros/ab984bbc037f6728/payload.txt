@@ -1,0 +1,15 @@
+# sha256: ab984bbc037f6728fd74e0507bfc922e83156a7acc9430717c2eb0b6bacc6e7d
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 09:18:44.379571 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: sky
+Events: off
+
+

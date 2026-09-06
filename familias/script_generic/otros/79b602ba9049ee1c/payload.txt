@@ -1,0 +1,15 @@
+# sha256: 79b602ba9049ee1cd5ca75d6f09d4e9a786829b540f85dc3f7a977c20a921d2a
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 09:18:14.041695 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: epicrouter
+Events: off
+
+

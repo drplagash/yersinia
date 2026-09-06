@@ -1,0 +1,15 @@
+# sha256: 9c9c7b3a759dc155d5103e1dfd2ed33744f92db9508557c5c6869b07fa396fdc
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 09:19:31.774799 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: c@ntv2000
+Events: off
+
+

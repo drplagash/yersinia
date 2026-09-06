@@ -1,0 +1,15 @@
+# sha256: cfdaf7d1a3bf75192642910a23306a45c144780a5c0828936c8305da5fd5e0e6
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 09:19:01.748729 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: mysweex
+Events: off
+
+

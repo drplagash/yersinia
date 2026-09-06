@@ -1,0 +1,15 @@
+# sha256: 5286f9a8dbaea3704ab33199f3fee510d3f70f38fdf179ab7fbf428a83557759
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:18:24.769961 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: Menara
+Events: off
+
+

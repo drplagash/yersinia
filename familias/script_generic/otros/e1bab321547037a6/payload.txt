@@ -1,0 +1,15 @@
+# sha256: e1bab321547037a621c8f235d4f395dfd23f008825d9eac0adf2d0c2dfa01f8f
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:19:59.789353 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: wimax820
+Events: off
+
+

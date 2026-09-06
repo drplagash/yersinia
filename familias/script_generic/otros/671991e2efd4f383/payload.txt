@@ -1,0 +1,15 @@
+# sha256: 671991e2efd4f383d4fe490eba84676f7518f2ae7a40461286474315a8cf1759
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 09:19:24.426869 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: fusionpbx
+Events: off
+
+

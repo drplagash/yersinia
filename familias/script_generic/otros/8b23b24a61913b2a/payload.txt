@@ -1,0 +1,15 @@
+# sha256: 8b23b24a61913b2a6f61fcf101b4521562bdf009226877fbafdc5fddfeae2c70
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:18:27.548195 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: slipshot
+Events: off
+
+

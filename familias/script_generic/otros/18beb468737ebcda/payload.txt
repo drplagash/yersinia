@@ -1,0 +1,15 @@
+# sha256: 18beb468737ebcdab10a7b6e2bad52b8eb13738560646fd0e3023d0586e2b1fe
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:20:02.315052 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: smcadmin
+Events: off
+
+

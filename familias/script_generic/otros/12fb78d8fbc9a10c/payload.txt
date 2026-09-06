@@ -1,0 +1,15 @@
+# sha256: 12fb78d8fbc9a10c480ab6e8899351a0236a7d911345cb145172640f0e5e30e2
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 09:18:59.210350 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: trendchip
+Events: off
+
+

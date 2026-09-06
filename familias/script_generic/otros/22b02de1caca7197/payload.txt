@@ -1,0 +1,15 @@
+# sha256: 22b02de1caca719711364c1623f46094b8efd27d84ca762ffee164a86156e775
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 09:19:25.776329 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: ttnet
+Events: off
+
+

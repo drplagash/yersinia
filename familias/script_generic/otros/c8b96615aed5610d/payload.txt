@@ -1,0 +1,15 @@
+# sha256: c8b96615aed5610dc49d3a2f7db66dd024c5b16057543e9b361b071d63a9b5ad
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 09:19:10.602074 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: cisco
+Events: off
+
+

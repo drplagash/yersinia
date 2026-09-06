@@ -1,0 +1,15 @@
+# sha256: 902036696509588e9168a11535403c9daa3753e35021a66197f9daeb00b719b8
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 09:18:56.930790 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: htc
+Events: off
+
+

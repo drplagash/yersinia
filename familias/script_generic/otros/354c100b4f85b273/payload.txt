@@ -1,0 +1,15 @@
+# sha256: 354c100b4f85b2737467b07a1329a40440f7c99a86471470c0eacc7b51104143
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 09:18:19.167294 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: a6a7wimax
+Events: off
+
+

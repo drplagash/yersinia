@@ -1,0 +1,15 @@
+# sha256: 29e198e963a969bcc578bb8568b67fb1c701e173042740486863b797565187ff
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 09:20:35.973443 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: tux
+Events: off
+
+

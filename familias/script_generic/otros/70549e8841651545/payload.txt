@@ -1,0 +1,15 @@
+# sha256: 70549e88416515453813e1cafbdc11fa2f883f3585af32cb20334f1631d61161
+# family: script_generic
+# kind: script
+# size_bytes: 76
+# first_seen: 2026-09-06 09:18:35.785650 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: microbusiness
+Events: off
+
+

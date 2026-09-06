@@ -1,0 +1,15 @@
+# sha256: 41bbf9d5fdb1883d96c4acca74cd8fd90facd1f8bb1dcd6eb3f8378c6d1f80ec
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:18:56.158485 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: telus177
+Events: off
+
+

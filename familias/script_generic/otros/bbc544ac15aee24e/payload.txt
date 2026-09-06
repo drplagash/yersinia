@@ -1,0 +1,15 @@
+# sha256: bbc544ac15aee24e5a982d2945222d9bd3a8881f4631e0737e6230d7645025cb
+# family: script_generic
+# kind: script
+# size_bytes: 75
+# first_seen: 2026-09-06 09:18:53.837710 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: password1234
+Events: off
+
+
