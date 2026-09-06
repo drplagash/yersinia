@@ -1,0 +1,15 @@
+# sha256: f9cf1f5d536f14b64a8700743591176c7cd954f00c057af295c9ba41c4feb283
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 11:35:24.892206 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: Aspire
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 620e07dd8a6a2ebf86ff7fe6e5aa666ed0e5a8647b0c42eb48a94837ba8bc1c6
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 11:36:20.829987 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: Asterisk
+Events: off
+
+

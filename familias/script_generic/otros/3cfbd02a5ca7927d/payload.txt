@@ -1,0 +1,15 @@
+# sha256: 3cfbd02a5ca7927d31aa8dc74fa343f597964f2a3b1580560c1c4b123ac8bc66
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:34:31.704676 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: super1
+Events: off
+
+

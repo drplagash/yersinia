@@ -1,0 +1,15 @@
+# sha256: da8d7280f002cca8ebd27715d5d77142cc8e11d8297d99633d7ad5d12dd45755
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:33:44.999532 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: wwwvoice
+Events: off
+
+

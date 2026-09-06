@@ -1,0 +1,15 @@
+# sha256: a2d59dd403732cd9585d7bbc5da6f95799cf3aeb00bbeae48ee6b2870b3251b3
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 11:33:37.169273 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: voip
+Events: off
+
+

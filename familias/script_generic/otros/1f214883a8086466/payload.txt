@@ -1,0 +1,15 @@
+# sha256: 1f214883a80864669e81a4aeaf600a27821234e5fa30ce7c80dc5ea7c45b39cb
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:33:48.061353 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: Aastra
+Events: off
+
+

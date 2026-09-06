@@ -1,0 +1,15 @@
+# sha256: d15f64fafd528c772dac8e2e56bd82136425744e28639ffaa7d1994532673112
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 11:35:22.144846 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: palosanto
+Events: off
+
+

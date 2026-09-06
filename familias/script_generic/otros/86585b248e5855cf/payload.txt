@@ -1,0 +1,15 @@
+# sha256: 86585b248e5855cff40228ab1e7faf27c48a107234803443c8f0ddf6a0760e02
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 11:34:53.387617 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: router12
+Events: off
+
+

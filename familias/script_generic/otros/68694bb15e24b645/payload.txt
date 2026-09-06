@@ -1,0 +1,15 @@
+# sha256: 68694bb15e24b6458170aede71a5fb259c6e5e9aa50afc5bf36918d98aaea0fc
+# family: script_generic
+# kind: script
+# size_bytes: 61
+# first_seen: 2026-09-06 11:34:07.385833 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: craft
+Events: off
+
+

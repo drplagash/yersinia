@@ -1,0 +1,15 @@
+# sha256: 55034d11a9587b10c47092e8acdc91b56f69314be90ff0214f6c7a005a5ede9d
+# family: script_generic
+# kind: script
+# size_bytes: 83
+# first_seen: 2026-09-06 11:33:13.203523 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: eLaStIx.asteriskuser.2oo7
+Events: off
+
+

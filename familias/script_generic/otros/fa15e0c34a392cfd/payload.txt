@@ -1,0 +1,15 @@
+# sha256: fa15e0c34a392cfdb3409aaee3da9dd1834cb42c9d47ed48ad5597167f1f4509
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:33:26.220833 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: cusadmin
+Events: off
+
+

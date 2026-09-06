@@ -1,0 +1,15 @@
+# sha256: a62e05b7007686db2d906ffd9a201dfc74d30defbf0386fe0a38d181b14a31af
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 11:35:59.848578 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: fpbx
+Events: off
+
+
