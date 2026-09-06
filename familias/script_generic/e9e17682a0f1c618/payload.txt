@@ -1,0 +1,15 @@
+# sha256: e9e17682a0f1c618a660ae147f6fb35f2cff95c0ecebd72e38c07ae61934712f
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 10:48:21.073360 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: outcall
+Events: off
+
+

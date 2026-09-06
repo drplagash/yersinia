@@ -1,0 +1,15 @@
+# sha256: 69c10b84aee585e50d55e79725420b320af5e2b97e17b9647ef90e393c24a2ba
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 10:36:04.012250 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: nec99
+Events: off
+
+

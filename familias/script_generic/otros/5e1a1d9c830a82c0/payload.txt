@@ -1,0 +1,15 @@
+# sha256: 5e1a1d9c830a82c0844fd54907b47f7ee18872caf6809ab64fd5c0739819bfbc
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 10:35:00.417902 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: addpac
+Events: off
+
+
