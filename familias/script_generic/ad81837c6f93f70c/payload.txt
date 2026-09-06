@@ -1,0 +1,15 @@
+# sha256: ad81837c6f93f70ce432cb93363fdfc487eda618358bb3ad1416d31b91f2350d
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 03:34:54.624921 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: phoneglue
+Events: off
+
+

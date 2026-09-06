@@ -1,0 +1,15 @@
+# sha256: 5213a86e84c7319013e99c5448784d33241c1cdf24196c6f4e8e43f465062c27
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 03:34:06.622362 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: ripencc
+Events: off
+
+

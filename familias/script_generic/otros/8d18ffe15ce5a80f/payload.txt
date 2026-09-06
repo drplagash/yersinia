@@ -1,0 +1,15 @@
+# sha256: 8d18ffe15ce5a80f8dc6c87af750d62ef37a519c0c1c5dd3967294b127d19cfd
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 03:34:14.252710 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: crm
+Events: off
+
+

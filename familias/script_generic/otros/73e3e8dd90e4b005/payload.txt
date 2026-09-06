@@ -1,0 +1,15 @@
+# sha256: 73e3e8dd90e4b005e9ea4cbb2ebad85ee32ee49652e68319995291efe5e5929d
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 03:34:04.947299 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: slipshot
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: da6fa2a2c2cf883971b314785fb8f9737a2ff8011c5e5b0e02766d754e0bbcf2
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 03:33:35.936627 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: hudpro
+Events: off
+
+

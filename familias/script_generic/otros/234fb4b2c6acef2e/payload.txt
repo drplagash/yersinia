@@ -1,0 +1,15 @@
+# sha256: 234fb4b2c6acef2e394871902ea6e42c32c61a31f35553d2adc4d589e0135512
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 03:34:17.431076 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: gohigh
+Events: off
+
+

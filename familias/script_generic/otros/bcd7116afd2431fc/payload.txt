@@ -1,0 +1,15 @@
+# sha256: bcd7116afd2431fc163dc1f559d875b9a10a675f92ab4a799a857cb6acd9d134
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 03:33:45.785529 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: livechat
+Events: off
+
+

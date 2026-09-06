@@ -1,0 +1,15 @@
+# sha256: c8183cebf2657b9e55abc6287b517496a3f5c52498458a3ed215eef2d47fc7c8
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 03:33:02.533694 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: asteriskclient
+Events: off
+
+

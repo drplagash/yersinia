@@ -1,0 +1,15 @@
+# sha256: f40635bce074746859a161eaae04623f54375230d67dff43ea92d6841e7aa7b9
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 03:34:27.299521 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: vicidialnow
+Events: off
+
+

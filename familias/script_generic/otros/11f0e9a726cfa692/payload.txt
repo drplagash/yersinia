@@ -1,0 +1,15 @@
+# sha256: 11f0e9a726cfa69239f10f00f2373c811d82efc2a0325e224c10e2b39ee11400
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 03:33:19.578553 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: galaxy
+Events: off
+
+
