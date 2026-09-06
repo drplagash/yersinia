@@ -1,0 +1,15 @@
+# sha256: fb609846f8bd22a82f5393fca299ac886168f3b1d9e73290853b7e13affc3575
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 02:19:38.758900 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: mera
+Events: off
+
+

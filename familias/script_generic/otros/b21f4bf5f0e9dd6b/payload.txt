@@ -1,0 +1,15 @@
+# sha256: b21f4bf5f0e9dd6bd6708a1754c5074323250230e5dc2148a338d570bcd77613
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 02:18:33.608538 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: wwwvoice
+Events: off
+
+

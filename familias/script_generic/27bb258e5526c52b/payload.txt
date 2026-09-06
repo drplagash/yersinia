@@ -1,0 +1,15 @@
+# sha256: 27bb258e5526c52bed5e116ea3092635df9949ac10fba48add05fc7b8be6eea8
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 02:19:02.137891 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: teles
+Events: off
+
+

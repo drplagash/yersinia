@@ -1,0 +1,15 @@
+# sha256: 0e8f43094a99e108f6d7cc266b4c15a20ad0f6cfa4ee75b0433a11ae9c3bd976
+# family: script_generic
+# kind: script
+# size_bytes: 84
+# first_seen: 2026-09-06 02:18:29.868509 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: eLaStIx.asteriskuser.2oo7
+Events: off
+
+

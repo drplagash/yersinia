@@ -1,0 +1,15 @@
+# sha256: 1627e13bea79fe4e502aa2d65a5aa4860e1d2de03abe6ae01f7960649155b66b
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 02:18:38.160389 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: QAZwix12345
+Events: off
+
+

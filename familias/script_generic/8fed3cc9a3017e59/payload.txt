@@ -1,0 +1,15 @@
+# sha256: 8fed3cc9a3017e59a04d6093a037af249f3f48bbbf1acb14c7a84b12ae665fc9
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 02:19:28.640903 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: VDAD
+Events: off
+
+
