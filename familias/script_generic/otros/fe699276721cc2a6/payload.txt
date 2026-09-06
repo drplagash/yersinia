@@ -1,0 +1,11 @@
+# sha256: fe699276721cc2a67ac007992c599dc60ef5ecc2502da4d1eadb741ed237a2b2
+# family: script_generic
+# kind: script
+# size_bytes: 32
+# first_seen: 2026-09-06 12:48:55.781123 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+EHLO 190.179.137.193
+STARTTLS
