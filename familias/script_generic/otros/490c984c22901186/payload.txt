@@ -1,0 +1,15 @@
+# sha256: 490c984c22901186fa6bcedf1837ecbd4cf605a52a12129402d7b430f3f93e92
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 03:48:20.743328 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: ttnet
+Events: off
+
+

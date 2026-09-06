@@ -1,0 +1,15 @@
+# sha256: b4ebe295bbb3644bc0a8adad503f06ac5fff82efbb3ef0fc31931a98349c0d95
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 03:49:18.937840 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: tmadmin
+Events: off
+
+

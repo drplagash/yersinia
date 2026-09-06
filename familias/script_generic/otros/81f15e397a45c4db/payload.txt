@@ -1,0 +1,15 @@
+# sha256: 81f15e397a45c4dbaaae549a30f96242ea29fc4e211fd6bded6f35f1ea8b599a
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 03:48:03.888663 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: wimax820
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: f39fb6531a105673e4ce965467d0dc2719e7955ec42f7a7b153a825e5b3c56fc
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 03:48:22.071782 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: crftpw
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 869ad479c0893e4b34870e71de4160e32a3689d6342df28a9d025dcc0f0656c5
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 03:48:35.019912 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: Kulacom
+Events: off
+
+

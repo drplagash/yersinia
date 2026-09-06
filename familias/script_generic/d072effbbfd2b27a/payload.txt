@@ -1,0 +1,15 @@
+# sha256: d072effbbfd2b27a5d0e05d603a1b47c83adb4be7bd1b1e04768d79dbaeeb1f2
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 03:48:44.553314 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: cisco
+Events: off
+
+

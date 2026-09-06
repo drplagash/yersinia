@@ -1,0 +1,15 @@
+# sha256: 6ca8eb0c48eb065fa5912d9915b299a4e614ff98c193e9b85ba9649c84c645af
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 03:48:42.991894 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: quescom
+Events: off
+
+

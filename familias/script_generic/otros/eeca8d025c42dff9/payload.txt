@@ -1,0 +1,15 @@
+# sha256: eeca8d025c42dff94fc042872730d2bd0ffb594eecded29e114d4c275409240f
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 03:48:12.331091 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: zoomadsl
+Events: off
+
+

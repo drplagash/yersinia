@@ -1,0 +1,15 @@
+# sha256: 9ebdd56d4994b816cb8434b1473b787385a395eabb8e538fb40008552b3e858f
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 03:48:29.974813 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: utstar
+Events: off
+
+

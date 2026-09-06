@@ -1,0 +1,15 @@
+# sha256: 9720addda492496858c7ab3b5cd300cd1b3871efc145984b6a8113bed05fa038
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 03:48:07.518693 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: fusionpbx
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: c8ccc77f42138c6d7fe9d50b854d35dce15a6035ab5cefd38e004237cebac125
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 03:47:59.628678 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: mysweex
+Events: off
+
+

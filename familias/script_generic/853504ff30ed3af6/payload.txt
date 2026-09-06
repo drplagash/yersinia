@@ -1,0 +1,15 @@
+# sha256: 853504ff30ed3af6e52ffe7a994a953ddb691f95a38c0dac69f3dfdb73eca148
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 03:48:48.153459 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: Menara
+Events: off
+
+

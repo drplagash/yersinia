@@ -1,0 +1,15 @@
+# sha256: 1f58b146a41fb54d213119d36653e3e317ec0983c021dfe99ca81a85a5236e4d
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 03:49:17.121441 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: cciadmin
+Events: off
+
+

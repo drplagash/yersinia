@@ -1,0 +1,15 @@
+# sha256: 6c47a1af0aee25e9a2a69ddf058e9504628b981af6d0cae5ddf4d24386cb5cb3
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 03:49:25.280693 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: antek
+Events: off
+
+

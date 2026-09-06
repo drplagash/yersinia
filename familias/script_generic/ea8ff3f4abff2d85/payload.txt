@@ -1,0 +1,15 @@
+# sha256: ea8ff3f4abff2d851923e0989fe0a0e5f41a0d47a1428fe8c2f24d9a9f873bfb
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 03:48:37.786324 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: trendchip
+Events: off
+
+

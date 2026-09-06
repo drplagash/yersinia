@@ -1,0 +1,15 @@
+# sha256: 52817d93438620437383170bb6abc42405cfeada34400edc5b906d6f1effa2dd
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 03:48:20.006908 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: adslnadam
+Events: off
+
+

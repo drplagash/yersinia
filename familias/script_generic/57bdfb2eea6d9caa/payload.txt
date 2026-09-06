@@ -1,0 +1,15 @@
+# sha256: 57bdfb2eea6d9caad8eef9c57f1e4f51f2e7fd45e74ad1b9fae785af9678d929
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 03:48:56.344601 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: epicrouter
+Events: off
+
+

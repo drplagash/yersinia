@@ -1,0 +1,15 @@
+# sha256: 11754af1f91b676fd362e51bca8a553875e9ed8e0fcf5704991d5d70365e8183
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 03:48:11.416793 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: motorola
+Events: off
+
+

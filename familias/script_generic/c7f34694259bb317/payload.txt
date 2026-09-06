@@ -1,0 +1,15 @@
+# sha256: c7f34694259bb317b29dc073bee0bd25f020f0eef93f6f07ab8b68349097cb38
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 03:49:04.744524 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: aethra
+Events: off
+
+

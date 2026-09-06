@@ -1,0 +1,15 @@
+# sha256: 2554bca90da159313b98903f1909af3ba99043b8eb6dead7290d5d9b8cf92b3f
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 03:49:03.968911 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: htc
+Events: off
+
+

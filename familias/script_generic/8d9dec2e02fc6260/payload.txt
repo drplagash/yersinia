@@ -1,0 +1,15 @@
+# sha256: 8d9dec2e02fc62606befa77748b94ce401cfcd97e1c6c5a694a8c89ef7143826
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 03:48:41.531370 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: telus177
+Events: off
+
+

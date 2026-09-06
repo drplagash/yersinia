@@ -1,0 +1,15 @@
+# sha256: 61fdb6afd1c8a8ee109c936ebfd4587348feec1097526cdafa0747246b8aa52d
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 03:48:00.838426 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: cableroot
+Events: off
+
+

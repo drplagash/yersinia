@@ -1,0 +1,15 @@
+# sha256: a02835049a4626ccfc6dc71d5e928b54b04b676cc6335ecdcb0465369c1aa5a6
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 03:48:10.158300 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: passs
+Events: off
+
+
