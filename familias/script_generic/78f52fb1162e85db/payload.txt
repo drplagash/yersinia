@@ -1,0 +1,15 @@
+# sha256: 78f52fb1162e85dbf7ef3da83d0ac217781ee43d206e9b65e185faef5288090d
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 08:19:23.929238 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: ripencc
+Events: off
+
+

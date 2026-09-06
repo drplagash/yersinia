@@ -1,0 +1,15 @@
+# sha256: 17460e03a0fc6cb4550fc9f45f99fe8bc4196c6b924bcc4f3ae0c7fd5885f6f6
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 08:20:39.219785 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: asterisksecret
+Events: off
+
+

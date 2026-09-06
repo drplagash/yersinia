@@ -1,0 +1,15 @@
+# sha256: 89dc966b7e007e0ccf43f2223fdcb901eacfc39721df22c156e736808e6e0ae1
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 08:19:52.293462 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: epicrouter
+Events: off
+
+

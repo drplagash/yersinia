@@ -1,0 +1,15 @@
+# sha256: e95d05ecbffeb1817995dd99fcd14d1e7ab1f7b1021a66c7da0180672ec37d6a
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 08:20:29.122936 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: monast_secret
+Events: off
+
+

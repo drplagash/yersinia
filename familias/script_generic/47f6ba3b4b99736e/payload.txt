@@ -1,0 +1,15 @@
+# sha256: 47f6ba3b4b99736e99ac95421fbe3df04fa6c6ad80484018959461f6a8fbc577
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 08:20:34.990909 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: quescom
+Events: off
+
+
