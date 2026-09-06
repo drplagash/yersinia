@@ -1,0 +1,15 @@
+# sha256: f4eaf50668767e58db79bedbb14d50ba865cb6c89f02900a3fe97ed8fefd204b
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 05:19:48.077289 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: astconf
+Events: off
+
+

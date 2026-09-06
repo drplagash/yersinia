@@ -1,0 +1,15 @@
+# sha256: 2ea21715a6888a1b60ffa5748adf1cb73d09f08958f002b74aa723e702f3078d
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 05:18:29.311787 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: amp111
+Events: off
+
+

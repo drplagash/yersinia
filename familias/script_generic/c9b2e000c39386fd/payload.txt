@@ -1,0 +1,15 @@
+# sha256: c9b2e000c39386fdbaea2d272eebfc5939310ffc87ba639d84c444d4332180ba
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 05:19:49.127227 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: voip12
+Events: off
+
+
