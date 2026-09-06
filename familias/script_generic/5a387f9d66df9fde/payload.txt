@@ -1,0 +1,15 @@
+# sha256: 5a387f9d66df9fdeeeb8fbff4d4a4aecca4da5a95ce8e6d02c31c68f0aaa0a5c
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 10:21:04.222412 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: wimax820
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 073e2bfcf25f8271294a3e3b54c50ed60eae8a7c5e48c426c3cf9fe7696fb405
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 10:21:08.477476 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: gvt12345
+Events: off
+
+

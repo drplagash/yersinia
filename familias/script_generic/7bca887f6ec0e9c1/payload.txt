@@ -1,0 +1,15 @@
+# sha256: 7bca887f6ec0e9c143477cc65a33670218b205451a482501ecd9a55e5c211efd
+# family: script_generic
+# kind: script
+# size_bytes: 74
+# first_seen: 2026-09-06 10:21:14.658357 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: nCwMnJVGag
+Events: off
+
+

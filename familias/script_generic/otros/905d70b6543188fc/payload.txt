@@ -1,0 +1,20 @@
+# sha256: 905d70b6543188fcb9c54f2fc07f7242a99c7f079598010612c2318cb5a34d7c
+# family: script_generic
+# kind: script
+# size_bytes: 347
+# first_seen: 2026-09-06 10:18:50.002614 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+OPTIONS sip:190.179.189.200:5100 SIP/2.0
+Via: SIP/2.0/TCP 190.179.189.200:5100;branch=z9hG4bK53a6d77e
+Max-Forwards: 70
+From: <sip:scanner@190.179.189.200>;tag=53a6d77e
+To: <sip:190.179.189.200:5100>
+Call-ID: 53a6d77e@190.179.189.200
+CSeq: 1 OPTIONS
+Contact: <sip:scanner@190.179.189.200:5100>
+Accept: application/sdp
+Content-Length: 0
+

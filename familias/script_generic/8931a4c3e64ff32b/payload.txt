@@ -1,0 +1,15 @@
+# sha256: 8931a4c3e64ff32b14eb1b151ca5f098173a78a6f9dca2a3c5d6c6d17f811a1e
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 10:21:07.141026 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: Menara
+Events: off
+
+

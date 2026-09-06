@@ -1,0 +1,15 @@
+# sha256: 399c666f1e6c97d1d48a8b230f59dec590ddbd5b0a2702e7383ea663fd4ce125
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 10:18:47.221649 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: htc
+Events: off
+
+

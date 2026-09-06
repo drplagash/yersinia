@@ -1,0 +1,15 @@
+# sha256: 816f9f083444adab623125bb07f1574cbc657ee7cb0c4c51eea1aaf2a731b5ef
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 10:18:42.219964 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: Kulacom
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 0431b4644e078cc7d4f634a86c7a78ca423c6222053cfbf04a18282764274ae9
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 10:20:37.891616 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: tcs-ag
+Events: off
+
+

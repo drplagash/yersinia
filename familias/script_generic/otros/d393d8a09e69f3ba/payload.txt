@@ -1,0 +1,15 @@
+# sha256: d393d8a09e69f3bad14f46cb6d1bd602e5a9a82469e5e5d94d48f1c049fbedf7
+# family: script_generic
+# kind: script
+# size_bytes: 77
+# first_seen: 2026-09-06 10:19:01.070941 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: microbusiness
+Events: off
+
+

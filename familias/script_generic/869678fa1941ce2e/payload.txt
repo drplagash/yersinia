@@ -1,0 +1,15 @@
+# sha256: 869678fa1941ce2ef588dbe812791528639a9dec5462efe6b72fd45e003a208c
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 10:20:04.029790 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: albert
+Events: off
+
+

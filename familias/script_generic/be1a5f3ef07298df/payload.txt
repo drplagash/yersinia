@@ -1,0 +1,15 @@
+# sha256: be1a5f3ef07298df47dacca58f42b52c5bddc4985d582dde5f97a277a4d1b3c0
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 10:20:07.051317 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: draadloos
+Events: off
+
+

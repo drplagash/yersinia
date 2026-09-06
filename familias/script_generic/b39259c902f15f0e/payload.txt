@@ -1,0 +1,15 @@
+# sha256: b39259c902f15f0e1f34ec70fb8e9a4e0eb56e66dd96fab2590231c09ec08057
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 10:19:27.944766 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: tux
+Events: off
+
+
