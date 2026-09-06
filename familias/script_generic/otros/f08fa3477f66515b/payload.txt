@@ -1,0 +1,15 @@
+# sha256: f08fa3477f66515b230401b4f2cd37d630fc5813662e7de7aa1fe0b3d5affe50
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 06:04:45.321790 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: voip1
+Events: off
+
+

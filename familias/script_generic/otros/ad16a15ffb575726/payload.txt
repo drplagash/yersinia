@@ -1,0 +1,15 @@
+# sha256: ad16a15ffb57572679fc1f4de70c0d49b64e93e05ca1802ef2a5de580f375292
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 06:04:32.157092 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: freepbx
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 99d06f4762c1732f82ffa346620ac2aa8ac645c9b179318649f6ba7e608e7b9b
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 06:04:11.257017 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: orderl
+Events: off
+
+

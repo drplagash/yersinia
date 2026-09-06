@@ -1,0 +1,15 @@
+# sha256: aa14c85cd98acfbfc0a7ff01c4e148432eea2b87d631186b302b0164bed02f29
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 06:03:49.926014 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: fpbx
+Events: off
+
+

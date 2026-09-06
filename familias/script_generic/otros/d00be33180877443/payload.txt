@@ -1,0 +1,15 @@
+# sha256: d00be33180877443e6093dc95ed640432df7a0d408a00db9fc4166594665d243
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 06:04:37.581206 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: ipphone
+Events: off
+
+
