@@ -1,0 +1,15 @@
+# sha256: e51ec537b83aae16b179e9e81845f75f712164d53486fcfd0c457d722c0a296e
+# family: script_generic
+# kind: script
+# size_bytes: 61
+# first_seen: 2026-09-06 05:04:06.213894 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: glue
+Events: off
+
+

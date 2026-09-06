@@ -1,0 +1,15 @@
+# sha256: cb9f51904378ecc1a1caeb2f39262f0cf6c2c1cc6923714530cb789e646d7640
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 05:03:39.463944 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: asteriskuser
+Events: off
+
+

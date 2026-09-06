@@ -1,0 +1,15 @@
+# sha256: bd09e8ef949ffdbaf42c6ac20c4ae9d736f63b9a894d70f620e6032b4d12d913
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 05:03:13.195846 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: fpbx
+Events: off
+
+

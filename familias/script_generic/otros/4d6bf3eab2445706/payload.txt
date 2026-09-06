@@ -1,0 +1,15 @@
+# sha256: 4d6bf3eab244570651ec3d006e8acc600cd2f364cd3d8ca327d2001ecfa1594b
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 05:04:14.996840 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: nec99
+Events: off
+
+
