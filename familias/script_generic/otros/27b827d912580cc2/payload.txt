@@ -1,0 +1,15 @@
+# sha256: 27b827d912580cc2bda286baacd74fba3b7ca6a51874e94b1abc3f9f5b2f7199
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 04:34:18.495687 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: monast_user
+Events: off
+
+

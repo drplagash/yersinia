@@ -1,0 +1,15 @@
+# sha256: d7177a322e2ca24375630f386487581e39ccb412499e73b558110ae185b49541
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 04:34:28.238635 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: livechat
+Events: off
+
+
