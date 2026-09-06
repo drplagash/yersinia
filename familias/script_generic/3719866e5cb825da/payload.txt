@@ -1,0 +1,15 @@
+# sha256: 3719866e5cb825da5aa3bd9c9ed514c33f8a76a8281fb4d504c2869c0c58eeed
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 00:18:04.046021 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: epicrouter
+Events: off
+
+
