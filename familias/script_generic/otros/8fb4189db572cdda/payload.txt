@@ -1,0 +1,15 @@
+# sha256: 8fb4189db572cdda95ba65a69032ba62750386fe033e95d512e376f8baba64cd
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 05:48:01.931647 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: microbusiness
+Events: off
+
+

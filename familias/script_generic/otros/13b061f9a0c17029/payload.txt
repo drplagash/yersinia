@@ -1,0 +1,15 @@
+# sha256: 13b061f9a0c170291f96a21a69da35f400c0bfc46cb6deeb92ceb69aa785b690
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 05:48:11.728595 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: utstar
+Events: off
+
+

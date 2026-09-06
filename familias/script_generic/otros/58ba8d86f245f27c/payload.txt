@@ -1,0 +1,15 @@
+# sha256: 58ba8d86f245f27c557a7a60b3a2be540f522fbf1b96cc16c503598bd25139de
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 05:50:04.821490 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: smcadmin
+Events: off
+
+

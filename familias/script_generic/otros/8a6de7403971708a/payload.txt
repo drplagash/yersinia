@@ -1,0 +1,15 @@
+# sha256: 8a6de7403971708aaedd364044e8e352e756daa23e8cbb82e119fb09f8fee7de
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 05:49:59.197353 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: addpac
+Events: off
+
+

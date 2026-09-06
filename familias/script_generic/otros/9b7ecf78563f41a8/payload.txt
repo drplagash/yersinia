@@ -1,0 +1,15 @@
+# sha256: 9b7ecf78563f41a83eff6d9600b87ce5279d1bd8cc6fe5d2862b3b69f82221ed
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 05:48:30.146330 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: gvt12345
+Events: off
+
+

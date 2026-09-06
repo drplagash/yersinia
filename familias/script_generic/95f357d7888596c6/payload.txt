@@ -1,0 +1,15 @@
+# sha256: 95f357d7888596c6db70782025fac6694f97ec6417a9a1a42b9500b9fc7e9a61
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 06:03:23.610044 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: Aspire
+Events: off
+
+

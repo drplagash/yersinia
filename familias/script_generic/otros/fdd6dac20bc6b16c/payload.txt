@@ -1,0 +1,15 @@
+# sha256: fdd6dac20bc6b16c16c091f06e202debe393b812c070f233ee526042139d2e01
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 05:49:21.450045 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: aerobics
+Events: off
+
+

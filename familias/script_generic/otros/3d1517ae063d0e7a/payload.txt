@@ -1,0 +1,15 @@
+# sha256: 3d1517ae063d0e7add08757abbe5876a0772b8cfd1fc41d19633e532a9737f47
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 05:49:15.374405 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: academic
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 0751cb5294827d05eeb9bb54e21f64bef61a257509ad9455beba9687ee0b764a
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 05:48:27.303863 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: mysweex
+Events: off
+
+

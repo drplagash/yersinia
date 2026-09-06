@@ -1,0 +1,15 @@
+# sha256: c58396eee5ce1f8ed47ca7b53a4ea2f8ddae6a3de5d991e4fc17e09c18955b1d
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 05:49:24.894151 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: draadloos
+Events: off
+
+

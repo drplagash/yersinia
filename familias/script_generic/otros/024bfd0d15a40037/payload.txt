@@ -1,0 +1,15 @@
+# sha256: 024bfd0d15a400371f0ff4b5a3f55a20adf44278350a3641ea99db8fc162a334
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 05:48:59.715578 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: ubnt
+Events: off
+
+

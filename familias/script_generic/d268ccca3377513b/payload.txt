@@ -1,0 +1,15 @@
+# sha256: d268ccca3377513bdb30f97c011b37ec256a7cccf7f32ab8e7cc8e52b5b16dab
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 06:03:18.259722 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: adminpbx
+Events: off
+
+
