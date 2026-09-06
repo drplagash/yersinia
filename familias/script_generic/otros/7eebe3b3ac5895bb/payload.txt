@@ -1,0 +1,15 @@
+# sha256: 7eebe3b3ac5895bb5575dfde85f30e9fc836d4fdf11217edb9ceeaa83c72f507
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 01:34:03.984090 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: Aastra
+Events: off
+
+

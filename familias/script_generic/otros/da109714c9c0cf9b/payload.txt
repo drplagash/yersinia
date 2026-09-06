@@ -1,0 +1,15 @@
+# sha256: da109714c9c0cf9b22d2ba17187547718510df5211f549d7c7c7dc6ab83c3cdc
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 01:33:37.178877 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: Aspire
+Events: off
+
+

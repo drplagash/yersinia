@@ -1,0 +1,15 @@
+# sha256: 72497a12cf0c4e86d7a2a21805847a7d8320065ed0d2f1468582729d9008800f
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 01:33:53.570828 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: teles
+Events: off
+
+

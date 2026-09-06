@@ -1,0 +1,15 @@
+# sha256: 27b9b0b1df5991a558717e68dab6f66f4d91f997f919f6b8def2bced907daa9f
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 01:33:49.128486 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: mera
+Events: off
+
+

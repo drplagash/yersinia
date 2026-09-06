@@ -1,0 +1,15 @@
+# sha256: b3bd31da188fecdf7957d2cd7ffb1e20e6a30d357dc9813c89d8f023c0a4e40d
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 01:33:57.696840 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: voip
+Events: off
+
+

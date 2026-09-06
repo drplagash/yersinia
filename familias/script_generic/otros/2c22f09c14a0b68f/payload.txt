@@ -1,0 +1,15 @@
+# sha256: 2c22f09c14a0b68f2d731dc8342fc4aa556dac472f88873302cece6ed9a0f037
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:33:03.429028 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: wwwvoice
+Events: off
+
+
