@@ -1,0 +1,15 @@
+# sha256: 0df3ff837c1e26f2fba33fcb2ae631cb44d5ce0be069fbd9b5b31f6d42e0e8c3
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:03:55.529913 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: motorola
+Events: off
+
+

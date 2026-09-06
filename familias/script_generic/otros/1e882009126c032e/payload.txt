@@ -1,0 +1,15 @@
+# sha256: 1e882009126c032e46940a4be8f1a7494763d87afc5a36733d78f4134619e8a5
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 01:03:32.936221 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: aethra
+Events: off
+
+

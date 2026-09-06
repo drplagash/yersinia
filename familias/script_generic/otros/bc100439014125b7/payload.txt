@@ -1,0 +1,15 @@
+# sha256: bc100439014125b7a9e94cf2b115c2e21342541d638c55ab0d4d09e473a5ea90
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 01:03:02.260338 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: trendchip
+Events: off
+
+

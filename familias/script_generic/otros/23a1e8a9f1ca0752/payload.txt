@@ -1,0 +1,15 @@
+# sha256: 23a1e8a9f1ca0752a22a38fe2a1f99e62ac78f271ef363326c6fddf84e318842
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:03:39.299726 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: wimax820
+Events: off
+
+

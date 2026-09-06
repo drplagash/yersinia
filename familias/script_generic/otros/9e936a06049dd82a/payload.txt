@@ -1,0 +1,15 @@
+# sha256: 9e936a06049dd82a1d528efb1bd8da699e7bd4759d3ae8aeb4abd07c8bc974a6
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 01:03:42.313847 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: quescom
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 25d28062af114e9a56012e1dbea58d902ca31bae72ed79aed7f9c415c4983b9f
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 01:03:26.907126 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: crftpw
+Events: off
+
+

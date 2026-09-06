@@ -1,0 +1,15 @@
+# sha256: 165eadf5b881b0252f162d85e29acf38dbb528f2c6ff6fe8f04345a96450bed0
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 01:03:13.995446 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: antek
+Events: off
+
+

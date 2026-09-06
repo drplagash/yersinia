@@ -1,0 +1,15 @@
+# sha256: 5a1fa8be1ca3ea1073f00ef4aeb7160dde1e23c429a89f0ad3910a5d544aa4b2
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 01:03:34.052849 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: tcs-ag
+Events: off
+
+

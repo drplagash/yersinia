@@ -1,0 +1,15 @@
+# sha256: 923ab45beb93109dc601b7733dc5444528e2e247b9141cba588381e0b71860dc
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 01:03:24.844360 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: c@ntv2000
+Events: off
+
+

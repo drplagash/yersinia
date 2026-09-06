@@ -1,0 +1,15 @@
+# sha256: df052b60163d77fb027765fe376c76fc2be42eb825110fa6ac3fc7cf3160202d
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 01:03:34.740372 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: fusionpbx
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 2f6e6776f072cb5c16068ef3643b5dfdbc063307d5661e796b2f2f449fa84c49
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:04:05.994113 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: telus177
+Events: off
+
+

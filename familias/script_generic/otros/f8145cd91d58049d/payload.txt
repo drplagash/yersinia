@@ -1,0 +1,15 @@
+# sha256: f8145cd91d58049d2d626a49e03eb720a3ca2060519b0e9417c38f3c68953951
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 01:03:44.187843 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: ripencc
+Events: off
+
+

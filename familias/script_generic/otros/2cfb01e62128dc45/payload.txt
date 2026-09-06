@@ -1,0 +1,15 @@
+# sha256: 2cfb01e62128dc45c1851c4527f00971690df8e119f3d22a2d1d4125ce488430
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 01:03:45.299872 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: cisco
+Events: off
+
+

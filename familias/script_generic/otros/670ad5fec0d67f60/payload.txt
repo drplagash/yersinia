@@ -1,0 +1,15 @@
+# sha256: 670ad5fec0d67f608e10571d8761193d77c1305789077ef59ce5d71c6cc0464f
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:03:04.368448 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: slipshot
+Events: off
+
+

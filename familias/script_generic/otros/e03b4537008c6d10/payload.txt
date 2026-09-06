@@ -1,0 +1,15 @@
+# sha256: e03b4537008c6d1039a4a238fbf3f23471972241dee3f2c994254c8541f106c9
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 01:03:29.945058 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: epicrouter
+Events: off
+
+
