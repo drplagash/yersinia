@@ -1,0 +1,15 @@
+# sha256: 251eee4b20185226d6a8f171e22a5f2b78cbb45213d4b8ace31b083957968052
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:18:48.185400 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: aerobics
+Events: off
+
+

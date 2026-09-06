@@ -1,0 +1,15 @@
+# sha256: 526c8f450e250dc2e9a405e22430dd98dbe79c16018d70044f92b88a7b9597b1
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 11:20:58.026521 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: albatross
+Events: off
+
+

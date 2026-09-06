@@ -1,0 +1,15 @@
+# sha256: f2dc88395bf9bd6b63790a5a38e194122de20e46a7965a85765fc0b5559de844
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:20:09.616452 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: telus177
+Events: off
+
+

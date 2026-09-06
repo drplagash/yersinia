@@ -1,0 +1,15 @@
+# sha256: 416db71213a2aeb69e4f1631b1a85765832f40c2fa2d04e310ab6ad6554d9ffb
+# family: script_generic
+# kind: script
+# size_bytes: 61
+# first_seen: 2026-09-06 11:18:32.329474 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: alaxy
+Events: off
+
+

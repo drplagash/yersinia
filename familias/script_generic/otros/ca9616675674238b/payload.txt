@@ -1,0 +1,15 @@
+# sha256: ca9616675674238b16b7e7c7ce06e72eaf9798f3539debdb0a4495f516051ea7
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:21:11.292397 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: gvt12345
+Events: off
+
+

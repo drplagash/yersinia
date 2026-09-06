@@ -1,0 +1,15 @@
+# sha256: 6fb4bae1eb3c3a8c13f5af278d0a84953e6072aa4ff895e8ae5a6e317b08588c
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 11:18:30.250851 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: pbx123
+Events: off
+
+

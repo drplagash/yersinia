@@ -1,0 +1,15 @@
+# sha256: 3aacb4752ba0c8d17026f184441e1e8b7a21195e9a015a678bf37c622099b29c
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:20:38.110053 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: academic
+Events: off
+
+

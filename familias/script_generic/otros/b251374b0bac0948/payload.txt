@@ -1,0 +1,15 @@
+# sha256: b251374b0bac09484cae1afcc3f92b30bbae8f4ecd6acf179dbdd72413d4d67f
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 11:19:05.707801 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: orderl
+Events: off
+
+
