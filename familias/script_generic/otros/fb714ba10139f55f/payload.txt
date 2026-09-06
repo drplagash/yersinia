@@ -1,0 +1,15 @@
+# sha256: fb714ba10139f55fc2f3c90d4e24b23788cb1f82d0d3f471802ca111aa1af28a
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 00:05:30.661510 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: crftpw
+Events: off
+
+

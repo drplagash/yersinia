@@ -1,0 +1,15 @@
+# sha256: 1b740ae5ae0f9b13e9d8371f8fb58bd134e0eef9acb1c7ead77a0d393f6da436
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:04:46.437785 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: slipshot
+Events: off
+
+

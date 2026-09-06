@@ -1,0 +1,15 @@
+# sha256: 17353dbe986a566254a3213f927e9a6506b3702c5d7d8474baa0552e421fc4aa
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 00:05:14.149938 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: aethra
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: aa68e2282d620ef416a1c3530a972fb69ce6adf9618fb0a32b1b2fe8bed2bd43
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:05:17.868464 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: pass1234
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 854a9bcb7995070344346a454744259f79062a37fe5cd304f0a7928d18dd887b
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 00:03:12.829312 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: antek
+Events: off
+
+

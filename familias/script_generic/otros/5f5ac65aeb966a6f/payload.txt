@@ -1,0 +1,15 @@
+# sha256: 5f5ac65aeb966a6f937262a73164f6ca25571b69c35d6e863d6f6a4000e28e35
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 00:04:00.212308 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: fusionpbx
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 1f7a1cb3f3b017a4be0e146c4c3e45d6279f3144efdded606b59043dc292c2f7
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 00:03:40.795549 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: orderlystats
+Events: off
+
+

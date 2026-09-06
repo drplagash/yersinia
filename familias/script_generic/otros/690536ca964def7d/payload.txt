@@ -1,0 +1,15 @@
+# sha256: 690536ca964def7db0d7c43f77388c9ba985667ab909b275a2709a5d5af663ae
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 00:05:11.836251 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: quescom
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: cd987215e5a2a32f6ad00865e2cd86a49f95d13c715912ed3cf1d7a52ce32019
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 00:03:21.865568 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: cisco
+Events: off
+
+

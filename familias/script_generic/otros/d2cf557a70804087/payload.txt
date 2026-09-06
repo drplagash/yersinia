@@ -1,0 +1,15 @@
+# sha256: d2cf557a7080408773f46d238810fa55913701e4575921a98945b6f2eb4a0971
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 00:05:39.483730 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: delink
+Events: off
+
+

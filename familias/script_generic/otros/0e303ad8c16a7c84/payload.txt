@@ -1,0 +1,15 @@
+# sha256: 0e303ad8c16a7c843dadab46c68364a1eb431826c2a4c13846c35566c06456b5
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 00:05:20.833207 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: tcs-ag
+Events: off
+
+

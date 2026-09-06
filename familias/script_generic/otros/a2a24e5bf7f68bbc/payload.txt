@@ -1,0 +1,15 @@
+# sha256: a2a24e5bf7f68bbc066e0cd68f4db18d1df7f093034eef58ffc853e3a7283bfc
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 00:04:59.476339 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: hudpro
+Events: off
+
+

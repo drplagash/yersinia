@@ -1,0 +1,15 @@
+# sha256: f8aad20f2aa65e6b3403680887c36b4bd2937f6fe35e30530c652644f1500d3e
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:04:06.561249 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: livechat
+Events: off
+
+

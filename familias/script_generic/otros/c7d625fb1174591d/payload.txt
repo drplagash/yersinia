@@ -1,0 +1,15 @@
+# sha256: c7d625fb1174591d634e602394f7bdb418e42e061a7abce57666265bda573eb9
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 00:04:53.995617 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: astercc
+Events: off
+
+

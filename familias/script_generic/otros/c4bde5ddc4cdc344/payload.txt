@@ -1,0 +1,15 @@
+# sha256: c4bde5ddc4cdc3442d31c7e20c127a22931f29e4fc6b87daf46e6e61bc16b58f
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 00:05:25.425809 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: phpagi
+Events: off
+
+

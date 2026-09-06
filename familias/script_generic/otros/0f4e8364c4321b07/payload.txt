@@ -1,0 +1,15 @@
+# sha256: 0f4e8364c4321b079b447df7924e7ba4ccc00c656e73fb67d75f2fadcdcf84d7
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 00:03:05.635967 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: phoneglue
+Events: off
+
+

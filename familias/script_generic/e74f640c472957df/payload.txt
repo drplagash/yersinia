@@ -1,0 +1,15 @@
+# sha256: e74f640c472957df9d70db3c7fc26ae335c663192932f7525604bdb0cbea7257
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 00:05:47.770340 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: galaxy
+Events: off
+
+
