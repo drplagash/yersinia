@@ -1,0 +1,15 @@
+# sha256: 659a4108fb8c01445bb32fcb5255ca8ca5059a380fbffc2a63cd979aaff8832f
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 04:19:12.689173 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: gohigh
+Events: off
+
+
