@@ -1,0 +1,15 @@
+# sha256: 5406a441b40fe02ed4cd512cc03d20982692e7561e89cd69d83bf8cab571081e
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 10:21:18.227530 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: trendchip
+Events: off
+
+

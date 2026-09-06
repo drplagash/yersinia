@@ -1,0 +1,15 @@
+# sha256: bfede841944fa52f6bf54f31e87aba3b600f92fa88bb3d732411905d1da26463
+# family: script_generic
+# kind: script
+# size_bytes: 75
+# first_seen: 2026-09-06 10:33:45.466093 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: QAZwix12345
+Events: off
+
+
