@@ -1,0 +1,15 @@
+# sha256: 3d50ad95cd1fa4ecb7fc4f053edcca2f2790224bc767ed399e0e43372f1f9bb8
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 11:49:26.992448 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: astercc
+Events: off
+
+

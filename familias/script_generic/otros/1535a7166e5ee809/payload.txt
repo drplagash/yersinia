@@ -1,0 +1,15 @@
+# sha256: 1535a7166e5ee809884d8cf04ce5c605ade77ace33b29168c683915f83147176
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:50:50.289239 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: phpagi
+Events: off
+
+

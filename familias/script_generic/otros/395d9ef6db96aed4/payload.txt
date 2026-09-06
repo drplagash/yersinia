@@ -1,0 +1,15 @@
+# sha256: 395d9ef6db96aed4e2f41dfe3b0b14dd371dd15598f156657e989f66b8ce6061
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 11:50:48.394499 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: astconf
+Events: off
+
+

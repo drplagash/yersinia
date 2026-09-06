@@ -1,0 +1,15 @@
+# sha256: 536a8173ccaf04630da1f9ed271aea6fa625573eadc91cacfe40e15b6761707a
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 11:50:35.510329 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: elastix456
+Events: off
+
+

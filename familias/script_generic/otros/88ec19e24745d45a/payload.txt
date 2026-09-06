@@ -1,0 +1,15 @@
+# sha256: 88ec19e24745d45ac12540f4cd52c0b1fa663d3d9f0f8073ac9104e15edf8637
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 11:51:26.721923 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: cron
+Events: off
+
+

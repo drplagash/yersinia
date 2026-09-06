@@ -1,0 +1,15 @@
+# sha256: c2fbd079e089f22ebceb97982f143f0c8019613bbc4f06a8b891df8390bbf6c0
+# family: script_generic
+# kind: script
+# size_bytes: 61
+# first_seen: 2026-09-06 11:49:56.680512 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: crm
+Events: off
+
+

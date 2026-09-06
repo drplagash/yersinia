@@ -1,0 +1,15 @@
+# sha256: b283818d6f67acd6db86c78a088d0fddf0ffa11b36c26a66bda6d4576d422a01
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 11:51:14.285322 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: vicidialnow
+Events: off
+
+

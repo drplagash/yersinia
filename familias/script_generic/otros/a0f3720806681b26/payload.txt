@@ -1,0 +1,15 @@
+# sha256: a0f3720806681b264ec0156f5b3f7ee7307b7f59d945f2d3ed29803b6ccdb640
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 11:51:21.486088 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: orderlystats
+Events: off
+
+

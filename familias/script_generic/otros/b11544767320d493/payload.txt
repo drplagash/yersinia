@@ -1,0 +1,15 @@
+# sha256: b11544767320d493651431f87110a7f0b561c8fc47f5644b9edc18e0948a1051
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 11:51:25.555762 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: phoneglue
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 54475247b6464e22e2a2c2e106f92f404f8f40818aea8e6c791425c374d03a34
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 11:51:03.059480 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: asteriskclient
+Events: off
+
+

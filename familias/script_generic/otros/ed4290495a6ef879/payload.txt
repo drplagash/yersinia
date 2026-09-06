@@ -1,0 +1,15 @@
+# sha256: ed4290495a6ef879bcffa3592e07931b19c1c8f8470e91c87fc384c965c98c4d
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:48:21.183135 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: delink
+Events: off
+
+

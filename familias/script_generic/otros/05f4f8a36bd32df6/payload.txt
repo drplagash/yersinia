@@ -1,0 +1,15 @@
+# sha256: 05f4f8a36bd32df672c48ecd0cfcf0595ffae2255bdd494fc3e263e9f64ef505
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 11:50:59.088244 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: livechat
+Events: off
+
+

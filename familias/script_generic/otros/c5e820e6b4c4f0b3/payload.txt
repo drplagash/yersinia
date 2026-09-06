@@ -1,0 +1,15 @@
+# sha256: c5e820e6b4c4f0b374f1adbf15a614eecf0003ea1d001544524a8c9f7f8ca551
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:50:45.322513 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: gohigh
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 592f7e4d9f19efe17775a662d451920653f6cc739ae7953025b759f866d70377
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 11:49:18.210196 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: dpro
+Secret: galaxy
+Events: off
+
+
