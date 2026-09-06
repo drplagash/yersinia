@@ -1,0 +1,15 @@
+# sha256: 32a7aaf3a871de2695f66d47d2f1738de8eb98dc839cef701dd675d03f97f985
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 08:33:43.187545 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: nCwMnJVGag
+Events: off
+
+

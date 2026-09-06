@@ -1,0 +1,15 @@
+# sha256: 22536d1b0fa61fddb0a1ed66913e04743298f2a7d09608e76c63ea1b666f2c0e
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 08:33:04.447159 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: aerobics
+Events: off
+
+
