@@ -1,0 +1,15 @@
+# sha256: ecbcc312db69f737da941de09fc7f0a5e0f2e8560f3bdeb7443403996ed93205
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 07:49:03.194819 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: QAZwix12345
+Events: off
+
+

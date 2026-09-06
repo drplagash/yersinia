@@ -1,0 +1,15 @@
+# sha256: c783c0531b2dfd76e7bc18532bdb4357df8ba770bd4a9cea78bb3a5c260789fd
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 07:48:56.468755 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: albany
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: cd122aea11f9fda6b77103b98002626d134fb5f8acf1ec9ea8fab316c84ff294
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 07:50:29.897024 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: airplane
+Events: off
+
+

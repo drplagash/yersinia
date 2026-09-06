@@ -1,0 +1,15 @@
+# sha256: 11a0646fd2e64412c5e3c1293b2836f767e7a55f0959bc163f35a8104008e863
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 07:49:40.837027 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: aler
+Events: off
+
+

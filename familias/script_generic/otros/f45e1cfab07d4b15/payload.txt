@@ -1,0 +1,15 @@
+# sha256: f45e1cfab07d4b15b535bffd13b7a3f3f8ce40621e3f1cc3fdfa9f6bf0e8e969
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 07:49:13.307320 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: ipphone
+Events: off
+
+

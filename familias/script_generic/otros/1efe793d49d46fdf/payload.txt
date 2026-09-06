@@ -1,0 +1,15 @@
+# sha256: 1efe793d49d46fdf668ebdf68115083854e53b6eceee9bd97a8e2b97f75988b8
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 07:49:37.555671 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: adrianna
+Events: off
+
+
