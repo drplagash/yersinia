@@ -1,0 +1,15 @@
+# sha256: 4e7acd2af512d111a7a09bb5f5d3f90090bd146c90e3522d37d6c8ad958a1429
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:50:29.943145 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: allvoi
+Events: off
+
+

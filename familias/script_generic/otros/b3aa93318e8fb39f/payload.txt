@@ -1,0 +1,15 @@
+# sha256: b3aa93318e8fb39fbd1bdc2e783f0bd58f35c3818b39381b09019892289fcec6
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 09:49:52.210021 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: amp113
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: d5ce131efae2f9e636274235fc56fe33cf86bd256da3dba0cac284d7b931b886
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:50:01.196381 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: Aspire
+Events: off
+
+

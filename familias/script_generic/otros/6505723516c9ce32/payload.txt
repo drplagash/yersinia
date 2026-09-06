@@ -1,0 +1,15 @@
+# sha256: 6505723516c9ce32de830c7e2edfc4f1696196f80a59622d92e1934651b8c71b
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 09:48:06.995065 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: nec99
+Events: off
+
+

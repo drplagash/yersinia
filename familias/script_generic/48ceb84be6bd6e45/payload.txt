@@ -1,0 +1,15 @@
+# sha256: 48ceb84be6bd6e45b43357063f4fa5c935c700383f3cb349fc43b15dc28966a7
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:50:03.053807 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: freepbx
+Events: off
+
+

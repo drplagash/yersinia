@@ -1,0 +1,15 @@
+# sha256: 47410d79a6f69e988210362826f59b33360732fea11d40041165ed7f320f1431
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 09:50:21.024653 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: teles
+Events: off
+
+

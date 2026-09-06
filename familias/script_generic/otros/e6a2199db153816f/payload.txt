@@ -1,0 +1,15 @@
+# sha256: e6a2199db153816f8518423501527f097812d3fa836ac2f77a2d7e73857a02e3
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 09:48:08.203908 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: voip1234
+Events: off
+
+

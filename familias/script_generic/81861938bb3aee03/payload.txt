@@ -1,0 +1,15 @@
+# sha256: 81861938bb3aee03feacb432f5895670f9f0a99aea49464e70b641f53448e521
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 09:50:42.813848 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: router123
+Events: off
+
+
