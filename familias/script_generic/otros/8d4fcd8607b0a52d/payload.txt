@@ -1,0 +1,10 @@
+# sha256: 8d4fcd8607b0a52dec4d71996a21eb5403b503448676a23f3533beaacf8b4681
+# family: script_generic
+# kind: script
+# size_bytes: 475
+# first_seen: 2026-09-06 12:19:40.138769 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsd="http://schemas.xmlsoap.org/ws/2005/04/discovery"><env:Header><wsa:To>urn:schemas-xmlsoap-org:ws:2005:04:discovery</wsa:To><wsa:Action>http://schemas.xmlsoap.org/ws/2005/04/discovery/Probe</wsa:Action><wsa:MessageID>urn:uuid:0067bac8-1ea6-4ee9-8b81-0a59efc3689b</wsa:MessageID></env:Header><env:Body><wsd:Probe/></env:Body></env:Envelope>
