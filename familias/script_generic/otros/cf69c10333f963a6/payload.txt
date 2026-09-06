@@ -1,0 +1,15 @@
+# sha256: cf69c10333f963a6542b9408f154e0aab2d32078beaea3123c3e7b88007aadff
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-05 23:48:25.153582 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: voip123
+Events: off
+
+

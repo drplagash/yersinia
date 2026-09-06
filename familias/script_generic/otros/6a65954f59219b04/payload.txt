@@ -1,0 +1,15 @@
+# sha256: 6a65954f59219b04bd9ed294417394e4beb0198852dba6bcead21a035aaaa5d0
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-05 23:50:25.543488 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: Aastra
+Events: off
+
+

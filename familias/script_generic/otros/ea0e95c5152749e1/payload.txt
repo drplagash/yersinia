@@ -1,0 +1,15 @@
+# sha256: ea0e95c5152749e1be3b419fa26d1c2b7ed1bc6c0ccdf0e8c30a4927311dc2f4
+# family: script_generic
+# kind: script
+# size_bytes: 83
+# first_seen: 2026-09-05 23:48:28.621650 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: eLaStIx.asteriskuser.2oo7
+Events: off
+
+

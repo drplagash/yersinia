@@ -1,0 +1,15 @@
+# sha256: efd729d7106051ac50f9f4cbf9c111c8112d7974004ec18308f9e725e5a8f3cd
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-05 23:49:47.138390 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: freepbx
+Events: off
+
+

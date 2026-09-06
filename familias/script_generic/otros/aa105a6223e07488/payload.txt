@@ -1,0 +1,15 @@
+# sha256: aa105a6223e0748888a4c2357ab41c235390de02170d794440913ebb9fd5b885
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-05 23:50:16.362311 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: router12
+Events: off
+
+
