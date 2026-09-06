@@ -1,0 +1,15 @@
+# sha256: ab3e895885acce1862cc34f1dbe0e9e413420bac62b12aa55d42db81908a821a
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 05:35:12.674806 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: Demo123
+Events: off
+
+
