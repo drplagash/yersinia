@@ -1,0 +1,15 @@
+# sha256: 056db224d9e19ccb6089a8fc6481a822202edff7373ed2b2a8c92efe50b1e986
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 02:03:37.702352 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: a6a7wimax
+Events: off
+
+

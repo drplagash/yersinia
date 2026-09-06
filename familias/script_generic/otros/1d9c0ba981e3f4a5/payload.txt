@@ -1,0 +1,15 @@
+# sha256: 1d9c0ba981e3f4a59eaffa246e04d4d1a384133cb0648af1b015849cf72b42a8
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 02:03:59.431942 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: Kulacom
+Events: off
+
+

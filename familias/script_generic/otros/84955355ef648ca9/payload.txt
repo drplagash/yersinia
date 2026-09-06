@@ -1,0 +1,15 @@
+# sha256: 84955355ef648ca9d0628e553fe7f613ff08ce52c455a745ae2334531e573138
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 02:03:08.473583 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: c@ntv2000
+Events: off
+
+

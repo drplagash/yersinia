@@ -1,0 +1,15 @@
+# sha256: 0d6e12aa4b02f64c4070f5ce47bdf30b2e6b8b65052dc816dd6a19bf3fa20be5
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 02:04:12.035427 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: crftpw
+Events: off
+
+

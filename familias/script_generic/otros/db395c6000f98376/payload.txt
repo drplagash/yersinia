@@ -1,0 +1,15 @@
+# sha256: db395c6000f98376c868c6979c068fb5a5357a64d47092732a0130f98442f6a0
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 02:04:33.019176 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: aerobics
+Events: off
+
+

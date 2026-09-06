@@ -1,0 +1,15 @@
+# sha256: 2d572555f3ed93e05e28f7fc496f2677c9cc66e4801c1f04a13114688079e59f
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 02:03:27.251451 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: adslnadam
+Events: off
+
+
