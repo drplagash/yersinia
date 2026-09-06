@@ -1,0 +1,15 @@
+# sha256: d4ac17321d728bc471b4efd7aaae4fb7e3b243d4257545d4dd14693efb17a576
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 01:19:14.012675 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: cableroot
+Events: off
+
+
