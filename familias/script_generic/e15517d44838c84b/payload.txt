@@ -1,0 +1,15 @@
+# sha256: e15517d44838c84bc5a43ac7635252b706a5fede35bcc5ce1a8671a7a998724e
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 05:33:51.922422 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: s3cr3t
+Events: off
+
+

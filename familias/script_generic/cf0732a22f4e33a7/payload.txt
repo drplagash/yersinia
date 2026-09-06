@@ -1,0 +1,15 @@
+# sha256: cf0732a22f4e33a708dfd9bfc3869e12464245fe76f266b0abf3706631e8ecc0
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 05:33:54.530651 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: motorola
+Events: off
+
+

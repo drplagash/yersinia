@@ -1,0 +1,15 @@
+# sha256: 3a6307e124bcad49b01587325c1cbd221d3782eed88b5e51c160a8b2967e3be9
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 05:34:42.406678 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: delink
+Events: off
+
+

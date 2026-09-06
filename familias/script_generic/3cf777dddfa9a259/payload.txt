@@ -1,0 +1,15 @@
+# sha256: 3cf777dddfa9a2594810aebb7cd09b84637804b9f759719ecd462c3e60e2e739
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 05:33:45.864654 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: d4rbyp4ss
+Events: off
+
+

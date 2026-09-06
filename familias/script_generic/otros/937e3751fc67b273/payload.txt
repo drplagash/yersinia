@@ -1,0 +1,15 @@
+# sha256: 937e3751fc67b273d56b9414330be2703cf2910fed20935a1a8457398ed93cb4
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 05:33:10.632721 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: orderlystats
+Events: off
+
+

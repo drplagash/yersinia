@@ -1,0 +1,15 @@
+# sha256: e7080f327e3402a9d4ab1100e1d2ede5de7457409be8ac04228fe185a93dbbd2
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 05:34:16.335815 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: call
+Secret: asterisksecret
+Events: off
+
+
