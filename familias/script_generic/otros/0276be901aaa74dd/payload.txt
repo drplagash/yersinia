@@ -1,0 +1,15 @@
+# sha256: 0276be901aaa74dd2f4877febf278d7e485acfa55f102fbf076be46e3787a635
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 09:36:13.709504 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: VDAD
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 6dbf781560be78ef0886267a82755e2982ccede0a20e2dbf451be6326db09505
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 09:36:07.263748 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: tercc
+Events: off
+
+

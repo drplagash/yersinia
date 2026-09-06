@@ -1,0 +1,15 @@
+# sha256: f0da4dbbe39771814ec69466744676ffb8de59d22e4514b973c9162e2c2db905
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 09:33:31.675373 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: sweex
+Events: off
+
+

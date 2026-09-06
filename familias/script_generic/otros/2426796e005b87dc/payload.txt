@@ -1,0 +1,15 @@
+# sha256: 2426796e005b87dc091560187f106ac54c651c5c9d5ae54e1eaf1cd8964323b2
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 09:33:10.187916 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: ubnt
+Events: off
+
+

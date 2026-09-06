@@ -1,0 +1,15 @@
+# sha256: c5097f7bc179aec19351c77cf4f4405b13515bfc43cbf1cf672a26079c37feb6
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:33:36.528678 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: adrianna
+Events: off
+
+

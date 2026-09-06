@@ -1,0 +1,15 @@
+# sha256: 781c88936e9988cd6308dbfe20a8768a9cfa150f722c6ac876f47b2f924ed7a8
+# family: script_generic
+# kind: script
+# size_bytes: 74
+# first_seen: 2026-09-06 09:35:16.654173 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: QAZwix12345
+Events: off
+
+

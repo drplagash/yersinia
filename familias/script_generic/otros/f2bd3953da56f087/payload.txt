@@ -1,0 +1,15 @@
+# sha256: f2bd3953da56f0870fa3f37d5f2c23e0c1235e04f550b4e4994bf78f17f2bed1
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:33:34.079330 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: wwwvoice
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 7c56b7a7a41938d7f5ffceeb5da314583a82343d03542abc59e8e03d4996b216
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 09:33:26.392996 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: draadloos
+Events: off
+
+

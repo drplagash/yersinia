@@ -1,0 +1,15 @@
+# sha256: a262da42eac50668c5574fe0b38768f3abfce53b4147da3f0e6f5f07cbb58a98
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:35:55.307030 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: cciadmin
+Events: off
+
+

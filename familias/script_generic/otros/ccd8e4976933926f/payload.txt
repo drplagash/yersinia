@@ -1,0 +1,15 @@
+# sha256: ccd8e4976933926fd14aed6c3f656a219f025b6d7c3831c0dd649f75c23d711b
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 09:35:40.717327 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: alaxy
+Events: off
+
+

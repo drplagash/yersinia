@@ -1,0 +1,15 @@
+# sha256: c295fcb02879ad621dfc62296ba0390d2100c781d71cbcdc1ec4f52a5730ef6f
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:34:04.250368 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: addpac
+Events: off
+
+

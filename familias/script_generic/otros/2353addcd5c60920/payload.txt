@@ -1,0 +1,15 @@
+# sha256: 2353addcd5c609209d07aa228cdff03b39d24ad1602c18fea34f647e98f44d0c
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 09:35:39.282643 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: nCwMnJVGag
+Events: off
+
+

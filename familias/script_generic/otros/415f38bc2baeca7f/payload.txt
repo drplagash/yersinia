@@ -1,0 +1,15 @@
+# sha256: 415f38bc2baeca7fbf524c6c01a0e9c70ad5dcc8144fe2eddca8cebe2f82d35c
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:33:17.176604 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: utstar
+Events: off
+
+

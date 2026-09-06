@@ -1,0 +1,15 @@
+# sha256: 50e5d9563ab920d144c603fd0912bb1c778eb011387153c16ea1fcff85532311
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:34:47.759655 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: zoomadsl
+Events: off
+
+

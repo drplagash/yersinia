@@ -1,0 +1,15 @@
+# sha256: b1f4aa96e3993616b0de35a2f835458f418fd21cd16a3ac0d6d143650b30be89
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:34:53.728059 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: academia
+Events: off
+
+

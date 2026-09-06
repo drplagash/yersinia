@@ -1,0 +1,15 @@
+# sha256: 2b73e3463e579d72cae37e21286f5887baf689f5ce460bceec5a9d3678020126
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 09:33:03.573060 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: albatross
+Events: off
+
+

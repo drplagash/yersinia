@@ -1,0 +1,15 @@
+# sha256: f752df13035e6288fa394a4394e849c15ec2a741968a709e3505ebecbcb83ea4
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:34:46.460724 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: aerobics
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: f4ab5b4528a7e74b7818c0c59ce0f6935db628dfc9d202e0ece9edeee33997ea
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:35:58.961255 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: orderl
+Events: off
+
+

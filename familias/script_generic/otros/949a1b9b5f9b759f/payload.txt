@@ -1,0 +1,15 @@
+# sha256: 949a1b9b5f9b759f8cb211cb4b1d97d47c008b3afdb3e15090837797213e8934
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:35:49.805219 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: airplane
+Events: off
+
+

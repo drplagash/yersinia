@@ -1,0 +1,15 @@
+# sha256: 106431808c8ce257ad33142cec8316d7ed6a860901088ff128d3f57458be594f
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:33:47.279659 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: adminpbx
+Events: off
+
+
