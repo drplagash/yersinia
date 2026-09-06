@@ -1,0 +1,15 @@
+# sha256: 263a436e9a4a9886e992cad223a7da4138fbd70b10e39ae7320c8eef848a4d35
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 06:34:34.596874 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: 0000
+Events: off
+
+

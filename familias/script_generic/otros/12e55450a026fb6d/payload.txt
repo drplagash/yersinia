@@ -1,0 +1,15 @@
+# sha256: 12e55450a026fb6d4502259a7a8a380f9caeb81d947dd5efb194f641dc243fc3
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 06:33:00.931891 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: fusionpbx
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 2f329d982c0978a48c4f5a98bd9988648aded9c80fc6d07b0480196477a973c4
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 06:33:47.293108 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: telus177
+Events: off
+
+

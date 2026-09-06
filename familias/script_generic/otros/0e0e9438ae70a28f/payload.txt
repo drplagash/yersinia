@@ -1,0 +1,15 @@
+# sha256: 0e0e9438ae70a28f75d5a8328199468bbba4d50470b64e9cccdce99e3ed1d144
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 06:34:50.692566 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: crftpw
+Events: off
+
+

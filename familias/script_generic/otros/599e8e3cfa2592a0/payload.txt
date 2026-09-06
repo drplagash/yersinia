@@ -1,0 +1,15 @@
+# sha256: 599e8e3cfa2592a0ad393ea625aba2a4428873d0504ba9b6be18e2657aead698
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 06:34:19.738566 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: tmadmin
+Events: off
+
+

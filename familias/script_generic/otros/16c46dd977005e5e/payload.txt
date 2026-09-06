@@ -1,0 +1,15 @@
+# sha256: 16c46dd977005e5e854954f313d3596cd98a4666a7af7ac92fff4d672e8e0de3
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 06:35:09.968511 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: adslnadam
+Events: off
+
+

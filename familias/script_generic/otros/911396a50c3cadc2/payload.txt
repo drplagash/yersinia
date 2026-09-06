@@ -1,0 +1,15 @@
+# sha256: 911396a50c3cadc202ed83e9ff16059f337fffa95e945d0bc0d3689756476aab
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 06:35:28.546674 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: htc
+Events: off
+
+

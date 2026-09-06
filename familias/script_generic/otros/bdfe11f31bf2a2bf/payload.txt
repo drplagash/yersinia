@@ -1,0 +1,15 @@
+# sha256: bdfe11f31bf2a2bf73775b7f6b608fcbd8769e0e87334f3f32c9cd4676b8e1e6
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 06:35:31.952872 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: motorola
+Events: off
+
+

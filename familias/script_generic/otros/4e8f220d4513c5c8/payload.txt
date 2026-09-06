@@ -1,0 +1,15 @@
+# sha256: 4e8f220d4513c5c88a520f75d346094071048bc5d95989dbe625f4d00c481739
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 06:33:12.571658 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: epicrouter
+Events: off
+
+

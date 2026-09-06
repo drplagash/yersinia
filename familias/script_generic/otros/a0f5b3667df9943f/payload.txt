@@ -1,0 +1,15 @@
+# sha256: a0f5b3667df9943fd1c1327a7320b472975a9f3ee086d76829812c95e9217856
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 06:34:35.937074 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: wimax820
+Events: off
+
+

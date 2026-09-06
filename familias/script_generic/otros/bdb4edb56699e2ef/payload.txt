@@ -1,0 +1,15 @@
+# sha256: bdb4edb56699e2ef48d7b8eb3ee8252fbf48b2118ee21b7b1c6eccf52c1579c6
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 06:34:23.500656 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: slipshot
+Events: off
+
+

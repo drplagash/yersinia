@@ -1,0 +1,15 @@
+# sha256: bf385e1465c99396c9f1a41eb1461522d19cf90d34f638ac7ba08da267878008
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 06:34:47.074210 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: tcs-ag
+Events: off
+
+

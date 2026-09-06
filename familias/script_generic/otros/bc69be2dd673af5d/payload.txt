@@ -1,0 +1,15 @@
+# sha256: bc69be2dd673af5d4fa129882dcbf1cc1068c871ed163a0b4836f116f6017a8e
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 06:35:18.859730 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: aethra
+Events: off
+
+

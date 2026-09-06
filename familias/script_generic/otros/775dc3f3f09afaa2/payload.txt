@@ -1,0 +1,15 @@
+# sha256: 775dc3f3f09afaa2e5934af8ee3a2d5afbb20533a24295e90190587362a965d1
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 06:35:32.611355 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: smcadmin
+Events: off
+
+

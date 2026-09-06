@@ -1,0 +1,15 @@
+# sha256: fff01950804fada7bb9e5e16fda711f142e75a1e1e794d849b8c9094dfe38ccb
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 06:34:49.434106 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: ttnet
+Events: off
+
+

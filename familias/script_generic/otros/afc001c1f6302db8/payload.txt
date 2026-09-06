@@ -1,0 +1,15 @@
+# sha256: afc001c1f6302db80bfa36e3c7b7ef6c8477fbfcf9d7f754977c4e91181110b3
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 06:34:01.809774 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: ripencc
+Events: off
+
+

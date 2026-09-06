@@ -1,0 +1,15 @@
+# sha256: f973b185dd28913f369a552665cbd7c4cdb3613351be15ede9ac9e930f68ad81
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 06:34:37.527775 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: c@ntv2000
+Events: off
+
+

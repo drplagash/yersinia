@@ -1,0 +1,15 @@
+# sha256: 96a119ab07574eb562d185399913b3a8c21ac6040020971b17a44177d67fd2d3
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 06:34:46.197949 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: trendchip
+Events: off
+
+

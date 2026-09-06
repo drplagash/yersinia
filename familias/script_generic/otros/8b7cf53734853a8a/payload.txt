@@ -1,0 +1,15 @@
+# sha256: 8b7cf53734853a8a0bb6f7965e11d10f2308ffc329d1486b68ac293b4dba352e
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 06:35:07.883337 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: antek
+Events: off
+
+

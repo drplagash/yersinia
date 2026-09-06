@@ -1,0 +1,15 @@
+# sha256: 99ef44cde87dd63589f07902418dae7439906bd2d544d40763b614d3e9e9168c
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 06:34:24.438210 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: Kulacom
+Events: off
+
+
