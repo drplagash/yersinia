@@ -1,0 +1,15 @@
+# sha256: fb253b6a88bab678e2d7eb50d5b0733f140f5ff519932dd7a10d98a5bfb3fdbb
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 07:04:29.604367 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: allvoi
+Events: off
+
+

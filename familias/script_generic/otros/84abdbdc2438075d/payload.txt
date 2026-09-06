@@ -1,0 +1,15 @@
+# sha256: 84abdbdc2438075d2c15216364c9628993ba03c4c404f75a0ab9183ba3644c2f
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 07:03:43.567783 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: Asterisk
+Events: off
+
+

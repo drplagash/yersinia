@@ -1,0 +1,15 @@
+# sha256: 84d8e811b1aa8967cce9b38eef91b9e2958333903096bbde7c8e1c74a16f4544
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 07:03:57.852236 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: teles
+Events: off
+
+
