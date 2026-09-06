@@ -1,0 +1,15 @@
+# sha256: 19a9c977b400a8422b830b06516a0f8ee363b113b876eec4a7bba4ca943c2c81
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 02:48:25.742795 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: crm
+Events: off
+
+

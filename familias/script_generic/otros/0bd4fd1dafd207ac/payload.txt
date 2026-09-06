@@ -1,0 +1,15 @@
+# sha256: 0bd4fd1dafd207acf2de1fc7a9ae3331b3e3e07e20b61d5edf47c8ca9d543b96
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 02:49:13.298660 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: adslnadam
+Events: off
+
+

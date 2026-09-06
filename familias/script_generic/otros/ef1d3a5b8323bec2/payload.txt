@@ -1,0 +1,15 @@
+# sha256: ef1d3a5b8323bec2f63b8950a384625132f3b31d942925aa92c1d2c5f5fb204e
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 02:48:23.021281 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: sky
+Events: off
+
+

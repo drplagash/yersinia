@@ -1,0 +1,15 @@
+# sha256: 0ba07fb04b0fec9a2472f471fdb3f1abee6fcea6810c6ea848d2fad732ab7453
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 02:49:48.605722 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: monast_secret
+Events: off
+
+

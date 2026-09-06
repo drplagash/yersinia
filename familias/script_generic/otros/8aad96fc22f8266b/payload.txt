@@ -1,0 +1,15 @@
+# sha256: 8aad96fc22f8266bfef9d63f37244b507c62e15fe7bf736d74a0975c5051b639
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 02:49:49.570321 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: orderlystats
+Events: off
+
+

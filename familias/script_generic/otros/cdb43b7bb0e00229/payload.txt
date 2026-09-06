@@ -1,0 +1,15 @@
+# sha256: cdb43b7bb0e002299f269b7e3b6e46405e768e4a44b4857d6e2e32bae97656a7
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 02:48:56.348739 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: changeme
+Events: off
+
+

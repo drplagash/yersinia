@@ -1,0 +1,15 @@
+# sha256: e62514eab0bd1882596ee9dcdef239bd1b5f7225a3eb4a506cd63b1ca9921690
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 02:49:45.116515 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: quescom
+Events: off
+
+

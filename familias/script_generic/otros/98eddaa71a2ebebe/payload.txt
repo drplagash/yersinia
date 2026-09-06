@@ -1,0 +1,15 @@
+# sha256: 98eddaa71a2ebebea6a86615ce4bc2bc1bbb3b130bdc9014c9f3101e0a187133
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 02:49:47.482437 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: s3cr3t
+Events: off
+
+

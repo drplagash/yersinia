@@ -1,0 +1,15 @@
+# sha256: 4a4264bdb22a88069a7e22dc7ff5e60d006c5250650a56d48d4b74357c63b307
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 02:48:00.199984 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: asterisksecret
+Events: off
+
+

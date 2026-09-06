@@ -1,0 +1,15 @@
+# sha256: da14c22c0f500e9155e8be2c30d03d7ce86aeb50eeb59e10eea4623766300f2e
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 02:48:57.632095 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: mts
+Events: off
+
+

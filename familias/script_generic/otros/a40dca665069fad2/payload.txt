@@ -1,0 +1,15 @@
+# sha256: a40dca665069fad22cbc298638c48d064ee717b1bb47154b26e86ee287998b8d
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 02:48:49.114650 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: pa55w0rd
+Events: off
+
+
