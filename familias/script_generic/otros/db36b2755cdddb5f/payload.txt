@@ -1,0 +1,15 @@
+# sha256: db36b2755cdddb5f4f2fe2896378881e9a9c154ec019da7a54f889aea812a409
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 01:48:20.622415 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: delink
+Events: off
+
+

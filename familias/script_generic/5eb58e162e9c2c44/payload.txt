@@ -1,0 +1,15 @@
+# sha256: 5eb58e162e9c2c44b756dede7cbbe09c1e8b2113a34ef386b1b2d271194f1f92
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 01:49:39.902060 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: astconf
+Events: off
+
+

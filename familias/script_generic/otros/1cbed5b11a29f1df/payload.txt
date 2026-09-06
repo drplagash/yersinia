@@ -1,0 +1,15 @@
+# sha256: 1cbed5b11a29f1df88e11b3fda325a3d3177158446cea7d28f781676e0d874ba
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 01:48:46.142974 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: s3cr3t
+Events: off
+
+

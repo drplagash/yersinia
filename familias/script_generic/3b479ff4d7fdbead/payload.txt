@@ -1,0 +1,15 @@
+# sha256: 3b479ff4d7fdbeadac9862487d175034e46d42b91cdd0386cbc2ecc4a1bb4eef
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 01:48:56.509760 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: test
+Secret: vicidialnow
+Events: off
+
+
