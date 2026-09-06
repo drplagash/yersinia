@@ -1,0 +1,15 @@
+# sha256: 5b4eb681be535a084bff680fdfee64fc6bbade45e4fa810db62187e803189423
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 00:19:28.060356 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: cableroot
+Events: off
+
+

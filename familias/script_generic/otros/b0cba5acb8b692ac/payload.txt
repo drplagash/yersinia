@@ -1,0 +1,15 @@
+# sha256: b0cba5acb8b692ac854d8132a213241758f8dd07b20e08ac5cb8fc3a3b447fbd
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 00:19:02.126287 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: ubnt
+Events: off
+
+

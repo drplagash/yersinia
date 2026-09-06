@@ -1,0 +1,15 @@
+# sha256: f346bc23a74c3c74ac3dd341f2f061c5cd671cc9fa6d6f57f106dcfff6af7e9b
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:20:23.795089 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: motorola
+Events: off
+
+

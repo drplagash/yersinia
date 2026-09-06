@@ -1,0 +1,15 @@
+# sha256: 8616e6b359595ae19a4ca724e44002872a9a915de641057ca87b89c232752d99
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:19:40.023055 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: zoomadsl
+Events: off
+
+

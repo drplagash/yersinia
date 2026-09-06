@@ -1,0 +1,15 @@
+# sha256: 8f7d36291f25117742e491c8c53943cf30bdec909b796b8d62a005e9272b7706
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:20:47.043489 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: airplane
+Events: off
+
+

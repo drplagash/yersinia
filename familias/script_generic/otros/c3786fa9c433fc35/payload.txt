@@ -1,0 +1,15 @@
+# sha256: c3786fa9c433fc35f2ef68452cd68cc1350fbb0898a642bcefc6596df60ec76c
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:19:19.277199 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: cciadmin
+Events: off
+
+

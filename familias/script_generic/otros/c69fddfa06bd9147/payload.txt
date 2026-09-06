@@ -1,0 +1,15 @@
+# sha256: c69fddfa06bd91476eecf3b311257131955b1c95717b83f661597a4bd46b0599
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:19:24.006882 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: telus177
+Events: off
+
+

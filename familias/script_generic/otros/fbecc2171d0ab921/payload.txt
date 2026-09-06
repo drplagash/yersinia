@@ -1,0 +1,15 @@
+# sha256: fbecc2171d0ab921f61ac67e3d8dd1472bbda1795e13e4381f5a45785d062a7c
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 00:20:42.284897 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: albany
+Events: off
+
+

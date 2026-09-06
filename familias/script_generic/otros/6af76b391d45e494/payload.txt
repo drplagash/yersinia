@@ -1,0 +1,15 @@
+# sha256: 6af76b391d45e49430d0db43a84bb8448670fd725a00461f9a70e7a06435e75b
+# family: script_generic
+# kind: script
+# size_bytes: 61
+# first_seen: 2026-09-06 00:19:35.829886 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: htc
+Events: off
+
+

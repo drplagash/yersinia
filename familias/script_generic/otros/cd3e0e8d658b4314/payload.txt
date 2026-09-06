@@ -1,0 +1,15 @@
+# sha256: cd3e0e8d658b43142a8a52c806af0480791c54a5b9e24d8bc578c10d50d1a71e
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 00:19:44.692207 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: albatross
+Events: off
+
+

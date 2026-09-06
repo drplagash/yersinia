@@ -1,0 +1,15 @@
+# sha256: c26ecc9fc42f5dc902dac8037a54baa3e130ff25600a32ddee3b0e9ff70d95b0
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:18:14.388197 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: smcadmin
+Events: off
+
+

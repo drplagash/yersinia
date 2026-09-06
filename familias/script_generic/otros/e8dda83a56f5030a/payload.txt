@@ -1,0 +1,15 @@
+# sha256: e8dda83a56f5030ae29d1358a8137ef632833e02ede7cf14d22fb278bb7a4ff5
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 00:20:18.477760 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: adslnadam
+Events: off
+
+

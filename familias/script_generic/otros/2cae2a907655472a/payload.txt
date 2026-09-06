@@ -1,0 +1,15 @@
+# sha256: 2cae2a907655472a0ccb3c6e8251b29d64204c1719dcf3f3be58ddb8fbcf206d
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 00:18:35.195199 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: ttnet
+Events: off
+
+

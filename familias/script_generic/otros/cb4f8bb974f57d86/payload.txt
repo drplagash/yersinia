@@ -1,0 +1,15 @@
+# sha256: cb4f8bb974f57d86fcae1d6a876b340643f1cc4be33ef24fa5392a6d5fe1e303
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 00:18:45.891971 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: tmadmin
+Events: off
+
+

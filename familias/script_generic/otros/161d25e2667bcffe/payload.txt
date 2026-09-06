@@ -1,0 +1,15 @@
+# sha256: 161d25e2667bcffe1f15a5a229cc6161bcf81cb4893fa8f627a7e4fbb33db244
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 00:18:28.383580 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: trendchip
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 42b78380aabea4c67bbecb7616bd2f583430ff2e029ac0441b75b8e7ce82a5a7
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:18:42.458502 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: wimax820
+Events: off
+
+

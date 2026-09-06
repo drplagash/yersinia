@@ -1,0 +1,15 @@
+# sha256: 7c4cf141f9e8e061c628bc153b7fc8657bb16c74a6dff00d4a0cbc135d80186a
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 00:19:04.802110 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: addpac
+Events: off
+
+

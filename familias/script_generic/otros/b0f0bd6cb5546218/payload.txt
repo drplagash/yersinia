@@ -1,0 +1,15 @@
+# sha256: b0f0bd6cb55462183c8fec2a81a5d4cecd36b453db2c2899e6bb14ce510117be
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 00:20:31.663676 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: Kulacom
+Events: off
+
+

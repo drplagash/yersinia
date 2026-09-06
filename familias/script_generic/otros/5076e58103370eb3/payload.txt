@@ -1,0 +1,15 @@
+# sha256: 5076e58103370eb3d07b8571dbfa2756cb3072ded6725634e6da335f85291780
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 00:20:44.408293 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: mysweex
+Events: off
+
+

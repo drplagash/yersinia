@@ -1,0 +1,15 @@
+# sha256: 2b38e9da1bb05e59eab5ca81709c92ebbc971f201820998a230306a294462ec0
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 00:20:30.456079 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: c@ntv2000
+Events: off
+
+

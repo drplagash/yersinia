@@ -1,0 +1,15 @@
+# sha256: 1c8b0a3c67b37c51f03c6ff39167881decca4ad189125d43493e72baeb9bcd24
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 00:19:59.642056 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: cron
+Secret: Menara
+Events: off
+
+
