@@ -1,0 +1,15 @@
+# sha256: 1a3aadc24ebc104befd5196da6bd83caad9ab0909a63af53433b6c0b4cbee300
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 01:18:53.701466 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: glue
+Events: off
+
+

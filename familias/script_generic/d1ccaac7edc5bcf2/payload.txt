@@ -1,0 +1,15 @@
+# sha256: d1ccaac7edc5bcf2a0fe4922d6fb947d6addc5dc96680278aef549d008fe0706
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:18:48.594190 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: cciadmin
+Events: off
+
+

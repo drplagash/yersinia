@@ -1,0 +1,15 @@
+# sha256: 14d17647ba172749735f694a06670f8f4afb7422fa5540b55c33df899fddfdc1
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:18:28.398120 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: academia
+Events: off
+
+

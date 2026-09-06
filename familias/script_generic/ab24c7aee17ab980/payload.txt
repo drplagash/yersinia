@@ -1,0 +1,15 @@
+# sha256: ab24c7aee17ab9806847c1cf866caba2da21f04b64a9b4dfaa1a704ee4bf189f
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 01:18:35.499411 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: albatross
+Events: off
+
+

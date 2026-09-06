@@ -1,0 +1,15 @@
+# sha256: de2b7a3703ade696d2aa74178bca6e7827d0ca723fb46b8c3ce80e792815952a
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:18:01.196847 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: adrianna
+Events: off
+
+

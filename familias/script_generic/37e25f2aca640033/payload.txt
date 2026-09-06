@@ -1,0 +1,15 @@
+# sha256: 37e25f2aca6400339d60749bd37d47895374c0e2947d52b6d38943f0b275cc0b
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 01:18:29.485905 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: htc
+Events: off
+
+

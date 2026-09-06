@@ -1,0 +1,15 @@
+# sha256: d77a41ba2a82c21522def1deaeb505d24432e0cf2b82e9cac2cb262e4b25e999
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 01:18:36.191709 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: tercc
+Events: off
+
+

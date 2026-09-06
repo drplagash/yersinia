@@ -1,0 +1,15 @@
+# sha256: c219fe9b0e0c9500d72c5874a50961cfeb4edc67ce8740f9cb3dcaf10e73741e
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:18:00.007137 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: adminpbx
+Events: off
+
+

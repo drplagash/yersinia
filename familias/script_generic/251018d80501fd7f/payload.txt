@@ -1,0 +1,15 @@
+# sha256: 251018d80501fd7f6d7298e714a44205a82cd71dfd49607273ee23ea5973f5a4
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 01:18:40.393754 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: Kulacom
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: c71714cfabaed4a2df39052ab31b1482be31f71e1307dd76baf401ffdaf94468
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:18:38.596275 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: airplane
+Events: off
+
+

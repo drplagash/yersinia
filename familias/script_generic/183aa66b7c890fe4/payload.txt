@@ -1,0 +1,15 @@
+# sha256: 183aa66b7c890fe4be8618d2b20b4ff9f1be357fbf04f70f29307f71b57a3ecc
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:18:41.684171 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: aerobics
+Events: off
+
+

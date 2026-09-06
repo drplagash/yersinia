@@ -1,0 +1,15 @@
+# sha256: 1af68da81e57541ae19eb681156c77e0dbd2f76a7d848190e89a30c702838b26
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 01:18:02.444499 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: sweex
+Events: off
+
+

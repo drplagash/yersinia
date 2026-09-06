@@ -1,0 +1,15 @@
+# sha256: 6156dd0adab76eab7cf4bd0b94a6dcb37c0e630bc242940451d4792bd8a494e0
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 01:19:04.106636 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: addpac
+Events: off
+
+

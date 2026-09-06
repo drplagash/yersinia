@@ -1,0 +1,15 @@
+# sha256: 2916ca979f7ada7ee371f8d729ac09c717616763b51cfa9ad0cfbd96677b76f5
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 01:18:52.604032 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: zoomadsl
+Events: off
+
+
