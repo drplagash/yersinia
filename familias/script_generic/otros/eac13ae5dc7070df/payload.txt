@@ -1,0 +1,15 @@
+# sha256: eac13ae5dc7070dfc9b1cf1fbcadc49236352b24245ce62e5cac1c57983cec3d
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 06:18:35.792210 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: livechat
+Events: off
+
+

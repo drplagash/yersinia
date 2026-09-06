@@ -1,0 +1,15 @@
+# sha256: c09cfdf48a097af961761dcb90bd50cb77d73883620658ca04af66d2f10c32b5
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 06:18:13.578127 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: phoneglue
+Events: off
+
+

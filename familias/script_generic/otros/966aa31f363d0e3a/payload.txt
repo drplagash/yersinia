@@ -1,0 +1,15 @@
+# sha256: 966aa31f363d0e3a1b9a4575234c47c82137753f43f2f72beddda3d206a4047e
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 06:18:17.998422 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: munin
+Events: off
+
+

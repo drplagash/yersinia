@@ -1,0 +1,15 @@
+# sha256: 4a2bbdb305d5358462f6d6fdcd855e9801f70652d587bd681224693e1278c918
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 06:19:09.534623 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: vicidialnow
+Events: off
+
+

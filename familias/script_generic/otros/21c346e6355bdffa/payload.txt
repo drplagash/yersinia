@@ -1,0 +1,15 @@
+# sha256: 21c346e6355bdffa7e8b648a9093ddb9973fbd04739798904004571da48cc050
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 06:18:47.211296 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: orderlystats
+Events: off
+
+

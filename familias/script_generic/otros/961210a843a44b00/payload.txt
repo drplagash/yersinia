@@ -1,0 +1,15 @@
+# sha256: 961210a843a44b00068f39e68e0c2feeafb4e3c5ab58764a12bbb2236a88f123
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 06:19:25.314019 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: cron
+Events: off
+
+

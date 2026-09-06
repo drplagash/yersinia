@@ -1,0 +1,15 @@
+# sha256: 1039d8c4df4f01adbd866c87988e11858afd9629b6126df71d7c9e239f22c8cc
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 06:18:29.593487 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: gohigh
+Events: off
+
+

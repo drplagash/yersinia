@@ -1,0 +1,15 @@
+# sha256: c8b035593da860fefed98eaded850cdff3fe84499efc2d1990e00b1f43399375
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 06:19:10.712489 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: galaxy
+Events: off
+
+
