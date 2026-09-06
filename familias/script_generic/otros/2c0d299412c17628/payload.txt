@@ -1,0 +1,15 @@
+# sha256: 2c0d299412c17628b35ced24a42eefaa04c843a7d21c7b5b89dba1501e212536
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 07:19:19.552010 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: slipshot
+Events: off
+
+

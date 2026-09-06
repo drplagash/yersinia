@@ -1,0 +1,15 @@
+# sha256: f619b06c299019232e026c73c71694777a96f109f18d7a94caa7ce3c39d08e9c
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 07:19:17.187482 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: galaxy
+Events: off
+
+
