@@ -1,0 +1,15 @@
+# sha256: 74400986f9961c2b8638c79414d9a08c10a7841cb47d35e68921a48827582db6
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 08:48:17.964617 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: sweex
+Events: off
+
+

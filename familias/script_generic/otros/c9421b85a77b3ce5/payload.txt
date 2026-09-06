@@ -1,0 +1,15 @@
+# sha256: c9421b85a77b3ce50534c87d18b4d45fb7087bc80bb7bb3e09afb701281b8386
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 08:50:08.487214 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: router1234
+Events: off
+
+

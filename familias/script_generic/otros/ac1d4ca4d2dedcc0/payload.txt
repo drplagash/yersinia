@@ -1,0 +1,15 @@
+# sha256: ac1d4ca4d2dedcc08eca8c43a31b07b6bb5bea20b4c4fa26f754b880157259d2
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 08:49:02.695488 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: Aastra
+Events: off
+
+

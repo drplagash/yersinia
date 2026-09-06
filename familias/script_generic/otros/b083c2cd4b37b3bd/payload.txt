@@ -1,0 +1,15 @@
+# sha256: b083c2cd4b37b3bd84230941f881da0be194f189fd094d41af5b0d6b175ba73b
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 08:48:47.866407 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: craft
+Events: off
+
+

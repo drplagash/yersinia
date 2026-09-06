@@ -1,0 +1,15 @@
+# sha256: 600ee09ed10b8ebce423814382b25fbe8332692ff66c4f168bc551a331ca26df
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 08:49:44.175554 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: voip1
+Events: off
+
+

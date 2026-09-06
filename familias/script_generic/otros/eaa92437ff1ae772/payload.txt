@@ -1,0 +1,15 @@
+# sha256: eaa92437ff1ae772194d1d2294dda66d469c2d72e5a72afbb9203a449a96ad86
+# family: script_generic
+# kind: script
+# size_bytes: 88
+# first_seen: 2026-09-06 08:51:06.776465 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: eLaStIx.asteriskuser.2oo7
+Events: off
+
+

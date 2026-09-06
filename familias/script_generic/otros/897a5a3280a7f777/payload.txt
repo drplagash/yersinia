@@ -1,0 +1,15 @@
+# sha256: 897a5a3280a7f7775d80815e80d9c87551234ebc968bb59073430a089e13ec83
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 08:48:19.880636 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: orderl
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 23af0f2d1e35d6e833f7c80993d5b12cc4ddf0bc9f9b1ca9775df782638e2577
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 08:48:49.344702 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: fpbx
+Events: off
+
+

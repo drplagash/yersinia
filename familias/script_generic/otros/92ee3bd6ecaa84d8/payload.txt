@@ -1,0 +1,15 @@
+# sha256: 92ee3bd6ecaa84d853a25b7d13cc8e50d0b5414edf3b1f71487d153b1bf70490
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 08:48:02.870666 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: allvoi
+Events: off
+
+
