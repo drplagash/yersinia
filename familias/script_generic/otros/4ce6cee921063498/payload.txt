@@ -1,0 +1,15 @@
+# sha256: 4ce6cee921063498c1f4970338b792b0f1236a24ffd9ad4e6069cd5295a67552
+# family: script_generic
+# kind: script
+# size_bytes: 60
+# first_seen: 2026-09-06 04:48:24.558600 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: sky
+Events: off
+
+

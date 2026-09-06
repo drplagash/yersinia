@@ -1,0 +1,15 @@
+# sha256: 2120413b2a1764f7a9f73a597739049ab2726f6c062330019a09c2eb925e2475
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 04:50:02.104054 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: fusionpbx
+Events: off
+
+

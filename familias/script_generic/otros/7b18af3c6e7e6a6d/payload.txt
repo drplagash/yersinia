@@ -1,0 +1,15 @@
+# sha256: 7b18af3c6e7e6a6de3c9b3facae57a076f89470e4a45761454ec891b8b1623d2
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 04:48:49.058925 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: cableroot
+Events: off
+
+

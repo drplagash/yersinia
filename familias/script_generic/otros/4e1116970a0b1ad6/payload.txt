@@ -1,0 +1,15 @@
+# sha256: 4e1116970a0b1ad6db3f690133c256dcc81f301b1fac938d7ce990ceafd33eaa
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 04:48:22.250066 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: adrianna
+Events: off
+
+

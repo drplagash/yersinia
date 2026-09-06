@@ -1,0 +1,15 @@
+# sha256: ee8c1746c3720b744dc6cbecb7a84431e3ac0684b2c72bc3ff7abeb7ea4f57b8
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 04:48:44.985860 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: out
+Secret: cisco
+Events: off
+
+
