@@ -1,0 +1,15 @@
+# sha256: 2155b4f9510e82b9d52c539ab6376fd4bedc1120fa4947403d5f6a2074f54103
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 03:19:08.522558 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: pbx123
+Events: off
+
+

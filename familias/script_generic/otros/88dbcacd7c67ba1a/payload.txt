@@ -1,0 +1,15 @@
+# sha256: 88dbcacd7c67ba1af70a9e5165a421ed6f7412b0c7098d2559d4d060fabb80d6
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 03:18:57.860472 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: freepbx
+Events: off
+
+

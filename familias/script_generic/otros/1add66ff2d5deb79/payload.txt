@@ -1,0 +1,15 @@
+# sha256: 1add66ff2d5deb79511de9a2b63efda8312a9ae750d339bb7e8e442232da7852
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 03:18:52.506666 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: voip123
+Events: off
+
+

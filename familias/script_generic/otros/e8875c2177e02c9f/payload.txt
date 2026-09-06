@@ -1,0 +1,15 @@
+# sha256: e8875c2177e02c9f0c43b6ce6cf9c9b7b6b4afa7b7c3cb17143920eb3e377923
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 03:18:17.191210 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: palosanto
+Events: off
+
+
