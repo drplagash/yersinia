@@ -1,0 +1,15 @@
+# sha256: 96305cdd63b5f25db1c50279701b6a4340a77f2d6a479626be9d93db26fcaaaa
+# family: script_generic
+# kind: script
+# size_bytes: 78
+# first_seen: 2026-09-06 10:04:42.017872 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: asteriskclient
+Events: off
+
+

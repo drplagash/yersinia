@@ -1,0 +1,15 @@
+# sha256: df1d87dd96a43818545d32bb4b209ea08655b2e74eb45be6e284d05da3a4720c
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 10:05:23.261809 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: phoneglue
+Events: off
+
+

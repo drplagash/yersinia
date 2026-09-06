@@ -1,0 +1,15 @@
+# sha256: f90b821f03441eb13972e16b32404c53b3a3152c9e62130dade818924529fa5b
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 10:04:33.333822 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: s3cr3t
+Events: off
+
+

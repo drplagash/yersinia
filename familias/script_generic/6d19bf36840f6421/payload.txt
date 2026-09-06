@@ -1,0 +1,15 @@
+# sha256: 6d19bf36840f642104f6143558771c89a6607905cafb0c35007b5330bf704d12
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 10:06:22.321213 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: astercc
+Events: off
+
+

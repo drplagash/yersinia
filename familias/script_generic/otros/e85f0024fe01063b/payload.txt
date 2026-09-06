@@ -1,0 +1,15 @@
+# sha256: e85f0024fe01063b74f493db754a6bbed957c63fb7c73a6760209eb438884c54
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 10:03:38.157906 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: delink
+Events: off
+
+

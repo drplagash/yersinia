@@ -1,0 +1,15 @@
+# sha256: dd085f277d666dde8017ce4e3a219114ed2f080a9e6bbf4ef9a36d21c93b81e7
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 10:05:10.287721 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: galaxy
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: c2f4187d2610415a1c4d21fba0103cff680c773c7e2f3f0e5f9d3a6c4f63e5ce
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 10:04:28.205497 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: hudpro
+Events: off
+
+

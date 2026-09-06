@@ -1,0 +1,15 @@
+# sha256: d79a75be7c7f89f7b13ff865b7eb13a3bc8b5a3940c2b6647c8953a08d48fad1
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 10:03:36.691393 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: dialer
+Events: off
+
+

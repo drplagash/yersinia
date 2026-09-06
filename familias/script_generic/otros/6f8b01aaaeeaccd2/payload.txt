@@ -1,0 +1,15 @@
+# sha256: 6f8b01aaaeeaccd2b5c4b7779c630308dd46d571261d36b585c81e15b06a7af5
+# family: script_generic
+# kind: script
+# size_bytes: 76
+# first_seen: 2026-09-06 10:03:05.420533 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: superadmin
+Secret: orderlystats
+Events: off
+
+
