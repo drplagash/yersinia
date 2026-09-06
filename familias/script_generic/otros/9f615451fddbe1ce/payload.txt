@@ -1,0 +1,15 @@
+# sha256: 9f615451fddbe1ce741fc8a81d5b41d84de31bf5e4ce805a934193601b5eebe1
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 07:35:24.873049 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: utstar
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: f0268006a37bc2c4dc542ce7130ac23b9de9b7c6f72c109f5e18845a0d0eaa04
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 07:34:02.664266 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: zoomadsl
+Events: off
+
+

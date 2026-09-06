@@ -1,0 +1,15 @@
+# sha256: 7050d4ecba63fead9232a850ce6c2360a25d841ae64760c808e0e8932b89badc
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 07:35:03.029995 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: tmadmin
+Events: off
+
+

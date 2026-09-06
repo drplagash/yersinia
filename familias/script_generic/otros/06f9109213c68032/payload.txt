@@ -1,0 +1,15 @@
+# sha256: 06f9109213c680326cac32287dd0befc742fb05128b8f33c1539cedcf28af0a0
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 07:35:03.875492 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: wimax820
+Events: off
+
+

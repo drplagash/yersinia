@@ -1,0 +1,15 @@
+# sha256: b62a39555a88f166f099b8c0641e4de022184cca8a4a2f68819dbafc7b669fde
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 07:33:28.392090 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: antek
+Events: off
+
+
