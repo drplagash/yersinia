@@ -1,0 +1,15 @@
+# sha256: f8358778e668a96b0bc421c61b16cd2663378e5ccb08cb3efd6c46594e1d983e
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 11:04:04.156215 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: adslnadam
+Events: off
+
+

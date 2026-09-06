@@ -1,0 +1,15 @@
+# sha256: b37b637829b3d782171c8d718bdc92ffdcb68f57e318136717b0dd4886e3e9cf
+# family: script_generic
+# kind: script
+# size_bytes: 61
+# first_seen: 2026-09-06 11:03:45.567454 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: ttnet
+Events: off
+
+

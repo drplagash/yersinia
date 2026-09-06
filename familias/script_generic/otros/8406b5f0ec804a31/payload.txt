@@ -1,0 +1,15 @@
+# sha256: 8406b5f0ec804a31763e61575871d6e4388fba6ac49bb3e355ceb13480c1422b
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 11:03:05.052235 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: aethra
+Events: off
+
+

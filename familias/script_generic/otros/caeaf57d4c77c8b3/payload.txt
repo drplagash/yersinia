@@ -1,0 +1,15 @@
+# sha256: caeaf57d4c77c8b366d0118a4b56cb5f288d42381c1692c52e67efe1f4d2ea21
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 11:06:34.763124 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: trendchip
+Events: off
+
+

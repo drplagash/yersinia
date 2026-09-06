@@ -1,0 +1,15 @@
+# sha256: ccdb451aa9970045999e3ac527be3d91026d45f843514e43c77990131c6d7554
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 11:04:28.741102 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: asterisksecret
+Events: off
+
+
