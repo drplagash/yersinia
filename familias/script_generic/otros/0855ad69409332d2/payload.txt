@@ -1,0 +1,15 @@
+# sha256: 0855ad69409332d25ba49586249396eeb921472b3424fe1b537229c109252616
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 08:35:30.585030 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: tercc
+Events: off
+
+

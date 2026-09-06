@@ -1,0 +1,15 @@
+# sha256: 8a6975a0539452589197a688d4e93d29f35598df0fd69d38c0acfa3d1f38d1c8
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 08:35:25.176285 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: trendchip
+Events: off
+
+
