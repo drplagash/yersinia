@@ -1,0 +1,15 @@
+# sha256: beb81de997dafaaa8f35ae927a8d8512560ace7bed2fe657777fe10e400de8f3
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 00:48:57.381192 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: munin
+Events: off
+
+

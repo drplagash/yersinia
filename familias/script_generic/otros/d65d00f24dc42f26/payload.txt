@@ -1,0 +1,15 @@
+# sha256: d65d00f24dc42f26f94c2cda481078e528967b0973d92d40a78c2a056ab9ebed
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 00:48:56.234231 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: vicidialnow
+Events: off
+
+

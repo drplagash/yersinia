@@ -1,0 +1,15 @@
+# sha256: 96914edc93096c7b4ef3da56c6b6ae8136e106b82b3f5cded90d797d817fa03b
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 00:48:19.746834 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: phoneglue
+Events: off
+
+

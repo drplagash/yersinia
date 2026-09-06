@@ -1,0 +1,15 @@
+# sha256: 263c27edd33fdf9d64f128b6816291fd42e1d5e398ec78204f4d9c771e3d3106
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 00:48:16.052536 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: elastix456
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: ff9bb16c073b9bdc0ed2bd92f8ef5557de38b31c42530c68b7d5e6ce9bed8c9b
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 00:48:37.530747 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: orderlystats
+Events: off
+
+

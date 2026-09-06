@@ -1,0 +1,15 @@
+# sha256: 1eb794e5b41596334e1929edd8e60a8ad28af87408c1bbc8d557280ae5b9945b
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 00:48:26.786531 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: crm
+Events: off
+
+
