@@ -1,0 +1,15 @@
+# sha256: 95c29ce3b24fdd63c0347a939b7feaf48d83a4a11a882d4f6e68a5e56a61ceb3
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 03:03:16.796464 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: sitecom46
+Events: off
+
+

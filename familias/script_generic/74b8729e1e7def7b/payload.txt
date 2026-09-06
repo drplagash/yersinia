@@ -1,0 +1,15 @@
+# sha256: 74b8729e1e7def7b4c018c4e4bbd5c64370404e838c1913282ac35985fa9dd1f
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 03:04:39.779423 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: htc
+Events: off
+
+

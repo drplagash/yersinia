@@ -1,0 +1,15 @@
+# sha256: 82990c4af1e2541099e6f7d714161e24f31bed710f0ffb6a283a1aecf8d21895
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 03:03:01.402344 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: albany
+Events: off
+
+

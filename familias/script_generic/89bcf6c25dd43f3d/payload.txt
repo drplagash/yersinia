@@ -1,0 +1,15 @@
+# sha256: 89bcf6c25dd43f3d7414af387effdfe85b41c86b002635063d0f846e758a30a1
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 03:04:22.450378 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: cciadmin
+Events: off
+
+

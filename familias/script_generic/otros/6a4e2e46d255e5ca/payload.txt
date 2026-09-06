@@ -1,0 +1,15 @@
+# sha256: 6a4e2e46d255e5ca78a57604ea7a3f987eaa9dc5258e87f19c6ea1e6588a1f13
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 03:03:18.247605 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: conexant
+Events: off
+
+

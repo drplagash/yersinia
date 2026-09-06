@@ -1,0 +1,15 @@
+# sha256: ec955ea8f7a4f14307cb6a0a6308289f237803877371b9d128583c610f19c0ae
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 03:04:27.689319 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: asteriskuser
+Events: off
+
+

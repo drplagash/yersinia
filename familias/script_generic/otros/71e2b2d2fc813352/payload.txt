@@ -1,0 +1,15 @@
+# sha256: 71e2b2d2fc8133521d6e012b3c346c641c6f6e2752c7156e9cd27f5e547aaf6f
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 03:03:05.504791 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: airplane
+Events: off
+
+

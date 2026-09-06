@@ -1,0 +1,15 @@
+# sha256: d470f3b94ee6e4e3fc4e250235a1f1a0cea1efc6f74950cf43ac74957e6e288b
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 03:04:15.891794 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: ttnet
+Events: off
+
+
