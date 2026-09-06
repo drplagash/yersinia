@@ -1,0 +1,15 @@
+# sha256: 0d0ecff6559a80fca861011db0623493197f7ec065127c6ff167445e1c1dec9f
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 10:51:16.890763 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: Aastra
+Events: off
+
+

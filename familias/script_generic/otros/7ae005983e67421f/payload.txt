@@ -1,0 +1,15 @@
+# sha256: 7ae005983e67421fdca34c21389c36391d2007965f504c70e5b309be1a491e42
+# family: script_generic
+# kind: script
+# size_bytes: 59
+# first_seen: 2026-09-06 10:50:53.693791 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: crm
+Events: off
+
+

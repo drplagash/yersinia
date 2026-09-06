@@ -1,0 +1,15 @@
+# sha256: 758c9943463de5b88ab2810f0561ec390d44c05c4f608c74d57fbee2e865e598
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 10:49:23.017905 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: dialer
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 54e5832954df755ef8c919312628971278620b3617cac6134d720745bbe923e1
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 10:51:14.282805 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: livechat
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: e7d26d596914cc5da89da2dfb0418c226603d6bbe8be8a3097ac3fbfe6883a97
+# family: script_generic
+# kind: script
+# size_bytes: 62
+# first_seen: 2026-09-06 10:51:24.672489 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: amp109
+Events: off
+
+

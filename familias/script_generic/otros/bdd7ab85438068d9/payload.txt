@@ -1,0 +1,15 @@
+# sha256: bdd7ab85438068d9eb3e27d021b29eb088a30b5a1cb0ae44c7e8550e4725afbc
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 10:50:33.107696 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: vicidialnow
+Events: off
+
+

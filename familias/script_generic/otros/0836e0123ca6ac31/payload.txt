@@ -1,0 +1,15 @@
+# sha256: 0836e0123ca6ac318ad17645524605dce80fa2b7bbee91442c4a163aeea900af
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 10:49:53.799297 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: voip12345
+Events: off
+
+

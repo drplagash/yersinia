@@ -1,0 +1,15 @@
+# sha256: 3064c53943569e9d9e6c5fd537ccb4dd93e2d212536994467f46f0877834213c
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 10:51:29.573471 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: hu
+Secret: myasterisk
+Events: off
+
+
