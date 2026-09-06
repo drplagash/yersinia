@@ -1,0 +1,15 @@
+# sha256: 3e4dbac482d7f5c8dae564b19aaf9a8ed457504e1acf8c26b0146910a5713c92
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 04:04:03.131405 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: pbx123
+Events: off
+
+

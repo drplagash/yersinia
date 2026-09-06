@@ -1,0 +1,15 @@
+# sha256: dd61b1552e1b4cf75a1bea268d893d8d7fefca33be935c43610acfdb51afa055
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 04:04:16.573935 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: VDAD
+Events: off
+
+

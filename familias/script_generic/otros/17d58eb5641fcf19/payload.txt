@@ -1,0 +1,15 @@
+# sha256: 17d58eb5641fcf19be5b3b2c591148cd0801aa744cc511455897cd4d7f8364a4
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 04:03:14.982190 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: airplane
+Events: off
+
+

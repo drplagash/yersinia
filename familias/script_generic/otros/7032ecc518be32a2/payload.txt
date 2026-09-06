@@ -1,0 +1,15 @@
+# sha256: 7032ecc518be32a277d054ff5637d8088b7a543d4c86ccbf087e9ffebf610e4e
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 04:03:50.730267 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: alaxy
+Events: off
+
+

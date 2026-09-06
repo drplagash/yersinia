@@ -1,0 +1,15 @@
+# sha256: b48b8ef84ac55ca60e6b10847614766de3278ab6aadc01c08ac7f702a55399c6
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 04:03:58.549800 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: teles
+Events: off
+
+

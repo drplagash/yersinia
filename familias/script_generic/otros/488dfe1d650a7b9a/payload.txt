@@ -1,0 +1,15 @@
+# sha256: 488dfe1d650a7b9a1cc7342daab248975e0faaae05812ea8f3a8efc996146966
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 04:04:18.046317 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: asteriskuser
+Events: off
+
+

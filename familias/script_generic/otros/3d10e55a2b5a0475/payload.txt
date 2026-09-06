@@ -1,0 +1,15 @@
+# sha256: 3d10e55a2b5a0475d318b7a2b897c2e2fe7a05c8a80d052c7bcf90143d10e172
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 04:03:38.321019 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: glue
+Events: off
+
+

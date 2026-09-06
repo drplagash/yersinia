@@ -1,0 +1,15 @@
+# sha256: d197d47cfcfc5888007f6fb5a06c3d3ca44a43e875ea86b8824a93e3b40acd9b
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 04:04:55.384460 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: pbxadmin
+Events: off
+
+

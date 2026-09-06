@@ -1,0 +1,15 @@
+# sha256: b8879e57a79cece332d2ffe06f334ebbd96e765b49a8c3394eed8062a3c4a6bc
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 04:04:48.946725 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: ipphone
+Events: off
+
+

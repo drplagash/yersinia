@@ -1,0 +1,15 @@
+# sha256: 3975c0fd246ae9dae23fb2597bf2a6e96184441f2e7d826b37b898027f970f9e
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 04:03:57.252972 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: adrianna
+Events: off
+
+

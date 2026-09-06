@@ -1,0 +1,15 @@
+# sha256: 764ff82822dce9c0985632731cec150fa2e331ef8f5d3ee633370c61b58edcc1
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 04:04:37.263415 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: aerobics
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 7982d697221aec094040148dcbd08646ffd03e54faca2c7a493903d79cbb6317
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 04:03:04.772791 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: albatross
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 4d509ef66515853acf7753e600c3eae46cb7d028df7b38cc0b4638c4e2cdbf71
+# family: script_generic
+# kind: script
+# size_bytes: 64
+# first_seen: 2026-09-06 04:04:25.938891 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: nec99
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: d6afe82aac4a85d5c10a7195e4a6218ef41bd619b0045f6239df59db091acaa8
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 04:03:24.844288 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: allvoi
+Events: off
+
+

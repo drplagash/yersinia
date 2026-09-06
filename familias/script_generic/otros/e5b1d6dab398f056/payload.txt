@@ -1,0 +1,15 @@
+# sha256: e5b1d6dab398f056f0d96d941f7a32239b0645713c00fb121ac2514365c4623b
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 04:03:01.883056 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: Aspire
+Events: off
+
+

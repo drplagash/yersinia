@@ -1,0 +1,15 @@
+# sha256: d04e104b207b1657ebbf19d1dafc84b59a87eef07db0a4786da05c0536ff465d
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 04:03:03.346280 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: wwwvoice
+Events: off
+
+

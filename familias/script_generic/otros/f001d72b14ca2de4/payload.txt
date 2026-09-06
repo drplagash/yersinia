@@ -1,0 +1,15 @@
+# sha256: f001d72b14ca2de469af1d1c0f090b99973c980d791c620246582ff88410976a
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 04:03:59.472870 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: munin
+Secret: QAZwix12345
+Events: off
+
+
