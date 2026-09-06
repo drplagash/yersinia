@@ -1,0 +1,15 @@
+# sha256: 95d3da21f760bfee5f5a49a4e7e0634714c6082fd9ec4ed0e192d3fc04e5a185
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 02:34:01.860091 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: phpagi
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: cca0cd5ddd34581afe089293acc0c02fe5e30f9ed97984a26ee1646d1f5a3731
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 02:34:25.017423 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: amp111
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 99ed959321190940fa6f5434085e4b73e2842494b11e4c972e7c5a0202a462c1
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 02:34:24.330832 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: voip123
+Events: off
+
+

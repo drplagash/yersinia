@@ -1,0 +1,15 @@
+# sha256: a903355d04e48659903deb18a5786a9c040d68c10cbc901065b4354ee8b04b3d
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 02:33:32.441227 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: panel
+Secret: myasterisk
+Events: off
+
+
