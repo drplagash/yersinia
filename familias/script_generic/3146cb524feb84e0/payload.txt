@@ -1,0 +1,15 @@
+# sha256: 3146cb524feb84e0a69f74c9315987a1772cc819fc5cf41548a3af2b74cc089e
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 06:50:16.253287 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: airplane
+Events: off
+
+

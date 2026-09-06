@@ -1,0 +1,15 @@
+# sha256: 60e7410ceaa1fe21c2d4dbf31b5bf80ec30e914c2d27d98491dfb67f2b05f4b4
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 06:48:41.195840 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: zoomadsl
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 88967490d434373a0581aaae93360b48c120ed9c9214d3d7c616f83ed2e0da41
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 06:48:28.531318 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: addpac
+Events: off
+
+

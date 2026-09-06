@@ -1,0 +1,15 @@
+# sha256: 97f38799c4444ed91375c2cbacd88a2503a9c7874e698e9bb4d78950e2d83fe6
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 06:50:04.015978 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: cciadmin
+Events: off
+
+

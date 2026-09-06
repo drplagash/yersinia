@@ -1,0 +1,15 @@
+# sha256: 4021688ea644892f5cc24b1ea2ab933d427a802cd8327afbf02f4298fcfbd8d6
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 06:49:53.001603 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: QAZwix12345
+Events: off
+
+

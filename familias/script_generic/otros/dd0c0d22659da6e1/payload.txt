@@ -1,0 +1,15 @@
+# sha256: dd0c0d22659da6e10e612680904ef3c19dacb21f58d65b1ed1bf7ee78d7daf4f
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 06:49:23.392368 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: cableroot
+Events: off
+
+

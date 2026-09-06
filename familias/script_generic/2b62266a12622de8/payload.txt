@@ -1,0 +1,15 @@
+# sha256: 2b62266a12622de8ed3c45fdb1e83c93b44264cc413dcf9878ee684dcafcdf4c
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 06:50:27.306032 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: tercc
+Events: off
+
+

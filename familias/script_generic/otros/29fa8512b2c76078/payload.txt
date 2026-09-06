@@ -1,0 +1,15 @@
+# sha256: 29fa8512b2c760789046ee5060980b63ff7a4f2ca2ffb1d852b149f7e759b529
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 06:48:58.378383 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: aerobics
+Events: off
+
+

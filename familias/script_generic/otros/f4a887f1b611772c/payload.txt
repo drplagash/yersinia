@@ -1,0 +1,15 @@
+# sha256: f4a887f1b611772c1a8e8ae509ba2368a5386a25640ad5379f0ce8160eb98523
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 06:48:52.838580 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: elastix
+Secret: pbx123
+Events: off
+
+
