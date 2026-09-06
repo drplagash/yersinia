@@ -1,0 +1,15 @@
+# sha256: 36e936149eab9bde520ad444780de6af7f4fb3284069335fb8450822a0f60d22
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 08:05:08.160676 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: root
+Secret: username
+Events: off
+
+

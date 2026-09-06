@@ -1,0 +1,15 @@
+# sha256: 7c384a10818c13696659eb5a012a44a987fbba43b50da19f21c9e55228ed0d78
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 08:05:17.057611 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: router1234
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: c337124d42339cd3b5303d9722ebfa1531e75c73745fe0792c10fb9f37f55573
+# family: script_generic
+# kind: script
+# size_bytes: 63
+# first_seen: 2026-09-06 08:03:37.055112 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: fpbx
+Events: off
+
+

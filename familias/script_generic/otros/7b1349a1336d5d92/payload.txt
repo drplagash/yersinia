@@ -1,0 +1,15 @@
+# sha256: 7b1349a1336d5d92ef5135e26987d9bd03b30b694d8094c7677c88c0547496cc
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 08:06:06.283989 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: dialer
+Events: off
+
+

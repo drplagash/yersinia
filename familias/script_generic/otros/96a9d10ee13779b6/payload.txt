@@ -1,0 +1,15 @@
+# sha256: 96a9d10ee13779b6dc5d14da0976ddebb7556e08cc6a0ca0668387b542f1ad81
+# family: script_generic
+# kind: script
+# size_bytes: 65
+# first_seen: 2026-09-06 08:03:48.097926 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: linux
+Secret: amp110
+Events: off
+
+
