@@ -1,0 +1,15 @@
+# sha256: 430b88df1e4904fe2403504a7420036fe2793e3a253c44ae2118bab47ac5d4f5
+# family: script_generic
+# kind: script
+# size_bytes: 74
+# first_seen: 2026-09-06 00:48:07.920061 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: asteriskclient
+Events: off
+
+

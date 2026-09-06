@@ -1,0 +1,15 @@
+# sha256: 5e8692fe08fed7924186ce8656c3b034ff709f986f5442ae17dae0ab0c612670
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 00:48:04.448494 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: amp112
+Events: off
+
+

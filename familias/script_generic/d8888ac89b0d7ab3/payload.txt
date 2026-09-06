@@ -1,0 +1,15 @@
+# sha256: d8888ac89b0d7ab3bbec077580c5f37b45dfc3f72884b77b6a3dd20082e525d7
+# family: script_generic
+# kind: script
+# size_bytes: 68
+# first_seen: 2026-09-06 00:48:02.217513 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: livechat
+Events: off
+
+

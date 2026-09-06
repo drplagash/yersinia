@@ -1,0 +1,15 @@
+# sha256: e52f7017e0dc632d8e5467285dbe5426d99ddd2308fcc199c5c6f9293353b0be
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 00:48:06.175637 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: phpagi
+Secret: astercc
+Events: off
+
+
