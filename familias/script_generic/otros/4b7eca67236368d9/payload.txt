@@ -1,0 +1,15 @@
+# sha256: 4b7eca67236368d903301c9e82891f9b92e325089ecf9a8187630d32fce09885
+# family: script_generic
+# kind: script
+# size_bytes: 72
+# first_seen: 2026-09-06 09:04:07.672239 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: phoneglue
+Events: off
+
+

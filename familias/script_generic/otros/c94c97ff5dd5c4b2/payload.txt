@@ -1,0 +1,15 @@
+# sha256: c94c97ff5dd5c4b26ee85644d282c50a82e9ca46b8412ede6b7b78fef96fe253
+# family: script_generic
+# kind: script
+# size_bytes: 74
+# first_seen: 2026-09-06 09:04:34.062673 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: vicidialnow
+Events: off
+
+

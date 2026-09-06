@@ -1,0 +1,15 @@
+# sha256: 989a342cd1555b89d20d4a76e17dca83da2b201964c056e8fa96543d17039d25
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:03:05.659524 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: hudpro
+Events: off
+
+

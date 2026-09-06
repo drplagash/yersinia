@@ -1,0 +1,15 @@
+# sha256: d6246eb03a9e0209d78145c827af99be866c22dbb6ea0a7bf2aaf434347b2864
+# family: script_generic
+# kind: script
+# size_bytes: 66
+# first_seen: 2026-09-06 09:04:31.006990 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: crm
+Events: off
+
+

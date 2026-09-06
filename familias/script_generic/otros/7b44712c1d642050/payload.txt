@@ -1,0 +1,15 @@
+# sha256: 7b44712c1d642050f72511414ef18f8eefdaaad62343274c13d8d569f78fe5db
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 09:03:10.510311 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: elastix456
+Events: off
+
+

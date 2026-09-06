@@ -1,0 +1,15 @@
+# sha256: a8c02527bb4fedc521d7599760b17d8f8273cca1b7ff63f78bfe2ac6f2e2a012
+# family: script_generic
+# kind: script
+# size_bytes: 73
+# first_seen: 2026-09-06 09:06:09.720049 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: myasterisk
+Events: off
+
+

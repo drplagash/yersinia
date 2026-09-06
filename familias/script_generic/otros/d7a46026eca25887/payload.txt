@@ -1,0 +1,15 @@
+# sha256: d7a46026eca25887596b92bf10015edf0a221aa0b22d24c98057caac787166ce
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 09:03:57.387739 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: ripencc
+Events: off
+
+

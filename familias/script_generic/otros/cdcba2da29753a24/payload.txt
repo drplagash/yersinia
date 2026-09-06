@@ -1,0 +1,15 @@
+# sha256: cdcba2da29753a245d25ab55ac73efefc94c847c8a5fb703041f0ed3a226ca77
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:03:48.013092 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: gohigh
+Events: off
+
+

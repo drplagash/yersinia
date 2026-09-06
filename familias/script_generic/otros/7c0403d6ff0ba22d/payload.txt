@@ -1,0 +1,15 @@
+# sha256: 7c0403d6ff0ba22def3004eed673b3ad8733331c7ee781a58add4aa11046b46b
+# family: script_generic
+# kind: script
+# size_bytes: 67
+# first_seen: 2026-09-06 09:04:49.141032 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: cron
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: 422fd3bec4ba704ebc713feebab4d5ac187866839a6066d531664ced38b96cc2
+# family: script_generic
+# kind: script
+# size_bytes: 71
+# first_seen: 2026-09-06 09:04:59.589766 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: livechat
+Events: off
+
+

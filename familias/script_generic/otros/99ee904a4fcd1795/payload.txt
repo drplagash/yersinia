@@ -1,0 +1,15 @@
+# sha256: 99ee904a4fcd1795a7491e564ae56d7fb38e7dc692671d3c60b821601b6af6e7
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:05:46.293994 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: dialer
+Events: off
+
+

@@ -1,0 +1,15 @@
+# sha256: ed2623ddd4ad7a308f267f581893c40410e494a3ffdc6d20b47c2acdfa540e71
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:04:24.534385 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: phpagi
+Events: off
+
+

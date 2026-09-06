@@ -1,0 +1,15 @@
+# sha256: ade0f08b1cdb6ae7d1dfa2f8a113e85feac01d821d37f4f2c18b1fe11da350cf
+# family: script_generic
+# kind: script
+# size_bytes: 69
+# first_seen: 2026-09-06 09:03:53.142934 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: delink
+Events: off
+
+

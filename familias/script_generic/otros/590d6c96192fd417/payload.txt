@@ -1,0 +1,15 @@
+# sha256: 590d6c96192fd4179122883bd2879f5270097b05dc70fd12f9942bfec67bf47b
+# family: script_generic
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-06 09:03:19.531288 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Action: Login
+Username: palosanto
+Secret: astconf
+Events: off
+
+
