@@ -1,13 +1,13 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (2647 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (2648 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 2647
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-07 05:56:56.177766
+- Total de muestras: 2648
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-07 06:11:48.252817
 
 ## Rutas mas solicitadas
 
-- `/` (1332)
+- `/` (1333)
 - `/_next` (33)
 - `/api/route` (33)
 - `/api` (33)
@@ -41,7 +41,7 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 ## User-Agents mas comunes
 
 - `python-requests/2.27.1` (899)
-- `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (212)
+- `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (213)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gec` (190)
 - `curl/7.64.1` (156)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)` (141)
