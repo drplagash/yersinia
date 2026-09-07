@@ -1,13 +1,13 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (2658 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (2660 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 2658
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-07 07:26:43.435675
+- Total de muestras: 2660
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-07 07:42:06.543247
 
 ## Rutas mas solicitadas
 
-- `/` (1337)
+- `/` (1339)
 - `/_next` (34)
 - `/api/route` (34)
 - `/api` (34)
@@ -43,12 +43,12 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `python-requests/2.27.1` (899)
 - `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (214)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gec` (190)
-- `curl/7.64.1` (156)
+- `curl/7.64.1` (157)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)` (142)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like ` (100)
 - `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (79)
 - `Mozilla/5.0 (compatible; Infrawatch/1.0; +https://infrawat.ch/)` (62)
-- `Mozilla/5.0 zgrab/0.x` (57)
+- `Mozilla/5.0 zgrab/0.x` (58)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0` (54)
 - `Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/5` (52)
 - `Go-http-client/1.1` (32)
