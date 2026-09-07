@@ -1,0 +1,13 @@
+# sha256: 3bb5cf0cf67843ee2207e9d58fd53fc4ab0fa4fe75fbc8573f7b739771e8d8e1
+# family: script_generic
+# kind: script
+# size_bytes: 77
+# first_seen: 2026-09-07 03:11:35.845032 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+OPTIONS rtsp://190.179.137.193:2002 RTSP/1.0
+CSeq: 1
+User-Agent: FlowIQ
+
