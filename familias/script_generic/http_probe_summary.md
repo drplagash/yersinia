@@ -1,13 +1,13 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (2625 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (2628 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 2625
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-07 04:26:40.263041
+- Total de muestras: 2628
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-07 04:42:08.765573
 
 ## Rutas mas solicitadas
 
-- `/` (1311)
+- `/` (1314)
 - `/_next` (33)
 - `/api/route` (33)
 - `/api` (33)
@@ -41,14 +41,14 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 ## User-Agents mas comunes
 
 - `python-requests/2.27.1` (899)
-- `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (206)
+- `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (207)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gec` (187)
 - `curl/7.64.1` (152)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)` (141)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like ` (98)
 - `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (78)
 - `Mozilla/5.0 (compatible; Infrawatch/1.0; +https://infrawat.ch/)` (62)
-- `Mozilla/5.0 zgrab/0.x` (55)
+- `Mozilla/5.0 zgrab/0.x` (56)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0` (52)
 - `Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/5` (52)
 - `Go-http-client/1.1` (32)
