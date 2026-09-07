@@ -32,8 +32,8 @@ bash
 cat /etc/passwd
 cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
 echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
-id
 echo xsec
+id
 &k`g&k|zpkfq)ES[M
 g & k | zpkfq
 /bin/./uname -s -v -n -r -m
