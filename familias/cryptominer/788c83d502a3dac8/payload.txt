@@ -1,0 +1,10 @@
+# sha256: 788c83d502a3dac8a76d7d4f11560a00a001221ba8d46c7d949e319ddf7be4d2
+# family: cryptominer
+# kind: script
+# size_bytes: 558
+# first_seen: 2026-09-08 16:42:51.989895 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+{"id":1,"jsonrpc":"2.0","method":"login","params":{"login":"4AuANnGvHc5RnbwJAuGRDDQPFZAEBGrKtNmuzXybggbPbDsS5iEPJfnGHG5MriGehiLCgjfi1pvs766HFUGRABqFSrK3tFG","pass":"x","agent":"XMRig/6.15.3 (Windows NT 10.0; Win64; x64) libuv/1.42.0 msvc/2019","algo":["cn/1","cn/2","cn/r","cn/fast","cn/half","cn/xao","cn/rto","cn/rwz","cn/zls","cn/double","cn/ccx","cn-lite/1","cn-heavy/0","cn-heavy/tube","cn-heavy/xhv","cn-pico","cn-pico/tlo","cn/upx2","rx/0","rx/wow","rx/arq","rx/graft","rx/sfx","rx/keva","argon2/chukwa","argon2/chukwav2","argon2/ninja","astrobwt"]}}

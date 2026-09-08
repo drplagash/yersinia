@@ -1,0 +1,10 @@
+# sha256: 01134e0e552307680b3c635c20829235e0d84ab32bf6baa60a137524ff0aad72
+# family: script_generic
+# kind: script
+# size_bytes: 96
+# first_seen: 2026-09-08 16:42:50.084268 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+{"id": 1, "method": "mining.subscribe", "params": ["MinerName/1.0.0", "EthereumStratum/1.0.0"]}

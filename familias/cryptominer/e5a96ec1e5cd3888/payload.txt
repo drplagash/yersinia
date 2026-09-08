@@ -1,0 +1,10 @@
+# sha256: e5a96ec1e5cd38885145e7b930eda5d25df35ebfc8e42c649c1eb459ad204c4c
+# family: cryptominer
+# kind: script
+# size_bytes: 70
+# first_seen: 2026-09-08 16:42:14.912786 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+{"id": 1, "method": "mining.subscribe", "params": ["cpuminer/2.5.1"]}
