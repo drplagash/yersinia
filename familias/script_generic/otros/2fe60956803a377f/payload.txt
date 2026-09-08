@@ -1,0 +1,10 @@
+# sha256: 2fe60956803a377f4bc4b2c8f550bf04bf3336ba7edaf2f993c3807457c18303
+# family: script_generic
+# kind: script
+# size_bytes: 132
+# first_seen: 2026-09-08 16:41:47.551953 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+{"id":1,"method":"eth_submitLogin","worker":"igwrcvap","params":["0x28f5b849cfec1e2f45433a63868f079556b8c90c","x"],"jsonrpc":"2.0"}
