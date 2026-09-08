@@ -1,0 +1,12 @@
+# sha256: 1d27bb7ea3e7bf424eb34c1116f9fc94de386c16f7d11050ad699f61cea9dadc
+# family: script_generic
+# kind: script
+# size_bytes: 87
+# first_seen: 2026-09-08 19:56:52.070643 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+Content-Length: 65
+
+{"params": {}, "jsonrpc": "2.0", "id": 1, "method": "initialize"}
