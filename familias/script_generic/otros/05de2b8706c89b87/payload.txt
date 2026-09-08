@@ -1,0 +1,10 @@
+# sha256: 05de2b8706c89b87ce11cf6397720110e782087ac3d08a4824d6f51275daa6ec
+# family: script_generic
+# kind: script
+# size_bytes: 164
+# first_seen: 2026-09-08 01:26:38.747371 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+!0 ENABLE PACKET  type,subtype,ti mesec,encrypted, weak,beaconrate, sourcemac,destma c,bssid,ssid,pro totype,sourceip, destip,sourcepor t,destport,nbtyp e,nbsource
