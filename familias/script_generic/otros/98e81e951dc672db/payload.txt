@@ -1,0 +1,23 @@
+# sha256: 98e81e951dc672db1a9a40358d7582ea99013fd9cdc8aa57d625bfbb57123083
+# family: script_generic
+# kind: script
+# size_bytes: 500
+# first_seen: 2026-09-08 22:27:15.044985 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+REGISTER sip:190.179.137.193 SIP/2.0
+To: <sip:10320940854504@190.179.137.193>
+From: <sip:10320940854504@190.179.137.193>;tag=7adf0ab57
+Via: SIP/2.0/TCP 199.195.250.193:58187;branch=z9hG4bK-d87543-000001529-1--d87543;rport
+Call-ID: 1ac13d6f225c441cb4d41780fe37d550
+CSeq: 1 REGISTER
+Contact: <sip:10320940854504@199.195.250.193:58187>
+Expires: 3600
+Max-Forwards: 70
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO
+User-Agent: Yealink
+Content-Length: 0
+
+
