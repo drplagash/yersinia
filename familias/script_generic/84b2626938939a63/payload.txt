@@ -1,0 +1,10 @@
+# sha256: 84b2626938939a6386b7e484af3cc8efb63a337a3a49f4d37ce122f3b277571f
+# family: script_generic
+# kind: script
+# size_bytes: 42
+# first_seen: 2026-09-09 18:27:49.504149 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+ehlo scanner-44-220-188-111.reposify.net
