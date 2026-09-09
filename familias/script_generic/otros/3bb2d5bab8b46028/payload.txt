@@ -1,0 +1,10 @@
+# sha256: 3bb2d5bab8b46028b72b5388c4f90c720670cfad486078a6ad2030f77f5639c9
+# family: script_generic
+# kind: script
+# size_bytes: 49
+# first_seen: 2026-09-09 00:12:34.973713 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+{"id":1,"method":"mining.subscribe","params":[]}
