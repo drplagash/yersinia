@@ -145,4 +145,5 @@ echo SHELL_TEST
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x5a\x48\x57\x5a\x52\x59'
 cat /proc/cpuinfo|grep name|cut -f2 -d':'|uniq -c ; uname -a
 cat /proc/mounts; /bin/busybox DCLDN
+echo 'dGVzdA==' | base64 -d 2>/dev/null
 echo 1 > /dev/null && cat /bin/echo
