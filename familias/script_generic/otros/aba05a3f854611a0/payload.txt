@@ -1,0 +1,248 @@
+# sha256: aba05a3f854611a0736e3f5a6582bc439e794f80fb9503fe5a0e49e3d6ace310
+# family: script_generic
+# kind: script
+# size_bytes: 10069
+# first_seen: 2026-09-09 11:44:12.426820 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - School Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .login-container {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .input-focus:focus {
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+            border-color: #3b82f6;
+        }
+        .btn-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Extra polish for the per-school login card ("marka iskuulka la
+           doorto") — drifting background blobs, a glowing logo ring, and a
+           staggered entrance for the card's own elements. Scoped to this
+           view only so the school-picker/platform-admin screens keep their
+           original, simpler look. */
+        .decor-layer {
+            position: fixed;
+            inset: 0;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .decor-blob {
+            position: absolute;
+            border-radius: 9999px;
+            filter: blur(60px);
+            opacity: 0.35;
+            pointer-events: none;
+            animation: floatBlob 12s ease-in-out infinite;
+        }
+        .decor-blob.b1 { width: 320px; height: 320px; background: #fbbf24; top: -80px; left: -80px; animation-duration: 14s; }
+        .decor-blob.b2 { width: 260px; height: 260px; background: #34d399; bottom: -60px; right: -60px; animation-duration: 16s; animation-delay: 1s; }
+        .decor-blob.b3 { width: 220px; height: 220px; background: #f472b6; bottom: 20%; left: 8%; animation-duration: 18s; animation-delay: 2s; }
+        @keyframes floatBlob {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(24px, -18px) scale(1.08); }
+            66% { transform: translate(-18px, 14px) scale(0.94); }
+        }
+
+        .logo-ring {
+            position: relative;
+        }
+        .logo-ring::before {
+            content: '';
+            position: absolute;
+            inset: -6px;
+            border-radius: 1rem;
+            background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6);
+            opacity: 0.6;
+            filter: blur(10px);
+            z-index: -1;
+            animation: pulseRing 2.4s ease-in-out infinite;
+        }
+        @keyframes pulseRing {
+            0%, 100% { opacity: 0.35; transform: scale(0.96); }
+            50% { opacity: 0.65; transform: scale(1.05); }
+        }
+
+        .fade-up {
+            opacity: 0;
+            animation: fadeInUp 0.55s ease-out forwards;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(14px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-up.d1 { animation-delay: 0.05s; }
+        .fade-up.d2 { animation-delay: 0.12s; }
+        .fade-up.d3 { animation-delay: 0.19s; }
+        .fade-up.d4 { animation-delay: 0.26s; }
+        .fade-up.d5 { animation-delay: 0.33s; }
+
+        .input-focus:focus {
+            transform: translateY(-1px);
+        }
+
+        .btn-shine {
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-shine::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -75%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(120deg, transparent, rgba(255,255,255,0.35), transparent);
+            transform: skewX(-20deg);
+            transition: left 0.6s ease;
+        }
+        .btn-shine:hover::after {
+            left: 125%;
+        }
+
+        /* "Welcome" login card look (once a school / platform-admin login
+           form is showing) — split blue/gray backdrop (matches the app's
+           usual blue branding), a bigger circular avatar icon overlapping
+           the card, underline-style inputs, solid blue button. Kept
+           separate from the picker's blue/purple look above. */
+        .welcome-icon-circle {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto -70px;
+            position: relative;
+            z-index: 20;
+            background: #fff;
+            border-radius: 9999px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        .welcome-card {
+            padding-top: 80px;
+        }
+        .underline-field input {
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid #e5e7eb;
+            padding: 0.5rem 0.25rem;
+            background: transparent;
+            outline: none;
+            transition: border-color 0.2s ease;
+        }
+        .underline-field input:focus {
+            border-bottom-color: #2563eb;
+        }
+        .underline-field label {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #2563eb;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700"
+      >
+        <div class="decor-layer" aria-hidden="true">
+        <div class="decor-blob b1"></div>
+        <div class="decor-blob b2"></div>
+        <div class="decor-blob b3"></div>
+    </div>
+        <div class="w-full max-w-3xl login-container relative z-10">
+                <!-- Logo & Brand (school picker) -->
+        <div class="text-center mb-6 fade-up d1">
+            <div class="inline-block bg-white/10 backdrop-blur-sm p-4 rounded-2xl logo-ring">
+                <i class="fas fa-graduation-cap text-5xl text-white"></i>
+            </div>
+            <h1 class="text-3xl font-bold text-white mt-4">Choose Your School</h1>
+            <p class="text-blue-100 text-sm mt-1">Tap a school to sign in</p>
+            <div class="flex items-center justify-center gap-2 mt-4">
+                                    <a href="?set_lang=so"
+                       class="px-3 py-1 rounded-full text-xs font-medium transition bg-white/15 text-white hover:bg-white/25">
+                        Soomaali                    </a>
+                                    <a href="?set_lang=en"
+                       class="px-3 py-1 rounded-full text-xs font-medium transition bg-white text-blue-700">
+                        English                    </a>
+                                    <a href="?set_lang=ar"
+                       class="px-3 py-1 rounded-full text-xs font-medium transition bg-white/15 text-white hover:bg-white/25">
+                        العربية                    </a>
+                            </div>
+        </div>
+        
+                <!-- School Picker -->
+        <div class="bg-white rounded-2xl shadow-2xl p-6 fade-up d2">
+                            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                                            <a href="login.php?school_id=6"
+                           class="flex flex-col items-center text-center p-4 rounded-xl border border-gray-200 hover:border-blue-400 hover:shadow-md hover:-translate-y-1 transition-all fade-up d1">
+                            <div class="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center overflow-hidden mb-2">
+                                                                    <img src="http://iskashischools.online/uploads/schools/school_6a86e047d70fd.jpg" alt=""
+                                         class="w-full h-full object-cover">
+                                                            </div>
+                            <span class="text-sm font-semibold text-gray-700">Al Qudus primary And Secondary school</span>
+                        </a>
+                                    </div>
+                        <div class="text-center mt-5 pt-4 border-t border-gray-100">
+                <a href="login.php?admin=1" class="text-xs text-gray-400 hover:text-gray-600 transition">
+                    Platform Administrator? Sign in here                </a>
+            </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="text-center mt-6 text-white/60 text-sm">
+            &copy; 2026 School Management System. All rights reserved.
+        </div>
+    </div>
+
+    <script>
+        // Toggle password visibility
+        function togglePassword() {
+            const password = document.getElementById('password');
+            const icon = document.getElementById('toggleIcon');
+            
+            if (password.type === 'password') {
+                password.type = 'text';
+                icon.classList.remove('fa-eye');
+                icon.classList.add('fa-eye-slash');
+            } else {
+                password.type = 'password';
+                icon.classList.remove('fa-eye-slash');
+                icon.classList.add('fa-eye');
+            }
+        }
+        
+        // Auto-hide error messages after 5 seconds
+        setTimeout(function() {
+            const errorDiv = document.querySelector('.bg-red-50');
+            if (errorDiv) {
+                errorDiv.style.transition = 'opacity 1s';
+                errorDiv.style.opacity = '0';
+                setTimeout(function() {
+                    errorDiv.style.display = 'none';
+                }, 1000);
+            }
+        }, 5000);
+    </script>
+</body>
+</html>
