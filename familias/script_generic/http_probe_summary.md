@@ -1,13 +1,13 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (3068 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (3085 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 3068
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-09 02:42:15.353044
+- Total de muestras: 3085
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-09 03:12:35.072874
 
 ## Rutas mas solicitadas
 
-- `/` (1667)
+- `/` (1679)
 - `/api/route` (43)
 - `/_next` (43)
 - `/api` (43)
@@ -51,12 +51,12 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `Mozilla/5.0 zgrab/0.x` (74)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0` (65)
 - `Mozilla/5.0 (compatible; Infrawatch/1.0; +https://infrawat.ch/)` (65)
-- `Go-http-client/1.1` (38)
+- `Go-http-client/1.1` (43)
+- `Mozilla/5.0 (X11; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0` (33)
 - `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/13` (33)
 - `Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHT` (29)
 - `Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chr` (28)
 - `Mozilla/5.0 (Linux; Android 14; SM-F9560 Build/UP1A.231005.007; wv) AppleWebKit/` (26)
 - `Mozilla/5.0 (Linux; Android 9; AFTWMST22 Build/PS7233; wv) AppleWebKit/537.36 (K` (24)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.` (23)
-- `Mozilla/5.0 (X11; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0` (23)
 - `Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome` (23)
