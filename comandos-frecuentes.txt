@@ -6,6 +6,7 @@ config terminal
 linuxshell
 start
 su
+/bin/busybox TOKEN
 ( [ -f /proc/version ]
 /bin/uname -s -v -n -m 2 > /dev/null
 /usr/bin/uname -s -v -n -m 2 > /dev/null
@@ -14,7 +15,6 @@ su
 busybox uname -s -v -n -m 2 > /dev/null
 head -1 /proc/version | cut -d -f1
 uname -s -v -n -m 2 > /dev/null
-/bin/busybox TOKEN
 uname -s -v -n -r -m
 
 /bin/busybox cat /proc/self/exe || cat /proc/self/exe
