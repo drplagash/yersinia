@@ -1,0 +1,10 @@
+# sha256: 6cac8f0a754db2892f30d9e02f68cc10f11a49d6d03169e4d4a30277a2e49982
+# family: script_generic
+# kind: script
+# size_bytes: 5
+# first_seen: 2026-09-09 05:12:23.726550 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+srvr
