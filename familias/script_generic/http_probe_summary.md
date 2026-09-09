@@ -1,13 +1,13 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (3209 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (3210 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 3209
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-09 13:12:25.566265
+- Total de muestras: 3210
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-09 13:27:24.822893
 
 ## Rutas mas solicitadas
 
-- `/` (1779)
+- `/` (1780)
 - `/api/route` (45)
 - `/_next` (45)
 - `/_next/server` (45)
