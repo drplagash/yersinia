@@ -1,0 +1,24 @@
+# sha256: 157e02397eaf7f4bbb8ac0689344a56879f167ca4189c42d29f186c0657a9245
+# family: downloader
+# kind: script
+# size_bytes: 528
+# first_seen: 2026-09-09 03:42:22.751946 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+POST /api/host.describe HTTP/1.1
+Host: 127.0.0.1:3080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+Content-Type: application/json
+Origin: http://127.0.0.1:3080
+Referer: http://127.0.0.1:3080/
+Accept: */*
+Accept-Language: en-US,en;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Content-Length: 90
+Connection: close
+
+{"method":"host.describe","payload":{},"rpcId":"5dc31f7838d1c192","type":"client-request"}
