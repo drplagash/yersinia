@@ -1,18 +1,18 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (3307 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (3311 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 3307
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-10 10:01:32.753832
+- Total de muestras: 3311
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-10 10:19:03.171725
 
 ## Rutas mas solicitadas
 
-- `/` (1860)
+- `/` (1862)
+- `/api/route` (48)
 - `/_next` (48)
 - `/api` (48)
-- `/api/route` (47)
+- `/app` (48)
 - `/_next/server` (47)
-- `/app` (47)
 - `/admin/config.php` (32)
 - `/_asterisk/phpversions.php` (30)
 - `/recordings/phpversions.php` (30)
@@ -45,7 +45,7 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `Hello from Palo Alto Networks, find out more about our scans in https://docs-cor` (235)
 - `curl/7.64.1` (211)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)` (187)
-- `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like ` (143)
+- `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like ` (144)
 - `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (111)
 - `Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/5` (80)
 - `Mozilla/5.0 zgrab/0.x` (79)
@@ -58,5 +58,5 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `Mozilla/5.0 (Linux; Android 9; AFTWMST22 Build/PS7233; wv) AppleWebKit/537.36 (K` (29)
 - `Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHT` (29)
 - `Python/3.12 aiohttp/3.14.3` (28)
+- `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.` (27)
 - `Mozilla/5.0 (Linux; Android 14; SM-F9560 Build/UP1A.231005.007; wv) AppleWebKit/` (27)
-- `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.` (26)
