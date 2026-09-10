@@ -1,13 +1,13 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (3345 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (3346 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 3345
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-10 19:01:45.619491
+- Total de muestras: 3346
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-10 19:33:00.919500
 
 ## Rutas mas solicitadas
 
-- `/` (1888)
+- `/` (1889)
 - `/_next` (49)
 - `/api` (49)
 - `/app` (49)
@@ -46,7 +46,7 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `curl/7.64.1` (214)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)` (189)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like ` (148)
-- `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (111)
+- `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (112)
 - `Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/5` (80)
 - `Mozilla/5.0 zgrab/0.x` (79)
 - `Mozilla/5.0 (compatible; Infrawatch/1.0; +https://infrawat.ch/)` (75)
