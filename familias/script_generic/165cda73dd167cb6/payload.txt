@@ -1,0 +1,16 @@
+# sha256: 165cda73dd167cb6bfb33feb751d45c978d524b74327e16cb8e546c664e8d30d
+# family: script_generic
+# kind: script
+# size_bytes: 171
+# first_seen: 2026-09-14 07:49:17.741045 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /recordings/index.php HTTP/1.1
+Host: 190.179.140.166:1717
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

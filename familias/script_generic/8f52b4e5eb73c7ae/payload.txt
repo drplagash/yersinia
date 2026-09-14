@@ -1,0 +1,16 @@
+# sha256: 8f52b4e5eb73c7aee93d6b34869861deab0772f3ec0bf8f5be4455f7f97be501
+# family: script_generic
+# kind: script
+# size_bytes: 170
+# first_seen: 2026-09-14 03:33:54.176897 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /_asterisk/graph.php HTTP/1.1
+Host: 190.179.140.166:3390
+User-Agent: python-requests/2.27.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

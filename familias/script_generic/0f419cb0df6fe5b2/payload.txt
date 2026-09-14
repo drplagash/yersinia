@@ -1,0 +1,14 @@
+# sha256: 0f419cb0df6fe5b26de751613ab5b769e18d1f62377b382b6f808503a40ab785
+# family: script_generic
+# kind: script
+# size_bytes: 88
+# first_seen: 2026-09-14 00:35:54.660201 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET / HTTP/1.1
+User-Agent: Hello World/1.0
+Host: 190.179.140.166:2000
+Accept: */*
+

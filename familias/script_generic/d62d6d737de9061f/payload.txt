@@ -1,0 +1,10 @@
+# sha256: d62d6d737de9061f061bdfbc0544048aed45617ef213ed9452877278b21ac951
+# family: script_generic
+# kind: script
+# size_bytes: 155
+# first_seen: 2026-09-14 02:33:10.117660 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+<?xml version='1.0'?><stream:stream xmlns:stream='http://etherx.jabber.org/streams' xmlns='jabber:client' xml:lang='en' to='190.179.140.166' version='1.0'>

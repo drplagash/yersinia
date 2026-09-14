@@ -1,0 +1,14 @@
+# sha256: 161c82114b7b7b554155b8ce0808da27d7f5e1affcc200168bc99486733de2cd
+# family: script_generic
+# kind: script
+# size_bytes: 144
+# first_seen: 2026-09-14 02:18:03.704019 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /admin/config.php HTTP/1.0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+Accept: */*
+Host: 190.179.140.166
+

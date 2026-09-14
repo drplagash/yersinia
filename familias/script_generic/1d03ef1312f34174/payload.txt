@@ -1,0 +1,15 @@
+# sha256: 1d03ef1312f34174009b3f412020710311aaf12004464975e53180ce305422d4
+# family: script_generic
+# kind: script
+# size_bytes: 194
+# first_seen: 2026-09-14 00:35:00.241276 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /admin/index.html HTTP/1.1
+Host: 190.179.140.166:3366
+User-Agent: Mozilla/5.0 (compatible; GenomeCrawlerd/1.0; +https://www.nokia.com/genomecrawler)
+Accept: */*
+Accept-Encoding: gzip
+
