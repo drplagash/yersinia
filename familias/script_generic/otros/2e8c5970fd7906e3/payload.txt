@@ -1,0 +1,10 @@
+# sha256: 2e8c5970fd7906e35a37aa7078ed2fad7a093f63e56e340e0ff07ab935a20086
+# family: script_generic
+# kind: script
+# size_bytes: 6
+# first_seen: 2026-09-15 05:00:43.845470 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+*IDN?
