@@ -6,7 +6,6 @@ linuxshell
 config terminal
 start
 su
-uname -s -v -n -r -m
 ( [ -f /proc/version ]
 /bin/uname -s -v -n -m 2 > /dev/null
 /usr/bin/uname -s -v -n -m 2 > /dev/null
@@ -15,6 +14,7 @@ uname -s -v -n -r -m
 busybox uname -s -v -n -m 2 > /dev/null
 head -1 /proc/version | cut -d -f1
 uname -s -v -n -m 2 > /dev/null
+uname -s -v -n -r -m
 
 echo xsec
 &k`g&k|zpkfq)ES[M
