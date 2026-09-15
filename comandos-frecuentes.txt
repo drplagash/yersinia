@@ -16,9 +16,9 @@ busybox uname -s -v -n -m 2 > /dev/null
 head -1 /proc/version | cut -d -f1
 uname -s -v -n -m 2 > /dev/null
 
+echo xsec
 &k`g&k|zpkfq)ES[M
 g & k | zpkfq
-echo xsec
 /bin/./uname -s -v -n -r -m
 cat /etc/passwd
 echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
