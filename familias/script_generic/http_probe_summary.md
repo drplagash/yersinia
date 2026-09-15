@@ -1,13 +1,13 @@
 # http_probe - resumen agregado
 
-Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (4041 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
+Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - trafico de fondo de internet, sin intento real de explotacion. Se agregan en vez de publicarse muestra por muestra (4048 muestras casi identicas no tienen valor de lectura individual; el crudo completo sigue disponible en la DB para auditoria/reproceso, esto es solo lo publicado).
 
-- Total de muestras: 4041
-- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-15 17:15:57.882256
+- Total de muestras: 4048
+- Rango de fechas: 2026-09-01 22:30:10.780367 a 2026-09-15 17:47:08.860702
 
 ## Rutas mas solicitadas
 
-- `/` (2201)
+- `/` (2207)
 - `/recordings/index.php` (64)
 - `/admin/views/graph.php` (64)
 - `/phpversions.php` (63)
@@ -46,8 +46,8 @@ Sondas HTTP de scanners (zgrab, python-requests, Docker-Client, curl, etc.) - tr
 - `curl/7.64.1` (247)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)` (211)
 - `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like ` (180)
-- `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (141)
-- `Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/5` (93)
+- `visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126` (142)
+- `Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/5` (94)
 - `Mozilla/5.0 zgrab/0.x` (85)
 - `Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0` (82)
 - `Mozilla/5.0 (compatible; GenomeCrawlerd/1.0; +https://www.nokia.com/genomecrawle` (76)

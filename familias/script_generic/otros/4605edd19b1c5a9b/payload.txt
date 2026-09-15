@@ -1,0 +1,10 @@
+# sha256: 4605edd19b1c5a9b5cc104ac136153ee21a5b423bc3de087b8232892a572cc40
+# family: script_generic
+# kind: script
+# size_bytes: 19
+# first_seen: 2026-09-15 17:45:38.875347 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+VER 11 MSNP2 CVR0
