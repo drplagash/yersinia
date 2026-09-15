@@ -18,8 +18,8 @@ uname -s -v -n -m 2 > /dev/null
 
 echo xsec
 &k`g&k|zpkfq)ES[M
-g & k | zpkfq
 /bin/./uname -s -v -n -r -m
+g & k | zpkfq
 cat /etc/passwd
 echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"
 echo SHELL_TEST
