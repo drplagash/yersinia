@@ -155,3 +155,4 @@ pwd
 scp -t /tmp/cKbJGPqy
 sudo ./zsvc
 uname -m&&pkill upnpsetup
+whoami
