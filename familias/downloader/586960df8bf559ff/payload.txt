@@ -3,7 +3,7 @@
 # kind: script
 # size_bytes: 7295
 # first_seen: 2026-09-16 05:26:36.551000 UTC
-# times_seen: 2
+# times_seen: 4
 # yara_matches: none
 # ------------------------------------------------------------
 
