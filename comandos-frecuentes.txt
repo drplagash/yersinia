@@ -36,6 +36,7 @@ cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
 za
 zalee
 cat /proc/cpuinfo
+ls /home; /bin/busybox BOTNET
 /ip cloud print
 echo Hi | cat -n
 ifconfig
@@ -44,7 +45,6 @@ ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop
 ps -ef | grep '[Mm]iner'
 ps | grep '[Mm]iner'
 uname -a
-ls /home; /bin/busybox BOTNET
 uname -s -m
 PING
 >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x41\x47\x57\x54\x49\x57'

