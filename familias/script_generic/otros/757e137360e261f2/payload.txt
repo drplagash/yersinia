@@ -1,0 +1,763 @@
+# sha256: 757e137360e261f2d18154b9510c89424e1b901e3261390a17d94b5c5c754fc3
+# family: script_generic
+# kind: script
+# size_bytes: 31054
+# first_seen: 2026-09-15 23:31:32.794095 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>Documentation and Help Portal for Plesk Obsidian
+</title>
+  <meta name="description" content="Find the latest Plesk Obsidian documentation, release notes and FAQs to get the most out of the best web development environment out there!">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="kBcbWmRamPRsknsR2UKbYiZbOT3-KqIXmUDVq-W_qv4" />
+  <meta name="google-site-verification" content="goNw19iZzxLeBS8jwwkDR6mBeC80bgbQdeHhrW_rJv8" />
+  <meta name="google-site-verification" content="VNuivnIYeQLRynt4uvnmMXjLFrH8U2gNxQGh6L9app4" />
+  <meta property="og:title" content="Documentation and Help Portal for Plesk Obsidian" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:description" content="Find the latest Plesk Obsidian documentation, release notes and FAQs to get the most out of the best web development environment out there!" />
+  <meta property="og:image" content="https://docs.plesk.com/images/og_logo.jpg" />
+  <meta property="og:image:width" content="200" />
+  <meta property="og:image:height" content="200" />
+  <meta property="og:image:alt" content="Plesk logo" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@plesk">
+  <meta name="twitter:title" content="Documentation and Help Portal for Plesk Obsidian">
+    <meta property="og:url" content="https://docs.plesk.com/en-US/obsidian/" />
+  <link href="/fonts/Lato-Regular.woff2" rel="preload" type="font/woff2" as="font">
+  <link href="/fonts/Lato-Bold.woff2" rel="preload" type="font/woff2" as="font">
+  <link href="/fonts/Lato-Light.woff2" rel="preload" type="font/woff2" as="font">
+  <link href="/fonts/fa-subset.woff2" rel="preload" type="font/woff2" as="font">
+  <link rel="preconnect" href="http://www.google-analytics.com">
+  <link rel="preconnect" href="http://www.googleadservices.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://servedbyadbutler.com">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css?31102022"><style>
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Lato Regular'), local('Lato-Regular'),
+      url('/fonts/Lato-Regular.woff2') format('woff2'),
+      url('/fonts/Lato-Regular.woff') format('woff');
+      font-display: swap;
+  }
+
+  @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Lato Bold'), local('Lato-Bold'),
+      url('/fonts/Lato-Bold.woff2') format('woff2'),
+      url('/fonts/Lato-Bold.woff') format('woff');
+      font-display: swap;
+
+  }
+  @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Lato Light'), local('Lato-Light'),
+      url('/fonts/Lato-Light.woff2') format('woff2'),
+      url('/fonts/Lato-Light.woff') format('woff');
+      font-display: swap;
+  }
+  @font-face {
+      font-family: 'fa-subset';
+      src: url('/fonts/fa-subset.eot?12082020');
+      src: url('/fonts/fa-subset.eot?12082020#iefix') format('embedded-opentype'),
+      url('/fonts/fa-subset.woff2?12082020') format('woff2'),
+      url('/fonts/fa-subset.woff?12082020') format('woff'),
+      url('/fonts/fa-subset.ttf?12082020') format('truetype'),
+      url('/fonts/fa-subset.svg?12082020#fa-subset') format('svg');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+  </style>
+  <link rel="stylesheet" href="/css/perfect-scrollbar.css">
+  <!-- Google tag (gtag.js) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+  </script>
+  <!-- Google Tag Manager -->
+  <script>
+    
+    if (window.location.hostname === 'docs.plesk.com') {
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-N3CGHBJ');
+    }
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
+
+  <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3CGHBJ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <div class="page-overlay"></div>
+    <div class="page-container">
+
+      <div class="page-header-wrapper" id="page-header-wrapper">
+  <div class="page-header">
+
+    <div class="plsk-header">
+
+      <div class="plsk-header__toolbar">
+        <ul class="plsk-top-menu__list">
+          <li class="plsk-top-menu__item"><a class="plsk-top-menu__link" href="https://www.plesk.com/partners/">Partners</a></li>
+          <li class="plsk-top-menu__item"><a class="plsk-top-menu__link" href="https://www.plesk.com/blog/">Blog</a></li>
+          <li class="plsk-top-menu__item"><a class="plsk-top-menu__link" href="https://www.plesk.com/contact-us/">Contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="plsk-header__inner">
+
+        <div class="plsk-header__top">
+
+          <div class="plsk-header__brand">
+            <a class="plsk-header__logo" href="https://www.plesk.com"><img class="plsk-header__logo-img" src="/images/logo.svg" title="Plesk - The leading WebOps platform to run and grow applications, websites and hosting businesses." alt="Plesk" width="90" height="38"></a>
+          </div>
+
+          <div class="plsk-main-nav">
+  <button class="plsk-main-nav__trigger" type="button" aria-label="Navigation by Plesk resources outside of documentation"><span></span></button>
+
+  <div class="plsk-main-nav__container">
+
+    <ul class="plsk-main-nav__list">
+      <li class="plsk-main-nav__item plsk-main-nav__item--dropdown">
+        <a class="plsk-main-nav__link">Solutions</a>
+        <ul class="plsk-main-nav__list plsk-main-nav__list--subnav">
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/developers">Developers</a></li>
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/content-managers">Content Managers</a></li>
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/agencies">Agencies</a></li>
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/it-admins">IT Admins</a></li>
+          <li class="plsk-main-nav__item plsk-main-nav__item--dropdown">
+            <a class="plsk-main-nav__link" href="https://www.plesk.com/infrastructure-providers">Infrastructure Providers</a>
+            <ul class="plsk-main-nav__list plsk-main-nav__list--subnav">
+              <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/infrastructure-providers/shared-hosters">Shared hosters</a></li>
+              <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/infrastructure-providers/vps-dedicated-hosters">VPS and Dedicated Hosters</a></li>
+              <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/infrastructure-providers/hyperscalers">Hyperscalers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/pricing">Pricing</a></li>
+      <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/help-center">Help Center</a></li>
+      <li class="plsk-main-nav__item plsk-main-nav__item--dropdown">
+        <a class="plsk-main-nav__link">More</a>
+        <ul class="plsk-main-nav__list plsk-main-nav__list--subnav">
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/extensions">Extensions</a></li>
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/university">University</a></li>
+        </ul>
+      </li>
+      <li class="plsk-main-nav__item"><a class="plsk-main-nav__link plsk-main-nav__btn" href="https://page.plesk.com/plesk-onyx-free-download">Try For Free</a></li>
+    </ul>
+
+  </div>
+</div>
+
+
+        </div>
+
+        <div class="plsk-main-heading">
+  <h1 class="plsk-main-heading__title">Plesk Documentation and Help Portal</h1>
+</div>
+
+
+        <div class="plsk-header__bottom">
+          <div class="plsk-header__actions">
+
+            
+
+<div class="plsk-header__search main-header-search">
+  <form class="form-search" action="
+  /en-US/obsidian/search
+  ">
+    <div class="input-group">
+      <input type="text" class="form-control" name="q" placeholder="Search" title="Search" aria-label="Search">
+      
+      <input type="hidden" name="v" value="obsidian">
+      
+      
+      <span class="input-group-btn">
+        <button type="submit" class="btn">Search</button>
+      </span>
+    </div>
+  </form>
+  <p class="plsk-header__search-notice">
+    We log search terms to improve our documentation.<br>
+    For more information, read our <a href="https://www.plesk.com/legal/#privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+  </p>
+</div>
+
+
+            <div class="plsk-header__selectors">
+            <div class="main-header-selector">
+  <span class="btn-group">
+    <button class="btn dropdown-toggle" type="button">
+      <i class="flag-icon-en-us"></i>
+      <span class="r-name">US / English</span>
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-flip">
+        
+            <li><a href="/en-US/obsidian/"><i class="flag-icon-en-us"></i>US / English</a></li>
+        
+            <li><a href="/fr-FR/obsidian/"><i class="flag-icon-fr-fr"></i>FR / Français</a></li>
+        
+            <li><a href="/de-DE/obsidian/"><i class="flag-icon-de-de"></i>DE / Deutsch</a></li>
+        
+            <li><a href="/it-IT/obsidian/"><i class="flag-icon-it-it"></i>IT / Italiano</a></li>
+        
+            <li><a href="/ru-RU/obsidian/"><i class="flag-icon-ru-ru"></i>RU / Русский</a></li>
+        
+            <li><a href="/es-ES/obsidian/"><i class="flag-icon-es-es"></i>ES / Español</a></li>
+        
+            <li><a href="/nl-NL/obsidian/"><i class="flag-icon-nl-nl"></i>NL / Nederlands</a></li>
+        
+            <li><a href="/zh-CN/obsidian/"><i class="flag-icon-zh-cn"></i>CN / 简体中文</a></li>
+        
+            <li><a href="/zh-TW/obsidian/"><i class="flag-icon-zh-tw"></i>HK / 繁體中文</a></li>
+        
+            <li><a href="/ja-JP/obsidian/"><i class="flag-icon-ja-jp"></i>JP / 日本語</a></li>
+        
+    </ul>
+  </span>
+</div>
+            
+
+<div class="main-header-selector">
+  <span class="btn-group">
+    <button class="btn dropdown-toggle" type="button">
+      <span class="name">
+
+Plesk Obsidian
+
+</span>
+      <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu dropdown-menu-flip">
+        
+        
+        <li  class="active"><a href=" /en-US/obsidian/ ">
+        Plesk Obsidian </a>
+        </li>
+        
+        
+        <li ><a href=" /en-US/onyx/ ">
+        Plesk Onyx </a>
+        </li>
+        
+         
+        <li >
+          <a href="/en-US/archive/">Archived versions</a>
+        </li>
+    </ul>
+  </span>
+</div>
+
+            </div>
+
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+
+    
+    <div class="main-navigation-wrapper">
+        <div class="r-main-navigation-toggle">
+    <span class="menu-switch menu-switch-top">
+      <span class="menu-switch-icon"></span>
+    </span>
+    <span class="main-navigation-current"></span>
+  </div>
+  <div class="main-navigation">
+      <ul class="main-navigation__list">
+        <li  class="active"><a href="/en-US/obsidian/">Documentation</a></li>
+        <li ><a href="/release-notes/obsidian/change-log/">Release Notes</a></li>
+
+        <li ><a href="/try-plesk-now/">Try Plesk Now</a></li>
+        <li ><a href="/cloud/">Plesk on Cloud</a></li>
+        <li ><a href="/en-US/obsidian/faq/">FAQ / How-To</a></li>
+        <li ><a href="/gdpr">GDPR Compliance</a></li>
+        
+        <li ><a href="/en-US/obsidian/cookies/">Cookie Policy</a></li>
+        
+        <li ><a href="/accessibility">Accessibility Statement</a></li>
+      </ul>
+  </div>
+
+      
+    </div>
+    
+
+  </div>
+</div>
+
+
+      <div class="page-main-wrapper">
+        <div class="page-main">
+
+          <div class="page-content-wrapper">
+            <div class="page-content">
+
+              <div id="s0" class="section section-1 s-docs">
+    <div class="section-wrap">
+        <div class="section-title">
+    <h1>Documentation and Help Portal for Plesk Obsidian</h1>
+</div>
+
+        <div class="section-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="panel p-users">
+                            <div class="panel-title">
+                                <span class="panel-title__icon"><img src="/images/users.svg" width="83" height="62" alt="Users"></span>
+                                <span class="panel-title__name">For users</span>
+                            </div>
+                            <div class="panel-content">
+                                <ul class="docs-list">
+                                    
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/quick-start-guide.zip">zip</a>
+                <a href="/en-US/obsidian/quick-start-guide/read-me-first.74371/">Getting Started with Managing Websites in Plesk</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/administrator-guide.zip">zip</a>
+                <a href="/en-US/obsidian/administrator-guide/about-plesk.70559/">Administrator’s Guide</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/customer-guide.zip">zip</a>
+                <a href="/en-US/obsidian/customer-guide/quick-start-with-plesk.69259/">Customer’s Guide</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/reseller-guide.zip">zip</a>
+                <a href="/en-US/obsidian/reseller-guide/becoming-familiar-with-plesk.70426/">Reseller’s Guide</a>
+                
+    </li>
+    
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="panel p-hosters">
+                            <div class="panel-title">
+                                <span class="panel-title__icon"><img src="/images/hosters.svg" width="83" height="62" alt="Hosters"></span>
+                                <span class="panel-title__name">For hosters / providers</span>
+                            </div>
+                            <div class="panel-content">
+                                <ul class="docs-list">
+                                    
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/deployment-guide.zip">zip</a>
+                <a href="/en-US/obsidian/deployment-guide/quick-start.76607/">Plesk Installation and Upgrade Guide</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/advanced-administration-guide-linux.zip">zip</a>
+                <a href="/en-US/obsidian/advanced-administration-guide-linux/about-this-guide.68553/">Advanced Administration Guide, Plesk for Linux</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/advanced-administration-guide-win.zip">zip</a>
+                <a href="/en-US/obsidian/advanced-administration-guide-win/about-this-guide.69028/">Advanced Administration Guide, Plesk for Microsoft Windows</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/cli-linux.zip">zip</a>
+                <a href="/en-US/obsidian/cli-linux/command-line-utilities-overview.37764/">Reference for Command-Line Utilities, Plesk for Linux</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/cli-win.zip">zip</a>
+                <a href="/en-US/obsidian/cli-win/command-line-utilities-overview.25730/">Reference for Command-Line Utilities, Plesk for Microsoft Windows</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/migration-guide.zip">zip</a>
+                <a href="/en-US/obsidian/migration-guide/introduction.75496/">Migration Guide</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/partner-central-user-guide.zip">zip</a>
+                <a href="/en-US/obsidian/partner-central-user-guide/about-partner-central.78171/">Partner Central User’s Guide</a>
+                
+    </li>
+    
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="panel p-developers">
+                            <div class="panel-title">
+                                <span class="panel-title__icon"><img src="/images/developers.svg" width="83" height="62" alt="Developers"></span>
+                                <span class="panel-title__name">For developers</span>
+                            </div>
+                            <div class="panel-content">
+                                <ul class="docs-list">
+                                    
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/extensions-guide.zip">zip</a>
+                <a href="/en-US/obsidian/extensions-guide/plesk-extensions-in-a-nutshell.76331/">Developing Extensions for Plesk</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/api-read-me-first.zip">zip</a>
+                <a href="/en-US/obsidian/api-read-me-first/about-this-document.68661/">Integrator’s Guide: Read Me First</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/api-rpc.zip">zip</a>
+                <a href="/en-US/obsidian/api-rpc/introduction.79358/">Remote API Guide</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/partner-api-1.0.zip">zip</a>
+                <a href="/en-US/obsidian/partner-api-1.0/introduction.77524/">Key Administrator Partner API 1.0: Developer’s Guide and Reference</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/partner-api-3.0.zip">zip</a>
+                <a href="/en-US/obsidian/partner-api-3.0/introduction-to-key-administrator-partner-api-30.77827/">Key Administrator Partner API 3.0: Developer’s Guide</a>
+                
+    </li>
+    
+
+
+    
+    
+    
+    <li>
+        
+                <a class="download" href="/en-US/obsidian/zip/isv-licensing-integration-guide.zip">zip</a>
+                <a href="/en-US/obsidian/isv-licensing-integration-guide/introduction.77933/">Key Administrator ISV Licensing: Integration Guide</a>
+                
+    </li>
+    
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="page-footer-wrapper" id="page-footer-wrapper">
+  <div class="page-footer">
+
+    <div class="plsk-footer">
+      <div class="plsk-footer__section plsk-footer__section--top">
+        <div class="plsk-footer__section-content">
+          <ul class="plsk-footer__partners-list">
+            <li class="plsk-footer__partners-item"><h5 class="plsk-footer__partners-title">Industry<br> Partners:</h5></li>
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="170" height="50">
+                <title>Automaticc</title>
+                <use xlink:href="/images/logos.svg#automaticc"></use>
+              </svg>
+            </li>
+
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="43" height="50">
+                <title>Docker</title>
+                <use xlink:href="/images/logos.svg#docker"></use>
+              </svg>
+            </li>
+
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="84" height="50">
+                <title>Virtuozzo</title>
+                <use xlink:href="/images/logos.svg#virtuozzo"></use>
+              </svg>
+            </li>
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="88" height="50">
+                <title>Amazon</title>
+                <use xlink:href="/images/logos.svg#amazon"></use>
+              </svg>
+            </li>
+
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="152" height="50">
+                <title>Microsoft</title>
+                <use xlink:href="/images/logos.svg#microsoft"></use>
+              </svg>
+            </li>
+
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="202" height="50">
+                <title>Microsoft Azure</title>
+                <use xlink:href="/images/logos.svg#microsoft-azure"></use>
+              </svg>
+            </li>
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="67" height="50">
+                <title>Red Hat</title>
+                <use xlink:href="/images/logos.svg#red-hat"></use>
+              </svg>
+            </li>
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="156" height="50" >
+                <title>Alibaba Cloud</title>
+                <use xlink:href="/images/logos.svg#alibaba-cloud"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="plsk-footer__section plsk-footer__section--main">
+        <div class="plsk-footer__section-content">
+          <div class="plsk-footer__social">
+            <a class="plsk-footer__logo" href="https://www.plesk.com"><img loading="lazy" class="plsk-footer__logo-img" src="/images/logo.svg" title="Plesk - The leading WebOps platform to run and grow applications, websites and hosting businesses." alt="Plesk" width="70" height="30"></a>
+            <div class="plsk-footer__social-block">
+              <p>Follow us:</p>
+              <ul class="plsk-footer__social-links">
+                <li><a class="plsk-footer__social-link" href="https://www.facebook.com/Plesk" target="_blank"
+                       title="Plesk on Facebook" rel="noopener" aria-label="Open the Plesk page on Facebook">
+                  <svg aria-hidden="true">
+                    <title>Open the Plesk page on Facebook</title>
+                    <use xlink:href="/images/logos.svg#facebook"></use>
+                  </svg>
+                </a></li>
+                <li><a class="plsk-footer__social-link" href="https://twitter.com/Plesk" target="_blank"
+                       title="Plesk on Twitter" rel="noopener" aria-label="Open the Plesk feed on Twitter">
+                  <svg aria-hidden="true">
+                    <title>Open the Plesk feed on Twitter</title>
+                    <use xlink:href="/images/logos.svg#twitter"></use>
+                  </svg>
+                </a></li>
+                <li><a class="plsk-footer__social-link" href="https://www.linkedin.com/company/plesk"
+                       target="_blank" title="Plesk on LinkedIn" rel="noopener" aria-label="Open the Plesk page on LinkedIn">
+                  <svg aria-hidden="true">
+                    <title>Open the Plesk page on LinkedIn</title>
+                    <use xlink:href="/images/logos.svg#linkedin"></use>
+                  </svg>
+                </a></li>
+                <li><a class="plsk-footer__social-link" href="https://www.youtube.com/channel/UCeU-_6YHGQFcVSHLbEXLNlA"
+                       target="_blank" title="Plesk on YouTube" rel="noopener" aria-label="Watch the Plesk videos on YouTube">
+                  <svg aria-hidden="true">
+                    <title>Watch the Plesk videos on YouTube</title>
+                    <use xlink:href="/images/logos.svg#youtube"></use>
+                  </svg>
+                </a></li>
+                <li><a class="plsk-footer__social-link" href="https://github.com/plesk"
+                       target="_blank" title="Plesk on GitHub" rel="noopener"  aria-label="Open the Plesk opensource projects on GitHub">
+                  <svg aria-hidden="true">
+                    <title>Open the Plesk opensource projects on GitHub</title>
+                    <use xlink:href="/images/logos.svg#github"></use>
+                  </svg>
+                </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="plsk-footer__grid plsk-footer__links-group">
+            <div class="plsk-footer__grid-item plsk-footer__links">
+              <div class="plsk-footer__links-heading">COMPANY</div>
+              <ul class="plsk-footer__links-list">
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/about-us">About Plesk</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/brand">Our Brand</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/eula">EULA</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/terms-of-use">Terms of Use</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/legal">Legal</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/privacy-policy">Privacy Policy</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/impressum">Impressum</a></li>
+              </ul>
+            </div>
+            <div class="plsk-footer__grid-item plsk-footer__links">
+              <div class="plsk-footer__links-heading">PRODUCT</div>
+              <ul class="plsk-footer__links-list">
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/pricing">Pricing</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/extensions/">Extensions</a></li>
+              </ul>
+            </div>
+            <div class="plsk-footer__grid-item plsk-footer__links">
+              <div class="plsk-footer__links-heading">KNOWLEDGE BASE</div>
+              <ul class="plsk-footer__links-list">
+                <li class="plsk-footer__links-item"><a href="https://docs.plesk.com">Documentation</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/help-center">Help Center</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/professional-services">Migrate to Plesk</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/contact-us">Contact Us</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/lifecycle-policy">Plesk Lifecycle Policy</a></li>
+              </ul>
+            </div>
+            <div class="plsk-footer__grid-item plsk-footer__links">
+              <div class="plsk-footer__links-heading">PROGRAMS</div>
+              <ul class="plsk-footer__links-list">
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/content-contributor-program">Contributor Program</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/partners">Partner Program</a></li>
+              </ul>
+            </div>
+            <div class="plsk-footer__grid-item plsk-footer__links">
+              <div class="plsk-footer__links-heading">COMMUNITY</div>
+              <ul class="plsk-footer__links-list">
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/blog/">Blog</a></li>
+                <li class="plsk-footer__links-item"><a href="https://talk.plesk.com/">Forums</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/university">Plesk University</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="plsk-footer__section plsk-footer__section--bottom">
+        <div class="plsk-footer__section-content">
+          <div class="plsk-footer__copyright">© 2026 WebPros International GmbH. All rights reserved. Plesk and the Plesk logo are trademarks of WebPros International GmbH.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    </div>
+    <script>
+    function removeDataAttributes(t){for(var e=0;e<t.length;e++)t[e].removeAttribute("data-default-src"),t[e].removeAttribute("data-webp-src"),t[e].removeAttribute("data-webp-srcset"),t[e].removeAttribute("data-sizes")}let domContentLoaded="DOMContentLoaded";function switchAttributes(t,e,r,s=""){for(var a=0;a<t.length;a++)t[a].hasAttribute(r)?t[a].setAttribute(e,t[a].getAttribute(r)):t[a].hasAttribute(s)&&t[a].setAttribute(e,t[a].getAttribute(s))}function loadImages(t){t.type===domContentLoaded&&Modernizr.on("webp",function(t){let e=document.getElementsByTagName("img");t?Modernizr.on("srcset",function(t){t?(switchAttributes(e,"src","data-webp-src","data-default-src"),switchAttributes(e,"srcset","data-webp-srcset"),switchAttributes(e,"sizes","data-sizes")):switchAttributes(e,"src","data-webp-src"),removeDataAttributes(e)}):(switchAttributes(e,"src","data-default-src"),removeDataAttributes(e))})}window.addEventListener(domContentLoaded,loadImages);
+</script>
+<script src="/js/modernizr.js?10082020"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/perfect-scrollbar.min.js"></script>
+<script src="/js/docs.js?26082020"></script>
+<script src="/js/feedback.js?24082020-1"></script>
+<script src="/js/svgxuse.min.js?14082020" defer></script>
+  </body>
+</html>
