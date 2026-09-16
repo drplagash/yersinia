@@ -1,0 +1,3668 @@
+# sha256: a4f464be4c8a9014f3d0ddd2d9e509801b7dd12d8c79c47d0d7f5b389564edd5
+# family: script_generic
+# kind: script
+# size_bytes: 97262
+# first_seen: 2026-09-16 04:47:06.039789 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+<!DOCTYPE html>
+<html id="XF" lang="en-US" dir="LTR"
+	data-app="public"
+	data-template="forum_list"
+	data-container-key=""
+	data-content-key=""
+	data-logged-in="false"
+	data-cookie-prefix="xf_"
+	data-csrf="1789534023,252a3d6cf4c399d998f215ee48772972"
+	class="has-no-js template-forum_list"
+	>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+	
+	
+	
+
+	<title>Plesk Forum</title>
+
+	<link rel="manifest" href="/webmanifest.php">
+	
+		<meta name="theme-color" content="#606d7a" />
+	
+
+	<meta name="apple-mobile-web-app-title" content="Plesk Forum">
+	
+		<link rel="apple-touch-icon" href="/data/assets/logo/Plesk_192.png">
+	
+
+	
+		
+		<meta name="description" content="Plesk community discussion forums" />
+		<meta property="og:description" content="Plesk community discussion forums" />
+		<meta property="twitter:description" content="Plesk community discussion forums" />
+	
+	
+		<link rel="canonical" href="https://talk.plesk.com/" />
+	
+		<link rel="alternate" type="application/rss+xml" title="RSS feed for Plesk Forum" href="/forums/-/index.rss" />
+	
+
+	
+		
+	
+	
+	<meta property="og:site_name" content="Plesk Forum" />
+
+
+	
+	
+		
+	
+	
+	<meta property="og:type" content="website" />
+
+
+	
+	
+		
+	
+	
+	
+		<meta property="og:title" content="Plesk Forum" />
+		<meta property="twitter:title" content="Plesk Forum" />
+	
+
+
+	
+	
+	
+		
+	
+	
+	<meta property="og:url" content="https://talk.plesk.com/" />
+
+
+	
+	
+
+	
+	
+
+	
+
+
+	<link rel="preload" href="/styles/fonts/fa/fa-regular-400.woff2?_v=5.15.3" as="font" type="font/woff2" crossorigin="anonymous" />
+
+
+	<link rel="preload" href="/styles/fonts/fa/fa-solid-900.woff2?_v=5.15.3" as="font" type="font/woff2" crossorigin="anonymous" />
+
+
+<link rel="preload" href="/styles/fonts/fa/fa-brands-400.woff2?_v=5.15.3" as="font" type="font/woff2" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="/css.php?css=public%3Anormalize.css%2Cpublic%3Afa.css%2Cpublic%3Acore.less%2Cpublic%3Aapp.less&amp;s=8&amp;l=1&amp;d=1788203637&amp;k=b7ceb79b92b6d517ba465f9a227700fa82422e42" />
+
+	<link rel="stylesheet" href="/css.php?css=public%3Anode_list.less%2Cpublic%3Anotices.less%2Cpublic%3Ashare_controls.less%2Cpublic%3Aextra.less&amp;s=8&amp;l=1&amp;d=1788203637&amp;k=752657df89e12fbc9ac65b4b3ff5e5b19f8c6afb" />
+
+	
+		<script src="/js/xf/preamble.min.js?_v=c3342ecf"></script>
+	
+
+
+	
+	
+	
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N7W9G4Z');</script>
+	
+</head>
+<body data-template="forum_list">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7W9G4Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>	
+	
+<div class="p-pageWrapper" id="top">
+
+
+
+
+
+<header class="p-header" id="header">
+	<div class="p-header-inner">
+		<div class="p-header-content">
+
+			<div class="p-header-logo p-header-logo--image">
+				<a href="https://plesk.com">
+					<img src="/styles/plesk/images/logo.svg" srcset="" alt="Plesk Forum"
+						width="" height="" />
+				</a>
+			</div>
+			
+			<nav class="plsk-nav-links">
+				<a class="plsk-nav-links__link" href="https://www.plesk.com/">plesk.com</a>
+				<a class="plsk-nav-links__link" href="https://docs.plesk.com/">documentation</a>
+				<a class="plsk-nav-links__link" href="https://www.plesk.com/help-center">help center</a>
+				<a class="plsk-nav-links__link" href="https://features.plesk.com">feature requests</a>
+				<a class="plsk-nav-links__link" href="https://www.plesk.com/blog/">blog</a>
+			</nav>
+
+			
+		</div>
+		<div class="plsk-header-title">Welcome to our Plesk Community</div>
+		<div class="plsk-header-social">
+			<span>Follow us on:</span>
+			<a href="https://www.facebook.com/Plesk/"><img src="/styles/plesk/images/facebook.svg" width="16" height="16">Facebook</a>
+			<a href="https://twitter.com/Plesk"><img src="/styles/plesk/images/twitter.svg" width="16" height="16">Twitter</a>
+		</div>
+	</div>
+</header>
+
+
+
+
+
+	<div class="p-navSticky p-navSticky--primary" data-xf-init="sticky-header">
+		
+	<nav class="p-nav">
+		<div class="p-nav-inner">
+			<button type="button" class="button--plain p-nav-menuTrigger button" data-xf-click="off-canvas" data-menu=".js-headerOffCanvasMenu" tabindex="0" aria-label="Menu"><span class="button-text">
+				<i aria-hidden="true"></i>
+			</span></button>
+
+			<div class="p-nav-smallLogo">
+				<a href="https://plesk.com">
+					<img src="/styles/plesk/images/logo.svg" srcset="" alt="Plesk Forum"
+						width="" height="" />
+				</a>
+			</div>
+
+			<div class="p-nav-scroller hScroller" data-xf-init="h-scroller" data-auto-scroll=".p-navEl.is-selected">
+				<div class="hScroller-scroll">
+					<ul class="p-nav-list js-offCanvasNavSource">
+					
+						<li>
+							
+	<div class="p-navEl is-selected" data-has-children="true">
+		
+
+			
+	
+	<a href="/"
+		class="p-navEl-link p-navEl-link--splitMenu "
+		
+		
+		data-nav-id="forums">Forums</a>
+
+
+			<a data-xf-key="1"
+				data-xf-click="menu"
+				data-menu-pos-ref="< .p-navEl"
+				class="p-navEl-splitTrigger"
+				role="button"
+				tabindex="0"
+				aria-label="Toggle expanded"
+				aria-expanded="false"
+				aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="/whats-new/posts/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="newPosts">New posts</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/search/?type=post"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="searchForums">Search forums</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="/whats-new/"
+		class="p-navEl-link p-navEl-link--splitMenu "
+		
+		
+		data-nav-id="whatsNew">What's new</a>
+
+
+			<a data-xf-key="2"
+				data-xf-click="menu"
+				data-menu-pos-ref="< .p-navEl"
+				class="p-navEl-splitTrigger"
+				role="button"
+				tabindex="0"
+				aria-label="Toggle expanded"
+				aria-expanded="false"
+				aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="/whats-new/posts/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="whatsNewPosts">New posts</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/whats-new/resources/"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="xfrmNewResources">New resources</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/whats-new/latest-activity"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		 rel="nofollow"
+		
+		data-nav-id="latestActivity">Latest activity</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="/resources/"
+		class="p-navEl-link p-navEl-link--splitMenu "
+		
+		
+		data-nav-id="xfrm">Resources</a>
+
+
+			<a data-xf-key="3"
+				data-xf-click="menu"
+				data-menu-pos-ref="< .p-navEl"
+				class="p-navEl-splitTrigger"
+				role="button"
+				tabindex="0"
+				aria-label="Toggle expanded"
+				aria-expanded="false"
+				aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="/resources/latest-reviews"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="xfrmLatestReviews">Latest reviews</a>
+
+	
+
+					
+						
+	
+	
+	<a href="/search/?type=resource"
+		class="menu-linkRow u-indentDepth0 js-offCanvasCopy "
+		
+		
+		data-nav-id="xfrmSearchResources">Search resources</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+						</li>
+					
+					</ul>
+				</div>
+			</div>
+
+			<div class="p-nav-opposite">
+				<div class="p-navgroup p-account p-navgroup--guest">
+					
+						<a href="/login/" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--logIn"
+							data-xf-click="overlay" data-follow-redirects="on">
+							<span class="p-navgroup-linkText">Log in</span>
+						</a>
+						
+							<a href="/register/" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--register"
+								data-xf-click="overlay" data-follow-redirects="on">
+								<span class="p-navgroup-linkText">Register</span>
+							</a>
+						
+					
+				</div>
+
+				<div class="p-navgroup p-discovery">
+					<a href="/whats-new/"
+						class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--whatsnew"
+						aria-label="What&#039;s new"
+						title="What&#039;s new">
+						<i aria-hidden="true"></i>
+						<span class="p-navgroup-linkText">What's new</span>
+					</a>
+
+					
+						<a href="/search/"
+							class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--search"
+							data-xf-click="menu"
+							data-xf-key="/"
+							aria-label="Search"
+							aria-expanded="false"
+							aria-haspopup="true"
+							title="Search">
+							<i aria-hidden="true"></i>
+							<span class="p-navgroup-linkText">Search</span>
+						</a>
+						<div class="menu menu--structural menu--wide" data-menu="menu" aria-hidden="true">
+							<form action="/search/search" method="post"
+								class="menu-content"
+								data-xf-init="quick-search">
+
+								<h3 class="menu-header">Search</h3>
+								
+								<div class="menu-row">
+									
+										<input type="text" class="input" name="keywords" placeholder="Search…" aria-label="Search" data-menu-autofocus="true" />
+									
+								</div>
+
+								
+								<div class="menu-row">
+									<label class="iconic"><input type="checkbox"  name="c[title_only]" value="1" /><i aria-hidden="true"></i><span class="iconic-label">Search titles only
+
+												
+													<span tabindex="0" role="button"
+														data-xf-init="tooltip" data-trigger="hover focus click" title="Tags will also be searched in content where tags are supported">
+
+														<i class="fa--xf far fa-question-circle u-muted u-smaller" aria-hidden="true"></i>
+													</span></span></label>
+
+								</div>
+								
+								<div class="menu-row">
+									<div class="inputGroup">
+										<span class="inputGroup-text" id="ctrl_search_menu_by_member">By:</span>
+										<input type="text" class="input" name="c[users]" data-xf-init="auto-complete" placeholder="Member" aria-labelledby="ctrl_search_menu_by_member" />
+									</div>
+								</div>
+								<div class="menu-footer">
+									<span class="menu-footer-controls">
+										<button type="submit" class="button--primary button button--icon button--icon--search"><span class="button-text">Search</span></button>
+										<a href="/search/" class="button"><span class="button-text">Advanced search…</span></a>
+									</span>
+								</div>
+
+								<input type="hidden" name="_xfToken" value="1789534023,252a3d6cf4c399d998f215ee48772972" />
+							</form>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	</div>
+	
+	
+		<div class="p-sectionLinks">
+			<div class="p-sectionLinks-inner hScroller" data-xf-init="h-scroller">
+				<div class="hScroller-scroll">
+					<ul class="p-sectionLinks-list">
+					
+						<li>
+							
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="/whats-new/posts/"
+		class="p-navEl-link "
+		
+		data-xf-key="alt+1"
+		data-nav-id="newPosts">New posts</a>
+
+
+			
+
+		
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl " >
+		
+
+			
+	
+	<a href="/search/?type=post"
+		class="p-navEl-link "
+		
+		data-xf-key="alt+2"
+		data-nav-id="searchForums">Search forums</a>
+
+
+			
+
+		
+		
+	</div>
+
+						</li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+	
+
+
+
+<div class="offCanvasMenu offCanvasMenu--nav js-headerOffCanvasMenu" data-menu="menu" aria-hidden="true" data-ocm-builder="navigation">
+	<div class="offCanvasMenu-backdrop" data-menu-close="true"></div>
+	<div class="offCanvasMenu-content">
+		<div class="offCanvasMenu-header">
+			Menu
+			<a class="offCanvasMenu-closer" data-menu-close="true" role="button" tabindex="0" aria-label="Close"></a>
+		</div>
+		
+			<div class="p-offCanvasRegisterLink">
+				<div class="offCanvasMenu-linkHolder">
+					<a href="/login/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+						Log in
+					</a>
+				</div>
+				<hr class="offCanvasMenu-separator" />
+				
+					<div class="offCanvasMenu-linkHolder">
+						<a href="/register/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+							Register
+						</a>
+					</div>
+					<hr class="offCanvasMenu-separator" />
+				
+			</div>
+		
+		<div class="js-offCanvasNavTarget"></div>
+		<div class="offCanvasMenu-installBanner js-installPromptContainer" style="display: none;" data-xf-init="install-prompt">
+			<div class="offCanvasMenu-installBanner-header">Install the app</div>
+			<button type="button" class="js-installPromptButton button"><span class="button-text">Install</span></button>
+			<template class="js-installTemplateIOS">
+				<div class="overlay-title">How to install the app on iOS</div>
+				<div class="block-body">
+					<div class="block-row">
+						<p>
+							Follow along with the video below to see how to install our site as a web app on your home screen.
+						</p>
+						<p style="text-align: center">
+							<video src="/styles/default/xenforo/add_to_home.mp4"
+								width="280" height="480" autoplay loop muted playsinline></video>
+						</p>
+						<p>
+							<small><strong>Note:</strong> This feature may not be available in some browsers.</small>
+						</p>
+					</div>
+				</div>
+			</template>
+		</div>
+	</div>
+</div>
+
+<div class="p-body">
+	<div class="p-body-inner">
+		<!--XF:EXTRA_OUTPUT-->
+
+		
+			
+	
+		
+		
+		
+
+		<ul class="notices notices--block notices--isMulti js-notices"
+			data-xf-init="notices"
+			data-type="block"
+			data-scroll-interval="6">
+
+			
+				
+	<li class="notice js-notice notice--accent"
+		data-notice-id="65"
+		data-delay-duration="0"
+		data-display-duration="0"
+		data-auto-dismiss=""
+		data-visibility="">
+
+		
+		<div class="notice-content">
+			
+				<a href="/account/dismiss-notice?notice_id=65" class="notice-dismiss js-noticeDismiss" data-xf-init="tooltip" title="Dismiss notice"></a>
+			
+			<b>Debian 11</b> has reached its end-of-life (vendor EOL date - August 31, 2026). <b>Plesk Obsidian 18.0.81</b> is the last release to support it.<br>
+If you are running Plesk Obsidian on Debian 11, we recommend you <a href="https://support.plesk.com/hc/en-us/articles/12377714344983-How-to-perform-dist-upgrade-procedure-on-Linux-server-with-Plesk?">upgrade those servers</a> to Debian 12 using <a href="https://github.com/plesk/debian11to12">our dist-upgrade tool</a>.
+		</div>
+	</li>
+
+			
+				
+	<li class="notice js-notice notice--accent"
+		data-notice-id="66"
+		data-delay-duration="0"
+		data-display-duration="0"
+		data-auto-dismiss=""
+		data-visibility="">
+
+		
+		<div class="notice-content">
+			
+				<a href="/account/dismiss-notice?notice_id=66" class="notice-dismiss js-noticeDismiss" data-xf-init="tooltip" title="Dismiss notice"></a>
+			
+			We plan to deprecate and remove the support for <b>XML RPC</b> protocol versions earlier than <b>1.6.9.1</b> in Plesk Obsidian 18.0.82. We strongly recommend that you update all existing integrations using earlier versions of the XML RPC protocol to comply with the version 1.6.9.1 specification.
+		</div>
+	</li>
+
+			
+		</ul>
+	
+
+		
+
+		
+
+		
+		
+	
+
+		
+
+		
+	<noscript class="js-jsWarning"><div class="blockMessage blockMessage--important blockMessage--iconic u-noJsOnly">JavaScript is disabled. For a better experience, please enable JavaScript in your browser before proceeding.</div></noscript>
+
+		
+	<div class="blockMessage blockMessage--important blockMessage--iconic js-browserWarning" style="display: none">You are using an out of date browser. It  may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome/" target="_blank" rel="noopener">alternative browser</a>.</div>
+
+
+		
+			<div class="p-body-header">
+			
+				
+					<div class="p-title ">
+					
+						
+							<h1 class="p-title-value">Plesk Forum</h1>
+						
+						
+							<div class="p-title-pageAction">
+	
+		<a href="/whats-new/posts/" class="button button--icon button--icon--bolt"><span class="button-text">
+			New posts
+		</span></a>
+	
+	
+</div>
+						
+					
+					</div>
+				
+
+				
+			
+			</div>
+		
+
+		<div class="p-body-main p-body-main--withSidebar ">
+			
+			<div class="p-body-contentCol"></div>
+			
+				<div class="p-body-sidebarCol"></div>
+			
+
+			
+
+			<div class="p-body-content">
+				
+
+	
+	<!-- All pages - 970x90 [async] -->
+	<script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript";s.src = 'https://servedbyadbutler.com/app.js';var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
+	<script type="text/javascript">
+	var AdButler = AdButler || {}; AdButler.ads = AdButler.ads || [];
+	var abkw = window.abkw || '';
+	var plc426149 = window.plc426149 || 0;
+	document.write('<'+'div id="placement_426149_'+plc426149+'"></'+'div>');
+	AdButler.ads.push({handler: function(opt){ AdButler.register(178643, 426149, [970,90], 'placement_426149_'+opt.place, opt); }, opt: { place: plc426149++, keywords: abkw, domain: 'servedbyadbutler.com', click:'CLICK_MACRO_PLACEHOLDER' }});
+	</script>
+
+
+				<div class="p-body-pageContent">
+
+
+
+
+
+	
+
+
+
+
+	
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	
+	
+	
+		
+	<div class="block block--category block--category479">
+		<span class="u-anchorTarget" id="plesk-discussion.479"></span>
+		<div class="block-container">
+			<h2 class="block-header">
+				<a href="/#plesk-discussion.479">Plesk Discussion</a>
+				
+			</h2>
+			<div class="block-body">
+				
+	
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id741 node--depth2 node--forum node--read">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/official-announcements.741/" data-xf-init="element-tooltip" data-shortcut="node-description">Official Announcements</a>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>67</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>1.5K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>67</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>1.5K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/dash.69223/" class="avatar avatar--xs" data-user-id="69223" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/69/69223.jpg?1450018641" srcset="/data/avatars/m/69/69223.jpg?1450018641 2x" alt="dash" class="avatar-u69223-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/plesk-obsidian-releases.348675/post-985753" class="node-extra-title" title="Plesk Obsidian Releases"><span class="label label--red" dir="auto">Important</span><span class="label-append">&nbsp;</span>Plesk Obsidian Releases</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-08-07T04:09:43-0700" data-time="1786100983" data-date-string="Aug 7, 2026" data-time-string="4:09 AM" title="Aug 7, 2026 at 4:09 AM">Aug 7, 2026</time></li>
+							
+								<li class="node-extra-user"><a href="/members/dash.69223/" class="username " dir="auto" data-user-id="69223" data-xf-init="member-tooltip"><span class="username--staff">dash</span></a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id676 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/plesk-suggestions-and-feedback.676/" data-xf-init="element-tooltip" data-shortcut="node-description">Plesk Suggestions and Feedback</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">Plesk Suggestions and Feedback</div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>1.1K</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>6.3K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>1.1K</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>6.3K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/macadia.379118/" class="avatar avatar--xs" data-user-id="379118" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/379/379118.jpg?1787900020" srcset="/data/avatars/m/379/379118.jpg?1787900020 2x" alt="macadia" class="avatar-u379118-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/smtp-function-for-sending-system-emails.395052/post-986368" class="node-extra-title" title="SMTP function for sending system emails"><span class="label label--lightGreen" dir="auto">Input</span><span class="label-append">&nbsp;</span>SMTP function for sending system emails</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-09-06T23:45:01-0700" data-time="1788763501" data-date-string="Sep 6, 2026" data-time-string="11:45 PM" title="Sep 6, 2026 at 11:45 PM">Sep 6, 2026</time></li>
+							
+								<li class="node-extra-user"><a href="/members/macadia.379118/" class="username " dir="auto" data-user-id="379118" data-xf-init="member-tooltip">macadia</a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id748 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/plesk-obsidian-for-linux.748/" data-xf-init="element-tooltip" data-shortcut="node-description">Plesk Obsidian for Linux</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">Plesk Obsidian for Linux Problems, Suggested Fixes, and How-To</div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>11K</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>60.2K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>11K</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>60.2K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/frostbolt.184464/" class="avatar avatar--xs avatar--default avatar--default--dynamic" data-user-id="184464" data-xf-init="member-tooltip" style="background-color: #3d1f7a; color: #9470db">
+			<span class="avatar-u184464-s" role="img" aria-label="Frostbolt">F</span> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/spam-detection-software-email-instead-of-moving-spam-to-spam-folder.395299/post-986507" class="node-extra-title" title="Spam detection software email instead of moving spam to spam folder"><span class="label label--orange" dir="auto">Issue</span><span class="label-append">&nbsp;</span>Spam detection software email instead of moving spam to spam folder</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-09-15T11:33:35-0700" data-time="1789497215" data-date-string="Sep 15, 2026" data-time-string="11:33 AM" title="Sep 15, 2026 at 11:33 AM">Today at 11:33 AM</time></li>
+							
+								<li class="node-extra-user"><a href="/members/frostbolt.184464/" class="username " dir="auto" data-user-id="184464" data-xf-init="member-tooltip">Frostbolt</a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id749 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/plesk-obsidian-for-windows.749/" data-xf-init="element-tooltip" data-shortcut="node-description">Plesk Obsidian for Windows</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">Plesk Obsidian for Windows Problems, Suggested Fixes, and How-To</div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>855</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>3.2K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>855</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>3.2K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/sebahat-hadzhi.354507/" class="avatar avatar--xs" data-user-id="354507" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/354/354507.jpg?1722580453" srcset="/data/avatars/m/354/354507.jpg?1722580453 2x" alt="Sebahat.hadzhi" class="avatar-u354507-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/plesk-monitoring-disk-threshold-alerts-wrong.395232/post-986467" class="node-extra-title" title="Plesk Monitoring Disk Threshold Alerts Wrong"><span class="label label--orange" dir="auto">Issue</span><span class="label-append">&nbsp;</span>Plesk Monitoring Disk Threshold Alerts Wrong</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-09-13T06:16:22-0700" data-time="1789305382" data-date-string="Sep 13, 2026" data-time-string="6:16 AM" title="Sep 13, 2026 at 6:16 AM">Sunday at 6:16 AM</time></li>
+							
+								<li class="node-extra-user"><a href="/members/sebahat-hadzhi.354507/" class="username " dir="auto" data-user-id="354507" data-xf-init="member-tooltip"><span class="username--staff username--moderator username--admin">Sebahat.hadzhi</span></a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id725 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/plesk-extensions.725/" data-xf-init="element-tooltip" data-shortcut="node-description">Plesk Extensions</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">All about extensions for Plesk</div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>1.6K</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>8.5K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>1.6K</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>8.5K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/zenon.529605/" class="avatar avatar--xs avatar--default avatar--default--dynamic" data-user-id="529605" data-xf-init="member-tooltip" style="background-color: #3d7a1f; color: #94db70">
+			<span class="avatar-u529605-s" role="img" aria-label="Zenon">Z</span> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/bug-report-watchdog-disk-threshold-alert-email-contains-literal-placeholders-instead-of-values.395061/post-986503" class="node-extra-title" title="Bug report: Watchdog disk threshold alert email contains literal placeholders instead of values"><span class="label label--green" dir="auto">Resolved</span><span class="label-append">&nbsp;</span>Bug report: Watchdog disk threshold alert email contains literal placeholders instead of values</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-09-15T07:38:04-0700" data-time="1789483084" data-date-string="Sep 15, 2026" data-time-string="7:38 AM" title="Sep 15, 2026 at 7:38 AM">Today at 7:38 AM</time></li>
+							
+								<li class="node-extra-user"><a href="/members/zenon.529605/" class="username " dir="auto" data-user-id="529605" data-xf-init="member-tooltip">Zenon</a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id750 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/wp-toolkit.750/" data-xf-init="element-tooltip" data-shortcut="node-description">WP Toolkit</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">WP Toolkit Questions, Problems, Feature Requests, and General Discussion</div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>589</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>3.3K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>589</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>3.3K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/sebahat-hadzhi.354507/" class="avatar avatar--xs" data-user-id="354507" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/354/354507.jpg?1722580453" srcset="/data/avatars/m/354/354507.jpg?1722580453 2x" alt="Sebahat.hadzhi" class="avatar-u354507-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/smart-update-wp-admin-not-working-after-update.395274/post-986446" class="node-extra-title" title="Smart Update - wp-admin not working after update">Smart Update - wp-admin not working after update</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-09-11T02:30:31-0700" data-time="1789119031" data-date-string="Sep 11, 2026" data-time-string="2:30 AM" title="Sep 11, 2026 at 2:30 AM">Friday at 2:30 AM</time></li>
+							
+								<li class="node-extra-user"><a href="/members/sebahat-hadzhi.354507/" class="username " dir="auto" data-user-id="354507" data-xf-init="member-tooltip"><span class="username--staff username--moderator username--admin">Sebahat.hadzhi</span></a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id680 node--depth2 node--forum node--read">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/plesk-mobile.680/" data-xf-init="element-tooltip" data-shortcut="node-description">Plesk Mobile</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">Plesk Mobile Server Monitor and Mobile Server Manager</div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>93</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>383</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>93</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>383</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/sebahat-hadzhi.354507/" class="avatar avatar--xs" data-user-id="354507" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/354/354507.jpg?1722580453" srcset="/data/avatars/m/354/354507.jpg?1722580453 2x" alt="Sebahat.hadzhi" class="avatar-u354507-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/how-to-disable-ad-for-plesk-mobile-on-plesk-login-screen.394130/post-983626" class="node-extra-title" title="How to disable ad for Plesk Mobile on Plesk login screen?"><span class="label label--skyBlue" dir="auto">Question</span><span class="label-append">&nbsp;</span>How to disable ad for Plesk Mobile on Plesk login screen?</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-04-27T08:55:52-0700" data-time="1777305352" data-date-string="Apr 27, 2026" data-time-string="8:55 AM" title="Apr 27, 2026 at 8:55 AM">Apr 27, 2026</time></li>
+							
+								<li class="node-extra-user"><a href="/members/sebahat-hadzhi.354507/" class="username " dir="auto" data-user-id="354507" data-xf-init="member-tooltip"><span class="username--staff username--moderator username--admin">Sebahat.hadzhi</span></a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id746 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/reports.746/" data-xf-init="element-tooltip" data-shortcut="node-description">Reports</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">Please, click Post New Thread button and fill the form if you really believe you discovered a new bug and need to report it to the Plesk developers. 
+It does allow us to handle and resolve your requests much more efficiently.
+Please be careful and do not submit any found problem with this template! Double check that it is really bug and you can reproduce it!
+<font color="red"><b>NOTE:</b> Only users with 5 or more helpful posts are allowed to create report there.</font></div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>1.3K</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>7.2K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>1.3K</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>7.2K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/nethubonline.71122/" class="avatar avatar--xs" data-user-id="71122" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/71/71122.jpg?1559292917" srcset="/data/avatars/m/71/71122.jpg?1559292917 2x" alt="nethubonline" class="avatar-u71122-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/certificate-assignment-fails-with-permission-denied-when-logged-in-as-customer-works-as-admin.395296/post-986506" class="node-extra-title" title="Certificate assignment fails with &quot;Permission denied&quot; when logged in as customer (works as admin)"><span class="label label--blue" dir="auto">Forwarded to devs</span><span class="label-append">&nbsp;</span>Certificate assignment fails with &quot;Permission denied&quot; when logged in as customer (works as admin)</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-09-15T08:00:54-0700" data-time="1789484454" data-date-string="Sep 15, 2026" data-time-string="8:00 AM" title="Sep 15, 2026 at 8:00 AM">Today at 8:00 AM</time></li>
+							
+								<li class="node-extra-user"><a href="/members/nethubonline.71122/" class="username " dir="auto" data-user-id="71122" data-xf-init="member-tooltip">nethubonline</a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<div class="block block--category block--category737">
+		<span class="u-anchorTarget" id="general-discussion.737"></span>
+		<div class="block-container">
+			<h2 class="block-header">
+				<a href="/#general-discussion.737">General Discussion</a>
+				
+			</h2>
+			<div class="block-body">
+				
+	
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id738 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/open-topics.738/" data-xf-init="element-tooltip" data-shortcut="node-description">Open Topics</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">Discuss random topics and interests unrelated to Plesk products</div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>1.5K</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>5.7K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>1.5K</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>5.7K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/hschneider.14970/" class="avatar avatar--xs" data-user-id="14970" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/14/14970.jpg?1467623135"  alt="hschneider" class="avatar-u14970-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/turn-plesk-into-a-rustdesk-server.395291/post-986482" class="node-extra-title" title="Turn Plesk into a RustDesk Server"><span class="label label--lightGreen" dir="auto">Input</span><span class="label-append">&nbsp;</span>Turn Plesk into a RustDesk Server</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-09-14T14:22:33-0700" data-time="1789420953" data-date-string="Sep 14, 2026" data-time-string="2:22 PM" title="Sep 14, 2026 at 2:22 PM">Yesterday at 2:22 PM</time></li>
+							
+								<li class="node-extra-user"><a href="/members/hschneider.14970/" class="username " dir="auto" data-user-id="14970" data-xf-init="member-tooltip">hschneider</a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id742 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/plesk-blog-news.742/" data-xf-init="element-tooltip" data-shortcut="node-description">Plesk blog news</a>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>567</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>708</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>567</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>708</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/hangover2.184591/" class="avatar avatar--xs" data-user-id="184591" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/184/184591.jpg?1629711468" srcset="/data/avatars/m/184/184591.jpg?1629711468 2x" alt="Hangover2" class="avatar-u184591-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/plesk-obsidian-18-0-80-is-here-mcp-support-ai-support-assistant-and-dns-diagnostics.395156/post-986437" class="node-extra-title" title="Plesk Obsidian 18.0.80 Is Here: MCP Support, AI Support Assistant, and DNS Diagnostics">Plesk Obsidian 18.0.80 Is Here: MCP Support, AI Support Assistant, and DNS Diagnostics</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-09-10T07:15:04-0700" data-time="1789049704" data-date-string="Sep 10, 2026" data-time-string="7:15 AM" title="Sep 10, 2026 at 7:15 AM">Thursday at 7:15 AM</time></li>
+							
+								<li class="node-extra-user"><a href="/members/hangover2.184591/" class="username " dir="auto" data-user-id="184591" data-xf-init="member-tooltip">Hangover2</a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id743 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/forum-news.743/" data-xf-init="element-tooltip" data-shortcut="node-description">Forum News</a>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>36</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>147</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>36</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>147</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/sebahat-hadzhi.354507/" class="avatar avatar--xs" data-user-id="354507" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/354/354507.jpg?1722580453" srcset="/data/avatars/m/354/354507.jpg?1722580453 2x" alt="Sebahat.hadzhi" class="avatar-u354507-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/forum-timezone-setting-automatic-daylight-saving-adjustment-is-missing.395120/post-986057" class="node-extra-title" title="Forum timezone setting – automatic daylight saving adjustment is missing">Forum timezone setting – automatic daylight saving adjustment is missing</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-08-20T08:27:01-0700" data-time="1787239621" data-date-string="Aug 20, 2026" data-time-string="8:27 AM" title="Aug 20, 2026 at 8:27 AM">Aug 20, 2026</time></li>
+							
+								<li class="node-extra-user"><a href="/members/sebahat-hadzhi.354507/" class="username " dir="auto" data-user-id="354507" data-xf-init="member-tooltip"><span class="username--staff username--moderator username--admin">Sebahat.hadzhi</span></a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<div class="block block--category block--category486">
+		<span class="u-anchorTarget" id="older-products-discussion.486"></span>
+		<div class="block-container">
+			<h2 class="block-header">
+				<a href="/#older-products-discussion.486">Older Products Discussion</a>
+				
+			</h2>
+			<div class="block-body">
+				
+	
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id744 node--depth2 node--forum node--unread">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/plesk-onyx-for-linux.744/" data-xf-init="element-tooltip" data-shortcut="node-description">Plesk Onyx for Linux</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">Plesk Onyx for Linux Problems, Suggested Fixes, and How-To</div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>7.7K</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>38.8K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>7.7K</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>38.8K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/thomas-oryon.399413/" class="avatar avatar--xs avatar--default avatar--default--dynamic" data-user-id="399413" data-xf-init="member-tooltip" style="background-color: #339966; color: #06130d">
+			<span class="avatar-u399413-s" role="img" aria-label="Thomas Oryon">T</span> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/query-regarding-changing-plesk-notification-sender-email-address.395171/post-986168" class="node-extra-title" title="Query Regarding Changing Plesk Notification Sender Email Address"><span class="label label--skyBlue" dir="auto">Question</span><span class="label-append">&nbsp;</span>Query Regarding Changing Plesk Notification Sender Email Address</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-08-26T02:27:55-0700" data-time="1787736475" data-date-string="Aug 26, 2026" data-time-string="2:27 AM" title="Aug 26, 2026 at 2:27 AM">Aug 26, 2026</time></li>
+							
+								<li class="node-extra-user"><a href="/members/thomas-oryon.399413/" class="username " dir="auto" data-user-id="399413" data-xf-init="member-tooltip">Thomas Oryon</a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id747 node--depth2 node--forum node--read">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/plesk-onyx-for-windows.747/" data-xf-init="element-tooltip" data-shortcut="node-description">Plesk Onyx for Windows</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">Plesk Onyx for Widows Problems, Suggested Fixes, and How-To</div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>638</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>2.2K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>638</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>2.2K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/sebahat-hadzhi.354507/" class="avatar avatar--xs" data-user-id="354507" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/354/354507.jpg?1722580453" srcset="/data/avatars/m/354/354507.jpg?1722580453 2x" alt="Sebahat.hadzhi" class="avatar-u354507-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/unable-to-view-statistics-as-reseller.394910/post-985618" class="node-extra-title" title="Unable to view statistics as reseller"><span class="label label--orange" dir="auto">Issue</span><span class="label-append">&nbsp;</span>Unable to view statistics as reseller</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-08-03T07:47:37-0700" data-time="1785768457" data-date-string="Aug 3, 2026" data-time-string="7:47 AM" title="Aug 3, 2026 at 7:47 AM">Aug 3, 2026</time></li>
+							
+								<li class="node-extra-user"><a href="/members/sebahat-hadzhi.354507/" class="username " dir="auto" data-user-id="354507" data-xf-init="member-tooltip"><span class="username--staff username--moderator username--admin">Sebahat.hadzhi</span></a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id745 node--depth2 node--forum node--read">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/plesk-multi-server.745/" data-xf-init="element-tooltip" data-shortcut="node-description">Plesk Multi Server</a>
+				</h3>
+				
+					<div class="node-description node-description--tooltip js-nodeDescTooltip">Discussion Multi Server</div>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>82</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>378</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>82</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>378</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/hhawk.175793/" class="avatar avatar--xs" data-user-id="175793" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/175/175793.jpg?1733911016" srcset="/data/avatars/m/175/175793.jpg?1733911016 2x" alt="HHawk" class="avatar-u175793-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/looking-for-a-simple-backup-tool-for-wordpress-sites.389772/post-976864" class="node-extra-title" title="Looking for a simple backup tool for WordPress sites"><span class="label label--skyBlue" dir="auto">Question</span><span class="label-append">&nbsp;</span>Looking for a simple backup tool for WordPress sites</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2025-10-21T11:05:28-0700" data-time="1761069928" data-date-string="Oct 21, 2025" data-time-string="11:05 AM" title="Oct 21, 2025 at 11:05 AM">Oct 21, 2025</time></li>
+							
+								<li class="node-extra-user"><a href="/members/hhawk.175793/" class="username " dir="auto" data-user-id="175793" data-xf-init="member-tooltip">HHawk</a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	
+
+	<div class="node node--id645 node--depth2 node--forum node--read">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true">
+				<i class="fa--xf far fa-comments" aria-hidden="true"></i>
+			</span>
+			<div class="node-main js-nodeMain">
+				
+
+				
+				<h3 class="node-title">
+					<a href="/forums/web-presence-builder-formerly-sitebuilder.645/" data-xf-init="element-tooltip" data-shortcut="node-description">Web Presence Builder (formerly SiteBuilder)</a>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>1.3K</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>4.4K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+		<div class="node-subNodeMenu">
+			<a class="menuTrigger" data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">Sub-forums</a>
+			<div class="menu" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					<h4 class="menu-header">Sub-forums</h4>
+					<ol class="subNodeMenu">
+					
+						
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/web-presence-builder.581/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Web Presence Builder
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/sitebuilder.450/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>SiteBuilder
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+					
+					</ol>
+				</div>
+			</div>
+		</div>
+	
+
+					
+				</div>
+
+				
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>1.3K</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>4.4K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/andrew-daniels.396348/" class="avatar avatar--xs avatar--default avatar--default--dynamic" data-user-id="396348" data-xf-init="member-tooltip" style="background-color: #336699; color: #9fbfdf">
+			<span class="avatar-u396348-s" role="img" aria-label="Andrew Daniels">A</span> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/list-of-hosting-providers-that-still-offer-plesk-website-builder.393720/post-982852" class="node-extra-title" title="List of hosting providers that still offer Plesk + Website builder"><span class="label label--skyBlue" dir="auto">Question</span><span class="label-append">&nbsp;</span>List of hosting providers that still offer Plesk + Website builder</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li><time  class="node-extra-date u-dt" dir="auto" datetime="2026-03-25T01:04:02-0700" data-time="1774425842" data-date-string="Mar 25, 2026" data-time-string="1:04 AM" title="Mar 25, 2026 at 1:04 AM">Mar 25, 2026</time></li>
+							
+								<li class="node-extra-user"><a href="/members/andrew-daniels.396348/" class="username " dir="auto" data-user-id="396348" data-xf-init="member-tooltip">Andrew Daniels</a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+	
+		
+	
+	
+	
+		
+	<div class="node node--id646 node--depth2 node--category node--read">
+		<div class="node-body">
+			<span class="node-icon" aria-hidden="true"><i></i></span>
+			<div class="node-main js-nodeMain">
+				
+				<h3 class="node-title">
+					<a href="/categories/older-panel-software-versions.646/" data-xf-init="element-tooltip" data-shortcut="node-description">Older Panel Software Versions</a>
+				</h3>
+				
+
+				<div class="node-meta">
+					
+						<div class="node-statsMeta">
+							<dl class="pairs pairs--inline">
+								<dt>Threads</dt>
+								<dd>60K</dd>
+							</dl>
+							<dl class="pairs pairs--inline">
+								<dt>Messages</dt>
+								<dd>249.9K</dd>
+							</dl>
+						</div>
+					
+
+					
+						
+	
+	
+		<div class="node-subNodeMenu">
+			<a class="menuTrigger" data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true">Sub-forums</a>
+			<div class="menu" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					<h4 class="menu-header">Sub-forums</h4>
+					<ol class="subNodeMenu">
+					
+						
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-12-x-for-linux.735/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 12.x for Linux
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-12-x-for-windows.736/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 12.x for Windows
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-11-x-for-linux.677/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 11.x for Linux
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-11-x-for-windows.679/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 11.x for Windows
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-10-x-for-linux.567/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 10.x for Linux
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-10-x-for-linux-suggestions-and-feedback.648/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 10.x for Linux Suggestions and Feedback
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-10-x-for-linux-issues-fixes-how-to.569/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 10.x for Linux Issues, Fixes, How-To
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-10-x-for-windows.574/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 10.x for Windows
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-10-x-for-windows-suggestions-and-feedback.576/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 10.x for Windows Suggestions and Feedback
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-10-x-for-windows-issues-fixes-how-to.649/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 10.x for Windows Issues, Fixes, How-To
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-9-x-for-linux.547/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 9.x for Linux
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-9-x-for-linux-suggestions-and-feedback.548/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 9.x for Linux Suggestions and Feedback
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-9-x-for-linux-issues-fixes-how-to.549/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 9.x for Linux Issues, Fixes, How-To
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-9-x-for-windows.554/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 9.x for Windows
+		</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-9-x-for-windows-suggestions-and-feedback.555/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 9.x for Windows Suggestions and Feedback
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-9-x-for-windows-issue-fixes-how-to.556/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk 9.x for Windows Issue, Fixes, How-To
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-for-linux-8-x-and-older.434/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk for Linux - 8.x and Older
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/plesk-for-windows-8-x-and-older.440/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Plesk for Windows - 8.x and Older
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/categories/sitebuilder-4-2-and-older.647/" class="subNodeLink subNodeLink--category ">SiteBuilder - 4.2 and Older</a>
+		
+	
+		<ol>
+		
+			
+	
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/sitebuilder-4-2-for-linux.402/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Sitebuilder 4.2 for Linux
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/sitebuilder-4-2-for-windows.406/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Sitebuilder 4.2 for Windows
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/sitebuilder-4-1-for-linux.383/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Sitebuilder 4.1 for Linux
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/sitebuilder-4-1-for-windows.387/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Sitebuilder 4.1 for Windows
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/sitebuilder-4-0-for-linux.293/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Sitebuilder 4.0 for Linux
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/sitebuilder-4-0-for-windows.290/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Sitebuilder 4.0 for Windows
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/sitebuilder-3-2-for-windows.269/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Sitebuilder 3.2 for Windows
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/sitebuilder-3-0-for-linux.294/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Sitebuilder 3.0 for Linux
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+		
+	
+	
+	
+		
+	<li>
+		<a href="/forums/legacy-sitebuilder-software.295/" class="subNodeLink subNodeLink--forum ">
+			<i class="fa--xf far fa-comments subNodeLink-icon" aria-hidden="true"></i>Legacy Sitebuilder Software
+		</a>
+		
+	
+
+	</li>
+
+	
+
+	
+
+		
+		</ol>
+	
+
+	</li>
+
+	
+
+	
+
+					
+					</ol>
+				</div>
+			</div>
+		</div>
+	
+
+					
+				</div>
+
+				
+			</div>
+
+			
+				<div class="node-stats">
+					<dl class="pairs pairs--rows">
+						<dt>Threads</dt>
+						<dd>60K</dd>
+					</dl>
+					<dl class="pairs pairs--rows">
+						<dt>Messages</dt>
+						<dd>249.9K</dd>
+					</dl>
+				</div>
+			
+
+			<div class="node-extra">
+				
+					<div class="node-extra-icon">
+						
+							<a href="/members/sebahat-hadzhi.354507/" class="avatar avatar--xs" data-user-id="354507" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/354/354507.jpg?1722580453" srcset="/data/avatars/m/354/354507.jpg?1722580453 2x" alt="Sebahat.hadzhi" class="avatar-u354507-s" width="48" height="48" loading="lazy" /> 
+		</a>
+						
+					</div>
+					<div class="node-extra-row">
+						
+							<a href="/threads/rename-database-prefix.82633/post-985601" class="node-extra-title" title="Rename Database Prefix">Rename Database Prefix</a>
+						
+					</div>
+					<div class="node-extra-row">
+						<ul class="listInline listInline--bullet">
+							<li class="node-extra-date"><time  class="u-dt" dir="auto" datetime="2026-08-02T06:26:18-0700" data-time="1785677178" data-date-string="Aug 2, 2026" data-time-string="6:26 AM" title="Aug 2, 2026 at 6:26 AM">Aug 2, 2026</time></li>
+							
+								<li class="node-extra-user"><a href="/members/sebahat-hadzhi.354507/" class="username " dir="auto" data-user-id="354507" data-xf-init="member-tooltip"><span class="username--staff username--moderator username--admin">Sebahat.hadzhi</span></a></li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+
+			</div>
+		</div>
+	</div>
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+			</div>
+
+			
+				<div class="p-body-sidebar">
+					
+					
+						<div class="block" data-widget-id="9" data-widget-key="forum_overview_new_posts" data-widget-definition="new_posts">
+		<div class="block-container">
+			
+				<h3 class="block-minorHeader">
+					<a href="/whats-new/posts/?skip=1" rel="nofollow">Latest posts</a>
+				</h3>
+				<ul class="block-body">
+					
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/members/frostbolt.184464/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="184464" data-xf-init="member-tooltip" style="background-color: #3d1f7a; color: #9470db">
+			<span class="avatar-u184464-s" role="img" aria-label="Frostbolt">F</span> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/threads/spam-detection-software-email-instead-of-moving-spam-to-spam-folder.395299/post-986507"><span class="label label--orange" dir="auto">Issue</span><span class="label-append">&nbsp;</span>Spam detection software email instead of moving spam to spam folder</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					<li>Latest: Frostbolt</li>
+					<li><time  class="u-dt" dir="auto" datetime="2026-09-15T11:33:35-0700" data-time="1789497215" data-date-string="Sep 15, 2026" data-time-string="11:33 AM" title="Sep 15, 2026 at 11:33 AM">Today at 11:33 AM</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/forums/plesk-obsidian-for-linux.748/">Plesk Obsidian for Linux</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/members/nethubonline.71122/" class="avatar avatar--xxs" data-user-id="71122" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/71/71122.jpg?1559292917"  alt="nethubonline" class="avatar-u71122-s" width="48" height="48" loading="lazy" /> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/threads/certificate-assignment-fails-with-permission-denied-when-logged-in-as-customer-works-as-admin.395296/post-986506"><span class="label label--blue" dir="auto">Forwarded to devs</span><span class="label-append">&nbsp;</span>Certificate assignment fails with &quot;Permission denied&quot; when logged in as customer (works as admin)</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					<li>Latest: nethubonline</li>
+					<li><time  class="u-dt" dir="auto" datetime="2026-09-15T08:00:54-0700" data-time="1789484454" data-date-string="Sep 15, 2026" data-time-string="8:00 AM" title="Sep 15, 2026 at 8:00 AM">Today at 8:00 AM</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/forums/reports.746/">Reports</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/members/zenon.529605/" class="avatar avatar--xxs avatar--default avatar--default--dynamic" data-user-id="529605" data-xf-init="member-tooltip" style="background-color: #3d7a1f; color: #94db70">
+			<span class="avatar-u529605-s" role="img" aria-label="Zenon">Z</span> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/threads/bug-report-watchdog-disk-threshold-alert-email-contains-literal-placeholders-instead-of-values.395061/post-986503"><span class="label label--green" dir="auto">Resolved</span><span class="label-append">&nbsp;</span>Bug report: Watchdog disk threshold alert email contains literal placeholders instead of values</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					<li>Latest: Zenon</li>
+					<li><time  class="u-dt" dir="auto" datetime="2026-09-15T07:38:04-0700" data-time="1789483084" data-date-string="Sep 15, 2026" data-time-string="7:38 AM" title="Sep 15, 2026 at 7:38 AM">Today at 7:38 AM</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/forums/plesk-extensions.725/">Plesk Extensions</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/members/sebahat-hadzhi.354507/" class="avatar avatar--xxs" data-user-id="354507" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/354/354507.jpg?1722580453"  alt="Sebahat.hadzhi" class="avatar-u354507-s" width="48" height="48" loading="lazy" /> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/threads/git-repository-pull-bug-wrong-branch-pulled.395043/post-986502"><span class="label label--green" dir="auto">Resolved</span><span class="label-append">&nbsp;</span>Git repository pull bug (wrong branch pulled)</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					<li>Latest: Sebahat.hadzhi</li>
+					<li><time  class="u-dt" dir="auto" datetime="2026-09-15T07:35:21-0700" data-time="1789482921" data-date-string="Sep 15, 2026" data-time-string="7:35 AM" title="Sep 15, 2026 at 7:35 AM">Today at 7:35 AM</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/forums/plesk-obsidian-for-linux.748/">Plesk Obsidian for Linux</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+							<li class="block-row">
+								
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			<a href="/members/sebahat-hadzhi.354507/" class="avatar avatar--xxs" data-user-id="354507" data-xf-init="member-tooltip">
+			<img src="/data/avatars/s/354/354507.jpg?1722580453"  alt="Sebahat.hadzhi" class="avatar-u354507-s" width="48" height="48" loading="lazy" /> 
+		</a>
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			
+				<a href="/threads/broken-systemd-symlinks-left-behind-after-php-version-removal-deactivation.394979/post-986501"><span class="label label--green" dir="auto">Resolved</span><span class="label-append">&nbsp;</span>Broken systemd symlinks left behind after PHP version removal/deactivation</a>
+			
+
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<ul class="listInline listInline--bullet">
+					<li>Latest: Sebahat.hadzhi</li>
+					<li><time  class="u-dt" dir="auto" datetime="2026-09-15T07:32:36-0700" data-time="1789482756" data-date-string="Sep 15, 2026" data-time-string="7:32 AM" title="Sep 15, 2026 at 7:32 AM">Today at 7:32 AM</time></li>
+				</ul>
+			</div>
+			<div class="contentRow-minor contentRow-minor--hideLinks">
+				<a href="/forums/reports.746/">Reports</a>
+			</div>
+		</div>
+	</div>
+
+							</li>
+						
+					
+				</ul>
+			
+		</div>
+	</div>
+
+
+	<div class="block" data-widget-id="13" data-widget-key="xfrm_forum_overview_new_resources" data-widget-definition="xfrm_new_resources">
+		<div class="block-container">
+			
+				<h3 class="block-minorHeader">
+					<a href="/whats-new/resources/?skip=1" rel="nofollow">Latest resources</a>
+				</h3>
+				<ul class="block-body">
+					
+						<li class="block-row">
+							
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			
+				<a href="/resources/spamhaus-firehol-drop-list-as-firewallrule.90/" class="avatar avatar--xxs avatar--resourceIconDefault"><span></span><span class="u-srOnly">Resource icon</span></a>
+			
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			<a href="/resources/spamhaus-firehol-drop-list-as-firewallrule.90/"><span class="label label--blue" dir="auto">Instruction</span><span class="label-append">&nbsp;</span>Spamhaus + FireHOL Drop List as Firewallrule</a>
+			<div class="contentRow-lesser">Spamhaus + FireHOL Drop List as Firewallrule</div>
+			
+				<div class="contentRow-minor contentRow-minor--smaller">
+					<ul class="listInline listInline--bullet">
+						<li>Shoto</li>
+						<li>Updated: <time  class="u-dt" dir="auto" datetime="2025-05-13T03:33:57-0700" data-time="1747132437" data-date-string="May 13, 2025" data-time-string="3:33 AM" title="May 13, 2025 at 3:33 AM">May 13, 2025</time></li>
+					</ul>
+				</div>
+			
+		</div>
+	</div>
+
+						</li>
+					
+						<li class="block-row">
+							
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			
+				<a href="/resources/how-to-find-the-busiest-website-by-reading-access-log-file.65/" class="avatar avatar--xxs avatar--resourceIconDefault"><span></span><span class="u-srOnly">Resource icon</span></a>
+			
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			<a href="/resources/how-to-find-the-busiest-website-by-reading-access-log-file.65/"><span class="label label--blue" dir="auto">Instruction</span><span class="label-append">&nbsp;</span>How to find the busiest website by reading access log file</a>
+			<div class="contentRow-lesser">read access log file to find the busiest website on the server</div>
+			
+				<div class="contentRow-minor contentRow-minor--smaller">
+					<ul class="listInline listInline--bullet">
+						<li>Tobias Sorensson</li>
+						<li>Updated: <time  class="u-dt" dir="auto" datetime="2024-10-27T13:38:10-0700" data-time="1730061490" data-date-string="Oct 27, 2024" data-time-string="1:38 PM" title="Oct 27, 2024 at 1:38 PM">Oct 27, 2024</time></li>
+					</ul>
+				</div>
+			
+		</div>
+	</div>
+
+						</li>
+					
+						<li class="block-row">
+							
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			
+				<a href="/resources/fail2ban-bash-script-to-group-multiple-banned-ip-into-subnets.74/" class="avatar avatar--xxs avatar--resourceIconDefault"><span></span><span class="u-srOnly">Resource icon</span></a>
+			
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			<a href="/resources/fail2ban-bash-script-to-group-multiple-banned-ip-into-subnets.74/"><span class="label label--blue" dir="auto">Instruction</span><span class="label-append">&nbsp;</span>[Fail2ban] Bash script to group multiple banned IP into subnets</a>
+			<div class="contentRow-lesser">Easily see if there multiple IP addresses banned witin a /24 subnet</div>
+			
+				<div class="contentRow-minor contentRow-minor--smaller">
+					<ul class="listInline listInline--bullet">
+						<li>Kaspar</li>
+						<li>Updated: <time  class="u-dt" dir="auto" datetime="2024-08-19T06:58:02-0700" data-time="1724075882" data-date-string="Aug 19, 2024" data-time-string="6:58 AM" title="Aug 19, 2024 at 6:58 AM">Aug 19, 2024</time></li>
+					</ul>
+				</div>
+			
+		</div>
+	</div>
+
+						</li>
+					
+						<li class="block-row">
+							
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			
+				<a href="/resources/a-script-to-change-the-ip-addresses-of-all-hosts-of-a-domain-for-migration.41/" class="avatar avatar--xxs avatar--resourceIconDefault"><span></span><span class="u-srOnly">Resource icon</span></a>
+			
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			<a href="/resources/a-script-to-change-the-ip-addresses-of-all-hosts-of-a-domain-for-migration.41/"><span class="label label--blue" dir="auto">Instruction</span><span class="label-append">&nbsp;</span>A script to change the IP addresses of all hosts of a domain for migration</a>
+			<div class="contentRow-lesser">Changes the IP addresses of a domain</div>
+			
+				<div class="contentRow-minor contentRow-minor--smaller">
+					<ul class="listInline listInline--bullet">
+						<li>tkalfaoglu</li>
+						<li>Updated: <time  class="u-dt" dir="auto" datetime="2023-06-29T09:50:36-0700" data-time="1688057436" data-date-string="Jun 29, 2023" data-time-string="9:50 AM" title="Jun 29, 2023 at 9:50 AM">Jun 29, 2023</time></li>
+					</ul>
+				</div>
+			
+		</div>
+	</div>
+
+						</li>
+					
+						<li class="block-row">
+							
+	<div class="contentRow">
+		<div class="contentRow-figure">
+			
+				<a href="/resources/how-to-run-magento-2-on-plesk-obsidian-18-without-docker.59/" class="avatar avatar--xxs avatar--resourceIconDefault"><span></span><span class="u-srOnly">Resource icon</span></a>
+			
+		</div>
+		<div class="contentRow-main contentRow-main--close">
+			<a href="/resources/how-to-run-magento-2-on-plesk-obsidian-18-without-docker.59/"><span class="label label--blue" dir="auto">Instruction</span><span class="label-append">&nbsp;</span>How to run Magento 2 on Plesk Obsidian 18 without Docker</a>
+			<div class="contentRow-lesser">Magento 2 Setup on plesk linux</div>
+			
+				<div class="contentRow-minor contentRow-minor--smaller">
+					<ul class="listInline listInline--bullet">
+						<li>davidon</li>
+						<li>Updated: <time  class="u-dt" dir="auto" datetime="2023-02-21T03:52:55-0800" data-time="1676980375" data-date-string="Feb 21, 2023" data-time-string="3:52 AM" title="Feb 21, 2023 at 3:52 AM">Feb 21, 2023</time></li>
+					</ul>
+				</div>
+			
+		</div>
+	</div>
+
+						</li>
+					
+				</ul>
+			
+		</div>
+	</div>
+
+<div class="block" data-widget-id="7" data-widget-key="forum_overview_forum_statistics" data-widget-definition="forum_statistics">
+	<div class="block-container">
+		<h3 class="block-minorHeader">Forum statistics</h3>
+		<div class="block-body block-row">
+			<dl class="pairs pairs--justified count--threads">
+				<dt>Threads</dt>
+				<dd>88,467</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified count--messages">
+				<dt>Messages</dt>
+				<dd>393,656</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified count--users">
+				<dt>Members</dt>
+				<dd>278,415</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>Latest member</dt>
+				<dd><a href="/members/knvnaa.535477/" class="username " dir="auto" data-user-id="535477" data-xf-init="member-tooltip">knvnaa</a></dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+
+	<div class="block" data-widget-id="8" data-widget-key="forum_overview_share_page" data-widget-definition="share_page">
+		<div class="block-container">
+			<h3 class="block-minorHeader">Share this page</h3>
+			<div class="block-body block-row">
+				
+					
+
+	
+		
+
+		<div class="shareButtons shareButtons--iconic" data-xf-init="share-buttons" data-page-url="" data-page-title="" data-page-desc="" data-page-image="">
+			
+
+			<div class="shareButtons-buttons">
+				
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--facebook" data-href="https://www.facebook.com/sharer.php?u={url}">
+							<i aria-hidden="true"></i>
+							<span>Facebook</span>
+						</a>
+					
+
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--reddit" data-href="https://reddit.com/submit?url={url}&amp;title={title}">
+							<i aria-hidden="true"></i>
+							<span>Reddit</span>
+						</a>
+					
+
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--tumblr" data-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&amp;title={title}">
+							<i aria-hidden="true"></i>
+							<span>Tumblr</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--whatsApp" data-href="https://api.whatsapp.com/send?text={title}&nbsp;{url}">
+							<i aria-hidden="true"></i>
+							<span>WhatsApp</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--email" data-href="mailto:?subject={title}&amp;body={url}">
+							<i aria-hidden="true"></i>
+							<span>Email</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--share is-hidden"
+							data-xf-init="web-share"
+							data-title="" data-text="" data-url=""
+							data-hide=".shareButtons-button:not(.shareButtons-button--share)">
+
+							<i aria-hidden="true"></i>
+							<span>Share</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--link is-hidden" data-clipboard="{url}">
+							<i aria-hidden="true"></i>
+							<span>Link</span>
+						</a>
+					
+				
+			</div>
+		</div>
+	
+
+				
+			</div>
+		</div>
+	</div>
+					
+					
+				</div>
+			
+		</div>
+
+		
+		
+	
+
+		
+	</div>
+</div>
+
+<footer class="p-footer" id="footer">
+	<div class="plsk-footer">
+		<div class="plsk-footer__section plsk-footer__section--top">
+			<div class="plsk-footer__section-content">
+				<ul class="plsk-footer__partners-list">
+					<li class="plsk-footer__partners-item">
+						<h5 class="plsk-footer__partners-title">Industry<br> Partners</h5>
+					</li>
+					<li class="plsk-footer__partners-item"><img src="/styles/plesk/images/partners/automattic.svg" alt="Automattic"></li>
+					<li class="plsk-footer__partners-item"><img src="/styles/plesk/images/partners/docker.svg" alt="Docker"></li>
+					<li class="plsk-footer__partners-item"><img src="/styles/plesk/images/partners/virtuozzo.svg" alt="Virtuozzo"></li>
+					<li class="plsk-footer__partners-item"><img src="/styles/plesk/images/partners/amazon.svg" alt="Amazon"></li>
+					<li class="plsk-footer__partners-item"><img src="/styles/plesk/images/partners/microsoft.svg" alt="Microsoft"></li>
+					<li class="plsk-footer__partners-item"><img src="/styles/plesk/images/partners/microsoft-azure.svg" alt="Microsoft Azure"></li>
+					<li class="plsk-footer__partners-item"><img src="/styles/plesk/images/partners/red-hat.svg" alt=""></li>
+					<li class="plsk-footer__partners-item"><img src="/styles/plesk/images/partners/alibaba-cloud.svg" alt="Alibaba Cloud"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="plsk-footer__section plsk-footer__section--main">
+			<div class="plsk-footer__section-content">
+				<div class="plsk-footer__social">
+					<a class="plsk-footer__logo" href="https://plesk.com"><img class="plsk-footer__logo-img" src="/styles/plesk/images/logo.svg" title="Plesk - The leading WebOps platform to run and grow applications, websites and hosting businesses." alt="Plesk" width="70" height="30"></a>
+					<div class="plsk-footer__social-block">
+						<p>Follow us:</p>
+						<ul class="plsk-footer__social-links">
+						<li><a class="plsk-footer__social-link" href="https://www.facebook.com/Plesk" target="_blank" title="Facebook"><svg aria-hidden="true"><use xlink:href="/styles/plesk/images/symbols.svg#facebook"></use></svg></a></li>
+						<li><a class="plsk-footer__social-link" href="https://twitter.com/Plesk" target="_blank" title="Twitter"><svg aria-hidden="true"><use xlink:href="/styles/plesk/images/symbols.svg#twitter"></use></svg></a></li>
+						<li><a class="plsk-footer__social-link" href="https://www.linkedin.com/company/plesk" target="_blank" title="LinkedIn"><svg aria-hidden="true"><use xlink:href="/styles/plesk/images/symbols.svg#linkedin"></use></svg></a></li>
+						<li><a class="plsk-footer__social-link" href="https://www.youtube.com/channel/UCeU-_6YHGQFcVSHLbEXLNlA" target="_blank" title="YouTube"><svg aria-hidden="true"><use xlink:href="/styles/plesk/images/symbols.svg#youtube"></use></svg></a></li>
+						<li><a class="plsk-footer__social-link" href="https://plesk.github.io/" target="_blank" title="GitHub"><svg aria-hidden="true"><use xlink:href="/styles/plesk/images/symbols.svg#github"></use></svg></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="plsk-footer__grid plsk-footer__links-group">
+				<div class="plsk-footer__grid-item plsk-footer__links">
+				  <div class="plsk-footer__links-heading">COMPANY</div>
+				  <ul class="plsk-footer__links-list">
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/about-us">About Plesk</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/brand">Our Brand</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/legal">Legal</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/privacy-policy">Privacy Policy</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/careers">Careers</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/impressum">Impressum</a></li>
+				  </ul>
+				</div>
+				<div class="plsk-footer__grid-item plsk-footer__links">
+				  <div class="plsk-footer__links-heading">PRODUCT</div>
+				  <ul class="plsk-footer__links-list">
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/pricing">Pricing</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/extensions/">Extensions</a></li>
+				  </ul>
+				</div>
+				<div class="plsk-footer__grid-item plsk-footer__links">
+				  <div class="plsk-footer__links-heading">KNOWLEDGE BASE</div>
+				  <ul class="plsk-footer__links-list">
+					<li class="plsk-footer__links-item"><a href="https://docs.plesk.com">Documentation</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/help-center">Help Center</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/professional-services">Migrate to Plesk</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/contact-us">Contact Us</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/hosting-wiki/">Hosting Wiki</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/lifecycle-policy">Plesk Lifecycle Policy</a></li>
+				  </ul>
+				</div>
+				<div class="plsk-footer__grid-item plsk-footer__links">
+				  <div class="plsk-footer__links-heading">PROGRAMS</div>
+				  <ul class="plsk-footer__links-list">
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/content-contributor-program/">Contributor Program</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/partners">Partner Program</a></li>
+				  </ul>
+				</div>
+				<div class="plsk-footer__grid-item plsk-footer__links">
+				  <div class="plsk-footer__links-heading">COMMUNITY</div>
+				  <ul class="plsk-footer__links-list">
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/blog/">Blog</a></li>
+					<li class="plsk-footer__links-item"><a href="https://talk.plesk.com/">Forums</a></li>
+					<li class="plsk-footer__links-item"><a href="https://www.plesk.com/university">Plesk University</a></li>
+				  </ul>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<div class="p-footer-inner plsk-footer-bottom">
+
+		<div class="p-footer-row">
+			
+			<div class="p-footer-row-main plsk-footer-bottom__copyright">© 2026 WebPros International GmbH. All rights reserved. Plesk and the Plesk logo are trademarks of WebPros International GmbH.</div>
+			<div class="p-footer-row-opposite">
+				<ul class="p-footer-linkList">
+					
+						<li><a href="/help/terms/">Terms and rules</a></li>
+					
+
+					
+						<li><a href="/help/privacy-policy/">Privacy policy</a></li>
+					
+
+					
+						<li><a href="/help/">Help</a></li>
+					
+
+					<li><a href="/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf far fa-rss" aria-hidden="true"></i><span class="u-srOnly">RSS</span></span></a></li>
+				</ul>
+			</div>
+		</div>
+
+		
+			<div class="p-footer-copyright">
+			
+				<a href="https://xenforo.com" class="u-concealed" dir="ltr" target="_blank" rel="sponsored noopener">Community platform by XenForo<sup>&reg;</sup> <span class="copyright">&copy; 2010-2024 XenForo Ltd.</span></a>
+				
+			
+			</div>
+		
+
+		
+	</div>
+</footer>
+
+</div> <!-- closing p-pageWrapper -->
+
+<div class="u-bottomFixer js-bottomFixTarget">
+	
+	
+</div>
+
+<div class="u-navButtons js-navButtons" data-trigger-type="up">
+	<a href="javascript:" class="button--scroll button"><span class="button-text"><i class="fa--xf far fa-arrow-left" aria-hidden="true"></i><span class="u-srOnly">Back</span></span></a>
+</div>
+
+
+	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
+		<a href="#top" class="button--scroll button" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf far fa-arrow-up" aria-hidden="true"></i><span class="u-srOnly">Top</span></span></a>
+		
+	</div>
+
+
+
+	<script src="/js/vendor/jquery/jquery-3.5.1.min.js?_v=c3342ecf"></script>
+	<script src="/js/vendor/vendor-compiled.js?_v=c3342ecf"></script>
+	<script src="/js/xf/core-compiled.js?_v=c3342ecf"></script>
+	<script src="/js/xf/notice.min.js?_v=c3342ecf"></script>
+
+	<script>
+		jQuery.extend(true, XF.config, {
+			// 
+			userId: 0,
+			enablePush: true,
+			pushAppServerKey: 'BCdFk11oupJwZqXeiM7aFUZiwo3qL2uEREoyo+y+UFXh/z2jBoPMSUNFEaDuCEEXHY2RP1vHlL8/VvwuFweC7GQ=',
+			url: {
+				fullBase: 'https://talk.plesk.com/',
+				basePath: '/',
+				css: '/css.php?css=__SENTINEL__&s=8&l=1&d=1788203637',
+				keepAlive: '/login/keep-alive'
+			},
+			cookie: {
+				path: '/',
+				domain: '',
+				prefix: 'xf_',
+				secure: true,
+				consentMode: 'disabled',
+				consented: ["optional","_third_party"]
+			},
+			cacheKey: '375dd562ae11e0b3c53945f26a9d4226',
+			csrf: '1789534023,252a3d6cf4c399d998f215ee48772972',
+			js: {"\/js\/xf\/notice.min.js?_v=c3342ecf":true},
+			css: {"public:node_list.less":true,"public:notices.less":true,"public:share_controls.less":true,"public:extra.less":true},
+			time: {
+				now: 1789534023,
+				today: 1789455600,
+				todayDow: 2,
+				tomorrow: 1789542000,
+				yesterday: 1789369200,
+				week: 1788937200
+			},
+			borderSizeFeature: '3px',
+			fontAwesomeWeight: 'r',
+			enableRtnProtect: true,
+			
+			enableFormSubmitSticky: true,
+			uploadMaxFilesize: 52428800,
+			allowedVideoExtensions: ["m4v","mov","mp4","mp4v","mpeg","mpg","ogv","webm"],
+			allowedAudioExtensions: ["mp3","opus","ogg","wav"],
+			shortcodeToEmoji: true,
+			visitorCounts: {
+				conversations_unread: '0',
+				alerts_unviewed: '0',
+				total_unread: '0',
+				title_count: true,
+				icon_indicator: true
+			},
+			jsState: {},
+			publicMetadataLogoUrl: '',
+			publicPushBadgeUrl: 'https://talk.plesk.com/styles/default/xenforo/bell.png'
+		});
+
+		jQuery.extend(XF.phrases, {
+			// 
+			date_x_at_time_y: "{date} at {time}",
+			day_x_at_time_y:  "{day} at {time}",
+			yesterday_at_x:   "Yesterday at {time}",
+			x_minutes_ago:    "{minutes} minutes ago",
+			one_minute_ago:   "1 minute ago",
+			a_moment_ago:     "A moment ago",
+			today_at_x:       "Today at {time}",
+			in_a_moment:      "In a moment",
+			in_a_minute:      "In a minute",
+			in_x_minutes:     "In {minutes} minutes",
+			later_today_at_x: "Later today at {time}",
+			tomorrow_at_x:    "Tomorrow at {time}",
+
+			day0: "Sunday",
+			day1: "Monday",
+			day2: "Tuesday",
+			day3: "Wednesday",
+			day4: "Thursday",
+			day5: "Friday",
+			day6: "Saturday",
+
+			dayShort0: "Sun",
+			dayShort1: "Mon",
+			dayShort2: "Tue",
+			dayShort3: "Wed",
+			dayShort4: "Thu",
+			dayShort5: "Fri",
+			dayShort6: "Sat",
+
+			month0: "January",
+			month1: "February",
+			month2: "March",
+			month3: "April",
+			month4: "May",
+			month5: "June",
+			month6: "July",
+			month7: "August",
+			month8: "September",
+			month9: "October",
+			month10: "November",
+			month11: "December",
+
+			active_user_changed_reload_page: "The active user has changed. Reload the page for the latest version.",
+			server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+			oops_we_ran_into_some_problems: "Oops! We ran into some problems.",
+			oops_we_ran_into_some_problems_more_details_console: "Oops! We ran into some problems. Please try again later. More error details may be in the browser console.",
+			file_too_large_to_upload: "The file is too large to be uploaded.",
+			uploaded_file_is_too_large_for_server_to_process: "The uploaded file is too large for the server to process.",
+			files_being_uploaded_are_you_sure: "Files are still being uploaded. Are you sure you want to submit this form?",
+			attach: "Attach files",
+			rich_text_box: "Rich text box",
+			close: "Close",
+			link_copied_to_clipboard: "Link copied to clipboard.",
+			text_copied_to_clipboard: "Text copied to clipboard.",
+			loading: "Loading…",
+			you_have_exceeded_maximum_number_of_selectable_items: "You have exceeded the maximum number of selectable items.",
+
+			processing: "Processing",
+			'processing...': "Processing…",
+
+			showing_x_of_y_items: "Showing {count} of {total} items",
+			showing_all_items: "Showing all items",
+			no_items_to_display: "No items to display",
+
+			number_button_up: "Increase",
+			number_button_down: "Decrease",
+
+			push_enable_notification_title: "Push notifications enabled successfully at Plesk Forum",
+			push_enable_notification_body: "Thank you for enabling push notifications!",
+
+			pull_down_to_refresh: "Pull down to refresh",
+			release_to_refresh: "Release to refresh",
+			refreshing: "Refreshing…"
+		});
+	</script>
+
+	<form style="display:none" hidden="hidden">
+		<input type="text" name="_xfClientLoadTime" value="" id="_xfClientLoadTime" title="_xfClientLoadTime" tabindex="-1" />
+	</form>
+
+	
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"url": "https://talk.plesk.com/",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": {
+					"@type": "EntryPoint",
+					"urlTemplate": "https://talk.plesk.com/search/search?keywords={search_keywords}"
+				},
+				"query-input": "required name=search_keywords"
+			}
+		}
+		</script>
+	
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
