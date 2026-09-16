@@ -1,0 +1,629 @@
+# sha256: 3fc3f1f9e54138bad0a5064759391e1238360d9bcab40882b448fbef1bdea57e
+# family: script_generic
+# kind: script
+# size_bytes: 30138
+# first_seen: 2026-09-16 00:16:33.459329 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>Try Plesk Now
+</title>
+  <meta name="description" content="Try Plesk right now: use Online Demo, deploy a Docker container with Plesk or just deploy the latest preview build to your own server.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="kBcbWmRamPRsknsR2UKbYiZbOT3-KqIXmUDVq-W_qv4" />
+  <meta name="google-site-verification" content="goNw19iZzxLeBS8jwwkDR6mBeC80bgbQdeHhrW_rJv8" />
+  <meta name="google-site-verification" content="VNuivnIYeQLRynt4uvnmMXjLFrH8U2gNxQGh6L9app4" />
+  <meta property="og:title" content="Try Plesk Now" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:description" content="Try Plesk right now: use Online Demo, deploy a Docker container with Plesk or just deploy the latest preview build to your own server." />
+  <meta property="og:image" content="https://docs.plesk.com/images/og_logo.jpg" />
+  <meta property="og:image:width" content="200" />
+  <meta property="og:image:height" content="200" />
+  <meta property="og:image:alt" content="Plesk logo" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@plesk">
+  <meta name="twitter:title" content="Try Plesk Now">
+    <meta property="og:url" content="https://docs.plesk.com/try-plesk-now/" />
+  <link href="/fonts/Lato-Regular.woff2" rel="preload" type="font/woff2" as="font">
+  <link href="/fonts/Lato-Bold.woff2" rel="preload" type="font/woff2" as="font">
+  <link href="/fonts/Lato-Light.woff2" rel="preload" type="font/woff2" as="font">
+  <link href="/fonts/fa-subset.woff2" rel="preload" type="font/woff2" as="font">
+  <link rel="preconnect" href="http://www.google-analytics.com">
+  <link rel="preconnect" href="http://www.googleadservices.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://servedbyadbutler.com">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css?31102022"><style>
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Lato Regular'), local('Lato-Regular'),
+      url('/fonts/Lato-Regular.woff2') format('woff2'),
+      url('/fonts/Lato-Regular.woff') format('woff');
+      font-display: swap;
+  }
+
+  @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Lato Bold'), local('Lato-Bold'),
+      url('/fonts/Lato-Bold.woff2') format('woff2'),
+      url('/fonts/Lato-Bold.woff') format('woff');
+      font-display: swap;
+
+  }
+  @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Lato Light'), local('Lato-Light'),
+      url('/fonts/Lato-Light.woff2') format('woff2'),
+      url('/fonts/Lato-Light.woff') format('woff');
+      font-display: swap;
+  }
+  @font-face {
+      font-family: 'fa-subset';
+      src: url('/fonts/fa-subset.eot?12082020');
+      src: url('/fonts/fa-subset.eot?12082020#iefix') format('embedded-opentype'),
+      url('/fonts/fa-subset.woff2?12082020') format('woff2'),
+      url('/fonts/fa-subset.woff?12082020') format('woff'),
+      url('/fonts/fa-subset.ttf?12082020') format('truetype'),
+      url('/fonts/fa-subset.svg?12082020#fa-subset') format('svg');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+  </style>
+  <link rel="stylesheet" href="/css/perfect-scrollbar.css">
+  <!-- Google tag (gtag.js) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+  </script>
+  <!-- Google Tag Manager -->
+  <script>
+    
+    if (window.location.hostname === 'docs.plesk.com') {
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-N3CGHBJ');
+    }
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
+
+  <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3CGHBJ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <div class="page-overlay"></div>
+    <div class="page-container">
+
+      <div class="page-header-wrapper" id="page-header-wrapper">
+  <div class="page-header">
+
+    <div class="plsk-header">
+
+      <div class="plsk-header__toolbar">
+        <ul class="plsk-top-menu__list">
+          <li class="plsk-top-menu__item"><a class="plsk-top-menu__link" href="https://www.plesk.com/partners/">Partners</a></li>
+          <li class="plsk-top-menu__item"><a class="plsk-top-menu__link" href="https://www.plesk.com/blog/">Blog</a></li>
+          <li class="plsk-top-menu__item"><a class="plsk-top-menu__link" href="https://www.plesk.com/contact-us/">Contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="plsk-header__inner">
+
+        <div class="plsk-header__top">
+
+          <div class="plsk-header__brand">
+            <a class="plsk-header__logo" href="https://www.plesk.com"><img class="plsk-header__logo-img" src="/images/logo.svg" title="Plesk - The leading WebOps platform to run and grow applications, websites and hosting businesses." alt="Plesk" width="90" height="38"></a>
+          </div>
+
+          <div class="plsk-main-nav">
+  <button class="plsk-main-nav__trigger" type="button" aria-label="Navigation by Plesk resources outside of documentation"><span></span></button>
+
+  <div class="plsk-main-nav__container">
+
+    <ul class="plsk-main-nav__list">
+      <li class="plsk-main-nav__item plsk-main-nav__item--dropdown">
+        <a class="plsk-main-nav__link">Solutions</a>
+        <ul class="plsk-main-nav__list plsk-main-nav__list--subnav">
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/developers">Developers</a></li>
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/content-managers">Content Managers</a></li>
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/agencies">Agencies</a></li>
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/it-admins">IT Admins</a></li>
+          <li class="plsk-main-nav__item plsk-main-nav__item--dropdown">
+            <a class="plsk-main-nav__link" href="https://www.plesk.com/infrastructure-providers">Infrastructure Providers</a>
+            <ul class="plsk-main-nav__list plsk-main-nav__list--subnav">
+              <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/infrastructure-providers/shared-hosters">Shared hosters</a></li>
+              <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/infrastructure-providers/vps-dedicated-hosters">VPS and Dedicated Hosters</a></li>
+              <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/infrastructure-providers/hyperscalers">Hyperscalers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/pricing">Pricing</a></li>
+      <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/help-center">Help Center</a></li>
+      <li class="plsk-main-nav__item plsk-main-nav__item--dropdown">
+        <a class="plsk-main-nav__link">More</a>
+        <ul class="plsk-main-nav__list plsk-main-nav__list--subnav">
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/extensions">Extensions</a></li>
+          <li class="plsk-main-nav__item"><a class="plsk-main-nav__link" href="https://www.plesk.com/university">University</a></li>
+        </ul>
+      </li>
+      <li class="plsk-main-nav__item"><a class="plsk-main-nav__link plsk-main-nav__btn" href="https://page.plesk.com/plesk-onyx-free-download">Try For Free</a></li>
+    </ul>
+
+  </div>
+</div>
+
+
+        </div>
+
+        <div class="plsk-main-heading">
+  <h1 class="plsk-main-heading__title">Plesk Documentation and Help Portal</h1>
+</div>
+
+
+        <div class="plsk-header__bottom">
+          <div class="plsk-header__actions">
+
+            
+
+<div class="plsk-header__search main-header-search">
+  <form class="form-search" action="
+  /en-US/obsidian/search
+  ">
+    <div class="input-group">
+      <input type="text" class="form-control" name="q" placeholder="Search" title="Search" aria-label="Search">
+      
+      <input type="hidden" name="v" value="obsidian">
+      
+      
+      <span class="input-group-btn">
+        <button type="submit" class="btn">Search</button>
+      </span>
+    </div>
+  </form>
+  <p class="plsk-header__search-notice">
+    We log search terms to improve our documentation.<br>
+    For more information, read our <a href="https://www.plesk.com/legal/#privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+  </p>
+</div>
+
+
+            <div class="plsk-header__selectors">
+            <div class="main-header-selector">
+  <span class="btn-group">
+    <button class="btn dropdown-toggle" type="button">
+      <i class="flag-icon-en-us"></i>
+      <span class="r-name">US / English</span>
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-flip">
+        
+            <li><a href="/try-plesk-now/"><i class="flag-icon-en-us"></i>US / English</a></li>
+        
+            <li><a href="/try-plesk-now/"><i class="flag-icon-fr-fr"></i>FR / Français</a></li>
+        
+            <li><a href="/try-plesk-now/"><i class="flag-icon-de-de"></i>DE / Deutsch</a></li>
+        
+            <li><a href="/try-plesk-now/"><i class="flag-icon-it-it"></i>IT / Italiano</a></li>
+        
+            <li><a href="/try-plesk-now/"><i class="flag-icon-ru-ru"></i>RU / Русский</a></li>
+        
+            <li><a href="/try-plesk-now/"><i class="flag-icon-es-es"></i>ES / Español</a></li>
+        
+            <li><a href="/try-plesk-now/"><i class="flag-icon-nl-nl"></i>NL / Nederlands</a></li>
+        
+            <li><a href="/try-plesk-now/"><i class="flag-icon-zh-cn"></i>CN / 简体中文</a></li>
+        
+            <li><a href="/try-plesk-now/"><i class="flag-icon-zh-tw"></i>HK / 繁體中文</a></li>
+        
+            <li><a href="/try-plesk-now/"><i class="flag-icon-ja-jp"></i>JP / 日本語</a></li>
+        
+    </ul>
+  </span>
+</div>
+            
+
+<div class="main-header-selector">
+  <span class="btn-group">
+    <button class="btn dropdown-toggle" type="button">
+      <span class="name">
+
+Plesk Obsidian
+
+</span>
+      <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu dropdown-menu-flip">
+        
+        
+        <li  class="active"><a href=" /try-plesk-now/ ">
+        Plesk Obsidian </a>
+        </li>
+        
+        
+        <li ><a href=" /try-plesk-now/ ">
+        Plesk Onyx </a>
+        </li>
+        
+         
+        <li >
+          <a href="/en-US/archive/">Archived versions</a>
+        </li>
+    </ul>
+  </span>
+</div>
+
+            </div>
+
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+
+    
+    <div class="main-navigation-wrapper">
+        <div class="r-main-navigation-toggle">
+    <span class="menu-switch menu-switch-top">
+      <span class="menu-switch-icon"></span>
+    </span>
+    <span class="main-navigation-current"></span>
+  </div>
+  <div class="main-navigation">
+      <ul class="main-navigation__list">
+        <li ><a href="/en-US/obsidian/">Documentation</a></li>
+        <li ><a href="/release-notes/obsidian/change-log/">Release Notes</a></li>
+
+        <li  class="active"><a href="/try-plesk-now/">Try Plesk Now</a></li>
+        <li ><a href="/cloud/">Plesk on Cloud</a></li>
+        <li ><a href="/en-US/obsidian/faq/">FAQ / How-To</a></li>
+        <li ><a href="/gdpr">GDPR Compliance</a></li>
+        
+        <li ><a href="/en-US/obsidian/cookies/">Cookie Policy</a></li>
+        
+        <li ><a href="/accessibility">Accessibility Statement</a></li>
+      </ul>
+  </div>
+
+      
+    </div>
+    
+
+  </div>
+</div>
+
+
+      <div class="page-main-wrapper">
+        <div class="page-main">
+
+          <div class="page-content-wrapper">
+            <div class="page-content">
+
+              <div class="section s-docs section--demos">
+  <div class="section-wrap">
+    <div class="section-title">
+    <h1>Try Plesk Now</h1>
+</div>
+
+    <div class="section-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="docs-panel">
+
+              <div class="docs-panel__title">
+                <h2 class="docs-panel__title-name">Install Plesk on Your Server<a id="install-plesk-on-your-server"
+                                                                                  href="#install-plesk-on-your-server"
+                                                                                  class="anchor"></a></h2>
+              </div>
+
+              <div class="docs-panel__content">
+                <p>Get some hands-on experience with the latest stable Plesk release.</p>
+
+                <h3>Plesk on a physical server or VM<a id="plesk-on-a-physical-server-or-vm"
+                                                       href="#plesk-on-a-physical-server-or-vm" class="anchor"></a></h3>
+                <p>The easiest way to install Plesk on your physical server or virtual machine running Linux is to <a
+                    href="https://get.plesk.com/" target="_blank">use our Web Installer</a>.</p>
+                <p>More of a Windows fan? <a href="https://installer-win.plesk.com/plesk-installer.exe" target="_blank">Download
+                  the Windows Installer</a> and run the following command:</p>
+                <pre id="plesk-windows" class="docs-panel__code">plesk-installer.exe --select-product-id=panel --select-release-latest --installation-type=typical</pre>
+                <p><a class="copy-link" data-clipboard-target="#plesk-windows">click to copy to clipboard</a></p>
+                <p>Plesk is installed with a full-featured 14-day trial license. Always install Plesk on a fresh server,
+                  and make sure to <a href="https://docs.plesk.com/release-notes/current/software-requirements/"
+                                      target="_blank">read the software requirements</a> before installation.</p>
+
+                <h3>Plesk in the cloud<a id="plesk-in-the-cloud" href="#plesk-in-the-cloud" class="anchor"></a></h3>
+                <p>Do not have a server? <a href="https://docs.plesk.com/cloud/" target="_blank">Many cloud
+                  providers</a> offer Plesk images in their marketplaces. It is a great way to quickly deploy a server
+                  with Plesk pre-installed.</p>
+
+                <h3>Plesk in Docker<a id="plesk-in-docker" href="#plesk-in-docker" class="anchor"></a></h3>
+                <p>Plesk in Docker is great for developers looking to create <a
+                    href="https://docs.plesk.com/en-US/current/extensions-guide/plesk-extensions-in-a-nutshell.76331/"
+                    target="_blank">an extension for Plesk</a>, or as a local dev environment.</p>
+                <p>To run Plesk in Docker, follow these steps:</p>
+                <ol>
+                  <li>
+                    <a href="https://www.docker.com/get-started" target="_blank">Download and install Docker</a> on your
+                    laptop/desktop.
+                  </li>
+                  <li>
+                    <p>Once Docker is installed and running, run the following command:</p>
+                    <pre id="plesk-docker" class="docs-panel__code">docker run -d -p 80:80 -p 443:443 -p 8880:8880 -p 8443:8443 -p 8447:8447 plesk/plesk</pre>
+                    <p><a class="copy-link" data-clipboard-target="#plesk-docker">click to copy to clipboard</a></p>
+                  </li>
+                  <li>
+                    Access Plesk in your browser using the Docker host IP address and port 8880 (e.g.
+                    <code>https://192.0.2.2:8880</code>). The default administrator credentials are <code>admin</code> / <code>changeme</code>.
+                  </li>
+                </ol>
+                <p><a href="https://hub.docker.com/r/plesk/plesk/" target="_blank">You can also find Plesk on Docker
+                  Hub!</a></p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="docs-panel">
+
+              <div class="docs-panel__title">
+                <h2 class="docs-panel__title-name">
+                  Try the Online Demo<a id="try-plesk-online-demo" href="#try-plesk-online-demo" class="anchor"></a>
+                </h2>
+              </div>
+
+              <div class="docs-panel__content">
+                <p>The easiest and commitment-free way to experience the latest stable Plesk release. Log in and give it
+                  a try — the demos are full-featured.</p>
+                <p>The online demo comes in two flavors:</p>
+                <ul>
+                  <li>
+                    <b>WebPro</b> — Plesk edition targeting web professionals. Features a streamlined interface and
+                    hosts up to 30 domains.
+                  </li>
+                  <li>
+                    <b>WebHost</b> — Plesk edition for shared web hosting services. A more robust interface with support
+                    for resellers, hosting plans, and unlimited domains.
+                  </li>
+                </ul>
+                <p>Linux</p>
+                <ul>
+                  <li>
+                    <a href="https://webpro-lin.demo.plesk.com:8443/login_up.php3?login_name=admin&passwd=panel&locale_id=en-US"
+                       target="_blank">Log in to the WebPro Demo</a>
+                  </li>
+                  <li>
+                    <a href="https://webhost-lin.demo.plesk.com:8443/login_up.php3?login_name=admin&passwd=panel&locale_id=en-US"
+                       target="_blank">Log in to the WebHost Demo</a>
+                  </li>
+                </ul>
+                <p>Windows</p>
+                <ul>
+                  <li>
+                    <a href="https://webpro-win.demo.plesk.com:8443/login_up.php3?login_name=admin&passwd=panel&locale_id=en-US"
+                       target="_blank">Log in to the WebPro Demo</a>
+                  </li>
+                  <li>
+                    <a href="https://webhost-win.demo.plesk.com:8443/login_up.php3?login_name=admin&passwd=panel&locale_id=en-US"
+                       target="_blank">Log in to the WebHost Demo</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/clipboard.min.js"></script>
+<script>
+    new Clipboard('.copy-link');
+</script>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="page-footer-wrapper" id="page-footer-wrapper">
+  <div class="page-footer">
+
+    <div class="plsk-footer">
+      <div class="plsk-footer__section plsk-footer__section--top">
+        <div class="plsk-footer__section-content">
+          <ul class="plsk-footer__partners-list">
+            <li class="plsk-footer__partners-item"><h5 class="plsk-footer__partners-title">Industry<br> Partners:</h5></li>
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="170" height="50">
+                <title>Automaticc</title>
+                <use xlink:href="/images/logos.svg#automaticc"></use>
+              </svg>
+            </li>
+
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="43" height="50">
+                <title>Docker</title>
+                <use xlink:href="/images/logos.svg#docker"></use>
+              </svg>
+            </li>
+
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="84" height="50">
+                <title>Virtuozzo</title>
+                <use xlink:href="/images/logos.svg#virtuozzo"></use>
+              </svg>
+            </li>
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="88" height="50">
+                <title>Amazon</title>
+                <use xlink:href="/images/logos.svg#amazon"></use>
+              </svg>
+            </li>
+
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="152" height="50">
+                <title>Microsoft</title>
+                <use xlink:href="/images/logos.svg#microsoft"></use>
+              </svg>
+            </li>
+
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="202" height="50">
+                <title>Microsoft Azure</title>
+                <use xlink:href="/images/logos.svg#microsoft-azure"></use>
+              </svg>
+            </li>
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="67" height="50">
+                <title>Red Hat</title>
+                <use xlink:href="/images/logos.svg#red-hat"></use>
+              </svg>
+            </li>
+            <li class="plsk-footer__partners-item">
+              <svg aria-hidden="true" width="156" height="50" >
+                <title>Alibaba Cloud</title>
+                <use xlink:href="/images/logos.svg#alibaba-cloud"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="plsk-footer__section plsk-footer__section--main">
+        <div class="plsk-footer__section-content">
+          <div class="plsk-footer__social">
+            <a class="plsk-footer__logo" href="https://www.plesk.com"><img loading="lazy" class="plsk-footer__logo-img" src="/images/logo.svg" title="Plesk - The leading WebOps platform to run and grow applications, websites and hosting businesses." alt="Plesk" width="70" height="30"></a>
+            <div class="plsk-footer__social-block">
+              <p>Follow us:</p>
+              <ul class="plsk-footer__social-links">
+                <li><a class="plsk-footer__social-link" href="https://www.facebook.com/Plesk" target="_blank"
+                       title="Plesk on Facebook" rel="noopener" aria-label="Open the Plesk page on Facebook">
+                  <svg aria-hidden="true">
+                    <title>Open the Plesk page on Facebook</title>
+                    <use xlink:href="/images/logos.svg#facebook"></use>
+                  </svg>
+                </a></li>
+                <li><a class="plsk-footer__social-link" href="https://twitter.com/Plesk" target="_blank"
+                       title="Plesk on Twitter" rel="noopener" aria-label="Open the Plesk feed on Twitter">
+                  <svg aria-hidden="true">
+                    <title>Open the Plesk feed on Twitter</title>
+                    <use xlink:href="/images/logos.svg#twitter"></use>
+                  </svg>
+                </a></li>
+                <li><a class="plsk-footer__social-link" href="https://www.linkedin.com/company/plesk"
+                       target="_blank" title="Plesk on LinkedIn" rel="noopener" aria-label="Open the Plesk page on LinkedIn">
+                  <svg aria-hidden="true">
+                    <title>Open the Plesk page on LinkedIn</title>
+                    <use xlink:href="/images/logos.svg#linkedin"></use>
+                  </svg>
+                </a></li>
+                <li><a class="plsk-footer__social-link" href="https://www.youtube.com/channel/UCeU-_6YHGQFcVSHLbEXLNlA"
+                       target="_blank" title="Plesk on YouTube" rel="noopener" aria-label="Watch the Plesk videos on YouTube">
+                  <svg aria-hidden="true">
+                    <title>Watch the Plesk videos on YouTube</title>
+                    <use xlink:href="/images/logos.svg#youtube"></use>
+                  </svg>
+                </a></li>
+                <li><a class="plsk-footer__social-link" href="https://github.com/plesk"
+                       target="_blank" title="Plesk on GitHub" rel="noopener"  aria-label="Open the Plesk opensource projects on GitHub">
+                  <svg aria-hidden="true">
+                    <title>Open the Plesk opensource projects on GitHub</title>
+                    <use xlink:href="/images/logos.svg#github"></use>
+                  </svg>
+                </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="plsk-footer__grid plsk-footer__links-group">
+            <div class="plsk-footer__grid-item plsk-footer__links">
+              <div class="plsk-footer__links-heading">COMPANY</div>
+              <ul class="plsk-footer__links-list">
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/about-us">About Plesk</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/brand">Our Brand</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/eula">EULA</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/terms-of-use">Terms of Use</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/legal">Legal</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/privacy-policy">Privacy Policy</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/impressum">Impressum</a></li>
+              </ul>
+            </div>
+            <div class="plsk-footer__grid-item plsk-footer__links">
+              <div class="plsk-footer__links-heading">PRODUCT</div>
+              <ul class="plsk-footer__links-list">
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/pricing">Pricing</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/extensions/">Extensions</a></li>
+              </ul>
+            </div>
+            <div class="plsk-footer__grid-item plsk-footer__links">
+              <div class="plsk-footer__links-heading">KNOWLEDGE BASE</div>
+              <ul class="plsk-footer__links-list">
+                <li class="plsk-footer__links-item"><a href="https://docs.plesk.com">Documentation</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/help-center">Help Center</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/professional-services">Migrate to Plesk</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/contact-us">Contact Us</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/lifecycle-policy">Plesk Lifecycle Policy</a></li>
+              </ul>
+            </div>
+            <div class="plsk-footer__grid-item plsk-footer__links">
+              <div class="plsk-footer__links-heading">PROGRAMS</div>
+              <ul class="plsk-footer__links-list">
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/content-contributor-program">Contributor Program</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/partners">Partner Program</a></li>
+              </ul>
+            </div>
+            <div class="plsk-footer__grid-item plsk-footer__links">
+              <div class="plsk-footer__links-heading">COMMUNITY</div>
+              <ul class="plsk-footer__links-list">
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/blog/">Blog</a></li>
+                <li class="plsk-footer__links-item"><a href="https://talk.plesk.com/">Forums</a></li>
+                <li class="plsk-footer__links-item"><a href="https://www.plesk.com/university">Plesk University</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="plsk-footer__section plsk-footer__section--bottom">
+        <div class="plsk-footer__section-content">
+          <div class="plsk-footer__copyright">© 2026 WebPros International GmbH. All rights reserved. Plesk and the Plesk logo are trademarks of WebPros International GmbH.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    </div>
+    <script>
+    function removeDataAttributes(t){for(var e=0;e<t.length;e++)t[e].removeAttribute("data-default-src"),t[e].removeAttribute("data-webp-src"),t[e].removeAttribute("data-webp-srcset"),t[e].removeAttribute("data-sizes")}var domContentLoaded="DOMContentLoaded";function switchAttributes(t,e,r){for(var a=3<arguments.length&&void 0!==arguments[3]?arguments[3]:"",s=0;s<t.length;s++)t[s].hasAttribute(r)?t[s].setAttribute(e,t[s].getAttribute(r)):t[s].hasAttribute(a)&&t[s].setAttribute(e,t[s].getAttribute(a))}function loadImages(t){t.type===domContentLoaded&&Modernizr.on("webp",function(t){var e=document.getElementsByTagName("img");t?Modernizr.on("srcset",function(t){t?(switchAttributes(e,"src","data-webp-src","data-default-src"),switchAttributes(e,"srcset","data-webp-srcset"),switchAttributes(e,"sizes","data-sizes")):switchAttributes(e,"src","data-webp-src"),removeDataAttributes(e)}):(switchAttributes(e,"src","data-default-src"),removeDataAttributes(e))})}window.addEventListener(domContentLoaded,loadImages);
+</script>
+<script src="/js/modernizr.js?10082020"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/perfect-scrollbar.min.js"></script>
+<script src="/js/docs.js?26082020"></script>
+<script src="/js/feedback.js?24082020-1"></script>
+<script src="/js/svgxuse.min.js?14082020" defer></script>
+  </body>
+</html>
