@@ -1,0 +1,10 @@
+# sha256: 1532e76dbe9d43d0dea98c331ca5ae8a65c5e8e8b99d3e2a42ae989356f6242a
+# family: script_generic
+# kind: script
+# size_bytes: 6
+# first_seen: 2026-09-16 02:01:01.289514 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+batman

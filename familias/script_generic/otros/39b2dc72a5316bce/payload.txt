@@ -1,0 +1,10 @@
+# sha256: 39b2dc72a5316bce398e3f1ad77d5e8bca5e421afbc8f9c294b71c7384d692cb
+# family: script_generic
+# kind: script
+# size_bytes: 280
+# first_seen: 2026-09-16 02:01:08.213110 UTC
+# times_seen: 1
+# yara_matches: none
+# ------------------------------------------------------------
+
+145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==

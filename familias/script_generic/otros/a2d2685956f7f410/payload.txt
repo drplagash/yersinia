@@ -1,0 +1,10 @@
+# sha256: a2d2685956f7f410604536189c003f5cdc215c4b28fa4540c902676ceb294cf6
+# family: script_generic
+# kind: script
+# size_bytes: 117
+# first_seen: 2026-09-16 02:00:39.223285 UTC
+# times_seen: 1
+# yara_matches: network_traffic_njRAT
+# ------------------------------------------------------------
+
+lv|'|'|VHJvamFuX0M0NkY2RTk=|'|'|MARK|'|'|user|'|'|2013-11-22|'|'||'|'|Win XP|'|'|No|'|'|0.6.4|'|'|..|'|'||'|'|[endof]
