@@ -2,11 +2,13 @@
 
 ![yersinia](banner.jpg)
 
+> **⚠️ Outdated project.** The pipeline that regenerates `comandos-frecuentes.txt` and adds new samples to `familias/` has been offline since its last run on **2026-09-16**. Everything here is a frozen snapshot, not a live feed, until regular updates resume.
+
 Real attacker commands and classified payloads, captured live from a controlled honeypot environment ([Oráculo SOC](https://github.com/drplagash)). Plain text, no synthetic data — every file here is something an attacker actually typed or served against a real (emulated) service.
 
 The companion credential dictionaries (usernames/passwords/combos) live in [pandemia](https://github.com/drplagash/pandemia). Real malware binaries recovered from these samples live in a separate private repo (`lazareto`), cross-referenced here by SHA256.
 
-Updated automatically, every 12 hours.
+Updated automatically, every 12 hours (see the notice above — currently paused).
 
 ## What's in here
 
